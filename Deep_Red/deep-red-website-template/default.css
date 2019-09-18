@@ -1,0 +1,213 @@
+/*#############################################################
+Name: Deep Red
+Date: 2006-08-28
+Description: A two-column layout with a touch of red.
+Author: Viktor Persson
+URL: http://templates.arcsin.se
+
+Feel free to use and modify but please provide credits.
+#############################################################*/
+
+/* standard elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #6C1400 url(img/bgbody.gif) repeat-y center top;
+	font: normal 0.7em Tahoma,Verdana,sans-serif;
+}
+div a {
+	color: #FFF;
+	cursor: pointer;
+	text-decoration: none;
+}
+h1 {
+	color: #444;
+	font: normal 2em sans-serif;
+	margin: 18px 0 0 0;
+}
+code {
+	background: url(img/bgcode.gif);
+	border: 1px solid #F0F0F0;
+	border-left: 6px solid #D91623;
+	color: #555;
+	display: block;
+	font: normal 1em "Lucida Sans Unicode",serif;
+	margin-bottom: 12px;
+	padding: 8px 10px;
+	white-space: pre;
+}
+blockquote {
+	background: url(img/quote.gif) no-repeat;
+	color: #555;
+	display: block;
+	font: bold 1.2em "Trebuchet MS",serif;
+	margin: 6px 0;
+	padding-left: 28px;
+}
+
+/* structure */
+.main {
+	width: 680px;
+	margin: 0 auto;
+}
+.main_left {
+	float: left;
+	padding-top: 6px;
+	width: 420px;
+}
+.main_right {
+	border-top: 6px solid #FFF;
+	float: right;
+	width: 254px;
+}
+.footer {clear: both;}
+
+/* misc */
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.header,.link_projects,.lbl,.link_updates a {
+	border-bottom: 6px solid #FFF;
+}
+div.link_projects a:hover,div.link_updates a:hover, .content a:hover, div.footer div.left a:hover {
+	background: #D7162C;
+	color: #FFF;
+}
+
+/* logo */
+.header {
+	background: #D91623 url(img/bgheader.gif) repeat-x;
+	height: 180px;
+}
+.header h1 {
+	margin: 0;
+	padding: 124px 0 0 24px;
+	font: normal 2.2em Verdana,sans-serif;
+}
+
+/* main navigation */
+.link_menu {
+	background: #CC2224 url(img/grdnt_red.png) repeat-x;
+}
+.link_menu a {
+	border-bottom: 1px solid #FFF;
+	display: block;
+	font: bold 0.9em Verdana,sans-serif;
+	height: 18px;
+	padding: 6px 0 0 10px;
+	text-decoration: none;
+}
+.link_menu a:hover {background: #444;}
+
+/* projects */
+.lbl {
+	background: #222 url(img/bglbl.gif) repeat-x;
+	clear: both;
+	color: #FFF;
+	font: normal 2em "Lucida Sans Unicode",sans-serif;
+	height: 50px;
+	line-height: 50px;
+	overflow: hidden;
+	text-align: center;
+}
+.link_projects a {
+	display: block;
+	height: 100px;
+	text-align: center;
+	color: #FFF;
+	padding-top: 24px;
+	width: 124px;
+	font-size: 0.9em;
+	font-family: sans-serif;
+}
+.link_projects a span {
+	font: normal 5em sans-serif;
+}
+a.g1 {
+	background: #888;
+}
+a.g2 {
+	background: #666;
+	border-left: 6px solid #FFF;
+}
+
+/* updates */
+.link_updates {
+	background: #222 url(img/grdnt_gray.gif) repeat-x;
+}
+.link_updates .lbl {
+	border-top: 6px solid #FFF;
+	height: 100px;
+	line-height: 100px;
+}
+.link_updates a {
+	clear: right;
+	display: block;
+	font: normal 1.2em "Trebuchet MS",sans-serif;
+	height: 55px;
+	padding: 10px 0;
+	text-align: center;
+}
+.link_updates a span {
+	float: left;
+	font: normal 3em Verdana,sans-serif;
+	letter-spacing: -2px;
+	margin-left: 10px;
+	margin-top: 3px;
+}
+
+/* content */ 
+.content {
+	color: #444;
+	font-family: Verdana,sans-serif;
+	line-height: 1.3em;
+	padding: 0 10px 10px; 
+}
+.content a {
+	color: #FD1C24;
+}
+.content p {
+	margin: 4px 0 10px 0;
+}
+.content .descr {
+	color: #666;
+	margin-bottom: 6px;
+}
+.content li {
+	list-style: url(img/li.gif);
+	margin-left: 18px;
+}
+
+/* footer */
+.footer {
+	color: #666;
+	clear: both;
+}
+.footer .right a {
+	background: #2A2A2A;
+	color: #555;
+	padding: 1px 3px;
+}
+.footer .right a:hover {
+	background: #383838;
+	color: #999;
+}
+.footer .left a {
+	color: #777;
+}
+.footer .left {
+	border-top: 1px solid #F0F0F0;
+	padding: 9px 0 9px 9px;
+	width: 407px;
+}
+.footer .right {
+	margin-right: 8px;
+	padding: 9px 0;
+	text-align: right;
+	width: 220px;
+}
