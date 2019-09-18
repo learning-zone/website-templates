@@ -1,0 +1,296 @@
+/* 
+ _________________________________________________________
+|                                                         |
+|    DESIGN + http://fullahead.org                        |
+|      DATE + 2005.05.12                                  |
+| COPYRIGHT + free use if this notice is kept in place    | 
+|_________________________________________________________|
+
+*/
+
+
+
+/* -- Main layout styles -- */
+
+body {
+  margin: 1em 1em 1em 1em;
+  padding: 0px;
+  font-family: verdana, sans-serif;
+  font-size: 1.0em;
+  background-color: #333;  
+}
+
+#siteBox {
+  float: left;
+  width: 100%;
+  color: #FFF;
+}
+
+
+
+
+
+/* -- Header layout/display styles -- */
+
+#header {
+  float: left;
+  width: 100%;
+  height: 4em;
+  background: #25509F url(../images/hdr.jpg) no-repeat bottom left;
+}
+
+#header a {
+  float: right;
+  width: 8em;
+  padding: 5px 10px 5px 10px;
+  font-size: 0.6em;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFF;
+  background-color: #666;
+  border-bottom: 2px solid #333;
+  border-right: 1px solid #333;
+  border-left: 1px solid #333;
+}
+
+#header a:hover, #header a.active {
+  padding-top: 10px;
+  background-color: #333;
+}
+
+#header a.lastMenuItem {
+  background-image: url(../images/corner_tr.gif);
+  background-repeat: no-repeat;
+  background-position: top right;
+  border-right: 0px;
+}
+
+a .desc {
+  display: none;
+  text-transform: lowercase;
+  color: #FC0;  
+}
+
+a:hover .desc, .active .desc {
+  display: block;
+}
+
+
+
+
+/* -- Header title and subTitle layout/display styles -- */
+
+
+.title {
+  float: left;
+  padding: 1em 30px 0 2em;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: right;
+  line-height: 0.75em;
+  letter-spacing: -0.15em;
+  color: #FC0;
+}
+
+.subTitle {
+  display: block;
+  font-size: 0.4em;
+  text-transform: lowercase;
+  line-height: 1.2em;  
+  letter-spacing: 0.01em;
+}
+
+
+
+
+
+/* -- Content layout/display styles -- */
+
+#content {
+  float: left;
+  width: 100%;
+  padding: 1em 0 1em 0;
+  background-color: #666;
+}
+
+#contentLeft {
+  float: left;
+  width: 23.3%;
+  margin-bottom: 1em;
+  background: #777 url(../images/corner_sub_tr.gif) no-repeat top right;  
+}
+
+#contentRight {
+  float: right;
+  width: 75%;
+  background: #777 url(../images/corner_sub_tl.gif) no-repeat top left;
+}
+
+#content p {  
+  margin: 1.2em 1.2em 2em 1.2em;
+  font-size: 0.8em;
+  line-height: 1.8em;
+}
+
+#content a {  
+  text-decoration: none;
+  color: #FC0;
+  border-bottom: 1px solid #AAA;
+}
+
+#content a:hover {
+  color: #DDD;
+  background-color: #888;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.header, .subHeader {
+  display: block;
+  clear: both;  
+  font-weight: bold;
+  font-size: 0.8em;
+  text-transform: lowercase;
+  color: #FC0;
+  border-bottom: 1px solid #AAA;    
+}
+
+.subHeader {
+  border: 0px;
+}
+
+
+
+
+
+/* -- Content left site links (large plus icon) -- */
+
+#content a.menuItem {
+  display: block;  
+  padding: 5px 0 5px 54px;
+  background: url(../images/icn_plus.gif) no-repeat center left;
+  border: 0px;
+}
+
+#content a:hover.menuItem { 
+  color: #DDD;
+  background: #888 url(../images/icn_plus_on.gif) no-repeat center left;
+  border: 0px;
+}
+
+
+
+
+
+/* -- Footer layout/display styles -- */
+
+#footer {
+  float: left;
+  width: 100%;
+  height: 3em;
+  margin-bottom: 1em !important;
+  margin-bottom: 0;
+  font-size: 0.6em;
+  text-transform: lowercase;
+  line-height: 2.6em;
+  color: #0AD;
+  background: #25509F url(../images/hdr.jpg) repeat-y top left;
+}
+
+#footerLeft {
+  float: left;
+  width: 60%;
+  height: 3em;
+  text-align: left;
+  background: url(../images/corner_bl.gif) no-repeat bottom left;
+}
+
+#footerRight {
+  float: right;
+  width: 35%;
+  height: 3em;
+  text-align: right;
+  background: url(../images/corner_br.gif) no-repeat bottom right;
+}
+
+#footer a {
+  color: #0AD;
+}
+
+#footer a:hover {
+  color: #666666;
+}
+
+
+
+
+/* -- Display formatting styles -- */
+
+.grey {
+  font-size: 0.9em;
+  color: #AAA;
+}
+
+.white {
+  color: #FFF;
+}
+
+acronym {
+  cursor: help;
+  border-bottom: 1px dotted #AAA;
+}
+
+
+
+
+
+
+/* -- <ul> tag styles -- */
+
+ul{
+  font-size: 0.8em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  list-style-image: url(../images/li_bullet.gif);
+}
+
+li {
+  margin-left: 50px;
+}
+
+
+
+
+
+
+/* -- Image alignment classes -- */
+
+.imgLeft, .imgRight {
+  margin: 5px;
+}
+
+.imgLeft {
+  float: left;
+  margin-left: 0px;
+}
+
+.imgRight {
+  float: right;
+  margin-right: 0px;
+}
+
+
+
+
+
+
+/* -- Utility classes to create the bottom rounded corners -- */
+
+.bottomCorner {
+  text-align: right;
+}
+
+.vBottom {
+  vertical-align: bottom;
+}
