@@ -1,0 +1,259 @@
+/* 
+culture shock: grass stains V1.2
+pogy366 @ http://www.openwebdesign.org/userinfo.phtml?user=pogy366
+Nov. 2005 
+*/
+
+/* general page structure and layout */
+body {
+font-family:Arial, Helvetica, sans-serif; 
+font-size:.8em; 
+color:#000000; 
+margin:10px 0 0 0;
+padding:0 0 0 0;
+background:#eeeeee;
+text-align:center;
+}
+
+.page_wrap {
+position:relative;
+width:780px;
+margin:0 auto;
+padding:0 0 0 0;
+text-align:center;
+background:#ffffff url(images/header.jpg) no-repeat;
+border-left:1px solid #9EB874;
+border-right:1px solid #9EB874;
+border-top:1px solid #9EB874;
+}
+
+.header_text {
+position:relative;
+clear:none;
+width:770px;
+height:22px;
+margin:70px 0 20px 0;
+padding:0 0 0 0;
+background:transparent;
+color:#ffffff;
+text-align:right;
+}
+
+.topnav {
+position:relative;
+clear:both;
+width:780px;
+height:21px;
+margin:0 0 0 0;
+padding:0 0 0 0;
+background:#cccccc;
+font-size:.8em;
+border-top:1px solid #9EB874;
+}
+
+.container {
+position:relative;
+clear:both;
+width:760px;
+margin:10px 10px 0 10px;
+padding:0 0 0 0;
+background:#ffffff;
+color:#000000;
+text-align:left;
+}
+
+.container p {
+margin:5px 0 10px 0;
+padding:0 0 0 0;
+}
+
+.box_right {
+position:relative;
+float:right;
+clear:both;
+width:200px;
+margin:0 0 5px 10px;
+padding:0 10px 0 10px;
+background:#CFD9BE;
+color:#000000;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:.7em;
+}
+
+.box_right p {
+margin:5px 5px;
+}
+
+.box_cnr_top {
+background:url(images/cnr_tr.gif) no-repeat top right;
+margin:0 -10px 0 -10px;
+}
+
+.box_cnr_bottom {
+background:url(images/cnr_br.gif) no-repeat top right;
+margin:0 -10px 0 -10px;
+}
+
+img.cnr {
+width:8px;
+height:8px;
+border:none;
+display: block !important;
+}
+
+.footer {
+position:relative;
+clear:both;
+width:780px;
+height:50px;
+margin:30px 0 0 0;
+padding:4px 0 4px 0;
+background:#ffffff url(images/grass_footer.jpg) bottom no-repeat;
+font-size:.8em;
+text-align:center;
+border-bottom:1px solid #9EB874;
+}
+
+/* top navigation bar */
+#nav ul{
+padding:0 0 0 0;
+margin:0 0 0 0;
+white-space: nowrap;
+font-size:1.1em;
+color:#ffffff;
+float:left;
+width:100%;
+background:#ffffff url(images/topnav_bg_grey.gif);
+list-style:none;
+}
+
+#nav ul li{
+display:inline;
+list-style:none;
+}
+
+#nav ul li a{
+margin: 0 0 0 0;
+padding: .25em 2em .3em 2em;
+background:#ffffff url(images/topnav_bg_grey.gif);
+color: #000000;
+text-decoration:none;
+float: left;
+border-right:1px solid #cccccc;
+}
+
+#nav ul li a:hover{
+background:#9EB874 url(images/topnav_bg_green.gif);
+color: #ffffff;
+text-decoration:none;
+border-right:1px solid #cccccc;
+}
+
+
+/* links */
+a {
+color:#D3812D;
+text-decoration:underline;
+}
+
+a:hover {
+color:#E39243;
+text-decoration:none;
+}
+
+#box_right a {
+color:#000000;
+text-decoration:underline;
+}
+
+#box_right a:hover {
+color:#E39243;
+text-decoration:none;
+}
+
+#footer a {
+color:#9EB874;
+text-decoration:none;
+}
+
+#footer a:hover {
+color:#4F6C1F;
+text-decoration:none;
+}
+
+/* fonts and colors */
+h1 {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:#ffffff;
+font-size:2em;
+letter-spacing:.5em;
+text-transform:lowercase;
+margin:0 0 0 0;
+padding:0 0 0 0;
+}
+
+h2 {
+font-family:Arial, Helvetica, sans-serif;
+color:#697D55;
+font-size:1.2em;
+text-transform:capitalize;
+font-weight:bold;
+padding:0 0 0 0;
+margin:0 0 -6px 0;
+}
+
+h3 {
+font-family:Arial, Helvetica, sans-serif;
+color:#65764B;
+font-size:1.1em;
+text-transform:capitalize;
+font-weight:bold;
+padding:0 0 0 0;
+margin:0 0 -8px 0;
+}
+
+.box_right h3 {
+font-size:1.5em;
+margin:0 0 .5em 0;
+}
+
+.grey {
+color:#999999;
+}
+
+/* images */
+img {
+border:none;
+}
+
+.right img {
+position:relative;
+float:right;
+padding:0 0 0 0;
+margin:5px 2px 2px 5px;
+}
+
+.left img {
+position:relative;
+clear:none;
+float:left;
+padding:0 0 0 0;
+margin:5px 5px 2px 0;
+}
+
+/* workarounds and hacks */
+.clearfix:after {
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+.clearfix {display: inline-table;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+

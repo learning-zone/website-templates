@@ -1,0 +1,173 @@
+/* 
+culture shock: grass stains V1.2
+pogy366 @ http://www.openwebdesign.org/userinfo.phtml?user=pogy366
+Nov. 2005 
+*/
+
+/* general page structure and layout */
+body {
+font-family:Arial, Helvetica, sans-serif; 
+font-size:.8em; 
+color:#000000; 
+background:#ffffff;
+margin:10px 0 0 0;
+padding:0 0 0 0;
+text-align:center;
+}
+
+.page_wrap {
+position:relative;
+width:780px;
+margin:0 auto;
+padding:0 0 0 0;
+text-align:center;
+background:#ffffff;
+border:none;
+}
+
+.header_text {
+position:relative;
+clear:none;
+width:770px;
+height:25px;
+margin:80px 0 20px 0;
+padding:0 0 0 0;
+background:transparent;
+color:#ffffff;
+text-align:left;
+}
+
+.topnav {
+display:none;
+}
+
+.container {
+position:relative;
+clear:both;
+width:760px;
+margin:10px 10px 0 10px;
+padding:0 0 0 0;
+background:#ffffff;
+color:#000000;
+text-align:left;
+}
+
+.box_right {
+position:relative;
+float:right;
+clear:both;
+width:200px;
+margin:0 0 5px 10px;
+padding:0 10px 0 10px;
+background:#ffffff;
+border:1px solid #000000;
+color:#000000;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:.7em;
+}
+
+.box p {
+margin:10px 10px;
+}
+
+.box_cnr_top {
+display:none;
+}
+
+.box_cnr_bottom {
+display:none;
+}
+
+img.cnr {
+width:8px;
+height:8px;
+border:none;
+display: block !important;
+}
+
+.footer {
+position:relative;
+clear:both;
+width:780px;
+margin:20px 0 0 0;
+padding:4px 0 4px 0;
+background:#ffffff;
+font-size:.8em;
+text-align:center;
+border:1px solid #000000;
+}
+
+
+/* links */
+a {
+color:#818181;
+text-decoration:underline;
+}
+
+a:hover {
+color:#818181;
+text-decoration:underline;
+}
+
+
+
+/* fonts and colors */
+h1 {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:#000000;
+font-size:2em;
+letter-spacing:.5em;
+text-transform:lowercase;
+margin:0 0 0 0;
+padding:0 0 0 0;
+}
+
+h2 {
+font-family:Arial, Helvetica, sans-serif;
+color:#000000;
+font-size:1.2em;
+text-transform:capitalize;
+font-weight:bold;
+padding:0 0 0 0;
+margin:0 0 -8px 0;
+}
+
+h3 {
+font-family:Arial, Helvetica, sans-serif;
+color:#000000;
+font-size:1.1em;
+text-transform:capitalize;
+font-weight:bold;
+padding:0 0 0 0;
+margin:0 0 -8px 0;
+}
+
+.box_right h3 {
+font-size:1.5em;
+}
+
+.maroon {
+color:#999999;
+}
+
+/* images */
+img {
+border:none;
+}
+
+.right img{
+position:relative;
+float:right;
+padding:0 0 0 0;
+margin:5px 2px 2px 5px;
+}
+
+.left img{
+position:relative;
+float:left;
+padding:0 0 0 0;
+margin:8px 5px 5px 0;
+}
+
+
+
