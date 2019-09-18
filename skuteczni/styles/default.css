@@ -1,0 +1,38 @@
+body { padding: 0; margin: 0; font-size: 12px; font-family: tahoma, sans-serif; letter-spacing: 1px; line-height: 160%; background: #cdcdcd; color: #454545; }
+div { text-align: left; }
+#topOfPage { display: none; }
+#conteiner { width: 730px; padding: 25px; background: #fff; margin-left: auto; margin-right: auto; }
+#header { height: 45px; }
+#logo {	width: 186px; float: left; }
+#search { float: right; padding-top: 8px; text-align: right; width: 225px; }
+#bar { clear: both; background: #cdcdcd; height: 25px; }
+#top { background: url("../images/top.gif") 100% 0 no-repeat #505050; height: 200px; clear: both; }
+#body { clear: both; margin-bottom: 15px; margin-top: 15px; }
+#footer { clear: both; padding-top: 5px; }
+div.block, div.blockDistinct { padding: 10px; padding-bottom: 3px; padding-top: 8px; }
+div.blockDistinct { background: url("../images/corner.gif") no-repeat 100% 100% #f5f5f5; }
+h1, h2 { margin: 0; margin-bottom: 10px; padding: 0; font-weight: normal; font-size: 25px; }
+#top h1 { color: #fff; padding-left: 25px; padding-top: 65px; line-height: 110%;}
+h2 { font-size: 16px; margin-bottom: 5px; color: #000; }
+p {	margin: 0; margin-bottom: 5px; }
+p.right { text-align: right; }
+#footer p {	clear: both; color: #c0c0c0; font-size: 11px; }
+form { margin: 0; }
+fieldset { padding: 0; border: 0; }
+legend { display: none; }
+input { border: 1px solid #c0c0c0; color: #454545; font-size: 11px; letter-spacing: 1px; }
+input.searchText { width: 150px; height: 13px; }
+input.searchSubmit { color: #0080c0; background: #fff; letter-spacing: 1px;	border: 1px solid #fff;	font-size: 12px; width: 45px; height: 19px; margin: 0; padding: 0; }
+ul { margin: 0; padding : 0; list-style : none; }
+#bar li { margin: 0; padding: 0; padding-top: 3px; padding-bottom: 4px;	padding-left: 10px;	padding-right: 10px; border-right: 1px solid #fff; float: left; }
+#bar li.active { background: #505050; color: #fff; padding-bottom: 4px; }
+#footer li { float: left; padding: 0; height: 15px;	vertical-align: middle;	padding-right: 25px;	font-size: 11px; }
+a:link, a:active, a:visited { text-decoration: none; }
+a:link, a:active { color: #0080c0; }
+a:visited { color: #800080; }
+#bar a:link, #bar a:active, #bar a:visited { color: #000; } 
+a img { border: 0; }
+a img:active { border: 0; }
+span.highlight { color: #abd6f1; }
+span.hide { display: none; }
+span.underline { text-decoration: underline; }
