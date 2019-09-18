@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+html { -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#71a4a1', EndColorStr='#81aeab')" }
+
+nav#global { -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType='0', StartColorStr='#ca0000', EndColorStr='#970000')" }
+nav#global ul li a:hover { -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#970000', EndColorStr='#ca0000')" }
+nav#global ul li #subMenu { -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ca0000', EndColorStr='#970000')" }
+
+article header { -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#0081ac', EndColorStr='#005b79')" }
+
+.time { -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#196688', EndColorStr='#194b64')" }
+.year {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand', M11=6.123233995736766e-17, M12=1, M21=-1, M22=6.123233995736766e-17)";
+	margin: 0 0 0 3px;
+}
+.date { margin: -14px 0 0 }
+.comments { -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#3c4d66', EndColorStr='#3c384b')" }
+
+.button { -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ca0000', EndColorStr='#970000')" }
+.button:hover { -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#970000', EndColorStr='#ca0000')" }
+
+aside h1, footer h1 { -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#0081ac', EndColorStr='#005b79')" }
+
+.twitter { -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#73b6cc', EndColorStr='#4da3bf')" }
+.rss { -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#e1a467', EndColorStr='#d98b3c')" }
+
+blockquote { -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#0081ac', EndColorStr='#005b79')" }
