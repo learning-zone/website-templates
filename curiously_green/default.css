@@ -1,0 +1,350 @@
+*
+{
+margin: 0px;
+padding: 0px;
+}
+
+body
+{
+background-color: #fff;
+color: #9f9f9f;
+font-size: 11px;
+font-family: "trebuchet ms", helvetica, sans-serif;
+}
+
+a
+{
+text-decoration: underline;
+color: #93B300;
+}
+
+a:hover
+{
+text-decoration: none;
+color: #fff;
+background: #D3E378 url('images/bbg1.gif') repeat-x;
+}
+
+strong
+{
+background: inherit;
+color: #50514D;
+}
+
+#header
+{
+width: 100%;
+height: 104px;
+background-color: #4d4d4d;
+background: url('images/a1.gif') repeat-x;
+color: #ffffff;
+}
+
+#header_inner
+{
+position: relative;
+width: 680px;
+height: 104px;
+margin: 0px auto;
+}
+
+#header_inner h1
+{
+background: inherit;
+position: absolute;
+left: 0px;
+bottom: 10px;
+text-transform: lowercase;
+font-size: 39px;
+color: #fff;
+font-weight: normal;
+letter-spacing: -2px;
+}
+
+#header_inner h1 span
+{
+background: inherit;
+color: #DADADA;
+}
+
+#slogan
+{
+background: inherit;
+position: absolute;
+right: 0px;
+bottom: 25px;
+color: #DADADA;
+text-transform: lowercase;
+font-size: 13px;
+}
+
+#main
+{
+padding-top: 20px;
+position: relative;
+width: 680px;
+margin: 0px auto;
+padding-bottom: 10px;
+}
+
+#menu ul
+{
+list-style: none;
+margin: 0px;
+}
+
+#menu li
+{
+background: none;
+padding: 0px;
+font-weight: bold;
+}
+
+#menu a
+{
+display: block;
+position: relative;
+width: 168px;
+height: 27px;
+margin-bottom: 1px;
+text-decoration: none;
+background: inherit;
+background-image: url('images/bbg0.gif');
+padding-left: 17px;
+padding-top: 11px;
+color: #636363;
+text-transform: lowercase;
+font-size: 13px;
+}
+
+#menu a span
+{
+position: absolute;
+right: 0px;
+margin-top: 5px;
+margin-right: 15px;
+width: 7px;
+height: 7px;
+background: url('images/x1.gif') no-repeat; 
+}
+
+#menu a:hover span
+{
+position: absolute;
+right: 0px;
+margin-top: 5px;
+margin-right: 15px;
+width: 7px;
+height: 7px;
+background: url('images/x2.gif') no-repeat;
+}
+
+#menu a:hover
+{
+background: inherit;
+color: #fff;
+background-image: url('images/bbg1.gif');
+}
+
+#menu_end
+{
+height: 30px;
+background-image: url('images/a2.gif');
+}
+
+h1
+{
+background: inherit;
+color: #50514D;
+text-transform: lowercase;
+font-size: 26px;
+}
+
+h1 span
+{
+background: inherit;
+color: #85AC1E;
+}
+
+h1 span sup
+{
+background: inherit;
+color: #85AC1E;
+font-size: 14px;
+}
+
+h3
+{
+margin-top: 30px;
+background: inherit;
+color: #50514D;
+font-size: 15px;
+text-transform: lowercase;
+height: 34px;
+background: url('images/a3.gif') repeat-x 0px 17px;
+}
+
+h3 span
+{
+background: inherit;
+color: #85AC1E;
+}
+
+h3.first
+{
+margin-top: 0px;
+}
+
+#lcol
+{
+position: relative;
+width: 185px;
+float: left;
+}
+
+#lcontent
+{
+position: relative;
+padding: 0px 15px 0px 15px;
+}
+
+#rcontent
+{
+position: relative;
+padding: 25px 20px 0px 20px;
+}
+
+ul
+{
+list-style: none;
+}
+
+li
+{
+background: url('images/x1.gif') no-repeat 0px 5px;
+padding-left: 15px;
+}
+
+p
+{
+margin-bottom: 25px;
+text-align: justify;
+line-height: 20px;
+}
+
+#lcol p
+{
+font-size: 10px;
+line-height: 16px;
+margin: 0px;
+}
+
+.divider
+{
+font-size: 0px;
+position: relative;
+border-bottom: solid 1px #F5F5F5;
+height: 1px;
+width: 100%;
+margin: 10px 0px 10px 0px;
+}
+
+.summary
+{
+text-align: right;
+font-style: italic;
+}
+
+ul.divided li
+{
+border-top: solid 1px #F5F5F5;
+margin-top: 4px;
+padding-top: 4px;
+background-position: 0px 9px;
+}
+
+ul.divided li.first
+{
+border-top: 0px;
+margin-top: 0px;
+padding-top: 0px;
+background-position: 0px 5px;
+}
+
+#rcol
+{
+position: relative;
+margin-left: 190px;
+width: 485px;
+background-image: url('images/a2.gif');
+background-repeat: repeat-x;
+}
+
+#slogan2
+{
+font-size: 14px;
+position: relative;
+top: -5px;
+}
+
+.box
+{
+position: relative;
+border: dashed 1px #dadada;
+margin-top: 15px;
+background: inherit;
+color: #AAB165;
+}
+
+.box h2
+{
+background: inherit;
+color: #6C7425;
+text-transform: lowercase;
+font-weight: normal;
+font-size: 18px;
+margin-bottom: 5px;
+}
+
+.box p
+{
+font-size: 10px;
+line-height: 16px;
+margin: 0px;
+}
+
+.box_inner
+{
+border: solid 1px #fff;
+padding: 15px;
+background: #FFFFE9 url('images/a4.gif') repeat-x;
+color: inherit;
+}
+
+.captioned_image
+{
+position: relative;
+padding-bottom: 15px;
+float: left;
+margin-right: 17px;
+}
+
+.captioned_image div
+{
+position: absolute;
+font-size: 9px;
+bottom: 0px;
+left: 0px;
+}
+
+#footer
+{
+clear: both;
+background: url('images/a2.gif') repeat-x;
+width: 680px;
+margin: 0px auto;
+margin-bottom: 25px;
+padding-top: 10px;
+text-align: center;
+text-transform: lowercase;
+}
