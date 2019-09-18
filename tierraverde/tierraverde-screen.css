@@ -1,0 +1,271 @@
+/*********************************************
+ * TITLE: Tierra Verde Screen Stylesheet     * 
+ * URI  : tierraverde/tierraverde-screen.css *
+ * MODIF: 2003-Apr-30 19:21 +0800            *
+ *********************************************/
+
+
+/* ##### Common Styles ##### */
+
+body {
+  color: rgb(34,70,79);
+  background-color: rgb(171,195,172);
+  font-family: verdana, helvetica, arial, sans-serif;
+  font-size: 78%;  /* Enables font size scaling in MSIE */
+  margin: 0;
+  padding: 0;
+}
+
+html > body {
+  font-size: 9.5pt;
+}
+
+acronym, .titleTip {
+  border-bottom: 1px dotted rgb(34,70,79);
+  cursor: help;
+}
+
+.doNotDisplay {
+  display: none !important;
+}
+
+
+.smallCaps {
+  font-size: 110%;
+  font-variant: small-caps;
+}
+
+
+/* ##### Header ##### */
+
+#header {
+  color: white;
+  background-color: rgb(34,70,79);
+  margin: 0 0 2em 0;
+  padding: 0 2.5mm 1ex 4mm;
+  border-bottom: 2px solid white;
+}
+
+.headerTitle {
+  margin: 0;
+  padding: 0;
+}
+
+.headerTitle a {
+  color: rgb(205,219,205);
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 83%;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.headerTitle > a {
+  font-size: 105%;  /* For fully standards-compliant user agents */
+}
+
+.headerTitle span {
+  color: white;
+  background-color: transparent;
+  font-weight: normal;
+}
+
+.headerLinks {
+  font-size: 89%;
+  position: absolute;
+  right: 2ex;
+  top: 2.25em;
+}
+
+[class~="headerLinks"] {
+  top: 1.75em;  /* For fully standards-compliant user agents */
+}
+
+.headerLinks a {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0;
+  padding: 0 1ex;
+}
+
+.headerLinks a:hover {
+  color: rgb(171,195,172);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+/* ##### Side Bar ##### */
+
+#side-bar {
+  font-size: 95%;
+  text-align: right;
+  width: 10em;
+  float: left;
+  clear: left;
+}
+
+.sideBarTitle {
+  color: rgb(34,70,79);
+  background-color: rgb(205,219,205);
+  font-size: 100%;
+  font-weight: bold;
+  margin: 0;
+  padding: 0.5ex 1em 0.5ex 0.5ex;
+  border-top: 1px solid rgb(34,70,79);
+}
+
+#side-bar ul {
+  list-style-type: none;
+  list-style-position: outside;
+  margin: 0;
+  padding: 0;
+}
+
+#side-bar li {
+  margin: 0;
+  padding: 1ex 1em 1ex 0.5ex;
+  border-top: 1px solid rgb(34,70,79);
+}
+
+#side-bar a {
+  color: rgb(34,70,79);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#side-bar a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.sideBarText {
+  text-align: justify;
+  margin: 0;
+  padding: 1ex 1.5ex;
+  display: block;
+  border-top: 1px solid rgb(34,70,79);
+}
+
+#side-bar .sideBarText a {
+  text-decoration: underline;
+}
+
+#side-bar .sideBarText a:hover {
+  text-decoration: none;
+}
+
+.thisPage {
+  font-weight: bold;
+}
+
+
+/* ##### Main Copy ##### */
+
+#main-copy {
+  text-align: justify;
+  line-height: 1.5em;
+  margin: 0 5mm 0 10.5em;
+  padding: 0 1em 1ex 1em;
+}
+
+p {
+  margin: 1em 0 1.5em 0;
+  padding: 0;
+}
+
+.darkerBox {
+  color: black;
+  background-color: transparent;
+  margin: 0 0 1em 0;
+  padding: 2ex 2em 0.25em 2em;
+  border: 1px solid rgb(34,70,79);
+}
+
+.lighterBox {
+  color: rgb(34,70,79);
+  background-color: rgb(205,219,205);
+  margin: 0 0 1em 0;
+  padding: 2ex 2em 0.25em 2em;
+  border: 1px solid rgb(34,70,79);
+}
+
+#main-copy h1 {
+  font-family: "trebuchet ms", verdana, tahoma, sans-serif;
+  font-size: 156%;
+  font-weight: bold;
+  margin: 0.25em 0 0 0;
+  padding: 0;
+}
+
+#main-copy a {
+  color: rgb(34,70,79);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#main-copy a:hover {
+  text-decoration: none;
+}
+
+dt {
+  font-weight: bold;
+  margin: 0;
+  padding: 0 0 0.5ex 0;
+}
+
+dd {
+  margin: 0 0 1.5em 1.5em;
+  padding: 0;
+}
+
+
+/* ##### Footer ##### */
+
+#footer {
+  color: white;
+  background-color: rgb(34,70,79);
+  font-size: 85%;
+  margin: 0;
+  padding: 1.25ex 4mm;
+  clear: both;
+}
+
+#footer .left {
+  float: left;
+  clear: left;
+}
+
+#footer .right {
+  text-align: right;
+}
+
+#footer a {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#footer a:hover {
+  text-decoration: none;
+}
+
+.subFooter {
+  font-size: 85%;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 1ex 4mm;
+}
+
+.subFooter a {
+  color: rgb(34,70,79);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.subFooter a:hover {
+  text-decoration: none;
+}
