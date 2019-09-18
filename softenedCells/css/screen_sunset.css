@@ -1,0 +1,364 @@
+/***************************************************
+     AUTHOR: Pat Heard ( FullAhead.org )
+   TEMPLATE: Softened Cells
+       DATE: 2005.08.26
+        USE: Free use as long as this notice is
+             kept in place.  If you would like 
+             to remove it, please contact me at
+             http://fullahead.org/contact.html.
+ ***************************************************/
+
+
+/***************************************************
+   HTML Element Styles
+ ***************************************************/
+
+body {
+  margin: 20px;
+  text-align: center;
+  font-family: verdana, arial, sans-serif;
+  font-size: 0.62em;
+  color: #666;
+  background-color: #EEE;
+}
+
+h1 {
+  clear: both;
+  padding: 5px 0 12px 10px;
+  margin: 0;  
+  font-size: 2em;
+  font-weight: normal;
+  letter-spacing: -1.5px;
+}
+
+#text h1 {
+  background: url(../images/h1_bg.jpg) no-repeat bottom center;
+}
+
+h2 {
+  clear: both;
+  padding: 0 0 0 5px;
+  margin: 0 0 -10px 0;  
+  font-size: 1.0em;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #BE0000;
+}
+
+p {
+  line-height: 20px;
+  padding: 8px 0 8px 5px;
+  margin: 5px 0 5px 0;
+}
+
+p:first-letter {
+  font-size: 1.2em;
+}
+
+#news p {
+  padding: 8px;
+}
+
+a {
+  color: #BE0000;
+}
+
+a:hover {
+  color: #111;
+  background-color: #DDD;
+}
+
+#news   a:hover,
+#footer a:hover {
+  background-color: #CCC;
+}
+
+ul, ol {  
+  padding-bottom: 8px;
+  line-height: 20px;
+}
+
+ul {
+  list-style-image: url(../images/li_bullet_dark.gif);
+}
+
+acronym {
+  border-bottom: 1px solid #BBB;
+  cursor: help;
+}
+
+
+
+
+/***************************************************
+   Site Layout Container:
+   -------------------------------------------
+   adjust width attribute if you would like to
+   make the site wider, but make sure to also
+   adjust either #news or #text widths as well.
+ ***************************************************/
+
+#siteBox {
+  width: 588px;
+  margin: 0px auto;
+  text-align: left;
+}
+
+
+
+
+
+/***************************************************
+   Header Styles
+   --------------------------------------------
+   Change main header image with #header
+   background attribute.
+ ***************************************************/
+
+
+#header {
+  height: 144px;
+  background: url(../images/hdr_sunset.jpg) no-repeat top center;
+}
+
+#header .title {
+  padding: 10px 10px 0 10px;
+  text-align: right;
+  font-size: 2.5em;
+  line-height: 0.9em;
+  letter-spacing: -1.5px;
+  color: #EEE;
+}
+
+#header .subTitle {
+  padding: 0 10px 0 12px;
+  text-align: right;
+  color: #EEE;
+}
+
+#header .subTitle a {
+  text-decoration: none;
+  color: #EEE;
+}
+
+#header .subTitle a:hover {
+  color: #BBB;
+  background-color: transparent;
+}
+
+
+
+
+
+/***************************************************
+   Top Tabbed Menu Styles
+ ***************************************************/
+
+#menu {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#menu a {
+  padding: 6px 20px 0 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #666;
+}
+
+#menu a:hover, #menu a.active {
+  background: url(../images/menu_tab_dark.gif) no-repeat top center;
+}
+
+
+
+
+
+/***************************************************
+   Left News Column
+   -------------------------------------------
+   1. Change to right side column by altering
+      #news float attribute
+   2. If you widen the #siteBox, also increase
+      #news or #text width attribute
+ ***************************************************/
+
+#news {
+  float: right;
+  width: 175px;
+  padding: 0 0 0 20px;
+}
+
+#news .block {
+  margin-bottom: 20px;
+  background: #DDD url(../images/block_top.gif) no-repeat top center;
+}
+
+#news .block .bottom {
+  height: 28px;
+  background: #DDD url(../images/block_bottom.gif) no-repeat bottom center;
+}
+
+#news .links {
+  margin: 10px 0 10px 0;
+}
+
+#news .links a {
+  display: block;
+  padding: 6px 0 6px 20px;
+  text-transform: uppercase;
+  text-decoration: none;  
+}
+
+#news .links a:hover {
+  background: #DDD url(../images/link_news.gif) no-repeat center center;
+}
+
+#news a img {
+  border: 0px;
+}
+
+
+
+
+
+/***************************************************
+   Right Content Column
+   -------------------------------------------
+   1. Change to left side column by altering
+      #text float attribute
+   2. If you widen the #siteBox, also increase
+      #news or #text width attribute
+ ***************************************************/
+
+#text {
+  float: left;
+  width: 375px;
+}
+
+
+
+
+
+
+/***************************************************
+   Footer Styles
+ ***************************************************/
+
+#footer {
+  height: 100px;
+  padding: 28px 3px 0 5px;
+  margin: 20px 0 20px 0;  
+  background: url(../images/footer.gif) no-repeat top right;
+}
+
+p#footer:first-letter {
+  font-size: 1.0em;
+}
+
+#footer img.right {
+  padding: 5px 2px 0 2px;
+  border: 0px;
+}
+
+
+
+/***************************************************
+   Large <ul> Link Styles
+   --------------------------------------------
+   Creates the large links blocks that can be
+   used in the #text section
+ ***************************************************/
+
+
+ul.links {
+  float: left;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul.links li {
+  float: left;
+  list-style-type: none;
+  list-style: none;
+}
+
+ul.links li a {
+  float: left;
+  width: 370px;
+  padding-top: 5px;
+  margin: 0px;  
+  cursor: pointer;
+  text-decoration: none;
+}
+
+ul.links li a:hover {
+  background: #DDD url(../images/link_top.gif) no-repeat top center;
+}
+
+ul.links li a span.title {
+  display: block;
+  margin-left: 11px;
+  text-indent: 20px;  
+  background: url(../images/link_arrow.gif) no-repeat center left;
+}
+
+ul.links li a span.desc {
+  float: left;
+  width: 350px;
+  padding-right: 3px;
+  margin-left: 10px;
+  color: #666
+}
+
+ul.links li a span.bottom {
+  display: block;
+  height: 18px;
+  clear: both;
+}
+
+ul.links li a:hover span.bottom {
+  background: #EEE url(../images/link_bottom.gif) no-repeat top center;
+}
+
+
+
+
+/***************************************************
+   Display Classes
+ ***************************************************/
+
+.date {
+  display: block;
+  text-transform: uppercase;
+  color: #BE0000;
+}
+
+p.quote {
+  float: left;
+  padding: 8px 0 0 8px;
+  margin: 5px 0 20px 5px !important;
+  margin: 5px 0 10px 3px;
+  background: #D3F9FF url(../images/quote_top.gif) no-repeat top right;
+  border-left: 2px solid #4EE8FF;
+}
+
+p.quote span.bottom {
+  float: right;
+  width: 20px;
+  background: url(../images/quote_bottom.gif) no-repeat bottom right;
+}
+
+img.right {
+  float: right;
+  padding: 3px;
+}
+
+img.left {
+  float: left;
+  padding: 3px;
+}
+
+.grey {
+  color: #AAA;
+}
