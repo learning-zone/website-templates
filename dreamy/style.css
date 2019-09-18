@@ -1,0 +1,209 @@
+/*  
+Theme Name: Ginger Ninja! v2
+Description: The new Ginger Ninja! theme.
+Version: 1.0
+Author: Donny Burnside
+Author URI: http://www.ginger-ninja.net/
+*/
+
+/* Generic Styling */
+
+body {
+	background:url(images/bg-body.png) repeat-x top center #E8F7F9;
+	font-family:"Trebuchet MS" Arial, Helvetica, sans-serif;
+	font-size:62.5%; /* Sets default font size to 10px */
+	color:#222222;
+	}
+
+* {
+	margin:0;
+	padding:0;
+	}
+
+img {
+	border:0;
+	}
+
+p {
+	margin-bottom:1.75em;
+	}
+
+a {
+	text-decoration:none;
+	color:#B4C835;
+	}
+a:hover {
+	text-decoration:none;
+	color:#6CC7DC;
+	}
+
+/* Structure */
+
+#wrapper {
+	margin:0 auto;
+	width:700px;
+	background:#ffffff;
+	font-size:1.20em;
+
+	}
+#header {
+	height:140px;
+	background:url(images/bg-header.jpg) no-repeat;
+	}
+#menu {
+	height:35px;
+	line-height:35px;
+	background:url(images/bg-menu.png) repeat-x;
+	padding:0 10px;
+	}
+#sidebar {
+	float:right;
+	width:180px;
+	background:#efefef;
+	margin-right:10px;
+	}
+#content {
+	float:left;
+	width:500px;
+	min-height:400px;
+	}
+#footer {
+	clear:both;
+	height:100px;
+	background:url(images/bg-footer.jpg) no-repeat;
+	}
+
+/* Entries */
+
+.entry {
+	padding:5px 10px;
+	text-align:justify;
+	line-height:1.75em;
+	}
+.entry-title {
+	font-size:1.90em;
+	font-weight:normal;
+	letter-spacing:-1px;
+	}
+.date {
+	font-size:0.9em;
+	color:#bbb;
+	cursor:default;
+	letter-spacing:1px;
+	}
+.comments {
+	margin-top:-1em;
+	}
+.comments a {
+	color:#6CC7DC;
+	background:url(images/icon-comment.png) no-repeat 0px 2px;
+	padding-left:20px;
+	padding-right:2px;
+	}
+.comments a:hover {
+	color:#B4C835;
+	}
+
+
+/* Menu */
+
+#menu ul {
+	list-style-type:none;
+	}
+#menu li {
+	float:left;
+	}
+#menu li a {
+	padding:0 15px;
+	display:block;
+	color:#ffffff;
+	margin-right:2px;
+	}
+#menu li a:hover {
+	background:url(images/bg-menu-hover.png) no-repeat center center;
+	}
+
+/* Sidebar */
+
+#sidebar ul {
+	list-style-type:none;
+	margin-top:10px;
+	}
+#sidebar li {
+	
+	}
+#sidebar li a {
+	display:block;
+	height:20px;
+	line-height:20px;
+	color:#222222;
+	padding-left:5px;
+	border-bottom:1px solid #dddddd;
+	}
+#sidebar li a:hover {
+	background:#edebed;
+	color:#6CC4D8;
+	}
+#sidebar-bottom {
+	height:20px;
+	background:url(images/bg-sidebar-bottom.gif) no-repeat top center;
+	}
+
+/* Footer */
+
+#footer-valid {
+	float:left;
+	padding-top:55px;
+	padding-left:20px;
+	cursor:default;
+	color:#ffffff;
+	}
+#footer-valid a {
+	color:#ffffff;
+	text-decoration:none;
+	}
+#footer-valid a:hover {
+	color:#ffffff;
+	text-decoration:underline;
+	}
+
+/* Heading's */
+
+h1 {
+	font-size:2.5em;
+	font-weight:normal;
+	cursor:default;
+	position:relative; top:50px; left:30px;
+	letter-spacing:1px;
+	color:#aaaaaa;
+	font-style:italic;
+	}
+
+/* Feed */
+
+#feed {
+	height:25px;
+	width:126px;
+	background:url(images/bg-feed.gif) no-repeat;
+	margin:0 auto;
+	padding-left:26px;
+	}
+a.feed-button {
+	display:block;
+    width:100px;
+    height:25px;
+    background:url("images/button-feed.png") 0 0 no-repeat;
+    text-decoration: none;
+	}
+a:hover.feed-button {
+	background-position:0 -25px;
+	}
+
+/* Extra's */
+
+#ad-top {
+	width:480px;
+	height:72px;
+	background:url(images/bg-ad-top.png) no-repeat;
+	padding:5px;
+	}
