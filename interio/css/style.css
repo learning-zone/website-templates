@@ -1,0 +1,202 @@
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block}
+mark, rp, rt, ruby, summary, time {display:inline}
+/* Global properties ======================================================== */
+html {width:100%}
+body {font-family:Arial, Helvetica, sans-serif;font-size:100%;color:#262626;min-width:980px;background:#fff}
+.ic, .ic a {border:0;float:right;background:#fff;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-220% 0 0 0;overflow:hidden;padding:0}
+.bg-top-shadow {width:100%; background:url(../images/bg-top-shadow.png) center bottom repeat-x; padding:40px 0 52px}
+	#page3 .bg-top-shadow {padding:40px 0 35px}
+	#page4 .bg-top-shadow {padding:40px 0 60px}
+	#page5 .bg-top-shadow {padding:40px 0 62px}
+.bg-top {width:100%; background:url(../images/bg-top-tail.jpg) center top repeat-x}
+.bg-top-2 {width:100%; background:url(../images/bg-top-tail2.jpg) center top repeat-y}
+.bg {width:100%; background:url(../images/bg-top.jpg) center top no-repeat}
+.bg-bot {width:100%; background:url(../images/bg-bot-tail.gif) center top repeat-x #fff; padding:30px 0 55px}
+	#page3 .bg-bot, #page4 .bg-bot {padding:30px 0 49px}
+.main {width:980px;padding:0;margin:0 auto;font-size:0.8125em;line-height:1.6153em}
+a {color:#ff9601; outline:none}
+a:hover {text-decoration:none}
+.col-1, .col-2 {float:left}
+.wrapper {width:100%; overflow:hidden; position:relative}
+.extra-wrap {overflow:hidden}
+p {margin-bottom:18px}
+.p0 {margin-bottom:0px}
+.p1 {margin-bottom:8px}
+.p2 {margin-bottom:15px}
+.p3 {margin-bottom:30px}
+.p4 {margin-bottom:40px}
+.p5 {margin-bottom:50px}
+.reg {text-transform:uppercase}
+.fleft {float:left}
+.fright {float:right}
+.alignright {text-align:right}
+.aligncenter {text-align:center}
+.it {font-style:italic}
+.letter {letter-spacing:-1px}
+.color-1 {color:#fff}
+.color-2 {color:#000}
+.color-3 {color:#262626}
+.color-4 {color:#ff9601}
+.frame {padding:10px;background:#fff;box-shadow: 3px 5px 8px rgba(0,0,0,0.70);-moz-box-shadow: 3px 5px 8px rgba(0,0,0,0.70);-webkit-box-shadow: 3px 5px 8px rgba(0,0,0,0.70)}
+.frame2 {padding:9px;background:#fff;border:1px solid #e5e5e5}
+/*********************************boxes**********************************/
+.margin-bot {margin-bottom:35px}
+.spacing {margin-right:35px}
+.indent-top {padding-top:13px}
+.indent-top2 {padding-top:4px}
+.indent-right {padding-right:30px}
+.indent-right2 {padding-right:10px}
+.indent-left {padding-left:30px}
+.indent {padding:0 10px 0 30px}
+.indent2 {padding-left:50px}
+.indent3 {padding:0 15px}
+.indent-bot {margin-bottom:20px}
+.indent-bot2 {margin-bottom:30px}
+.indent-bot3 {margin-bottom:45px}
+.inner {padding:0 55px 0 28px}
+.inner-2 {padding:0 45px 0 42px}
+.img-indent-bot {margin-bottom:25px}
+.img-indent {float:left; margin:0 22px 8px 0}	
+.img-indent2 {float:left; margin:0 30px 0px 0}	
+.img-indent3 {float:left; margin:0 23px 0px 0}	
+.img-indent-r {float:right; margin:0 0px 0px 40px}	
+.prev-indent-bot {margin-bottom:10px}	
+.prev-indent-bot2 {margin-bottom:5px}	
+.buttons a:hover {cursor:pointer}
+.menu li a, .list-1 li a, .list-2 li a, .link, .button, .logo {text-decoration:none}
+/*********************************header*************************************/
+header {width:100%;position:relative;z-index:2}
+.row-1 {width:100%;height:71px;background:url(../images/row1-top-tail.gif) left top repeat-x}
+.row-2 {width:100%;min-height:101px;background:url(../images/row2-tail.gif) left top repeat-x #fff}
+h1 {padding:15px 0 0 0;position:relative;font-weight:normal;text-transform:uppercase;margin-left:-4px;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif}
+	h1 span {display:inline-block;	font-size:28px;	line-height:1.2em;	color:#949494;	letter-spacing:-1px;	padding:29px 0 0 4px}
+.logo {display:inline-block;font-size:60px;line-height:1.2em;;color:#262626;cursor:pointer;letter-spacing:-3px}
+	.logo strong {color:#ff9601; font-weight:normal}
+/***** menu *****/
+.menu {padding:0;width:100%}
+.menu li {float:left;position:relative}
+	.menu li:first-child {background:url(../images/menu-a-tail.gif) 0 -71px no-repeat}
+.menu li a {font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;display:block;width:188px;font-size:21px;line-height:1.238em;padding:21px 0 24px 0;color:#262626;text-align:center;text-transform:uppercase;background:url(../images/menu-a-tail.gif) right -71px no-repeat;letter-spacing:-1px}
+.menu li a:hover,
+.menu li a.active {color:#fff;background-position:left top;background-repeat:repeat-x;background-color:#000}
+/***** search form *****/
+#search-form {padding:35px 0px 0 37px}
+#search-form fieldset {position:relative; width:100%; display:block; overflow:hidden}
+#search-form .search-field {width:181px;height:29px;background:url(../images/search-input-tail.gif) 0 0 repeat-x;border:1px solid #d7d7d7}
+#search-form input {width:137px;font-size:13px;line-height:1.23em;padding:6px 10px 7px;font-family:Arial, Helvetica, sans-serif;background:none;border:none;margin:0;outline:none}
+#search-form .search-button {display:block;width:17px;height:16px;text-indent:-5000px;background:url(../images/search-icon.gif) 0 0 no-repeat;position:absolute;right:8px;top:7px}
+/*********************************content*************************************/
+#content {width:100%;padding:0;position:relative;z-index:1}
+.gallery {padding:20px 0 26px 20px;background:#fff;box-shadow: 0px 5px 8px rgba(0,0,0,0.70);-moz-box-shadow: 0px 5px 8px rgba(0,0,0,0.70);-webkit-box-shadow: 0px 5px 8px rgba(0,0,0,0.70)}
+.padding {padding:30px 0px 38px}
+/* -- gallery  begin --*/
+ div.content {/* The display of content is enabled using jQuery so that the slideshow content won't display unless javascript is enabled. */
+	display: none;width: 620px;height: 403px;margin:  0;padding: 0px;float: left;overflow: hidden}
+ div.content img {position: relative;z-index: 2}
+ div.content a, div.navigation a {text-decoration: none;display:block;position:relative;cursor:pointer}
+	div.content a img, div.navigation a img {position:relative;	z-index:1}
+	div.content a span, div.navigation a span {display:block;	width:140px;	height:121px;	background:#000;	position:absolute;	left:0;	top:0;	z-index:2}
+	div.content a span.selected,
+	div.navigation a span.selected {display:none !important}
+ div.content a:focus, div.content a:hover, div.content a:active {text-decoration: underline}
+ div.controls {}
+ div.controls a {padding: 0px}
+ div.ss-controls {float: left;display:none}
+ div.nav-controls {position:absolute;left:0px;width:596px;bottom:0px;z-index: 1}
+ div.nav-controls a.prev {background:url(../images/prev.gif) no-repeat 0 0;width:39px;height:39px;text-indent:-5000px;position:absolute;bottom:2px;left:0;z-index:11}
+ div.nav-controls a.prev:hover {background:url(../images/prev-h.gif) no-repeat 0 0}
+ div.nav-controls a.next {background:url(../images/next.gif) no-repeat 0 0;width:39px;height:39px;text-indent:-5000px;position:absolute;bottom:2px;right:0;z-index:11}
+ div.nav-controls a.next:hover {background:url(../images/next-h.gif) no-repeat 0 0}
+ div.slideshow-container {position: relative;height: 403px; /* This should be set to be at least the height of the largest image in the slideshow */z-index:1}
+ div.loader {position: absolute;top: 0;left: 0;background-image:url(images/loader.gif);background-repeat: no-repeat;background-position: center;width: 592px;height: 470px; /* This should be set to be at least the height of the largest image in the slideshow */}
+ div.slideshow {}
+ div.slideshow span.image-wrapper {display: block;width: 620px;height: 403px;position:absolute;left:0;top:0}
+ div.slideshow a.advance-link {display: block;width: 620px;height: 403px; /* This should be set to be at least the height of the largest image in the slideshow */	padding: 0;margin: 0}
+ div.slideshow a.advance-link img {padding:0;margin:0;display:block;position:absolute;left:0;top:0}
+ div.slideshow a.advance-link:hover, div.slideshow a.advance-link:active, div.slideshow a.advance-link:visited {text-decoration: none}
+ div.slideshow img {}
+ div.download {float: right}
+ div.caption-container {position: absolute;top: 0;left: 0;width: 596px;height: 151px}
+ span.image-caption {display: block;position: absolute;width: 596px;height: 151px;top: 0;left: 0;z-index:10}
+ div.caption {width: 536px;height: 128px;padding: 23px 30px 0 30px;line-height: 18px;font-size: 13px;color: #fff}
+ div.caption h5{line-height: 18px;font-size: 13px;color: #fd003f;text-transform:uppercase;font-weight:bold;text-decoration:none}
+ div.caption h6{line-height: 18px;font-size: 13px;color: #fff;font-weight:normal;margin: 0 0 18px 0}
+ div.image-title {}
+ div.image-desc {}
+ div.navigation {}
+ div#thumbs {width: 320px;height:403px;overflow: hidden;padding: 0px 0px 0 0}
+ ul.thumbs {float: right;margin-left:0;padding: 0;width:320px;height:auto;overflow:visible}
+ ul.thumbs li {height: 121px;float:left;margin: 0 20px 20px 0;overflow: hidden;padding: 0;vertical-align:top}
+ ul.thumbs li img {border: none}
+ a.thumb:focus {outline: none}
+ div.pagination {clear: both;text-align:center;position:relative;z-index:10}
+ div.top.pagination {display:none}
+ div.navigation div.bottom { display:none}
+ div.pagination a, div.pagination span.current, div.pagination span.ellipsis {padding:0 4px;font-weight:bold;color:#fff}
+ div.pagination a:hover {text-decoration: none;color:#ffeaa8}
+ div.pagination span.current {color:#ffeaa8}
+ div.pagination span.ellipsis {border: none;padding: 5px 0 3px 2px}
+/* -- gallery end --*/
+.quote {padding-left:30px;background:url(../images/quote.png) 0 3px no-repeat;position:relative}
+.spacer-1 {width:100%;background:url(../images/pic-1.gif) 217px 0 repeat-y}
+h3 {font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-size:36px;line-height:1.2em;margin:0 0 22px 0;color:#262626;font-weight:normal;letter-spacing:-2px}
+h6 {color:#ff9601}
+.title {display:inline-block;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-size:49px;line-height:71px;text-transform:uppercase;letter-spacing:-3px;color:#ff9601;padding:0 25px 0 0;background:url(../images/pic-2.gif) right 0 repeat-y}
+	.title.t2 {font-size:60px;	line-height:1.3em;	padding:0 40px 0 0;	background:url(../images/pic-3.gif) right 0 no-repeat}
+.tdate-1 {display:block;font-weight:bold}
+.border-bot {width:100%;padding-bottom:20px;background:url(../images/pic-1.gif) 0 bottom repeat-x}
+.box {width:100%;background:#fff;box-shadow: 0px 5px 8px rgba(0,0,0,0.70);-moz-box-shadow: 0px 5px 8px rgba(0,0,0,0.70);-webkit-box-shadow: 0px 5px 8px rgba(0,0,0,0.70)}
+.button {display:inline-block;padding:10px 20px 11px;color:#fff;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-size:18px;line-height:1.22em;background:url(../images/button-tail.gif) 0 0 repeat-x #000;text-transform:uppercase;letter-spacing:-1px}	
+.button:hover {background:#ff9601}
+.list-1 li {display:inline-block;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-size:21px;line-height:26px;padding:0 0 10px 12px;background:url(../images/marker.png) 0 12px no-repeat;letter-spacing:-1px}
+.list-1 li.last {padding:0 0 0 12px}
+	.list-1 li a:hover {color:#fff}
+.list-2 li {line-height:1.23em;padding:8px 0;background:url(../images/pic-1.gif) 0 bottom repeat-x}
+	.list-2 li a {display:inline-block;	color:#262626;	padding-left:10px;	background:url(../images/marker-2.gif) 0 6px no-repeat}
+		.list-2 li a:hover {color:#ff9601}
+	.list-2 .last-item {background:none}
+.price-list li {width: 100%;overflow: hidden;vertical-align: top;line-height: 1.23em;padding:7px 0 9px;color: #262626;background:url(../images/pic-1.gif) 0 bottom repeat-x}
+.price-list li.last {background:none}
+	.price-list li strong {background: url(../images/pic-4.gif) 0% 12px repeat-x;	display: block;	overflow: hidden}
+	.price-list li span {float: right;	color: #262626}
+	.price-list li a {float: left;	text-decoration: none;	color: #262626;	padding-left:10px;	background:url(../images/marker-2.gif) 0 5px no-repeat}
+		.price-list li a:hover {color:#ff9601}
+.link:hover {text-decoration:underline} 
+.link-1 {display:inline-block;font-size:14px;padding-right:8px;background:url(../images/marker-3.gif) right 8px no-repeat}
+.link-1:hover {color:#fff} 
+.text-1 {font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-size:21px;line-height:30px;color:#ff9601;display:block;letter-spacing:-1px} 
+.price {display:inline-block;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-size:35px;line-height:1.2em;letter-spacing:-2px}
+dl span {float:left; width:93px}
+dl strong {float:left; width:80px; font-weight:normal}
+/***** carousel-style *****/
+.carousel {margin: 0 auto;width:940px;height:229px;overflow:hidden;position:relative}
+.carousel .next {display:block;height:22px;width:11px;position:absolute;right:0px;top:14px;background:url(../images/carousel-control.png) right top no-repeat;text-indent:-5000px}
+.carousel .prev {display:block;height:22px;width:11px;position:absolute;right:31px;top:14px;background:url(../images/carousel-control.png) left top no-repeat;text-indent:-5000px}
+.jCarouselLite {left:-12px !important}
+#carousel li {width:200px !important;height:121px !important;padding:17px 22px 27px;margin-right:-4px;background:url(../images/carousel-li-bg.png) left top no-repeat;position:relative;overflow:hidden}
+	#carousel li a {display:block; position:relative}
+	#carousel li a span {font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;	letter-spacing:-2px;	display:block;	width:78px;	height:35px;	background:#fff;	color:#262626;	font-size:35px;	line-height:1.2em;	position:absolute;	left:0;	bottom:0;	overflow:hidden;	z-index:99}
+/***** subscribe form *****/
+#subscribe-form {display:block}
+#subscribe-form .subscribe-field {background:#fbfbfb;border:1px solid #fff;width:288px;height:29px;margin-bottom:20px;box-shadow: 0px 5px 8px rgba(0,0,0,0.70);-moz-box-shadow: 0px 5px 8px rgba(0,0,0,0.70);-webkit-box-shadow: 0px 5px 8px rgba(0,0,0,0.70)}
+#subscribe-form input {width:268px;font-size:13px;line-height:1.23em;color:#262626;padding:6px 10px;margin:0;font-family:Arial, Helvetica, sans-serif;border:none;background:none;outline:none}
+/***** Contact form *****/
+#contact-form {display:block}
+#contact-form label {display:block;height:40px;overflow:hidden}
+#contact-form input {float:left;width:406px;font-size:13px;line-height:1.23em;color:#262626;padding:6px 10px;margin:0;font-family:Arial, Helvetica, sans-serif;border:1px solid #d9d9d9;background:#fcfcfc;outline:none}
+#contact-form textarea {float:left;height:192px;overflow:auto;width:776px;font-size:13px;line-height:1.23em;color:#404040;padding:6px 10px;margin:0;font-family:Arial, Helvetica, sans-serif;border:1px solid #d9d9d9;background:#fcfcfc;outline:none}
+.text-form {float:left;display:block;font-size:13px;line-height:1.23em;width:81px;color:#262626;font-family:Arial, Helvetica, sans-serif;padding-top:3px}
+.buttons {padding:18px 30px 0 0; text-align:right}
+.buttons a {margin-left:10px; padding:10px 42px 11px}
+/****************************footer************************/
+footer {width:100%;padding:40px 0 33px;background:url(../images/footer-tail.gif) center top repeat-x #fff}
+.phone-numb {display:inline-block;font-size:42px;line-height:1.2em;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;letter-spacing:-1px;margin-top:-4px}
+	.phone-numb span {display:inline-block;	font-size:28px;	color:#949494;	padding-top:3px}
+.list-services {padding:0}
+	.list-services li {float:left;	padding:0 0 0 20px}
+	.list-services li:first-child {padding:0}
+		.list-services li a {	display:block;width:60px;height:45px;background:url(../images/social-icons.png) left top no-repeat;	}
+		.list-services li a.item-2 {background-position:-80px 0}
+		.list-services li a.item-3 {background-position:-160px 0}
+		.list-services li a.item-4 {background-position:-240px 0}

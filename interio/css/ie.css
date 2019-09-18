@@ -1,0 +1,7 @@
+.gallery {behavior: url(js/PIE.htc); position:relative;}
+.box {behavior: url(js/PIE.htc); position:relative;}
+.frame {behavior: url(js/PIE.htc); position:relative;}
+#subscribe-form .subscribe-field {behavior: url(js/PIE.htc); position:relative;}
+
+*+html .title {padding:0 21px 0 0;}
+*+html .title.t2 {padding:0 37px 0 0;}
