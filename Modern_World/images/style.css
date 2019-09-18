@@ -1,0 +1,24 @@
+/* Modern World CSS Template 
+   www.solucija.com      */
+body { font-family: Arial, Sans-Serif; font-size: 70%; color: #000; background: #595959 url(bg.gif) repeat-y top left; margin: 0; padding: 0; line-height: 140%; }
+a {	color: #A53512; background-color: inherit; }
+a:hover { color: #000; background-color: inherit;}
+.marked_green {	background: #E8F7E6; color: inherit; }
+.marked_blue { background: #ECF3FB; color: inherit; }
+#content { margin: 0 0 0 10px; padding: 0; text-align: left; width: 720px; background: #595959 url(contentbg.gif) repeat-y top left; color: inherit; }
+#message { font-size: 170%; font-weight: bold; color: #FFF; margin: 0 0 50px 0; background-color: inherit; }
+#navigation { font-size: 100%; text-transform: uppercase; background: url(navbg.gif) repeat-x bottom left; padding: 0 0 22px 10px; }
+#navigation a {	color: #9f9f9f;	display: inline; text-decoration: none;	font-weight: bold; margin-right: 10px; padding-left: 5px; background-color: inherit; background-image: url(linkcorner.gif); background-repeat: no-repeat; background-position: top left; }
+#navigation a:hover { color: #000; background-color: inherit; }
+.left {	margin-right: 500px; padding: 0px 10px 10px 0px; background: url(logo.gif) no-repeat top left; }
+.left p { padding: 0 0 0 10px; }
+.left h1 { font-size: 140%; letter-spacing: -1px; color: #74CF7A; margin: 10px 0 0 0; padding: 0 0 0 10px; background-color: inherit; }
+#logo {	padding: 44px 0 0 13px;	margin-bottom: 50px; }
+#logo h2 { font-size: 180%;	letter-spacing: -1px; font-weight: bold; color: #000; margin: 0; padding: 0; background-color: inherit; }
+#logo p { margin: 0; padding: 3px 0 0 2px; color: #95BAE3; background-color: inherit; }
+.right { margin: 0;	padding: 15px 10px 10px 12px; width: 478px;	float: right; background: url(header.gif) repeat-x top left; }
+.right h1 { font-size: 190%; letter-spacing: -1px; font-weight: bold; color: #2980DE; margin: 10px 0px 0px 0px; padding: 0px 0px 0px 0px; background-color: inherit; }
+.quote { padding: 20px; background: #ECF3FB url(quotebg.gif) no-repeat center left; font-size:90%; color: inherit; }
+#footer { clear:both; background: #FFF url(footerbg.gif) repeat-x bottom left; color: #808080; border-top: 1px solid #eee; padding: 4px 10px 4px 4px;  font-family: Verdana, "lucida console", sans-serif; letter-spacing: -1px; font-size: 80%; text-align: right; text-transform: uppercase; }
+#footer a { color: #2980DE; background-color: inherit; }
+#footer a:hover { background: #FEFDD6; color: inherit; }
