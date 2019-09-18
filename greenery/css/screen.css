@@ -1,0 +1,387 @@
+/***************************************************
+     AUTHOR: Pat Heard ( FullAhead.org )
+   TEMPLATE: Greenery
+       DATE: 2005.11.30
+  COPYRIGHT: none
+ ***************************************************/
+
+
+/***************************************************
+   HTML Element Styles
+ ***************************************************/
+
+body {
+  margin: 0;  
+  text-align: center;
+  font: 0.62em verdana, arial, sans-serif;  
+  line-height: 170%;
+  color: #EEE;
+  background: #585858 url(../images/bg_body.jpg) repeat-y top center;
+}
+
+p { 
+  padding-top: 10px !important;
+  padding-top: 3px;
+  padding-bottom: 10px !important;
+  padding-bottom: 3px;
+}
+
+
+a {
+  color: #86E160;
+}
+
+a:visited {
+  color: #AAA;
+}
+
+a:hover {
+  color: #FFF;
+}
+
+acronym {
+  cursor: help;
+  border-bottom: 1px solid #777;
+}
+
+input {
+  width: 70%;
+}
+
+textarea {
+  width: 98%;
+  /* 
+    IE specific to eliminate scroll bar when not needed. 
+    Uncomment if wanted, but it is not valid CSS
+     
+  scrollbar-3dlight-color : #777;
+  scrollbar-arrow-color : #EEE;
+  scrollbar-darkshadow-color : #777;
+  scrollbar-face-color : #777;
+  scrollbar-highlight-color : #777;
+  scrollbar-shadow-color : #777;
+  scrollbar-track-color : #777;    
+  */
+}
+
+input,
+textarea {
+  padding: 1px 3px;
+  margin: 5px 0;
+  font: 1em verdana, arial, sans-serif;
+  color: #EEE;
+  background-color: #777;
+  border: 1px solid #999;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+  color: #FFF;
+  background-color: #999;
+  border: 1px solid #EEE;
+}
+
+
+h1 {
+  clear: both;
+  margin: 10px 0;
+  font: 700 1em verdana, sans-serif;
+  text-transform: uppercase;
+  color: #7BD32C;
+  background: #686868 url(../images/rounded_tr.gif) no-repeat top right;
+}
+
+h1 span {
+  display: block;
+  padding: 2px;
+  background: url(../images/rounded_br.gif) no-repeat bottom right;
+}
+
+#sideBar h1 {
+  text-align: right;
+  background: #686868 url(../images/rounded_tl.gif) no-repeat top left;
+}
+
+#sideBar h1 span {
+  display: block;
+  padding: 2px;
+  background: url(../images/rounded_bl.gif) no-repeat bottom left;
+}
+
+
+#content ol li { 
+  color: #9BE4FF;
+}
+
+#content ol li span {
+  color: #EEE;
+}
+
+#content ul {
+  padding-bottom: 10px;
+}
+
+#content ul li {
+  list-style-image: url(../images/li_bullet.gif);
+}
+
+blockquote {  
+  margin: 0;
+  background: #686868 url(../images/rounded_tr.gif) no-repeat top right;
+} 
+
+blockquote span {
+  display: block;
+  padding: 5px;
+  background: url(../images/rounded_br.gif) no-repeat bottom right;
+}
+
+/***************************************************
+  Layout Element Styles
+ ***************************************************/
+
+
+#header {  
+  width: 100%;
+  height: 3em;
+  background: #585858 url(../images/bg_header.jpg) repeat-y top center;  
+}
+
+/***************************************************
+  Header Menu
+ ***************************************************/
+
+#menu {
+  width: 767px;
+  margin: 0 auto;
+  text-align: left;  
+}
+
+#menu ul {
+  margin: 0;
+  padding: 0;
+  line-height: normal;  
+}
+
+#menu ul li {
+  width: 8em;
+  display: inline;
+  float: left;
+  padding-top: 0.8em;  
+  list-style: none;
+  text-align: center;
+}
+
+#menu ul li a {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-bottom: 1.0em;
+  color: #222;
+}
+
+#menu ul li a:hover,
+#menu ul li a.active {
+  font-weight: bold;
+  color: #111;
+  background: url(../images/menu_tab.gif) no-repeat bottom center;
+}
+
+
+/***************************************************
+  Site Title
+ ***************************************************/
+
+#title {
+  padding: 0.6em 55px 0.6em 0;
+  margin-right: 0.5em;
+  float: right;
+  background: url(../images/logo_greenery.gif) no-repeat top right;
+}
+
+#title h1 {
+  display: inline;
+  color:  #222;
+  background-color: #86E160;
+  background-image: none;
+}
+
+
+/***************************************************
+ Page Content
+ ---------------------------------------------------
+ 1. Left side text
+ 2. Dropdown image
+ 3. Right side bar 
+ ***************************************************/
+
+
+#content {  
+  clear: both;
+  width: 767px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#text {
+  float: left;
+  width: 410px !important;
+  width: 437px;
+  padding: 10px 5px 20px 20px !important;
+  padding: 20px 5px 20px 20px;
+}
+
+#image {
+  float: left;
+  width: 170px;  
+  vertical-align: top;
+}
+
+#sideBar {
+  float: right;
+  width: 145px !important;
+  width: 160px;
+  padding: 10px 15px 20px 0 !important;
+  padding: 20px 15px 20px 0;
+}
+
+
+/***************************************************
+ Sidemenu Styles
+ ***************************************************/
+
+.sideMenu {
+  padding: 10px 0;
+}
+
+.sideMenu a {
+  display: block;
+  text-align: right;
+  text-decoration: none;
+  margin-bottom: 1px;  
+}
+
+.sideMenu a span {
+  display: block;
+  padding: 1px;
+}
+
+.sideMenu a:hover {
+  background: #686868 url(../images/rounded_tl.gif) no-repeat top left;
+}
+
+.sideMenu a:hover span {
+  background: url(../images/rounded_bl.gif) no-repeat bottom left;
+}
+
+/***************************************************
+ Comment Styles
+ ***************************************************/
+
+#comments p {
+  padding: 0 5px;
+  margin-bottom: 0;
+  background: #686868 url(../images/rounded_tl.gif) no-repeat top left;
+}
+
+#comments p span.author {
+  display: block;
+  margin-top: 5px;
+  text-align: right;
+  font-weight: 700;
+}
+
+#comments img {
+  margin-top: -1px;
+}
+
+#comments a {
+  color: #7BD32C;
+}
+
+#comments a:visited {
+  color: #AAA;
+}
+
+#comments a:hover {
+  color: #FFF;
+}
+
+/***************************************************
+ Footer
+ ***************************************************/
+
+#footer {
+  clear: both;
+  float: left;
+  width: 500px;
+  padding: 10px 20px;
+  color: #888;
+}
+
+#footer p {
+  padding-top: 0 !important;
+  padding-top: 10px;
+}
+
+#footer a {
+  color: #888;
+}
+
+#footer a:hover {
+  color: #EEE;
+}
+
+a.fullAhead {
+  float: left;
+  width: 30px;
+  height: 34px;  
+  margin-right: 10px;
+  background: url(../images/logo_fullahead.gif) no-repeat 0 0;
+}
+
+a:hover.fullAhead  {
+  background-position: -30px 0;
+}
+
+
+/***************************************************
+ Generic Display Classes
+ ***************************************************/
+
+.center {
+  text-align: center;
+}
+
+.noPad {
+  padding: 0;
+  margin: 0;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+img.left {
+  padding: 5px 5px 5px 0;
+}
+
+img.right {
+  padding: 5px 0 5px 5px;
+}
+
+.button {
+  width: auto;
+  cursor: pointer;
+}
+
+.date {
+  display: block;
+  font-weight: 700;
+}
