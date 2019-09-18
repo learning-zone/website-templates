@@ -1,0 +1,105 @@
+/* 
+	project: internet sharing template
+   	author: luka cvrk (www.solucija.com) 
+								*/
+   
+body { padding: 0; margin: 0; font: 0.7em Tahoma, Arial, sans-serif; line-height: 1.6em; background: #fff; color: #454545; }
+
+/* links */
+a { color: #003B6E; background: inherit; }
+a:hover { color: #9EC068; background: inherit; }	
+
+/* headings */
+h1 { font: bold 2.5em "Arial", Sans-Serif; margin: 0; letter-spacing: -1px; }
+h2 { font: bold 2em Arial, Sans-Serif; margin: 0; padding: 0; }
+h1 a, h2 a { color: #2b2b2b; background: #fff; text-decoration: none; }
+h1 a:hover, h2 a:hover { color: #2b2b2b; background: #FFF; }
+.title { color: #808080; background: #fff; }
+
+/* lists and form elements */
+ul { margin: 0; padding : 0; list-style : none; }
+form { margin: 0; }
+input.search { width: 279px; border: none; background: #fff url(images/input.gif) no-repeat; padding: 6px 10px; color: #1E67A8; font-weight: bold; }
+input.button { padding: 3px; }
+
+/* content holder */
+#content { margin: 10px auto; width: 960px; }
+
+/* header */
+#header { height: 75px; }
+#logo { padding: 15px 0 0 8px; }
+#logo p { margin: 0; padding: 0 0 0 10px; color: #808080; background: #fff; }
+#top_info { float: right; width: 570px; margin: 20px 5px 0 0; text-align: right; }
+
+/* horizontal tabbed menu */	
+#tabs { background: #fff url(images/bigbox.gif) no-repeat top left; color: #000;  height: 64px; text-align: center; padding: 0 0 0 210px; }
+#tabs li { display: inline; height: 45px; }
+#tabs li a { float: left; background: #fff url(images/barbg.gif) no-repeat; color: #808080; padding: 7px 0; width: 82px; text-align: center; font-weight: bold; text-decoration: none; }
+#tabs li a:hover { background: #fff url(images/barcurrent.gif) no-repeat; color: #000; }	
+#tabs li a.current { background: #fff url(images/barcurrent.gif) no-repeat; color: #2C71AE; }	
+.key { text-decoration: underline; }
+
+/* search form */
+#search { 
+	float: left;
+	clear: both;
+	color: #000;
+	background: #fff url(images/searchbg.gif) no-repeat;
+	padding: 14px 0 20px 5px;
+	width: 500px;
+	margin: 5px 0 0 0;
+}
+	#search p { padding: 0; margin: 0; }
+
+
+/* grey subheader */
+.gboxtop { clear: both; height: 8px; background: #dedede url(images/gboxtop.gif) no-repeat; color: #000; }
+.gbox { background: #dedede url(images/gbox.gif) no-repeat bottom left; color: #444; padding: 1px 13px 7px 13px; margin: 0 0 20px 0; }
+.gbox p { padding: 7px 0; margin: 0;}
+
+
+/* left side */
+.left { float: left; width: 650px; margin: 0 0 10px 0; }
+	.left_articles {
+		margin: 0 20px 15px 10px;
+		padding: 10px 0 0 0;
+		text-align: justify;
+		border-bottom: 1px dotted #ccc;
+		color: #000;
+		background: #fff;
+	}
+	
+	.calendar { height: 50px; float: left; background: #fff url(images/calendar.gif) no-repeat; width: 50px; padding: 5px 0 0 9px;  color: #808080;}
+	.calendar p { padding: 0; margin: 0; }
+	.description { padding: 0 0 2px 0; margin: 0 10px 5px 0; border-bottom: 1px dotted #ccc; }
+	.thumbnail { float: left; margin: 0 18px 8px 0; border: 1px solid #dedede; }
+
+
+/* bottom thirds */
+.thirds { float: left; width: 203px; background: #eee; margin: 0 12px 0 0; color: #5d5d5d; }
+	.smallboxtop { height: 14px; background: #fff url(images/smallboxtop.gif) no-repeat; color: #000; }
+	.smallbox { background: #fff url(images/smallbox.gif) no-repeat bottom left; color: #444; padding: 1px 10px 10px 10px;  }
+	.smallbox p { padding: 0; margin: 0; }
+
+	
+/* right side */
+#right {
+	float: right;
+	width: 295px;
+	margin: 0 0 10px 0;
+}
+	.boxtop { height: 19px; background: #fff url(images/boxtop.gif) no-repeat; color: #000; }
+	.box { background: #fff url(images/box.gif) no-repeat bottom left; color: #5b5b5b; padding: 0 10px 15px 10px; margin: 0 0 10px 0; }
+	.box p { padding: 0; margin: 0;}
+	.image { float: left; margin: 0 9px 3px 0; }
+
+
+/* misc */
+.buttons { text-align: right; padding: 4px 3px 0 0;}
+.left_articles .buttons { float: right; height: 20px; }
+.bluebtn { background: #488EB2 url(images/bluebtn.gif) no-repeat; width: 100px; padding: 1px 16px 5px 16px; color: #fff; text-decoration: none; }
+.greenbtn { background: #488EB2 url(images/greenbtn.gif) no-repeat; padding: 1px 17px 5px 16px; color: #fff; text-decoration: none; }
+.bluebtn:hover, .greenbtn:hover { background: #488EB2 url(images/hoverbtn.gif) no-repeat; color: #fff; }
+
+/* footer  */
+.footer { clear: both; text-align: center; line-height: 1.8em; padding: 10px 0 10px 0; border-top: 1px solid #ccc; }
