@@ -1,0 +1,109 @@
+body{
+background:url(headerbg.gif) repeat-x #000000 bottom left fixed;
+margin:0;
+font: 10pt/14pt 'Lucida Grande', Verdana, Helvetica, sans-serif; 
+}
+
+A:link{ color:#CCCCFF; text-decoration:none; }
+A:hover{ color:#FFFFFF; text-decoration:underline; }
+A:active{ color:#CCCCFF; text-decoration:none; }
+A:active:hover{ color:#FFFFFF; text-decoration:underline; }
+A:visited{ color:#CCCCFF; text-decoration:none; }
+A:visited:hover{ color:#FFFFFF; text-decoration:underline; }
+
+#wrap{
+width:100%;
+margin-left:auto;
+margin-right:auto;
+margin-top:20px;
+background:transparent;
+border:0;
+}
+
+#navcontainer{
+background:transparent;
+width:134px;
+height:574px;
+position:absolute;
+margin-top:20px;
+margin-left:500px;
+}
+
+ #navlist li{
+background:transparent;
+list-style-type: none;
+text-align:left;
+font-family: 'Lucida Grande', Verdana, Helvetica, sans-serif;
+font-size:14px;
+letter-spacing:-2px;
+color:#666666;
+width:150px;
+}
+
+#navlist li a:link { color: #CCCCFF; text-decoration:none; }
+#navlist li a:visited { color: #CCCCFF; text-decoration:none; }
+#navlist li a:hover {color: #FFFFFF; text-decoration:none; }
+
+h3{
+font-size:18px;
+font-weight:bold;
+color:#CCCCFF;
+letter-spacing:-3px;
+font-style:normal;
+}
+
+#container{
+width:500px;
+margin0px;
+background:url(bg.png) transparent;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='bg.png');
+/*filter:alpha(opacity=25);
+-moz-opacity: 0.25;
+opacity: 0.25;*/
+}
+
+#content{
+width:450px;
+/*margin:0px;*/
+padding:30px;
+padding-bottom:300px;
+text-align:justify;
+font: 9pt/14pt 'Lucida Grande', Verdana, Helvetica, sans-serif;
+color:#FFFFFF;
+}
+
+.footer{
+padding:9px;
+text-align:right;
+text-transform:uppercase;
+font: 8pt/18pt 'Lucida Grande', Verdana, Helvetica, sans-serif;
+color:#333333;
+}
+
+#title{
+background:#333333;
+text-align:right;
+padding:9px;
+font-family: 'Lucida Grande', Verdana, Helvetica, sans-serif;
+font-size:10px;
+text-transform:uppercase;
+color:#FFFFFF;
+}
+
+
+.pullquote {
+color:green;
+width:150px;
+float:right;
+width:150px;
+margin-top:10px;
+margin-bottom:10px;
+margin-left:10px;
+padding-bottom:10px;
+font-family:'Lucida Grande', Helvetica, sans-serif;
+font-size: 24px;
+line-height:26px;
+letter-spacing:-3px;
+text-align: right;
+color:#999999;
+}
