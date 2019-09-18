@@ -1,0 +1,131 @@
+/**********************************
+ * TITLE: Gila Print Stylesheet   * 
+ * URI  : gila/gila-print.css     *
+ * MODIF: 2003-Apr-30 19:09 +0800 *
+ **********************************/
+
+
+/* ##### Common Styles ##### */
+
+body {
+  color: black;
+  background-color: white;
+  font-family: "times new roman", times, roman, serif;
+  font-size: 12pt;
+  margin: 0;
+  padding: 0;
+}
+
+acronym, .titleTip {
+  font-style: italic;
+  border-bottom: none;
+}
+
+acronym:after, .titleTip:after {  /* Prints titles after the acronyms/titletips. Doesn't work in MSIE */
+  content: "(" attr(title) ")";
+  font-size: 90%;
+  font-style: normal;
+  padding-left: 1ex;
+}
+
+.doNotPrint {
+  display: none !important;
+}
+
+
+/* ##### Header ##### */
+
+#header {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid black;
+}
+
+.headerTitle {
+  font-size: 200%;
+  margin: 0;
+  padding: 0 0 0.5ex 0;
+}
+
+.headerTitle a {
+  color: black;
+  background-color: transparent;
+  font-family: "trebuchet ms", verdana, helvetica, arial, sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.subHeader {
+  display: none;
+}
+
+
+/* ##### Side Bars ##### */
+
+#side-bar {
+  display: none;
+}
+
+
+/* ##### Main Copy ##### */
+
+#main-copy {
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+}
+
+#main-copy h1 {
+  font-family: "trebuchet ms", verdana, helvetica, arial, sans-serif;
+  font-size: 120%;
+  margin: 2ex 0 1ex 0;
+  padding: 0;
+}
+
+#main-copy a {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#main-copy a:after {  /* Prints the links' URIs after the links' texts. Doesn't work in MSIE */
+  content: "<" attr(href) ">";
+  font-size: 90%;
+  padding-left: 1ex;
+}
+
+p {
+  margin: 0 0 2ex 0;
+  padding: 0;
+}
+
+dl {
+  margin: 0;
+  padding: 0;
+}
+
+dt {
+  font-weight: bold;
+  margin: 0;
+  padding: 0 0 1ex 0;
+}
+
+dd {
+  margin: 0 0 2ex 1.5em;
+  padding: 0;
+}
+
+
+/* ##### Footer ##### */
+
+#footer {
+  margin: 2em 0 0 0;
+  padding: 1ex 0 0 0;
+  border-top: 1px solid black;
+}
+
+#footer a {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
