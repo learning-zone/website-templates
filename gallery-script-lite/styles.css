@@ -1,0 +1,35 @@
+body, td, font {
+	font-family : Tahoma;
+	font-size : 11px;
+	color : #000000;
+}
+
+a {
+	text-decoration : underline;
+	color : #000000;
+	font-weight : bold;
+}
+
+a:hover {
+	text-decoration : none;
+	color : #000000;
+	font-weight : bold;
+}
+
+.thumbtitle {
+	font-size : 9px;
+}
+
+.viewhead {
+	font-size : 14px;
+}
+
+.indexhead {
+	font-size : 14px;
+}
+
+.footertext {
+	font-size : 10px;
+	color : #333333;
+	text-decoration : none;
+}

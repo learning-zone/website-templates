@@ -1,0 +1,63 @@
+<?php
+
+include_once("config.inc.php");
+include_once("function-library.php");
+
+$pagetitle = "Welcome to ".$site_name;
+$meta_keywords    = str_replace(" ", ", ", $site_name).", photos, images, pictures";
+$meta_description = "Welcome to ".$site_name;
+include_once("header.php");
+
+// get album listing
+$dir_handle = @opendir($storage_location) or die("Unable to open image storage location. (".$storage_location.")");
+$album_listing = array();
+while ($file = readdir($dir_handle)) {
+  if(($file != ".") && ($file != "..")) {
+   $album_listing[] = $file;
+  }
+}
+closedir($dir_handle);
+sort($album_listing);
+
+// display albums
+echo "<div align=\"center\" class=\"indexhead\"><b>".$site_name."</b></div><br>";
+echo "<div align=\"center\">Choose an album to browse the images:</div><br><br>";
+
+$r = 1;
+echo "<table width=\"100%\" cellpadding=\"2\" cellspacing=\"0\">";
+
+foreach($album_listing AS $value) {
+
+	if($r == 1) echo "<tr><td align=\"center\" width=\"20%\">";
+	else echo "<td align=\"center\" width=\"20%\">";
+
+	// get total photos
+	 
+	echo "<b>".$value."</b><br><font style=\"font-size:9px;color:#666666;\">(".count_photos($value)." photos)</font>";
+	echo "<table width=\"106\" cellpadding=\"2\" cellspacing=\"0\" bgcolor=\"".$album_hover_off."\" style=\"border:1px solid #999999;padding-top:2px;\" style=\"cursor:hand;\" onMouseOver=\"this.style.backgroundColor='".$album_hover_on."';\" onMouseOut=\"this.style.backgroundColor='".$album_hover_off."';\" onClick=\"window.location='".urlencode($value)."';\"><tr height=\"106\"><td valign=\"middle\" align=\"center\">";
+	if(count_photos($value) > 0) {
+	   // get first image as thumbnail
+	   $photos = load_photos($value);
+	   $cover_photo = galleryImage($photos[0][path], 100);
+	   $picid = mysql_result($temp6, 0, id);
+	   echo "<a href='".urlencode($value)."'>".$cover_photo."</a>";
+	}
+	else echo "No pics";
+	echo "</td></tr></table>";
+	 
+	if($r == 5) {
+	  echo "</td></tr>";
+	  $r = 1;
+	}
+	else {
+	  echo "</td>";
+	  $r++;
+	}
+	
+}
+
+echo "</table></div><br>";
+
+include_once("footer.php");
+
+?>

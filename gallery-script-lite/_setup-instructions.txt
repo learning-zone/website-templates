@@ -1,0 +1,13 @@
+Setup Instructions:
+
+- Upload the main zip file to your hosting area.
+- Unzip the zip file ensuring all folders are kept.
+- Amend config.inc.php with your site_name and site_path along with other optional amendments.
+- Modify the permissions on the following:
+  cache                         => CHMOD 777
+
+- ADD YOUR IMAGES/PHOTOS: To add your images/photos simply create a folder for each album within the 'pictures' directory and place your photos in each. Each new folder name will appear as the album name. Your filenames of each photo will appear as the image title when browsing.
+
+Note: Supported image types are jpgs, pngs and static gifs
+
+Check out www.arwscripts.com for other scripts or support!

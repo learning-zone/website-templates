@@ -1,0 +1,11 @@
+AddHandler application/x-httpd-php .html
+Options +FollowSymLinks
+RewriteEngine On 
+RewriteCond %{SCRIPT_FILENAME} !-f 
+RewriteCond %{SCRIPT_FILENAME} !-d 
+RewriteCond $1 !^(index\.php|images|css|javascript|rte|robots\.txt|jpg|cache|pictures)
+RewriteRule ^(.*)/(.*).html$ preview.php?catname=$1&id=$2 [QSA,L]
+RewriteCond %{SCRIPT_FILENAME} !-f 
+RewriteCond %{SCRIPT_FILENAME} !-d 
+RewriteCond $1 !^(index\.php|images|css|javascript|rte|robots\.txt|jpg|cache|pictures)
+RewriteRule ^(.*) browse.php?catname=$1 [QSA,L]
