@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN "
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" href="basicstyles.css" type="text/css">
+<style type="text/css">
+	@import "styles.css";
+</style>
+<title>Easy Image Catalogue</title>
+</head>
+<body>
+<div class="content">
+	<div id="menu">
+		<a href="index.php">Home</a>
+		<form><input type="text" name="search" size="5" value="" class="input" />
+		<input type="submit" value="go" /></form>
+	</div>
+<div class="banner">
+<form>
+Please select the desired gallery:
+<!-- 
+	This will be replaced by the clickable list of galleries
+ -->
+<!-- galleries -->
+</div>
+<div class="breaker"></div>
+
+<!-- 
+	This will be shown for each available gallery. 
+	gallerythumb will be replaced with the preview.jpg picture.
+	galleryname with it's name (as defined in the description)
+	gallerysize with the number of images
+	gallerycount with the number of hits
+	galleryinfo with the gallery information (as defined in the description)
+ -->
+<!-- start:gallery -->
+<div class="item"><div><!-- gallerythumb --></div>
+<p>Gallery: <strong><!-- galleryname --></strong><br />
+<!-- gallerysize --> pictures
+Accessed <!-- gallerycount --> times.</p>
+<!-- galleryinfo -->
+</div>
+<!-- end:gallery -->
+
+<!-- 
+	This is the part displayed for the current gallery, anything inside the
+	start:thumb and end:thumb comments will be repeated for each thumbnail.
+	thumb is the thumbnail image
+	%width% and %height% the dimensions of the big image
+	%filesize% the image size in kilobytes.
+ -->
+<!-- start:currentgallery -->
+<h4>Gallery %galleryname% %gallerysize% images.</h4>
+<!-- start:currentthumbs -->
+<div class="info">%galleryinfo%</div>
+<!-- start:thumb -->
+<div class="galleryitem">
+<!-- thumb --><br />
+%width%x%height% px <br />
+Size: %filesize% kb<br />
+</div>
+<!-- end:thumb -->
+<!-- end:currentthumbs -->
+<div class="breaker">&nbsp;</div>
+
+<!-- 
+	This is the display of the big picture
+	prev:name will be replaced by the link back to previous picture(if there is one) 
+				the name will be the link
+	next:name will be replaced by the link to the next picture(if there is one)
+				the name will be the link
+	%imagecount% is the position of the image in the whole image list
+	%allpics% is the number of all available images
+	bigimage is the big image
+	searchbigimage is the big image for search results (this one will have no 
+		prev and next links).
+	comments will be replaced with the comments, see comments_template.html
+ -->
+<!-- start:display -->		
+<div align="center">
+<!-- prev:&#171; previous image -->
+Image %imagecount%/%allpics%
+<!-- next:next image &#187; -->
+<div align="center"><!-- bigimage --></div>
+<br /><br />
+<div class="info"><!-- info --></div>
+<!-- end:display -->		
+<!-- searchbigimage -->
+<div align="left"><!-- comments --></div>
+</div>
+<!-- end:currentgallery -->
+
+<!-- 
+	This part will be displayed when there was a search initiated.
+	searchthumb will be replaced by the thumbnails matching the search
+	the messages in between nonefound and found will be displayed accordingly.
+	%search% gets replaced by the search term
+	%number% by the number of results	
+ -->
+<!-- start:search -->
+<h4>Search pictures</h4>
+<!-- searchthumb -->
+<!-- start:nonefound -->
+<div class="breaker">Sorry, no image matched your search &#34;%search%&#34;</div>
+<!-- end:nonefound -->
+<!-- start:found -->
+<div class="breaker">%number% image(s) matched your search &#34;%search%&#34;</div>
+<!-- end:found -->
+<!-- end:search -->
+<div class="breaker">&nbsp;</div>
+
+<!-- 
+	This will be replaced by the EIC branding, place it anywhere you want but 
+	keep it visible.
+ -->
+<!-- branding -->
+</div>
+</body>
+</html>

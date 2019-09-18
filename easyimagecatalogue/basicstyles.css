@@ -1,0 +1,16 @@
+body{
+background:url(back.gif) #6699cc;
+font-family:verdana,arial,sans serif;
+font-size:.9em;
+color:#666666;
+margin:10px;
+padding:10px;
+}
+.content{
+	font-family:verdana,arial,sans serif;
+	color:#666666;
+	padding:20px;
+	background:#eee;
+	border:1px solid black;
+}
+
