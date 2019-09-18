@@ -1,0 +1,336 @@
+
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+
+/* This file based on 'A CSS FRAMEWORK' by Mike Stenhouse */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/*Design By: Brett Hillesheim - http://www.bretthillesheim.com */
+
+
+
+
+
+
+/*-- CLEARING --------------------------------- */
+.stretch,
+.clear {
+	clear:both; 
+	height:1px; 
+	margin:0; 
+	padding:0; 
+	font-size: 15px;
+	line-height: 1px;
+}
+
+.clearfix:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+* html>body .clearfix {
+	display: inline-block; 
+	width: 100%;
+}
+
+* html .clearfix {
+	/* Hides from IE-mac \*/
+	height: 1%;
+	/* End hide from IE-mac */
+}
+/*-- END CLEARING ------------------------------ */
+
+
+/*-- GENERAL BODY ELEMENTS ----------------------*/
+
+html {
+	height: 100%;
+}
+
+body {
+	background: #222 url(bg.gif);
+	margin: 0;
+	padding: 0;
+	font: 76% Verdana,Tahoma,Arial,sans-serif;
+	height: 100%;
+}
+
+a {
+	color: #FE7301;
+}
+
+a:hover {
+	color: #AC4F02;
+	text-decoration: none;
+}
+
+h3 {
+	padding: 0 0 0 30px;
+	margin: 0 28px 8px 28px;
+	color: #00B300;
+	font-size: 1.15em;
+}
+
+h4 {
+	padding: 0 0 0 40px;
+	margin: 0 28px 8px 28px;
+	color: #B300B3;
+	font-size: 1.0em;
+}
+
+h5 {
+	padding: 0 0 0 50px;
+	margin: 0 28px 8px 28px;
+	color: #00B3B3;
+	font-size: 0.90em;
+}
+
+h6 {
+	padding: 0 0 0 60px;
+	margin: 0 28px 8px 28px;
+	color: #000000;
+	font-size: 0.80em;
+}
+
+input {
+	margin: 0 0 0 35px;
+	padding: 0;
+	background: #EEE;
+	border: 1px solid #000;
+	font: 0.90em Verdana,Tahoma,Arial,sans-serif;
+	color: #333;
+}
+
+blockquote {
+	border-left: 3px solid #012579;
+	padding: 0 0 0 5px;
+	margin: 10px 35px 8px 40px;
+	text-align: justify;
+}
+	
+
+#page {
+	width: 760px;
+	margin: 0 auto;
+	padding: 0px;
+	background: transparent;
+
+}
+
+/*-- END GENERAL BODY ELEMENTS ------------------*/
+
+/*-- HEADER -------------------------------------*/
+#header {
+	width: 720px;
+	height: 25px;
+	background: transparent;
+	padding: 0;
+	margin: 0;
+}
+
+#header h1 {
+	font-size: 1.1em;
+	color: #03D7FE;
+	padding: 5px 0 5px 35px;
+	margin: 0;
+}
+
+
+#header h1 span {
+ 	color: #FF6D02;
+}
+
+#branding {
+	width: 720px;
+	height:20px;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+
+/*-- END HEADER --------------------------------*/
+
+/*-- CONTENT -----------------------------------*/
+
+#content {
+        position: relative;
+        width: 720px;        
+        margin: 0 auto 20px auto;
+        padding: 0;        
+        text-align: left;
+
+}
+
+#main {
+        float: left;
+        width: 500px;
+        display: inline;
+	padding: 0;
+	margin: 0;
+	background: #FFF url(left_bg.gif) repeat-y;
+	border-top: 2px solid #777;
+	border-left: 2px solid #777;
+	border-right: 2px solid #777;
+}
+
+#main h1 {
+	color: #3F064D;
+	width: 500px;
+	font-size: 2.1em;
+	padding: 120px 0 120px 0;
+	margin: 0;
+	text-align: center;
+	background: url(left_title_bg.jpg) no-repeat;
+}
+
+#main h2.h2_one {
+	padding: 0 0 0 20px;
+	margin: 0 28px 8px 28px;
+	color: #012579;
+	font-size: 1.3em;
+	background: url(color_swatch.png) no-repeat;
+	
+}
+
+#main h2.h2_two {
+	padding: 0 0 0 20px;
+	margin: 0 28px 8px 28px;
+	color: #B70400;
+	font-size: 1.3em;
+	background: url(color_swatch.png) no-repeat;
+}
+
+#main p.p1 {
+	padding: 0 32px 5px 32px;
+	color: #222;
+	font-size: 0.90em;
+	text-align: justify;
+}
+
+#main p.p2 {
+	padding: 2px 32px 15px 32px;
+	color: #222;
+	font-size: 0.90em;
+	text-align: justify;
+}
+
+#main ul {
+	margin: 0 45px 15px 32px;
+	padding: 0 45px;
+	list-style-image:url(asterisk_orange.gif);
+	font-size: 0.90em;
+}
+
+
+#extra1 {
+    float: left;
+    width: 500px;
+    display: inline;
+	height: 15px;
+	padding: 0;
+	margin: 0;
+	background: #FFF url(left_bottom_bg.gif) no-repeat;
+	border-bottom: 2px solid #777;
+	border-left: 2px solid #777;
+	border-right: 2px solid #777;
+}
+
+#sub {
+        float: right;
+        width: 200px;
+        display: inline;
+	padding: 0;
+	margin: 0;
+	background: #FFF url(right_bg.gif) repeat-y;
+	border-top: 1px solid #777;
+	border-left: 1px solid #777;
+	border-right: 1px solid #777;
+
+}
+
+#sub h2 {
+	color: #3F064D;
+	font-size: 1.8em;
+	width: 200px;
+	padding: 60px 0 40px 0;
+	margin: 0;
+	text-align: center;
+	background: url(right_title_bg.jpg) no-repeat;
+}
+
+#sub p.p1 {
+	padding: 0 22px 5px 22px;
+	margin: 0;
+	color: #222;
+	font-size: 0.90em;
+}
+
+#local {
+
+        float: right;
+        width: 200px;
+        display: inline;
+	padding: 0;
+	margin: 0;
+	background: #FFF url(right_bg.gif) repeat-y;
+	border-left: 1px solid #777;
+	border-right: 1px solid #777;
+
+}
+
+#local h2 {
+	padding: 10px 22px 5px 22px;
+	margin: 0; 
+}
+
+#local ul {
+	list-style: none;
+}
+
+#nav {
+
+        float: right;
+        width: 200px;
+        display: inline;
+	padding: 0;
+	margin: 0;
+	background: #FFF url(right_bg.gif) repeat-y;
+	border-left: 1px solid #777;
+	border-right: 1px solid #777;
+
+}
+
+
+
+
+#nav h2 {
+	padding: 0 22px 5px 22px;
+	margin: 0; 
+}
+
+.wrapper {
+	margin: 0;
+	padding: 0 0 25px 0;
+	background: url(right_bottom_bg.gif) bottom left no-repeat;
+}
+
+
+/*-- END CONTENT ------------------------------*/
+
+/*-- FOOTER ----------------------------------*/
+
+#footer {
+
+}
+
+/*-- END FOOTER -----------------------------*/
+
+/*-- EXTRAS ---------------------------------*/
+
+
+
+/*-- END EXTRAS -----------------------------*/
