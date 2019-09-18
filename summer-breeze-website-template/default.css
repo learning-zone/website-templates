@@ -1,0 +1,132 @@
+/*#############################################################
+Name: Summer Breeze
+Date: 2006-07-04
+Description: A lightweight colorful design, feels like summer!
+Author: Viktor Persson
+URL: http://arcsin.se
+
+Feel free to use and modify but please provide credits.
+#############################################################*/
+
+/* standard elements */
+* {
+	font: normal 1em "Lucida Sans Unicode",sans-serif;
+	margin: 0; padding: 0;
+}
+a {
+	color: #362;
+}
+a:hover, .footer a:hover {
+	color: #111;
+}
+body {	
+	background: #769359 url(img/bg.jpg) repeat-y center top;
+	color: #443;
+	font-size: 12px;
+	margin: 0;
+}
+p,cite,code,ul {
+	margin-bottom: 1.2em;
+}
+h1 {
+	font: normal 1.2em "Lucida Sans Unicode",sans-serif;
+}
+ul {
+	margin: 12px 0;
+}
+li {
+	list-style: url(img/li.gif);
+	margin-left: 18px;
+}
+code {
+	background: url(img/bgcode.gif);
+	border: 1px dotted #AAA;
+	color: #444;
+	display: block;
+	font: normal 1em "Lucida Sans Unicode",serif;
+	margin-bottom: 12px;
+	padding: 8px 10px;
+	white-space: pre;
+}
+
+cite {
+	display: block;
+	background: url(img/quote.gif) no-repeat;
+	color: #663;
+	font: normal 1.1em "Lucida Sans Unicode",serif;
+	padding-left: 28px;
+}
+
+/* misc */
+.divider {
+	background: url(img/divider.gif) no-repeat;
+	height: 24px;
+	margin: 16px 0;
+}
+.clearer {
+	clear: both;
+}
+
+/* structure */
+.container {
+	font-size: 1em;
+	margin: 0 auto;
+	width: 590px;
+}
+
+/* header */
+.header {
+	background: #597F93 url(img/header.jpg) no-repeat center top;
+	border-bottom: 1px solid #CCC;
+	height: 180px;
+	text-align: center;
+}
+.header h1 {
+	color: #FFF;
+	font: normal 3em "Trebuchet MS",sans-serif;
+	line-height: 180px;
+}
+
+/* navigation */
+.navigation {
+	height: 36px;
+	margin: 0 auto;
+	width: 632px;
+}
+.navigation a {
+	background: url(img/navigation.jpg) no-repeat;
+	color: #FFF;
+	float: left;
+	font: bold 1.2em serif;
+	height: 31px; 
+	letter-spacing: 1px;
+	line-height: 31px;
+	text-align: center;
+	text-decoration: none;
+	width: 120px;
+}
+.navigation a:hover {
+	color: #FFF;
+	background-position: left bottom;
+}
+
+/* content */
+.content {
+	padding: 18px 0;
+}
+.content h1 {
+	color: #553;
+	font-size: 1.4em;
+	margin-bottom: 4px;
+}
+
+/* footer */
+.footer {
+	color: #886;
+	font-size: 0.9em;
+	padding-bottom: 12px;
+	text-align: center;
+}
+.footer a {
+	color: #664;
+}
