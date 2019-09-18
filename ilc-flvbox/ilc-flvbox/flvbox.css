@@ -1,0 +1,24 @@
+.flvbox img{
+	background-color:#CCCCCC;
+	border:5px solid #DDDDDD;
+	padding: 1px;
+}
+a.flvbox {
+	background:none !important;
+	border-bottom:none !important;
+}
+a.flvbox:hover{
+	border-bottom: 1px dotted #d00 !important;
+}
+.ilc_flvbox_inlineimg{
+	margin:0 auto;
+	position:relative;
+	width:50%;
+}
+.ilc_flvbox_play{
+	background: url(play.gif) no-repeat top left #000;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	width: 40px; height:40px;
+}							
