@@ -1,0 +1,475 @@
+/*
+
+Theme Name: SweetBuzz Blue
+
+Theme URI: http://www.darjanpanic.com
+
+Description: SweetBuzz Blue designed and coded by Brian Green and Darjan Panic. 
+
+Version: 1.0
+
+Author: Brian Green and Darjan Panic
+
+*/
+
+
+
+html {
+	height: 100%;
+
+}
+body {
+	padding-left: 30px;
+	margin-left: 30px;
+	background: url(images/bg2.gif) #202020 repeat-y ;
+	margin: 0px;
+	height: 100%;
+	color: #cccccc;
+	font-size:11px;
+	font-family: "arial";
+}
+
+#container {
+
+text-align: left;
+}
+#header {
+width: 965px;
+height: 210px;
+background: url(images/hbg.gif) no-repeat;
+}
+
+#content {
+width: 965px;
+}
+
+#footer {
+width: 965px;
+height: 150px;
+background: url(images/fbg.jpg) no-repeat;
+	color: #ffffff;
+	font-size:10px;
+	font-family: "trebuchet MS";
+}
+#footernote {
+float: right;
+text-align: right;
+height: 30px;
+margin-right: 80px;
+margin-top: 110px;
+}
+
+#title {
+float: left;
+width: 300px;
+height: 65px;
+margin-left: 20px;
+color: #ffffff;
+font-family: Geneva, Arial, Helvetica, sans-serif;
+font-size: 12px;
+}
+
+#title a:link {
+color: #8DC63F;
+font-family: "Trebuchet ms";
+font-size: 30px;
+text-decoration: none;
+}
+#title a:visited {
+color: #8DC63F;
+font-family: "Trebuchet ms";
+font-size: 30px;
+text-decoration: none;
+}
+#title a:hover {
+color: #8DC63F;
+font-family: "Trebuchet ms";
+font-size: 30px;
+text-decoration: underline;
+}
+
+#headerright {
+float: right;
+width: 450px;
+height: 210px;
+}
+#headerleft {
+float: left;
+width: 480px;
+height: 210px;
+}
+#search {
+float: right;
+width: 250px;
+height: 30px;
+margin-top: 170px;
+margin-right: 70px;
+text-align: right;
+}
+
+.searchbox {
+border: 1px solid #ffffff;
+background: url(images/sbg.gif) repeat-x; 
+color: #ffffff;
+font-size: 10px;
+font-family: verdana;
+padding: 4px;
+}
+
+.textarea {
+border: 1px solid #ffffff;
+color: #ffffff;
+font-size: 10px;
+font-family: verdana;
+padding: 4px;
+background: #8DC63F;
+}
+.searchbutton {
+  width: 64px;
+  height: 27px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent url(images/search.gif) no-repeat center top;
+  text-indent: -1000em;
+  cursor: pointer; /* hand-shaped cursor */
+  cursor: hand; /* for IE 5.x */
+}
+.submitcomment {
+  width: 119px;
+  height: 27px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  background: transparent url(images/submitcomment.gif) no-repeat center top;
+  text-indent: -1000em;
+  cursor: pointer; /* hand-shaped cursor */
+  cursor: hand; /* for IE 5.x */
+}
+
+#comment-1 {
+  margin: 0px;
+  padding: 0px;
+}
+
+#comment-2 {
+  margin: 0px;
+    padding: 0px;
+  background: #343434;
+}
+#center {
+width: 470px;
+float: left;
+}
+#sidebar {
+float: right;
+width: 485px;
+
+}
+#left {
+
+float: left;
+width: 240px;
+border-left: 1px solid #8DC63F;
+list-style: none;
+}
+
+#left p{
+
+margin:10px;
+}
+
+#left img { 
+    float: left; 
+    margin: 5px; 
+}
+
+
+
+#right {
+float: right;
+width: 240px;
+border-left: 1px solid #8DC63F;
+}
+
+
+a:link {
+color: #8DC63F;
+text-decoration: none;
+}
+a:visited {
+color: #8DC63F;
+text-decoration: none;
+
+}
+a:hover {
+color: #8DC63F;
+text-decoration: underline;
+
+}
+
+.meta {
+	padding-left: 10px;
+	padding-right: 10px;
+	background: url(images/meta.gif);
+	line-height: 30px;
+}
+
+blockquote {
+border-left: 4px solid #8DC63F;
+color: #ffffff;
+}
+blockquote p {
+margin: 5px;
+}
+
+h1 {
+padding-left: 10px;
+display:block;
+margin: 0px;
+font-family: "trebuchet ms";
+font-size: 20px;
+
+}
+
+h1 a:link {
+font-family: "trebuchet ms";
+font-size: 20px;
+text-decoration: none;
+}
+h1 a:visited {
+font-family: "trebuchet ms";
+font-size: 20px;
+text-decoration: none;
+}
+h1 a:hover {
+font-family: "trebuchet ms";
+font-size: 20px;
+text-decoration: underline;
+}
+
+h2 {
+font-family: "trebuchet ms";
+font-size: 18px;
+width: 213px;
+height: 37px;
+line-height: 37px;
+background: url(images/h2.gif) no-repeat;
+padding-left: 15px;
+padding-right: 10px;
+list-style-image: none;
+font-weight: lighter;
+}
+
+#left li {
+list-style-image: url(images/b1.gif) ;
+line-height: 14px;
+margin-left: 45px;
+}
+#left ul {
+margin-left: 5px;
+padding: 0px;
+}
+.page_item li {
+list-style-image: url(images/b3.gif) ;
+margin-left: 15px;
+padding: 0px;
+}
+
+#wp-calendar {
+text-align: center;
+padding-left: 20px;
+}
+
+::-moz-selection{
+	background:#8DC63F;
+	color:#ffffff;
+}
+
+::selection {
+	background:#8DC63F;
+	color:#ffffff;
+}
+
+code::-moz-selection {
+	background: #8DC63F;
+}
+
+code::selection {
+	background: #8DC63F;
+}
+
+#linkcat-1 ul {
+list-style-image: url(images/b4.gif) ;
+margin-left: 40px;
+padding: 0px;
+line-height: 14px;
+}
+
+.categories {
+line-height: 18px;
+list-style: none;
+margin-left: 10px;
+padding: 0px;
+}
+
+.categories ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+}
+
+.categories a:link {
+font-family: tahoma;
+padding-left: 25px;
+display:block;
+width: 200px;
+color: #ffffff;
+background: url(images/menu1.gif) no-repeat;
+}
+.categories a:visited {
+padding-left: 25px;
+display:block;
+width: 200px;
+color: #ffffff;
+background: url(images/menu1.gif) no-repeat;
+}
+.categories a:hover {
+background: url(images/menu1.gif) no-repeat;
+background-position: 0px -18px;
+}
+
+.children  a:link {
+font-family: tahoma;
+padding-left: 25px;
+display:block;
+color: #ffffff;
+background: url(images/menu2.gif) no-repeat;
+}
+.children  a:visited {
+padding-left: 25px;
+display:block;
+color: #ffffff;
+background: url(images/menu2.gif) no-repeat;
+}
+.children a:hover {
+background: url(images/menu2.gif) no-repeat;
+background-position: 0px -18px;
+}
+
+.archives {
+display: block;
+line-height: 18px;
+list-style: none;
+margin-left: 10px;
+padding: 0px;
+
+}
+.archives ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+}
+.archives li {
+list-style: none;
+margin: 0px;
+padding: 0px;
+}
+
+.archives a:link {
+width: 200px;
+font-family: tahoma;
+padding-left: 25px;
+display:block;
+color: #ffffff;
+background: url(images/menu3.gif) no-repeat;
+}
+.archives a:visited {
+width: 200px;
+padding-left: 25px;
+display:block;
+color: #ffffff;
+background: url(images/menu3.gif) no-repeat;
+}
+.archives a:hover {
+width: 200px;
+background: url(images/menu3.gif) no-repeat;
+background-position: 0px -18px;
+}
+
+
+.metaa {
+text-align: right;
+line-height: 18px;
+list-style: none;
+margin-right: 10px;
+padding: 0px;
+}
+
+#feed {
+width: 65px;
+height: 65px;
+float: right;
+margin-top: 34px;
+}
+
+#post {
+margin: 0px;
+padding: 0px;
+}
+
+.storycontent {
+padding-left:5px;
+margin-left:5px;
+padding-right:5px;
+margin-right:5px;
+}
+
+#bullet1 li {
+list-style-image: url(images/b1.gif) ;
+line-height: 14px;
+margin-left: 45px;
+}
+#bullet1 ul {
+margin-left: 5px;
+padding: 0px;
+}
+
+#bullet2 li {
+list-style-image: url(images/b2.gif) ;
+line-height: 14px;
+margin-left: 45px;
+}
+#bullet2 ul {
+margin-left: 5px;
+padding: 0px;
+}
+
+#bullet3 li {
+list-style-image: url(images/b3.gif) ;
+line-height: 14px;
+margin-left: 45px;
+}
+#bullet3 ul {
+margin-left: 5px;
+padding: 0px;
+}
+
+#bullet4 li {
+list-style-image: url(images/b4.gif) ;
+line-height: 14px;
+margin-left: 45px;
+}
+#bullet4 ul {
+margin-left: 5px;
+padding: 0px;
+}
+#bullet5 li {
+list-style-image: url(images/b5.gif) ;
+line-height: 14px;
+margin-left: 45px;
+}
+#bullet5 ul {
+margin-left: 5px;
+padding: 0px;
+}
