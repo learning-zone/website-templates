@@ -1,0 +1,551 @@
+/**************************************************************
+   Visit FullAhead.org and studio7designs.com for more layouts and downloads for this template!
+ **************************************************************/
+ 
+/**************************************************************
+   All page content except for footer
+ **************************************************************/
+
+#content {
+  position: relative;
+  height: auto !important;
+  height: 100%;
+  min-height: 100%;
+}
+
+
+
+/**************************************************************
+   Topbar with newsletter form and theme change buttons
+ **************************************************************/
+
+#topbar {
+  float: left;
+  width: 100%;
+  padding: 0.6em 0;
+
+  font-size: 0.9em;
+  text-transform: uppercase;
+
+  color: #CFD9DB;
+  background: #FFF url(../images/bg/topbar.gif) repeat-x bottom left;
+}
+
+
+
+/**************************************************************
+   Top menu and logo
+ **************************************************************/
+
+#header {
+	clear: both;
+	position: relative;
+	height: 5em;
+	margin: 0 auto;
+	background: #48525B url(../images/bg/header.gif) repeat-x bottom left;
+	border-bottom: 2px solid #48525B;
+	background-color: #48525B;
+}
+
+
+#header img {
+  position: absolute;
+  top: 5%;
+  left: 10px;
+}
+
+#header ul {
+  margin: 3.5em 1em 0 0 !important;
+  margin: 3.5em 0.5em 0 0;
+  padding: 0;
+  float: right;
+}
+
+#header ul li {
+  display: inline;
+  list-style: none;
+}
+
+#header ul li a {
+  float: left;
+  padding: 0 1em;
+
+  font: 400 1.1em arial, sans-serif;
+  letter-spacing: 0.1em;
+  line-height: 0.8em !important;
+  line-height: 1em;
+
+  color: #cccccc;
+  border-right: 1px solid #4D5760;
+}
+
+#header ul li a.last {
+  padding-right: 0;
+  border-right: 0;
+}
+
+#header ul li a:hover {
+  color: #3B5D77;
+}
+
+
+
+/**************************************************************
+   Header Image/Flash Movie
+ **************************************************************/
+
+#headerImg {
+  margin: 0 auto;
+  height: 143px;
+  background: url(../images/bg/header_image.jpg) no-repeat top left;
+}
+
+
+
+
+
+/**************************************************************
+   Top Block Menu
+ **************************************************************/
+
+#menu {
+  margin: 0 auto;
+}
+
+#menu ul {
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 0;
+
+  text-align: left;
+  background: #3B5D77 url(../images/bg/menu.gif) repeat-x top left;
+}
+
+#menu ul li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#menu ul li a {
+  float: left;
+  width: 25%;
+  height: 4.5em;
+
+  font: 400 1.2em arial, sans-serif;
+  letter-spacing: 0.1em;
+
+  color: #fff;
+
+  border-top: 7px solid #41637D;
+  border-bottom: 15px solid #FFF;
+}
+
+#menu ul li a span {
+  display: block;
+  padding: 2px 7px;
+}
+
+
+#menu ul li a span.desc {
+  font-size: 0.8em;
+  color: #8C8D94;
+}
+
+
+#menu ul li a:hover,
+#menu ul li a.here {
+  background: #4A5C6A;
+  border-top: 7px solid #455660;
+}
+
+#menu ul li a:hover span.desc,
+#menu ul li a.here span.desc {
+  color: #FFF;
+}
+
+
+/* Top menu icons */
+#menu ul li a span.speaker {
+  padding-left: 22px;
+  background: url(../images/icons/speaker.gif) no-repeat 5px 50%;
+}
+
+#menu ul li a:hover span.speaker {
+  background: url(../images/icons/speaker_on.gif) no-repeat 5px 50%;
+}
+
+#menu ul li a span.bubble {
+  padding-left: 24px;
+  background: url(../images/icons/bubble.gif) no-repeat 4px 4px;
+}
+
+#menu ul li a:hover span.bubble {
+  background: url(../images/icons/bubble_on.gif) no-repeat 4px 4px;
+}
+
+#menu ul li a span.heart {
+  padding-left: 20px;
+  background: url(../images/icons/heart.gif) no-repeat 3px 50%;
+}
+
+#menu ul li a:hover span.heart {
+  background: url(../images/icons/heart_on.gif) no-repeat 3px 50%;
+}
+
+
+#menu ul li a span.dollar {
+  padding-left: 20px;
+  background: url(../images/icons/dollar.gif) no-repeat 4px 50%;
+}
+
+#menu ul li a:hover span.dollar {
+  background: url(../images/icons/dollar_on.gif) no-repeat 4px 50%;
+}
+
+
+
+
+/**************************************************************
+   Page Content
+ **************************************************************/
+
+#page {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-bottom: 6em;
+  text-align: left;
+}
+
+#columns {
+  margin: 0 auto;
+}
+
+
+/* Column widths */
+.width {
+  width: 776px;
+}
+
+.widthPad {
+  width: 746px;
+}
+
+.width25 {
+  width: 24%;
+}
+
+.width50 {
+  width: 48%;
+}
+
+.width73 {
+  width: 73%;
+}
+
+.width75 {
+  width: 75%;
+}
+
+.width100 {
+  width: 100%;
+}
+
+
+/**************************************************************
+   Footer
+ **************************************************************/
+
+
+#footer {
+  clear: both;
+  float: left;
+  width: 100%;
+  height: 5em;
+  margin-top: -5em;
+}
+
+#footer #bg {
+  position: relative;
+  height: 5em;
+  margin: 0 auto;
+  background: #49525B url(../images/bg/header.gif) repeat-x bottom left;
+}
+
+#footer #bg ul {
+  float: right;
+  margin: 3em 1em 0 0 !important;
+  margin: 3em 0.5em 0 0;
+  padding: 0;
+}
+
+#footer #bg ul li {
+  display: inline;
+  list-style: none;
+}
+
+#footer #bg ul li a {
+  float: left;
+  padding: 0 1em;
+
+  font: 400 1em arial, sans-serif;
+  letter-spacing: 0.1em;
+  line-height: 0.8em !important;
+  line-height: 1em;
+
+  color: #4D5760;
+  border-right: 1px solid #4D5760;
+}
+
+#footer #bg ul li a.last {
+  padding-right: 0;
+  border-right: 0;
+}
+
+#footer #bg ul li a:hover {
+  color: #6C0;
+}
+
+#footer #bg img {
+  position: absolute;
+  top: 6%;
+  left: 10px;
+}
+
+
+
+/**************************************************************
+   Icons specific to the colour theme
+ **************************************************************/
+
+a.lightTheme img,
+a.darkTheme img,
+a.submitButton img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+a.lightTheme img {
+  background: url(../images/icons/light_light_theme.gif) no-repeat center center;
+}
+
+a.darkTheme img {
+  background: url(../images/icons/light_dark_theme.gif) no-repeat center center;
+}
+
+a.submitButton img {
+  background: url(../images/icons/light_submit.gif) no-repeat center center;
+}
+
+
+/**************************************************************
+   Posts
+ **************************************************************/
+
+.post {
+  float: left;
+  width: 100% !important;
+  width: 99%;
+  position: relative;
+
+  margin-bottom: 1.5em;
+
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.post .date {
+  position: absolute;
+  top: 0;
+  left: 5px;
+
+  width: 2.3em;
+  text-align: right;
+}
+
+.post .date .month {
+  text-transform: uppercase;
+  font: 700 1.0em arial, sans-serif;
+  color: #888;
+}
+
+.post .date .day {
+  display: block;
+  margin-top: -5px;
+  font: 700 2.1em arial, sans-serif;
+  color: #888;
+}
+
+.post .title {
+  display: block;
+  padding: 0 0 5px 0;
+
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #586B7A;
+}
+
+.post p {
+  margin: 0 0 0 3.5em;
+  padding:  0 0 1em 1.2em;
+  border-left: 1px solid #CCCCCC;
+}
+
+
+
+/**************************************************************
+   Thumbnail Lists
+ **************************************************************/
+
+ul.thumbs,
+ul.thumbs li {
+  margin: 0;
+  padding: 0;
+}
+
+ul.thumbs li {
+  margin: 0 0 15px 0 !important;
+  margin: 0;
+  padding: 0px;
+  list-style: none;
+}
+
+a.thumb img {
+  
+  border: 5px solid #ccc;
+}
+
+a:hover.thumb img {
+  background: #8EB4C6;
+  border: 5px solid #668FA3;
+}
+
+a:hover.thumb {
+  background: none;
+}
+
+a.thumb span {
+  display: block;
+  margin-top: -5px !important;
+  margin-top: -2px;
+}
+
+
+
+/**************************************************************
+   Submenu Styles
+ **************************************************************/
+
+ul.submenu1,
+ul.submenu2 {
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+ul.submenu1 li,
+ul.submenu2 li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  list-style-image: url(foo.gif); /* because IE is balls */
+}
+
+ul.submenu1 li a,
+ul.submenu2 li a {
+  display: block;
+  height: auto !important;
+
+  /* Start hide from IE Mac \*/
+  height: 1%;
+  /* End hide from IE Mac */
+
+  padding: 1px 5px 1px 20px;
+}
+
+ul.submenu1 li a {
+  background: url(../images/bg/submenu1.gif) no-repeat 5px 50%;
+}
+
+ul.submenu1 a:hover {
+  color: #426F85;
+  background: #B3C6C4 url(../images/bg/submenu1.gif) no-repeat 5px 50%;
+}
+
+ul.submenu2 li a {
+  color: #426F85;
+  background: url(../images/bg/submenu2.gif) no-repeat 3px 50%;
+}
+
+ul.submenu2 a:hover {
+  color: #426F85;
+  background: #B3C6C4 url(../images/bg/submenu2.gif) no-repeat 3px 50%;
+}
+
+
+
+
+
+
+/**************************************************************
+   Generic Display 
+ **************************************************************/
+
+
+.block {
+  display: block;
+}
+
+.clear {
+  clear: both;
+}
+
+.marginRight {
+  margin-right: 15px;
+}
+
+.paddingLeft {
+  padding-left: 5px;
+}
+
+.paddingRight {
+  padding-right: 5px;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.floatRight {
+  float: right;
+}
+
+.alignLeft {
+  text-align: left;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+.alignTop {
+  vertical-align: top;
+}
+
+.alignMiddle {
+  vertical-align: middle;
+}
+
+.alignBottom {
+  vertical-align: bottom;
+}
+
+.lightBlueBg {
+  background-color: #EAF2F5;
+}
+
+.dark {
+  color: #353E47;
+}

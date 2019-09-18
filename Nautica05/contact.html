@@ -1,0 +1,263 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+
+
+  <title>Nautica 05 Contact Layout</title>
+
+  <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+  <meta name="author" content="fullahead.org - studio7designs.com" />
+  <meta name="description" content="Site Description Here" />
+  <meta name="keywords" content="keywords, here" />
+  <meta name="robots" content="index, follow, noarchive" />
+  <meta name="googlebot" content="noarchive" />
+
+  <link rel="stylesheet" type="text/css" href="css/layout.css" media="screen, projection, tv " />
+  <link rel="stylesheet" type="text/css" href="css/html.css" media="screen, projection, tv " />
+
+  <!-- CSS specific to current theme -->
+  <link rel="stylesheet"           type="text/css" href="css/light.css" title="light" media="screen, projection, tv " />
+  <link rel="alternate stylesheet" type="text/css" href="css/dark.css"  title="dark"  media="screen, projection, tv " />
+
+</head>
+
+<body>
+
+<!-- #content: holds all except site footer - causes footer to stick to bottom -->
+<div id="content">
+
+  <!-- #header: holds the logo and top links -->
+  <div id="header" class="width">
+
+    <img src="images/logo.gif" alt="Your logo goes here"/>
+
+    <ul>
+      <li><a href="index.html">Back to Main page</a></li>
+      <li><a href="">About us</a></li>
+      <li><a href="">Streaming Video</a></li>
+      <li><a href="" class="last">RSS Feeds</a></li>
+    </ul>
+
+  </div>
+  <!-- #header end -->
+
+
+  <!-- #headerImg: holds the main header image or flash -->
+  <div id="headerImg" class="width"></div>
+
+
+
+
+  <!-- #menu: the main large box site menu -->
+  <div id="menu" class="width">
+
+    <ul>
+      <li>
+        <a href="onecol.html" onfocus="blur()">
+          <span class="title ">One Column Layout</span>
+          <span class="desc">View the included layout</span>        </a>      </li>
+      <li>
+        <a href="twocol_a.html" class="forum" onfocus="blur()">
+          <span class="title ">Two Column Layout A</span>
+          <span class="desc style3">View the included layout</span>        </a>      </li>
+      <li>
+        <a href="twocol_b.html" onfocus="blur()">
+          <span class="title ">Two Column Layout B</span>
+          <span class="desc">View the included layout</span>
+        </a>
+      </li>
+      <li>
+        <a href="contact.html" onfocus="blur()">
+          <span class="title ">Contact Us Layout</span>
+          <span class="desc">View the included layout</span>
+        </a>
+      </li>
+    </ul>
+
+  </div>
+  <!-- #menu end -->
+
+
+
+  <!-- #page: holds the page content -->
+  <div id="page">
+
+
+    <!-- #columns: holds the columns of the page -->
+    <div id="columns" class="widthPad">
+
+
+    <!-- Left column -->
+    <div class="floatLeft width25 lightBlueBg horzPad">
+
+      <h2>Details</h2>
+
+      <p>
+        Please make sure your info is correct, otherwise we can't get back to you.
+      </p>
+
+      <ul>
+        <li>613.555.5555</li>
+        <li><a href="">info@yourname.com</a></li>
+      </ul>
+
+      <p>
+	    Nulla commodo. In nunc justo, mollis sed, gravida at, aliquam sit amet, urna. Nulla commodo. In pharetra justo eget turpis. Nulla commodo.
+	  </p>
+
+
+
+    </div>
+    <!-- Left column end -->
+
+
+    <!-- Right column -->
+    <div class="floatRight width73">
+
+      <h1>Contact <span class="dark">Us</span></h1>
+
+      <p>
+	    Nulla commodo. In nunc justo, mollis sed, gravida at, aliquam sit amet, urna. Nulla commodo. In pharetra justo eget turpis. Nulla commodo. In pharetra justo eget turpis.  In nunc justo, mollis sed, gravida at, <a href="">aliquam sit</a> amet, urna.
+	  </p>
+
+      <form id="contact" action="" method="post" onsubmit="return configForm(this);" style="position: relative; z-index: 1;">
+
+
+
+        <p>
+          <input type="text" name="name" value="Name" class="width75" onfocus="clearValue(this, 'Name');" onblur="fillValue(this, 'Name');"/>
+        </p>
+
+        <p>
+          <input type="text" name="email" value="E-mail" class="width75" onfocus="clearValue(this, 'E-mail');" onblur="fillValue(this, 'E-mail');"/>
+        </p>
+
+        <p>
+          <input type="text" name="subject" value="Subject" class="width75" onfocus="clearValue(this, 'Subject');" onblur="fillValue(this, 'Subject');"/>
+        </p>
+
+        <p>
+          <textarea name="message" rows="5" cols="80" onfocus="clearValue(this, 'Message');" onblur="fillValue(this, 'Message');">Message</textarea>
+        </p>
+
+        <p>
+          <input type="submit" value="SEND" class="button" />
+          <input type="reset" value="RESET" class="button" />
+        </p>
+
+        <p>&nbsp;
+          
+        </p>
+
+
+
+        <h1>Example Form <span class="dark">Elements</span></h1>
+
+
+
+            <p>
+              <label>Input Heading</label>
+              <input type="text" name="input1" class="width50"/>
+            </p>
+
+            <p>
+              <label>Input Heading</label>
+              <input type="text" name="input2" class="width50"/>
+            </p>
+
+            <p>
+              <label>Textarea Heading</label>
+              <textarea name="textarea" rows="5" cols="60"></textarea>
+            </p>
+
+            <p>
+              <label>Select Heading</label>
+              <select name="select">
+                <option value="1">Value One</option>
+                <option value="2">Value Two</option>
+              </select>
+            </p>
+
+
+
+
+            <p>
+              <label>Radio Button Group</label>
+              <input type="radio" name="radioGroup" value="1" class="radio"/> One
+              <input type="radio" name="radioGroup" value="2" class="radio"/> Two
+              <input type="radio" name="radioGroup" value="3" class="radio"/> Three
+              <input type="radio" name="radioGroup" value="4" class="radio"/> Four
+            </p>
+
+
+            <p>
+              <label>Checkbox Group</label>
+              <input type="checkbox" name="checkGroup" value="1" class="radio"/> One
+              <input type="checkbox" name="checkGroup" value="2" class="radio"/> Two
+              <input type="checkbox" name="checkGroup" value="3" class="radio"/> Three
+              <input type="checkbox" name="checkGroup" value="4" class="radio"/> Four
+            </p>
+
+
+            <div class="lightBlueBg">
+
+            <h2>Different Style Checkbox Group</h2>
+            <p>
+              <input type="checkbox" name="checkGroup" value="1" class="radio"/> A Choice<br/>
+              <input type="checkbox" name="checkGroup" value="2" class="radio"/> Another Choice<br/>
+              <input type="checkbox" name="checkGroup" value="3" class="radio"/> Maybe this is a better choice<br/>
+              <input type="checkbox" name="checkGroup" value="4" class="radio"/> Other <input type="text" name="other" class="width33"/>
+            </p>
+
+            </div>
+
+
+
+      </form>
+
+
+
+
+    </div>
+    <!-- Right column end -->
+
+
+    </div>
+    <!-- #columns end -->
+
+  </div>
+  <!-- #page end -->
+
+</div>
+<!-- #content end -->
+
+
+
+
+<!-- #footer: holds the site footer (logo and links) -->
+<div id="footer">
+
+  <!-- #bg: applies the site width and footer background -->
+  <div id="bg" class="width">
+
+    <img src="images/logo.gif" alt="Your logo goes here"/>
+
+    <ul>
+      <li><a href="">Sitemap</a></li>
+      <li><a href="">Register</a></li>
+      <li><a href="">Design inspired by</a></li>
+      <li><a href="http://www.studio7designs.com" class="last">studio7designs.com</a></li>
+	</ul>
+
+  </div>
+  <!-- #bg end -->
+
+</div>
+<!-- #footer end -->
+
+</body>
+
+</html>

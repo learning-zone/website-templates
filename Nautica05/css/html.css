@@ -1,0 +1,203 @@
+/**************************************************************
+   Visit FullAhead.org and studio7designs.com for more layouts and downloads for this template!
+ **************************************************************/
+
+/*********************************************************
+   HTML Elements
+ *********************************************************/
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: url(../images/bg/light_body.gif) repeat-y top center;
+  font: 400 0.7em verdana, arial, sans-serif;
+  line-height: 170%;
+  
+  color: #555;
+}
+
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+
+h1 {
+  padding-bottom: 0.2em;
+
+  font: 400 1.6em arial, sans-serif;
+  color: #536C71;
+  border-bottom: 12px solid #ddd;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: #586B7A;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 0.9em;
+  color: #5D6F73;
+}
+
+h4 {
+  font-size: 0.85em;
+}
+
+h5 {
+  font-size: 0.8em;
+}
+
+
+/* Needed to horizontally pad in a coloured container */
+.horzPad h1,
+.horzPad h2,
+.horzPad h3,
+.horzPad h4,
+.horzPad h5,
+.horzPad p {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #3B5D77;
+}
+
+a:hover {
+  color: #668FA3;
+}
+
+a img {
+  border: 0;
+}
+
+a img.border {  
+  border: 1px solid #FC3307;
+}
+
+a:hover img.border {  
+  /* Fixes IE bug - IE doesn't correctly apply the style on a:hover so need to mask it */
+  border: 1px solid #668FA3 !important;
+  border: 1px solid #FC3307;
+}
+
+
+
+/* Images */
+img.floatRight {
+  margin: 5px 0 10px 10px;
+}
+
+img.floatLeft {
+  margin: 5px 10px 10px 0;
+}
+
+
+
+/* Lists */
+ul li {
+  list-style-image: url(../images/bg/submenu1.gif);
+}
+
+ol li {
+  font-weight: bold;
+  color: #668FA3;
+}
+
+ol li span {
+  font-weight: normal;
+  color: #444;
+}
+
+
+
+/* Blockquote */
+blockquote {
+  margin: 0;
+  padding: 0 20px;
+  background: #E7F1F3;
+  border-top: 1px solid #AAD3DB;
+  border-bottom: 1px solid #AAD3DB;
+}
+
+
+
+/**************************************************************
+   Form Elements
+ **************************************************************/
+
+form {
+  padding: 0;
+  margin: 0;
+}
+
+/* If you're finding the input elements get pushed down, increase the width */
+label {
+  float: left;
+  width: 25%;
+  vertical-align: top;
+}
+
+input,
+textarea,
+select {
+  padding: 1px;
+  font: 400 1em verdana, sans-serif;
+  color: #999;
+  background: #EEE;
+  border: 1px solid #CCC;
+}
+
+input:focus,
+input:hover,
+textarea:focus,
+textarea:hover,
+select:focus,
+select:hover {
+  color: #000;
+  background: #E7F1F3;
+  border: 1px solid #888;
+}
+
+input.noBorder,
+input:focus.noBorder,
+input:hover.noBorder {
+  padding: 0;
+  border: 0;
+}
+
+input.button {
+  padding: 2px 5px;
+
+  font: 400 0.9em verdana, serif;
+  cursor: pointer;
+
+  color: #fff;
+  background: #FC3307;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #FF7800 #691300 #691300 #FF7800;
+}
+
+input.radio {
+  background: none;
+  border: 0px;
+}
+
+
+
+
+
