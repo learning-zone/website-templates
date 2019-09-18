@@ -1,0 +1,141 @@
+/*#############################################################
+Name: Dark Ritual
+Date: 2006-11-06
+Description: Tribal-style three column layout.
+Author: Viktor Persson
+URL: http://templates.arcsin.se
+
+Feel free to use and modify but please provide credits.
+#############################################################*/
+
+/* standard elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {color: #682;}
+
+a:hover {color: #9A6;}
+
+body {
+	background: #333 url(img/bg.gif);
+	color: #333;
+	font: normal 62.5% "Lucida Sans Unicode",sans-serif;
+	margin: 3% 0;
+}
+
+p,ul {
+	padding-bottom: 1em;
+}
+
+ul {margin-left: 1.2em;}
+
+li {list-style: none;}
+.main li {list-style-image: url(img/li.gif);}
+
+h1 {font-size: 1.2em;}
+
+blockquote {
+	background: #FFF;
+	border-bottom: 1px solid #EEE;
+	border-top: 1px solid #EEE;
+	color: #333;
+	display: block;
+	font-size: 0.9em;
+	margin-bottom: 1.2em;
+	padding: 6px 12px;
+}
+blockquote p {padding: 3px 0;}
+
+h1,h2,h3 {color: #994;}
+
+/* misc */
+.clearer {clear: both;}
+.main_right .padded {padding: 6px 2px 6px 16px;}
+.main .padded {padding: 18px 24px;}
+.meta {font-size: 0.8em; color: #666;}
+.left {float: left;}
+.right {float: right;}
+
+/* structure */
+.container {
+	font-size: 1.2em;
+	background: url(img/bgcontainer.gif) repeat-y;
+	margin: 0 auto;
+	width: 840px;
+	border: 12px solid #222;
+}
+
+/* header */
+.header {
+	float: left;
+	width: 640px;
+	background: url(img/header.jpg) no-repeat;
+	font: normal 2.4em Verdana,sans-serif;
+	line-height: 150px;
+	text-align: center;	
+}
+
+/* structure */
+.top {
+	background: #222;
+	color: #DDD;
+	float: left;
+	font: normal 1.4em Verdana;
+	height: 50px;
+	text-align: center;
+	width: 639px;
+}
+.subnav {
+	float: left;
+	width: 160px;
+}
+.main {
+	float: left;
+	width: 480px;
+}
+.main_right {
+	float: right;
+	width: 200px;
+	color: #CCC;
+}
+
+/* sub-navigation */
+.subnav h1 {
+	background: #222;
+	color: #FFE;
+	font: bold 1.1em Verdana,sans-serif;
+	line-height: 24px;
+	padding-left: 8px;
+}
+.subnav ul {margin: 0; padding: 0;}
+.subnav li {
+	border-bottom: 1px solid #696755;
+	list-style: none;
+}
+.subnav li a {
+	background: #89866F;	
+	color: #111;
+	display: block;
+	padding: 8px 0 8px 12px;
+	width: 148px;
+	text-decoration: none;
+}
+.subnav li a:hover {
+	background: #9C997C;
+	color: #000;
+}
+
+/* footer */
+.footer {
+	background: url(img/bgfooter.gif) repeat-x;
+	color: #CCC;
+	font-size: 0.9em;
+	line-height: 39px;
+	width: 100%;
+	text-align: center;
+}
+.footer .left,.footer .right {padding: 0 16px;}
+.footer a {color: #EEE;}
+.footer a:hover {color: #FAFCB0;}
