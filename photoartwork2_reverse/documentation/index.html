@@ -1,0 +1,221 @@
+<!DOCTYPE HTML>
+<html>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <title>PhotoArtWork2_reverse Template</title>
+  <style type="text/css" media="screen">
+    p, table, hr, .box { font-family: arial; margin-bottom:25px; }
+    .box p { margin-bottom:10px; }
+  </style>
+</head>
+
+
+<body>
+  <div>
+
+    <h1>&ldquo;PhotoArtWork2_reverse&rdquo; Template Documentation</h1>
+
+    <p><strong>Template version: 2.0<br />Created: May 20th, 2012</strong></p>
+
+    <div>
+      <p>Thank you for downloading this template.</p>
+      <p>This template is released under a <a href="http://creativecommons.org/licenses/by/3.0">Creative Commons Attribution 3.0 Licence</a>. This means you are free to download and use it for personal and commercial projects. However, you <strong>must leave the 'design from css3templates.co.uk' link in the footer of the template</strong>.</p>
+      <p>If you have any questions that are beyond the scope of this help file, please feel free to contact me via my <a href="http://www.css3templates.co.uk">website</a>. Thank you!</p>
+    </div>
+
+    <hr>
+
+    <h2 id="toc">Table of Contents</h2>
+    <ol>
+      <li><a href="#htmlStructure">HTML Structure</a></li>
+      <li><a href="#cssFiles">CSS Files and Structure</a></li>
+      <li><a href="#fontFiles">Fonts</a></li>
+      <li><a href="#javascript">JavaScript</a></li>
+      <li><a href="#psdFiles">PSD Files</a></li>
+      <li><a href="#credits">Sources and Credits</a></li>
+      <li><a href="#galleries">Gallery Pages</a></li>
+    </ol>
+
+    <hr>
+
+    <h3 id="htmlStructure"><strong>A) HTML Structure</strong> - <a href="#toc">top</a></h3>
+    <p>This theme is a fixed layout with two columns (apart from the image gallery pages, which have a different html structure - you can see additional information for the gallery pages <a href="#galleries">here</a>). The left content is contained within a div with an id of "left_content" and the right content is contained within a div with an id of "right_content". Here is the general two column structure.</p>
+
+    <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;!-- Header Metatags --&gt;
+  &lt;!-- Main Stylesheet / Light Theme --&gt;
+  &lt;!-- Modernizr JS Enables HTML5 Elements --&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div id=&quot;main&quot;&gt;
+    &lt;!-- begin header --&gt;
+    &lt;header&gt;
+      &lt;div id=&quot;logo&quot;&gt;&lt;h1&gt;&lt;/h1&gt;&lt;/div&gt;
+      &lt;nav&gt;
+        &lt;!-- menu --&gt;
+      &lt;/nav&gt;
+    &lt;/header&gt;
+    &lt;!-- end header --&gt;
+    &lt;!-- begin content --&gt;
+    &lt;div id=&quot;site_content&quot;&gt;
+      &lt;div class=&quot;left_content&quot;&gt;&lt;/div&gt;
+      &lt;div class=&quot;right_content&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- end content --&gt;
+    &lt;!-- begin footer --&gt;
+    &lt;footer&gt;&lt;/footer&gt;
+    &lt;!-- end footer --&gt;
+  &lt;/div&gt;
+  &lt;!-- jQuery with plugins --&gt;
+  &lt;script type=&quot;text/javascript&quot;&gt;
+    $(document).ready(function(){
+      &lt;!-- initialise sooperfish menu --&gt;
+      $('ul.sf-menu').sooperfish();
+    });
+  &lt;/script&gt;
+&lt;/html&gt;
+&lt;/body&gt;
+    </pre>
+
+    <hr>
+
+    <h3 id="cssFiles"><strong>B) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+
+    <p>There are several stylesheets used in this theme, depending on the page being viewed. The stylesheets are:</p>
+    <ol>
+      <li><b>css/style.css</b></li>
+      <li><b>css/portfolio_one.css OR css/portfolio_two.css</b></li>
+      <li><b>css/colour.css</b></li>
+    </ol>
+
+    <ol>
+      <li><b>style.css</b> is the main stylesheet and is included in all pages. It contains all the structural stylings for the template.</li>
+      <li><b>portfolio_one.css</b> contains all the styling for the gallerific portfolio shown on the portfolio_one.html page.</li>
+      <li><b>portfolio_two.css</b> contains all the styling for the gallerific portfolio shown on the portfolio_two.html page.</li>
+      <li><b>colour.css</b> is the colour stylesheet</li>
+    </ol>
+
+    <hr>
+
+    <h3 id="fontFiles"><strong>C) Fonts</strong> - <a href="#toc">top</a></h3>
+
+    <p>There are 2 fonts used in this theme. The fonts are Jenna Sue and News Cycle. The font files are</p>
+    <ol>
+      <li><b>fonts/JennaSue-webfont.ttf</b></li>
+      <li><b>fonts/JennaSue-webfont.eot</b> (IE Specific)</li>
+      <li><b>fonts/NewsCycle-Regular.ttf</b></li>
+      <li><b>fonts/NewsCycle-Regular.eot</b> (IE Specific)</li>
+    </ol>
+
+    <hr>
+
+    <h3 id="javascript"><strong>D) JavaScript</strong> - <a href="#toc">top</a></h3>
+
+    <p>This theme imports several Javascript files, depending on the page.</p>
+
+    <ol>
+      <li>js/modernizr-1.5.min.js</li>
+      <li>js/jquery.min.js</li>
+      <li>js/jquery.easing-sooper.js</li>
+      <li>js/jquery.sooperfish.js</li>
+      <li>js/image_fade.js</li>
+      <li>js/jquery.galleriffic.js</li>
+      <li>js/jquery.opacityrollover.js</li>
+    </ol>
+
+    <ol>
+      <li><b>modernizr</b> is a Javascript library that enables HTML5 elements and feature detects.</li>
+      <li><b>jQuery</b> is a Javascript library containing lots of commonly used Javascript functions.</li>
+      <li><b>Easing sooper</b> is a jQuery plugin for easing transitions, optimised for the Sooperfish drop-down menu.</li>
+      <li><b>Sooperfish</b> is a jQuery plugin for the drop-down menu.</li>
+      <li><b>Image fade</b> contains the functions for the gallery image fader on the home page (<b>index.html</b>).</li>
+      <li><b>Galleriffic</b> is a jQuery plugin for rendering the photo galleries on the portfolio pages (<b>portfolio_one.html</b> and <b>portfolio_two.html</b>).</li>
+      <li><b>Opacity rollover</b> is a jQuery plugin used by the the Galleriffic plugin.</li>
+    </ol>
+
+    <hr>
+
+    <h3 id="psdFiles"><strong>E) PSD Files</strong> - <a href="#toc">top</a></h3>
+
+    <p>There are no PSD files with this theme, as the theme was hand-coded from scratch!</p>
+
+    <hr>
+
+    <h3 id="credits"><strong>F) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+
+    <p>I've used the following images, icons or other files as listed.
+
+    <ul>
+      <li><a href="http://www.modernizr.com">modernizr</a> (MIT and BSD licenses)</li>
+      <li><a href="http://www.jquery.com">jQuery</a> (MIT and GPL licenses)</li>
+      <li>jQuery easing sooper (BSD license)</li>
+      <li><a href="http://archive.plugins.jquery.com/project/SooperFish">Sooperfish</a> (GPL license)</li>
+      <li><a href="http://www.twospy.com/galleriffic/">Galleriffic</a> (MIT license)</li>
+      <li>Photos taken by me</li>
+      <li>jQuery Opacity Rollover (MIT license)</li>
+      <li><a href="http://www.patterncooler.com">Background pattern from PatternCooler</a></li>
+    </ul>
+
+    <hr>
+
+    <h3 id="galleries"><strong>G) Gallery Pages</strong> - <a href="#toc">top</a></h3>
+
+    <p>There are <b>three</b> different styles of gallery pages with this template:</p>
+    <ol>
+      <li>
+        <b>Image Fader with Caption (index.html)</b>
+        <p>The first style, shown on the home page, is simply an image fader with transparent caption. The format for this image fader is shown below:</p>
+
+        <pre>
+&lt;li&gt;&lt;img width="950" height="450" src="images/image_name.jpg" alt="&apos;You can put a description of the image here if you like, or anything else if you want.&apos;" /&gt;&lt;/li&gt;
+        </pre>
+
+        <p>To add an image to the image fader simply add a new list item (li) to the unordered list (ul) with class="slideshow". You need to specify the width of the image, the height of the image and the src. If you would like a caption to slide in, simply add alt="caption". If you would like the image to hyperlink to one of your portfolio pages, simply add an &lt;a&gt;&lt;/a&gt; around the &lt;img&gt; tag .</p>
+        <p>NOTE: Remember to put 'class="show"' on the first &lt;li&gt; in the list, so that the image fader knows which one to start with.</p>
+      </li>
+      <li>
+        <b>Galleriffic Two Column Gallery (portfolio_one.html)</b>
+        <p>The second style, shown on the portfolio_one page, uses the <a href="http://www.twospy.com/galleriffic/">Galleriffic</a> jQuery plugin for 'rendering rich, fast-performing photo galleries'. It is quite simple to set-up your Galleriffic gallery: To add an image to the gallery simply resize your main image (450px x 450px) and create a thumbnail for this image (75px x 75px). Then add the following list item (li) into the unordered list (ul) with class="thumbs noscript":</p>
+
+        <pre>
+&lt;li&gt;
+  &lt;a class="thumb" href="images/portfolio_one/main_image.jpg"&gt;&lt;img src="images/portfolio_one/main_image_thumbnail.jpg" alt="one" /&gt;&lt;/a&gt;
+  &lt;div class="caption"&gt;
+    &lt;div class="image-title portfolio_one"&gt;&quot;Image caption goes here&quot;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/li&gt;
+        </pre>
+
+        <p>where href equals your main image (450px x 450px) and img src equals your thumbnail image. Within the img tag, you should put an 'alt' for your image. If you want a caption for your image, simply include the 'div class="caption"' section and add your image caption within the "Image caption goes here" part.</p>
+        <p>NOTE: There are lots of settings for the Galleriffic Photo Viewer. These settings are passed in when the galleriffic gallery is initialised (within the portfolio_one.html). The settings are optimised for the portfolio_one gallery, but can be changed if required. A description for these settings can be seen <a href="http://www.twospy.com/galleriffic/">here</a>.</p>
+      </li>
+      <li>
+        <b>Galleriffic One Column Gallery (portfolio_two.html)</b>
+        <p>The third style, shown on the portfolio_two page, uses the <a href="http://www.twospy.com/galleriffic/">Galleriffic</a> jQuery plugin for 'rendering rich, fast-performing photo galleries'. It is quite simple to set-up your Galleriffic gallery: To add an image to the gallery simply resize your main image (950px x 450px) and create a thumbnail for this image (75px x 75px). Then add the following list item (li) into the unordered list (ul) with class="thumbs noscript":</p>
+
+        <pre>
+&lt;li&gt;
+  &lt;a class="thumb" href="images/portfolio_one/main_image.jpg"&gt;&lt;img src="images/portfolio_one/main_image_thumbnail.jpg" alt="one" /&gt;&lt;/a&gt;
+  &lt;div class="caption"&gt;
+    &lt;div class="image-title portfolio_two"&gt;&quot;Image caption goes here&quot;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/li&gt;
+        </pre>
+
+        <p>where href equals your main image (950px x 450px) and img src equals your thumbnail image. Within the img tag, you should put an 'alt' for your image. If you want a caption for your image, simply include the 'div class="caption"' section and add your image caption within the "Image caption goes here" part.</p>
+        <p>NOTE: There are lots of settings for the Galleriffic Photo Viewer. These settings are passed in when the galleriffic gallery is initialised (within the portfolio_two.html). The settings are optimised for the portfolio_two gallery, but can be changed if required. A description for these settings can be seen <a href="http://www.twospy.com/galleriffic/">here</a>.</p>
+      </li>
+    </ol>
+
+    <hr>
+
+    <p>Once again, thank you for downloading this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist.</p>
+
+    <p><a href="#toc">Go To Table of Contents</a></p>
+
+    <hr>
+  </div>
+</body>
+</html>
