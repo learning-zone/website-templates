@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+
+	<title>AnythingSlider CSS3 Demo</title>
+	<link rel="shortcut icon" href="demos/images/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="demos/images/apple-touch-icon.png">
+
+	<!-- jQuery (required) -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+
+	<!-- Demo stuff -->
+	<link rel="stylesheet" href="demos/css/page.css">
+	<script src="demos/js/css3demo.js"></script>
+
+	<!-- Anything Slider -->
+	<link rel="stylesheet" href="css/anythingslider.css">
+	<script src="js/jquery.anythingslider.js"></script>
+
+	<!-- include the animate.css library -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- AnythingSlider optional extensions, needed for animate.css compatibility -->
+	<script src="js/jquery.anythingslider.fx.js"></script>
+
+	<!-- <script src="js/jquery.anythingslider.video.js"></script> -->
+
+	<!-- Define slider dimensions here -->
+	<style>
+	#slider { width: 700px; height: 390px; }
+
+	/* animate.css animation settings 
+	 * If animating elements inside the panel, include the element here ( e.g. #slider li, #slider img {...} )
+	 */
+	#slider li {
+		-webkit-backface-visibility: hidden;
+		-moz-backface-visibility: hidden;
+		-ms-backface-visibility: hidden;
+		backface-visibility: hidden;
+		-webkit-animation-duration: 1s;
+		-webkit-animation-delay: .2s;
+		-webkit-animation-timing-function: ease;
+		-webkit-animation-fill-mode: both;
+		-moz-animation-duration: 1s;
+		-moz-animation-delay: .2s;
+		-moz-animation-timing-function: ease;
+		-moz-animation-fill-mode: both;
+		-ms-animation-duration: 1s;
+		-ms-animation-delay: .2s;
+		-ms-animation-timing-function: ease;
+		-ms-animation-fill-mode: both;
+		animation-duration: 1s;
+		animation-delay: .2s;
+		animation-timing-function: ease;
+		animation-fill-mode: both;
+	}
+	</style>
+
+	<!-- AnythingSlider initialization -->
+	<script>
+		// DOM Ready
+		$(function(){
+
+			$('#slider')
+				.anythingSlider({
+					animationTime      : 0,  // no jQuery animation - no sliding left/right
+					delayBeforeAnimate : 500 // add delay before switching so you can see the css3 animation
+				})
+				.anythingSliderFx(
+					{},    // no fx animation, it's all css baby!
+					{
+						stopRepeat : false,         // fx option to prevent repeating animation on startup/clicking the same slide (default is false)
+						dataAnimate: 'data-animate' // data attribute containing the in and out animation.css class names to use
+					}
+				);
+
+		});
+	</script>
+
+</head>
+
+<body id="css3demo">
+
+	<!-- Links to other demo pages & docs -->
+	<div id="nav">
+		<a href="index.html">Main Demo</a>
+		<a href="simple.html">Simple Demo</a>
+		<a href="expand.html">Expand Demo</a>
+		<a href="video.html">Video Demo</a>
+		<a href="demos.html">FX Demos</a>
+		<a class="current" href="css3.html">CSS3 Demo</a>
+		<a class="play" href="http://jsfiddle.net/Mottie/ycUB6/">Playground</a>
+		<a class="git" href="https://github.com/CSS-Tricks/AnythingSlider/wiki">Documentation</a>
+		<a class="git" href="https://github.com/CSS-Tricks/AnythingSlider/zipball/master">Download</a>
+		<a class="issue" href="https://github.com/CSS-Tricks/AnythingSlider/issues">Issues</a><br><br>
+	</div>
+	<!-- End Links -->
+
+	<h1>AnythingSlider CSS3 Demo</h1>
+
+	<h2 class="title">FX extension using <a href="http://daneden.me/animate/">animate.css</a> library</h2>
+
+	<h3 class="ani">Change first slide animations:</h3>
+	<p class="ani">
+		In Animation: <select class="animations"></select>
+		Out Animation: <select class="animations"></select>
+		<button>Test</button>
+	</p>
+
+	<!-- CSS3 AnythingSlider -->
+
+	<ul id="slider">
+		<!-- data-animate="IN animation, OUT animation" can be applied to the panel or ANY element inside the panel -->
+		<li data-animate="rotateInDownLeft, rotateOutDownRight"><img src="demos/images/slide-civil-1.jpg" alt=""></li>
+		<li data-animate="rotateIn, rotateOut"><img src="demos/images/slide-env-1.jpg" alt=""></li>
+		<li data-animate="flipInX, flipOutX"><img src="demos/images/slide-civil-2.jpg" alt=""></li>
+		<li data-animate="rotateInUpLeft, rotateOutUpRight"><img src="demos/images/slide-env-2.jpg" alt=""></li>
+	</ul>
+
+	<!-- END AnythingSlider -->
+
+	<p class="ani">
+		* Note: The third slide is using "flipInX" and "flipOutX" which as of 12/2011 is only supported by Webkit, Firefox nightlies and IE10.
+	</p>
+
+</body>
+
+</html>

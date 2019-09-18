@@ -1,0 +1,374 @@
+﻿/*
+	AnythingSlider v1.8+ LESS Construction theme
+	By Rob Garrison
+*/
+
+/*****************************
+SET DEFAULT DIMENSIONS HERE
+*****************************/
+/* change the ID & dimensions to match your slider */
+#slider {
+	width: 700px;
+	height: 390px;
+	list-style: none;
+	/* Prevent FOUC (see FAQ page) and keep things readable if javascript is disabled */
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+/* slider borders */
+@slider-border-size            : 3px;
+@inactive-border-color         : #333;
+@active-border-color           : #d0aa0d;
+
+/* current navigation tab styling - uses same navigation background image */
+@inactive-background-current   : -52px -18px;
+@active-background-current     : #fff;
+@navigation-text-color-current : #000;
+
+/* non-current navigation styling */
+@inactive-background-tab       : transparent url(../images/construction.gif) -52px top no-repeat;
+@navigation-text-color         : #fff;
+@navigation-tab-size           : 15px;
+.navigation-tab-styling {
+	width: @navigation-tab-size;
+	height: @navigation-tab-size;
+	margin: 3px;
+	padding: 0;
+}
+.navigation-border (@radius: 5px) {
+	border-radius: @radius;
+	-moz-border-radius: @radius;
+	-webkit-border-radius: @radius;
+}
+
+/* start-stop button background color */
+@inactive-start-stop-stopped   : -52px -35px;
+@inactive-start-stop-playing   : -52px -52px;
+@active-start-stop-hover       : -52px -18px;
+
+/* navigation arrows */
+@arrow-width                   : 45px;
+@arrow-height                  : 200px; /* image height = 300px; set anywhere from 1-300 */
+@arrow-image                   : url(../images/construction.gif);
+@arrow-back-position           : left center;
+@arrow-back-position-hovered   : -5px center;
+@arrow-forward-position        : right center;
+@arrow-forward-position-hovered: -67px center;
+@arrow-horizontal-pad          : 45px; /* distance the arrow protrudes horizontally outside of the AnythingSlider wrapper */
+@navigation-bottom-pad         : 0; /* distance the navigation controls (tabs & start-stop button) protrudes below the wrapper */
+
+.anythingSlider-construction {
+	/*
+	=================================
+	Default state (no keyboard focus)
+	=================================
+	*/
+	/* Overall Wrapper */
+	margin: 0 auto;
+	padding: 0 @arrow-horizontal-pad @navigation-bottom-pad @arrow-horizontal-pad;
+
+	/* slider window - top & bottom borders, default state */
+	.anythingWindow {
+		border-top: @slider-border-size solid @inactive-border-color;
+		border-bottom: @slider-border-size solid @inactive-border-color;
+	}
+
+	/* Navigation buttons + start/stop button, default state */
+	.anythingControls {
+
+		a {
+			background: @inactive-background-tab;
+			color: @navigation-text-color;
+
+			/* Navigation current button, default state */
+			&.cur, &:hover {
+				background-position: @inactive-background-current;
+				color: @navigation-text-color-current;
+			}
+
+			/* start-stop button, stopped, default state */
+			&.start-stop {
+				background-position: @inactive-start-stop-stopped;
+
+				/* start-stop button, playing, default state */
+				&.playing { background-position: @inactive-start-stop-playing; }
+				/* start-stop button, default hovered text color (when visible) */
+				/* hide nav/start-stop background image shadow on hover - makes the button appear to come forward */
+				&:hover, &.hover, .anythingControls ul a:hover {
+					background-position: @active-start-stop-hover;
+				}
+			}
+
+		}
+	}
+
+	/*
+	=================================
+	Active State (has keyboard focus)
+	=================================
+	*/
+	&.activeSlider {
+
+		/* slider window - top & bottom borders, active state */
+		.anythingWindow {
+			border-color: @active-border-color;
+		}
+
+	}
+
+	/************************
+	NAVIGATION POSITIONING
+	************************/
+	/* Navigation Arrows */
+	.arrow {
+		top: 50%;
+		position: absolute;
+		display: block;
+
+		a {
+			display: block;
+			width: @arrow-width;
+			height: @arrow-height;
+			margin: -@arrow-height/2 0 0 0; /* half height of image */
+			text-align: center;
+			outline: 0;
+			background: @arrow-image no-repeat;
+		}
+
+	}
+
+	/* back arrow */
+	.back {
+		left: 0;
+
+		a {
+			background-position: @arrow-back-position;
+			.navigation-border(5px 0 0 5px);
+
+			&:hover, &.hover { background-position: @arrow-back-position-hovered; }
+		}
+	}
+
+	/* forward arrow */
+	.forward {
+		right: 0;
+
+		a {
+			background-position: @arrow-forward-position;
+			.navigation-border(0 5px 5px 0);
+
+			&:hover, &.hover { background-position: @arrow-forward-position-hovered; }
+		}
+	}
+
+	/* Navigation Links */
+	.anythingControls {
+		height: @navigation-tab-size*1.5; /* limit height, needed for IE9 of all things */
+		outline: 0;
+		display: none;
+		float: right;
+		position: absolute;
+		bottom: 5px;
+		right: 20px;
+		margin: 0 @arrow-width; /* needed for IE */
+		z-index: 100;
+		opacity: 0.90;
+		filter: alpha(opacity=90);
+
+		ul {
+			margin: 0;
+			padding: 0;
+			float: left;
+
+			li {
+				list-style: none;
+				float: left;
+				margin: 0;
+				padding: 0;
+			}
+
+			a {
+				display: inline-block;
+				.navigation-tab-styling;
+				text-decoration: none;
+				text-align: center;
+				outline: 0;
+			}
+
+		}
+
+		span {
+			display: block;
+			visibility: hidden; /* needed for IE8, instead of text-indent: -9999px */
+		}
+
+		/* navigationSize window */
+		.anythingNavWindow {
+			overflow: hidden;
+			float: left;
+		}
+
+		/* navigationSize arrows */
+		li.next a, li.prev a {
+			width: 14px;
+			height: 14px;
+			margin: 4px;
+		}
+
+		li.next a {
+			background-position: -92px -143px;
+
+			&:hover {
+				background-position: -90px -143px;
+			}
+		}
+
+		li.prev a {
+			background-position: -11px -143px;
+
+			&:hover {
+				background-position: -13px -143px;
+			}
+		}
+
+		/* Autoplay Start/Stop button */
+		.start-stop {
+			display: inline-block;
+			.navigation-tab-styling;
+			text-decoration: none;
+			float: right;
+			z-index: 100;
+			outline: 0;
+		}
+
+	}
+
+}
+
+/***********************
+IE8 AND OLDER STYLING
+***********************/
+.as-oldie .anythingSlider-construction {
+
+	/* Navigation Arrows */
+	.arrow {
+		top: 14%;
+
+		a {
+			margin: 0;
+		}
+
+	}
+
+}
+
+/***********************
+COMMON SLIDER STYLING
+***********************/
+/* Overall Wrapper */
+.anythingSlider {
+	display: block;
+	overflow: visible !important;
+	position: relative;
+
+	/* anythingSlider viewport window */
+	.anythingWindow {
+		overflow: hidden;
+		position: relative;
+		width: 100%;
+		height: 100%;
+	}
+
+	/* anythingSlider base (original element) */
+	.anythingBase {
+		background: transparent;
+		list-style: none;
+		position: absolute;
+		overflow: visible !important;
+		top: 0;
+		left: 0;
+		margin: 0;
+		padding: 0;
+	}
+
+	/* Navigation arrow text; indent moved to span inside "a", for IE7;
+	apparently, a negative text-indent on an "a" link moves the link as well as the text */
+	.arrow span {
+		display: block;
+		visibility: hidden;
+	}
+
+	/* disabled arrows, hide or reduce opacity: opacity: .5; filter: alpha(opacity=50); */
+	.arrow.disabled {
+		display: none;
+	}
+
+	/* all panels inside the slider; horizontal mode */
+	.panel {
+		background: transparent;
+		display: block;
+		overflow: hidden;
+		float: left;
+		padding: 0;
+		margin: 0;
+	}
+
+	/* vertical mode */
+	.vertical .panel {
+		float: none;
+	}
+
+	/* fade mode */
+	.fade {
+		.panel {
+			float: none;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: -1;
+		}
+
+		.activePage {
+			z-index: 0;
+		}
+	}
+
+	/***********************
+	RTL STYLING
+	***********************/
+	/* slider autoplay right-to-left, reverse order of nav links to look better */
+	&.rtl {
+
+		.anythingWindow {
+			direction: ltr;
+			unicode-bidi: bidi-override;
+		}
+
+		/* move nav link group to left */
+		.anythingControls ul {
+			float: left;
+
+			/* reverse order of nav links */
+			a { float: right; }
+		}
+
+		/* move start/stop button - in case you want to switch sides */
+		.start-stop {
+			/* float: right; */
+		}
+
+	}
+
+	/* probably not necessary, but added just in case */
+	.anythingWindow,
+	.anythingControls ul a,
+	.arrow a,
+	.start-stop {
+		transition-duration: 0;
+		-o-transition-duration: 0;
+		-moz-transition-duration: 0;
+		-webkit-transition-duration: 0;
+	}
+
+}

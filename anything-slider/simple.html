@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+
+	<title>AnythingSlider Simple Demo</title>
+	<link rel="shortcut icon" href="demos/images/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="demos/images/apple-touch-icon.png">
+
+	<!-- jQuery (required) -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+
+	<!-- Demo stuff -->
+	<link rel="stylesheet" href="demos/css/page.css">
+
+	<!-- Anything Slider -->
+	<link rel="stylesheet" href="css/anythingslider.css">
+	<script src="js/jquery.anythingslider.js"></script>
+
+	<!-- AnythingSlider optional extensions -->
+	<!-- <script src="js/jquery.anythingslider.fx.js"></script> -->
+	<!-- <script src="js/jquery.anythingslider.video.js"></script> -->
+
+	<!-- Define slider dimensions here -->
+	<style>
+	#slider { width: 700px; height: 390px; }
+	</style>
+
+	<!-- AnythingSlider initialization -->
+	<script>
+		// DOM Ready
+		$(function(){
+			$('#slider').anythingSlider();
+		});
+	</script>
+
+</head>
+
+<body id="simple">
+
+	<!-- Links to other demo pages & docs -->
+	<div id="nav">
+		<a href="index.html">Main Demo</a>
+		<a class="current" href="simple.html">Simple Demo</a>
+		<a href="expand.html">Expand Demo</a>
+		<a href="video.html">Video Demo</a>
+		<a href="demos.html">FX Demos</a>
+		<a href="css3.html">CSS3 Demo</a>
+		<a class="play" href="http://jsfiddle.net/Mottie/ycUB6/">Playground</a>
+		<a class="git" href="https://github.com/CSS-Tricks/AnythingSlider/wiki">Documentation</a>
+		<a class="git" href="https://github.com/CSS-Tricks/AnythingSlider/zipball/master">Download</a>
+		<a class="issue" href="https://github.com/CSS-Tricks/AnythingSlider/issues">Issues</a><br><br>
+	</div>
+	<!-- End Links -->
+
+	<!-- Simple AnythingSlider -->
+
+	<ul id="slider">
+
+		<li><img src="demos/images/slide-civil-1.jpg" alt=""></li>
+
+		<li><img src="demos/images/slide-env-1.jpg" alt=""></li>
+
+		<li><img src="demos/images/slide-civil-2.jpg" alt=""></li>
+
+		<li><img src="demos/images/slide-env-2.jpg" alt=""></li>
+
+	</ul>
+
+	<!-- END AnythingSlider -->
+
+</body>
+
+</html>

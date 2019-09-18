@@ -1,0 +1,26 @@
+h1. AnythingSlider jQuery Plugin
+
+A very robust jQuery-based slider plugin. Need to link to a specific slide? No problem. Like a choice of themes? Got it. Need callbacks for when specific slider actions happen? Sure. Need custom tab names? You got it. Need more than one slider per page? Easy. 
+
+* Having problems with installing or getting the plugin to work? Ask your question in the "CSS-Tricks forums":http://css-tricks.com/forums/ or on "StackOverflow":http://stackoverflow.com/questions/tagged/anythingslider
+* Find a bug or have an enhancement request? Submit it "here":https://github.com/CSS-Tricks/AnythingSlider/issues
+
+h2. Main Demo
+
+* "Documentation":https://github.com/CSS-Tricks/AnythingSlider/wiki is maintained in the wiki pages.
+* "CSS-Tricks demo":http://css-tricks.com/examples/AnythingSlider/
+* "Github demos!":http://css-tricks.github.com/AnythingSlider/
+* "Download":https://github.com/CSS-Tricks/AnythingSlider/zipball/master
+
+h2. Related Projects
+
+Download the full repo for a full set of all the cool stuff AnythingSlider can do.
+
+* More themes - "AnythingSlider-Themes":https://github.com/CSS-Tricks/AnythingSlider-Themes
+* Fx bookmarklet - "AnythingSlider-FX-Builder":https://github.com/CSS-Tricks/AnythingSlider-Fx-Builder
+
+CMS plugins/mods
+
+* Wordpress plugin - "AnythingSlider-for-WordPress":https://github.com/jacobdubail/AnythingSlider-for-WordPress
+* Movable Type plugin - "mt-plugin-anythingslider":https://github.com/meancode/mt-plugin-anythingslider
+* Joomla 2.5 mod - "mod_anythingslider":https://github.com/CSS-Tricks/mod_anythingslider

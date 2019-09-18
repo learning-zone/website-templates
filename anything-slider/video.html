@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+
+	<title>AnythingSlider Video Demo</title>
+	<link rel="shortcut icon" href="demos/images/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="demos/images/apple-touch-icon.png">
+
+	<!-- jQuery (required) -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+
+	<!-- Demo stuff -->
+	<link rel="stylesheet" href="demos/css/page.css">
+
+	<!-- Anything Slider optional plugins, but needed so the embeded video controls will work in IE -->
+	<!-- http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js -->
+	<script src="js/swfobject.js"></script>
+
+	<!-- Anything Slider -->
+	<link rel="stylesheet" href="css/anythingslider.css">
+	<script src="js/jquery.anythingslider.js"></script>
+
+	<!-- AnythingSlider video extension; optional, but needed to control video pause/play -->
+	<script src="js/jquery.anythingslider.video.js"></script>
+
+	<script>
+		// DOM Ready
+		$(function(){
+			$('#slider').anythingSlider({
+				resizeContents      : true,
+				addWmodeToObject    : 'transparent',
+				navigationFormatter : function(index, panel){ // Format navigation labels with text
+					return ['Vimeo-iframe', 'Vimeo-embed', 'YouTube-iframe', 'YouTube-embed', 'HTML5 Video'][index - 1];
+				}
+			});
+		});
+	</script>
+
+</head>
+
+<body>
+
+	<br>
+	<div id="nav">
+		<a href="index.html">Main Demo</a>
+		<a href="simple.html">Simple Demo</a>
+		<a href="expand.html">Expand Demo</a>
+		<a class="current" href="video.html">Video Demo</a>
+		<a href="demos.html">FX Demos</a>
+		<a href="css3.html">CSS3 Demo</a>
+		<a class="play" href="http://jsfiddle.net/Mottie/ycUB6/">Playground</a>
+		<a class="git" href="https://github.com/CSS-Tricks/AnythingSlider/wiki">Documentation</a>
+		<a class="git" href="https://github.com/CSS-Tricks/AnythingSlider/zipball/master">Download</a>
+		<a class="issue" href="https://github.com/CSS-Tricks/AnythingSlider/issues">Issues</a>
+	</div>
+	<br><br>
+
+	<!-- START AnythingSlider -->
+	<ul id="slider">
+
+		<!-- Vimeo: iframe -->
+		<li class="panel1"><iframe src="http://player.vimeo.com/video/18011143?title=0&amp;byline=0&amp;portrait=0" width="400" height="225" frameborder="0"></iframe></li>
+
+		<!-- Vimeo: Embeded -->
+		<li class="panel2"><object width="940" height="529"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=12280336&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=12280336&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="940" height="529"></embed></object></li>
+
+		<!-- YouTube: iframe -->
+		<li class="panel3"><iframe title="YouTube video player" width="480" height="385" src="http://www.youtube.com/embed/1gOyrAVZHi4" frameborder="0" allowfullscreen></iframe></li>
+
+		<!-- YouTube: Embedded -->
+		<li class="panel4"><object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/zSgiXGELjbc&amp;hl=en_US&amp;fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/zSgiXGELjbc&amp;hl=en_US&amp;fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object></li>
+
+		<!-- HTML5 Video -->
+		<li class="panel5">
+			<video width="320" height="240" controls="controls">
+				<source src="demos/video/movie.ogg" type="video/ogg">
+				<source src="demos/video/movie.mp4" type="video/mp4">
+				<source src="demos/video/movie.webm" type="video/webm">
+				Your browser does not support the video tag. But you could include an iframe/embeded video here.
+			</video>
+		</li>
+
+	</ul> <!-- END AnythingSlider -->
+
+	<br>
+
+	<!-- Video compatibility table -->
+	<div class="video-info">
+		<h2>AnythingSlider Video Extension Compatibility</h2>
+		<table border="1" class="data">
+			<thead>
+				<tr>
+					<th rowspan="2">Video Type</th>
+					<th rowspan="2">Function</th>
+					<th colspan="7">Browser</th>
+				</tr>
+				<tr>
+					<th class="header">FF</th>
+					<th class="header">C</th>
+					<th class="header">S</th>
+					<th class="header">O</th>
+					<th class="header">IE9</th>
+					<th class="header">IE8</th>
+					<th class="header">IE7</th>
+				</tr>
+			</thead>
+			<tbody>
+
+				<tr>
+					<th rowspan="4">Vimeo iframe</th>
+					<td>Setup</td>
+					<td class="good"></td> <!-- Firefox -->
+					<td class="good"></td> <!-- Chrome -->
+					<td class="good"></td> <!-- Safari -->
+					<td class="good"></td> <!-- Opera -->
+					<td class="good"></td> <!-- IE9 -->
+					<td class="good"></td> <!-- IE8 -->
+					<td class="good"></td> <!-- IE7 -->
+				</tr>
+				<tr>
+					<td>Continue</td>
+					<td class="good"></td> <!-- Firefox -->
+					<td class="good"></td> <!-- Chrome -->
+					<td class="good"></td> <!-- Safari -->
+					<td class="good"></td> <!-- Opera -->
+					<td class="good"></td> <!-- IE9 -->
+					<td class="good"></td> <!-- IE8 -->
+					<td class="bad"></td>  <!-- IE7 -->
+				</tr>
+				<tr><td>Pause</td>
+					<td class="good"></td> <!-- Firefox -->
+					<td class="good"></td> <!-- Chrome -->
+					<td class="good"></td> <!-- Safari -->
+					<td class="good"></td> <!-- Opera -->
+					<td class="good"></td> <!-- IE9 -->
+					<td class="good"></td> <!-- IE8 -->
+					<td class="bad"></td>  <!-- IE7 -->
+				</tr>
+				<tr>
+					<td>Pause Slideshow</td>
+					<td class="good"></td> <!-- Firefox -->
+					<td class="good"></td> <!-- Chrome -->
+					<td class="good"></td> <!-- Safari -->
+					<td class="good"></td> <!-- Opera -->
+					<td class="good"></td> <!-- IE9 -->
+					<td class="good"></td> <!-- IE8 -->
+					<td class="bad"></td> <!-- IE7 -->
+				</tr>
+
+				<tr>
+					<th rowspan="4">Vimeo embed</th>
+					<td>Setup</td>
+					<td class="good"></td> <!-- Firefox -->
+					<td class="good"></td> <!-- Chrome -->
+					<td class="good"></td> <!-- Safari -->
+					<td class="good"></td> <!-- Opera -->
+					<td class="good"></td> <!-- IE9 -->
+					<td class="good"></td> <!-- IE8 -->
+					<td class="good"></td> <!-- IE7 -->
+				</tr>
+				<tr>
+					<td>Continue</td>
+					<td class="good"></td> <!-- Firefox -->
+					<td class="good"></td> <!-- Chrome -->
+					<td class="good"></td> <!-- Safari -->
+					<td class="good"></td> <!-- Opera -->
+					<td class="good"></td> <!-- IE9 -->
+					<td class="good"></td> <!-- IE8 -->
+					<td class="good"></td>  <!-- IE7 -->
+				</tr>
+				<tr><td>Pause</td>
+					<td class="good"></td> <!-- Firefox -->
+					<td class="good"></td> <!-- Chrome -->
+					<td class="good"></td> <!-- Safari -->
+					<td class="good"></td> <!-- Opera -->
+					<td class="good"></td> <!-- IE9 -->
+					<td class="good"></td> <!-- IE8 -->
+					<td class="good"></td>  <!-- IE7 -->
+				</tr>
+				<tr>
+					<td>Pause Slideshow</td>
+					<td class="good"></td> <!-- Firefox -->
+					<td class="good"></td> <!-- Chrome -->
+					<td class="good"></td> <!-- Safari -->
+					<td class="good"></td> <!-- Opera -->
+					<td class="good"></td> <!-- IE9 -->
+					<td class="good"></td> <!-- IE8 -->
+					<td class="good"></td> <!-- IE7 -->
+				</tr>
+
+				<tr>
+					<th rowspan="4">YouTube iframe</th>
+					<td>Setup</td>
+					<td class="good"></td> <!-- Firefox -->
+					<td class="good"></td> <!-- Chrome -->
+					<td class="good"></td> <!-- Safari -->
+					<td class="good"></td> <!-- Opera -->
+					<td class="good"></td> <!-- IE9 -->
+					<td class="good"></td> <!-- IE8 -->
+					<td class="good"></td> <!-- IE7 -->
+				</tr>
+				<tr>
+					<td>Continue *</td>
+					<td class="prob"></td> <!-- Firefox -->
+					<td class="prob"></td> <!-- Chrome -->
+					<td class="prob"></td> <!-- Safari -->
+					<td class="bad"></td> <!-- Opera -->
+					<td class="prob"></td> <!-- IE9 -->
+					<td class="prob"></td> <!-- IE8 -->
+					<td class="bad"></td>  <!-- IE7 -->
+				</tr>
+				<tr><td>Pause</td>
+					<td class="good"></td> <!-- Firefox -->
+					<td class="good"></td> <!-- Chrome -->
+					<td class="good"></td> <!-- Safari -->
+					<td class="good"></td> <!-- Opera -->
+					<td class="good"></td> <!-- IE9 -->
+					<td class="good"></td> <!-- IE8 -->
+					<td class="bad"></td>  <!-- IE7 -->
+				</tr>
+				<tr>
+					<td>Pause Slideshow</td>
+					<td class="good"></td> <!-- Firefox -->
+					<td class="good"></td> <!-- Chrome -->
+					<td class="good"></td> <!-- Safari -->
+					<td class="bad"></td> <!-- Opera -->
+					<td class="good"></td> <!-- IE9 -->
+					<td class="good"></td> <!-- IE8 -->
+					<td class="bad"></td> <!-- IE7 -->
+				</tr>
+
+				<tr>
+					<th rowspan="4">YouTube embed</th>
+					<td>Setup</td>
+					<td class="good"></td> <!-- Firefox -->
+					<td class="good"></td> <!-- Chrome -->
+					<td class="good"></td> <!-- Safari -->
+					<td class="good"></td> <!-- Opera -->
+					<td class="good"></td> <!-- IE9 -->
+					<td class="good"></td> <!-- IE8 -->
+					<td class="good"></td> <!-- IE7 -->
+				</tr>
+				<tr>
+					<td>Continue</td>
+					<td class="good"></td> <!-- Firefox -->
+					<td class="good"></td> <!-- Chrome -->
+					<td class="good"></td> <!-- Safari -->
+					<td class="good"></td> <!-- Opera -->
+					<td class="good"></td> <!-- IE9 -->
+					<td class="good"></td> <!-- IE8 -->
+					<td class="good"></td>  <!-- IE7 -->
+				</tr>
+				<tr><td>Pause</td>
+					<td class="good"></td> <!-- Firefox -->
+					<td class="good"></td> <!-- Chrome -->
+					<td class="good"></td> <!-- Safari -->
+					<td class="good"></td> <!-- Opera -->
+					<td class="good"></td> <!-- IE9 -->
+					<td class="good"></td> <!-- IE8 -->
+					<td class="good"></td>  <!-- IE7 -->
+				</tr>
+				<tr>
+					<td>Pause Slideshow</td>
+					<td class="good"></td> <!-- Firefox -->
+					<td class="good"></td> <!-- Chrome -->
+					<td class="good"></td> <!-- Safari -->
+					<td class="good"></td> <!-- Opera -->
+					<td class="good"></td> <!-- IE9 -->
+					<td class="good"></td> <!-- IE8 -->
+					<td class="good"></td> <!-- IE7 -->
+				</tr>
+
+				<tr>
+					<th rowspan="4">HTML5 Video</th>
+					<td>Setup</td>
+					<td class="good"></td> <!-- Firefox -->
+					<td class="good"></td> <!-- Chrome -->
+					<td class="prob"></td> <!-- Safari -->
+					<td class="good"></td> <!-- Opera -->
+					<td class="good"></td> <!-- IE9 -->
+					<td class="bad"></td> <!-- IE8 -->
+					<td class="bad"></td> <!-- IE7 -->
+				</tr>
+				<tr>
+					<td>Continue</td>
+					<td class="good"></td> <!-- Firefox -->
+					<td class="good"></td> <!-- Chrome -->
+					<td class="good"></td> <!-- Safari -->
+					<td class="good"></td> <!-- Opera -->
+					<td class="good"></td> <!-- IE9 -->
+					<td class="bad"></td> <!-- IE8 -->
+					<td class="bad"></td>  <!-- IE7 -->
+				</tr>
+				<tr><td>Pause</td>
+					<td class="good"></td> <!-- Firefox -->
+					<td class="good"></td> <!-- Chrome -->
+					<td class="good"></td> <!-- Safari -->
+					<td class="good"></td> <!-- Opera -->
+					<td class="good"></td> <!-- IE9 -->
+					<td class="bad"></td> <!-- IE8 -->
+					<td class="bad"></td>  <!-- IE7 -->
+				</tr>
+				<tr>
+					<td>Pause Slideshow</td>
+					<td class="good"></td> <!-- Firefox -->
+					<td class="good"></td> <!-- Chrome -->
+					<td class="good"></td> <!-- Safari -->
+					<td class="good"></td> <!-- Opera -->
+					<td class="good"></td> <!-- IE9 -->
+					<td class="bad"></td> <!-- IE8 -->
+					<td class="bad"></td> <!-- IE7 -->
+				</tr>
+
+			</tbody>
+		</table>
+		<br>
+		<h3>Legend</h3>
+		<ul>
+			<li>(*) YouTube iframe
+				<ul>
+					<li>The video autoplays (continues) the second time the video comes into view, because it gets paused even though it hasn't started; oddly this isn't a problem in Firefox. Still working on a fix.</li>
+					<li>Watching a related video breaks the ability if the slider to continue playing and pause the slideshow while playing these videos. This is because the iframe does not update the video URL and there is no way, that I know of, of determining which iframe is reporting a status change.</li>
+				</ul>
+			</li>
+			<li>(FF) Firefox 3+ - No problems noted.</li>
+			<li>(C) Chrome - Ignore "Unsafe JavaScript attempt to access frame with URL" error.</li>
+			<li>(S) Safari 4+
+				<ul>
+					<li>HTML5 video shows up as a black box when it should be hidden by overflow (at least in Windows).</li>
+					<li>In Safari for Windows, including an HTML5 along with other videos appears to offset every video down and right (about 100px) for an unknown reason. For now, this issue can be solved by keeping HTML5 videos separate from other videos.</li>
+				</ul>
+			</li>
+			<li>(O) Opera 9+ - YouTube iframe does not update player status when the script controls it (<a href="https://groups.google.com/forum/#!msg/youtube-api-gdata/eaPsecXHVmc/NXNDQhMZcwsJ">reported</a>). So this breaks this extension's ability to resume a video and pause the slideshow.</li>
+			<li>(IE9) Internet Explorer 9 - See "*" Note above.</li>
+			<li>(IE8) Internet Explorer 8 - no support for HTML5.</li>
+			<li>(IE7) Internet Explorer 7 - no support for HTML5 and no support for iframe communication.</li>
+		</ul>
+
+	</div>
+
+	<br>
+
+</body>
+
+</html>
