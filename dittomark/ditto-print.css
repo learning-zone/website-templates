@@ -1,0 +1,113 @@
+a {
+	color: #000000;
+	text-decoration: underline;
+}
+a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+body{
+	background-color: #FFFFFF;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	margin: 10px;
+	padding: 0px;
+}
+h1{
+	color:#000000;
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;	
+	line-height: 13px;
+	margin: 0px 0px 0px 10px;
+	padding: 0px;
+}
+h2{
+	color:#000000;
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;	
+	line-height: 13px;
+	margin: 0px 10px 0px 0px;
+	padding: 0px;
+	text-align:right;
+}
+h3{
+	color:#000000;
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;	
+	line-height: 14px;
+	margin: 10px 0px 3px 0px;
+	padding: 0px;
+	text-align:left;
+}
+.contentleft{
+	width: 100%;
+}
+.contentmain{
+	background-color:#FFFFFF; 
+	padding:5px;
+}
+.contentright{
+	width: 0%;
+   	display: none;
+	position: absolute;
+}
+.greybox{
+   	display: none;
+	background-color: #DEDEDE;
+	color:#666666;
+}
+.header{
+	font-size: 36px;
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-weight: bold;
+	margin-right:4px;
+}
+.menubox{
+	background-color: #484848;
+	color:#F9F8F7;
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+}
+.menubox a{
+	color:#BDBDBD;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+}
+.menubox a:hover{
+	color:#FFFFFF;
+	font-size: 24px;
+	line-height: 30px;
+	text-decoration: none;
+}
+.menubox a.selected{
+   	display: none;
+	color:#FFFFFF;
+}
+.searchbox {
+	font-size: 11px;
+	padding:1px 2px 1px 2px;
+	border:1px solid #999999;
+	color:#666666;
+	background:#F6F6F6;
+	text-align:right;
+}
+.subheader{
+}
+.whitebox{
+	background-color: #FFFFFF;
+	color:#000000;
+}
+.whitebox_topleft{
+	width:9px;
+	border-left:1px solid #666666;
+	border-top:1px solid #666666;
+}
+.whitebox_bottomright{
+	width:9px;
+	border-right:1px solid #666666;
+	border-bottom:1px solid #666666;
+}

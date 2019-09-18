@@ -1,0 +1,114 @@
+a {
+	color: #666666;
+	text-decoration: underline;
+}
+a:hover {
+	color: #888888;
+	text-decoration: none;
+}
+acronym{
+	border-bottom: 1px dotted #666666;
+	cursor: help;
+}
+body{
+	background-color: #FFFFFF;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	margin: 10px;
+	padding: 0px;
+}
+h1{
+	color:#666666;
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;	
+	line-height: 13px;
+	margin: 0px 0px 0px 10px;
+	padding: 0px;
+}
+h2{
+	color:#666666;
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;	
+	line-height: 13px;
+	margin: 0px 10px 0px 0px;
+	padding: 0px;
+	text-align:right;
+}
+h3{
+	color:#666666;
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;	
+	line-height: 14px;
+	margin: 10px 0px 3px 0px;
+	padding: 0px;
+	text-align:left;
+}
+.contentleft{
+	width: 77%;
+}
+.contentmain{
+	background-color:#F9F8F7; 
+	padding:5px;
+}
+.contentright{
+	width: 23%;
+}
+.greybox{
+	background-color: #DEDEDE;
+	color:#666666;
+}
+.header{
+	background-color: #E6E6E6;
+	background: url(img/header.jpg);
+	font-size: 36px;
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	color: #903326;
+	line-height: 24px;
+	font-weight: bold;
+}
+.menubox{
+	background-color: #484848;
+	color:#F9F8F7;
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+}
+.menubox a{
+	color:#BDBDBD;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+}
+.menubox a:hover{
+	color:#FFFFFF;
+	font-size: 24px;
+	line-height: 30px;
+	text-decoration: none;
+}
+.menubox a.selected{
+	color:#FFFFFF;
+}
+.searchbox {
+	font-size: 11px;
+	padding:1px 2px 1px 2px;
+	border:1px solid #999999;
+	color:#666666;
+	background:#F6F6F6;
+	text-align:right;
+}
+.subheader{
+	background-color: #903326; /*D6C43A;*/
+}
+.whitebox{
+	background-color: #FFFFFF;
+	color:#666666;
+}
+.whitebox_topleft{
+	background: url(img/1-topleft.gif);
+	width:9px;
+}
+.whitebox_bottomright{
+	background: url(img/1-bottomright.gif);
+	width:9px;
+}
