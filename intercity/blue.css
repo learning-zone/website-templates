@@ -1,0 +1,37 @@
+/*  This stylesheet contains the color specific elements for blue.  */
+
+a {
+	color: #00CCFF;
+}
+hr {
+	color: #00CCFF;
+}
+a:hover {
+	background-color: #00CCFF;
+}
+
+.left_line {
+	border-left-color: #00CCFF;
+}
+acronym:hover, abbr:hover {
+	color: #00CCFF;
+}
+
+#header {
+	background: url(img/header_blue.jpg) no-repeat;
+}
+#header .accent {
+	color: #00CCFF;
+}
+#menu {
+	background: url(img/menu_blue.jpg) no-repeat;
+}
+#menu ul li a:hover {
+	background-color: #00CCFF;
+}
+#menu .pressed {
+	color: #00CCFF;
+}
+#footer a:hover {
+	color: #00CCFF;
+}

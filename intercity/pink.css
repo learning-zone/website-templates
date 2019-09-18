@@ -1,0 +1,37 @@
+/*  This stylesheet contains the color specific elements for pink.  */
+
+a {
+	color: #FF6699;
+}
+a:hover {
+	background-color: #FF6699;
+}
+hr {
+	color: #FF6699;
+}
+acronym:hover, abbr:hover {
+	color: #FF6699;
+}
+
+.left_line {
+	border-left-color: #FF6699;
+}
+
+#header {
+	background: url(img/header_pink.jpg) no-repeat;
+}
+#header .accent {
+	color: #FF6699;
+}
+#menu {
+	background: url(img/menu_pink.jpg) no-repeat;
+}
+#menu ul li a:hover {
+	background-color: #FF6699;
+}
+#menu .pressed {
+	color: #FF6699;
+}
+#footer a:hover {
+	color: #FF6699;
+}
