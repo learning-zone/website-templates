@@ -1,0 +1,169 @@
+/* project: internet market
+   design: luka cvrk (www.solucija.com) 
+   framework: Concept Nova (www.conceptnova.com) */
+   
+body { padding: 0; margin: 0; font: 0.7em Arial, sans-serif; line-height: 1.5em; background: #F0F0F0; color: #454545; }
+a { color: #0E4D8B; background: inherit; }
+a:hover { color: #000; background: inherit;}
+a.title { color: #B41A1A; background: #FFF; }
+
+h1 { font: bold 2em Arial, Sans-Serif; letter-spacing: -1px; padding: 16px 0 0 8px; margin: 0; }
+h2 { margin: 0; padding: 0; font: normal 1.6em Arial, Sans-Serif; letter-spacing: -1px; }
+h1 a { color: #FFF; background: inherit; }
+h1 a, h2 a { text-decoration: none; }
+h1 a:hover, h2 a:hover { color: #BFE1ED; background: inherit; }
+h3 { font: 90% Arial, Sans-Serif; margin: 0 0 10px 0; padding: 0; color: #5f5f5f; background: #FFF; }
+p {	margin: 0 0 0px 0; line-height: 1.5em; }
+form { margin: 0; }
+input.search { width: 199px; border: none; background: #FFF url(input.gif); padding: 4px; color: #808080; }
+input.submit { height: 24px; font-weight: bold; width: 53px; border: none; background: #D96855 url(button.gif); padding: 3px; color: #FFF; }
+
+/* layout
+   ------ */
+
+.content { 
+	margin: 10px auto;
+	width: 768px;
+	background: #FFF url(big_middle.gif) repeat-y;
+	color: #454545;
+	
+}
+
+.logo {	padding: 18px 0 0 3px; }
+
+/* header */
+.header_top { background: #FEFEFE url(big_top.gif) no-repeat; color: #FFF; height: 15px; }
+.header { padding: 0px 10px 0 10px; }
+.header_bottom { clear: both; background: #FEFEFE url(big_bottom.gif) no-repeat; color: #FFF; height: 15px; }
+    
+/* navigation */
+#nav { width:100%; float:left; }
+#nav ul { margin:0; list-style:none; padding: 0; }
+#nav a, #nav strong, #nav span { float:left; display:block; color:#fff; padding: 7px 20px 4px 10px; background: #C43219 url(nav.gif) no-repeat 100% 0px; text-decoration:none; font-weight: bold; }
+#nav a { float:none; }
+#nav li { float:left; color: #FFF; background: #C43219 url(nav.gif) no-repeat 0px 0px; margin:0; padding:0 0 0 9px; }
+#nav #current { background: #1995C2 url(nav.gif) no-repeat 0 -41px; color: #FFF; }
+#nav #current a { background: #1995C2 url(nav.gif) no-repeat 100% -41px; padding:7px 20px 4px 11px; color:#FFF; }
+#nav a:hover { color:#BFE1ED; background: #C43219 url(nav.gif) no-repeat 100% 0px; }   
+
+
+.sf_left {
+	float: left;
+	width: 203px;
+	height: 77px;
+	background: #5BB2D1 url(logobg.gif) repeat-x; 
+	color: #FFF;
+	border-top: 1px solid #137DA2;
+	border-bottom: 1px solid #000;
+	padding: 10px 0 0px 7px;
+}
+
+.sf_right {
+	width: 537px;
+	float: right;
+}
+
+.sf_search {
+	clear: both;
+	background: #CA090D url(searchbg.gif) repeat-x bottom left; 
+	color: #FFE4E0;
+	border-top: 1px solid #AA1717;
+	border-bottom: 1px solid #000;
+	padding: 18px 0 17px 15px;
+	margin-top: -2px;
+}
+	
+.subheader {
+	padding: 8px;
+	background: #f0f0f0;
+	color: #808080;
+}
+
+/* left side
+   --------- */
+
+.left {
+	float: left;
+	width: 595px;
+	margin: 0 0 10px 0;
+}
+
+	.box_top {
+		background: #F0F0F0 url(leftbox_top.gif) no-repeat;
+		color: #808080;
+		height: 40px;
+		width: 159px;
+	}
+	
+	.box_top h2 {
+		color: #808080;
+		background: inherit;
+		padding: 7px 0 0 5px;
+		margin: 0;
+	}
+	
+	.box {
+		border-left: 2px solid #F0F0F0;
+		border-right: 2px solid #F0F0F0;
+		padding: 0 4px 0 7px;
+		margin: 0;
+		width: 144px;
+		color: #595959;
+		background: #FFF;
+	}
+	
+	.box_bottom {
+		background: #FFF url(leftbox_bottom.gif) no-repeat;
+		color: #000;
+		height: 13px;
+		width: 160px;
+		margin: 0 0 7px 0;
+	}
+	
+		/* left and central column */
+		.left_side { float: left; width: 159px; padding: 0px 5px 8px 8px; }
+		.right_side { float: right; width: 405px; margin: 0 5px 0 0; text-align: justify; }
+		
+		.article { padding: 0 5px 0 0px; margin-bottom: 20px; }
+		
+	.grey_top { clear: both; width: 382px; background: #EDEDED url(grey_top.gif) no-repeat; color: #000; height: 5px; padding: 0; margin: 0px 0 0 6px; }
+	.grey { width: 362px; margin: 0 0 0 6px; padding: 10px; background: #EDEDED url(grey_bottom.gif) no-repeat bottom left; color: #808080;	}
+		
+	.grey a {
+		color: #C83C3C;
+		background: inherit;
+		font-weight: bold;
+	}
+	
+	.grey a:hover {
+		color: #000;
+		background: #EDEDED;
+	}
+	
+	.highlight {
+		padding: 5px 3px 5px 3px;
+		margin: 0 0 3px 0;
+		border-bottom: 1px solid #ccc;
+	}
+	
+		
+/* right side
+   ---------- */
+		
+.right { float: right; width: 170px; margin: 0 0 10px 0;}
+		
+img { float: left; margin: 0 9px 3px 0; }
+
+/* footer
+   ------ */
+
+.footer { 
+	clear: both; 
+	text-align: center;
+	color: #808080;
+	background: #f0f0f0;
+	padding: 10px 0 5px 0;
+	border-top: 1px solid #eee;
+}
+.footer p {	line-height: 2em; }
+.footer a {	color: #4F4F4F; background: #f0f0f0; border-bottom: 1px dotted #808080; text-decoration: none; } 
