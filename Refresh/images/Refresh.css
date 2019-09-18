@@ -1,0 +1,322 @@
+/********************************************
+   AUTHOR:  			Erwin Aligam 
+   WEBSITE:   			http://www.styleshout.com/
+	TEMPLATE NAME:		Refresh
+   TEMPLATE CODE: 	S-0002
+   VERSION:          1.0          	
+ *******************************************/
+ 
+/********************************************
+   HTML ELEMENTS
+********************************************/ 
+
+/* Top Elements */
+* { margin: 0; padding: 0; }
+
+body {
+	background: #CCCCCC;
+	font: 70%/1.5em Verdana, Tahoma, arial, sans-serif;
+	color: #333; 
+	text-align: center;
+}
+
+/* links */
+a, a:visited {
+	text-decoration: none;
+	color: #4F82CB; 
+	background: inherit;
+}
+a:hover {
+	color: #4EBF37;
+	background: inherit;
+}
+
+/* headers */
+h1, h2, h3 {
+	font-family: Tahoma, Verdana, 'Trebuchet MS', Sans-serif;
+	font-weight: Bold; 		
+}
+h1 {
+	font-size: 120%;	
+}
+h2 {
+	font-size: 110%;
+	text-transform: uppercase;
+	color: #88ac0b;
+}
+h3 {
+	font-size: 110%;
+	color: #666666; 
+}
+
+/* images */
+img {
+	border: 2px solid #CCC;
+}
+img.float-right {
+  margin: 5px 0px 10px 10px;  
+}
+img.float-left {
+  margin: 5px 10px 10px 0px;
+}
+
+h1, h2, h3, p {
+	padding: 10px;		
+	margin: 0;
+}
+ul, ol {
+	margin: 5px 20px;
+	padding: 0 20px;
+	color: #88ac0b;	
+}
+ul span, ol span {
+	color: #666666;
+}
+
+code {
+  margin: 5px 0;
+  padding: 10px;
+  text-align: left;
+  display: block;
+  overflow: auto;  
+  font: 500 1em/1.5em 'Lucida Console', 'courier new', monospace ;
+  /* white-space: pre; */
+  background: #FAFAFA;
+  border: 1px solid #f2f2f2;  
+}
+acronym {
+  cursor: help;
+  border-bottom: 1px solid #777;
+}
+blockquote {
+	margin: 10px;
+ 	padding: 0 0 0 28px;  
+   border: 1px solid #f2f2f2; 
+  	background: #FAFAFA url(quote.gif) no-repeat 5px 5px;    
+}
+
+/* form elements */
+form {
+	margin:10px; padding: 0 5px;
+	border: 1px solid #f2f2f2; 
+	background-color: #FAFAFA; 
+}
+label {
+	display:block;
+	font-weight:bold;
+	margin:5px 0;
+}
+input {
+	padding:2px;
+	border:1px solid #eee;
+	font: normal 1em Verdana, sans-serif;
+	color:#777;
+}
+textarea {
+	width:400px;
+	padding:2px;
+	font-family: Verdana, sans-serif;
+	border:1px solid #eee;
+	height:100px;
+	display:block;
+	color:#777;
+}
+input.button { 
+	margin: 0; 
+	font: bolder 12px Arial, Sans-serif; 
+	border: 1px solid #CCC; 
+	padding: 2px 3px; 
+	background: #FFF;
+	color: #88ac0b;
+}
+
+/* search */
+form.search {
+	position: absolute;
+	top: 35px; right: 25px;
+	background: transparent;
+	border: none;	
+}	
+form.search input.textbox {
+	margin: 0; padding: 1px 2px;
+	width: 120px;
+	background: #FFF;
+	color: #333; 
+}
+form.search input.button {
+	background: #CCC url(headerbg.gif) repeat-x;
+	color: #333;
+	border: none;	
+	width: 70px; height: 21px;
+}
+
+/********************************************
+   LAYOUT
+********************************************/ 
+#wrap {
+	width: 820px;
+	background: #CCC url(content.jpg) repeat-y center top;
+	margin: 0 auto;
+	text-align: left;
+}
+#content-wrap {
+	clear: both;
+	width: 760px;
+	padding: 0; 
+	margin: 0 auto;
+}
+#header {
+	width: 820px;
+	position: relative;
+	height: 106px;
+	background: #CCC url(header.jpg) no-repeat center top;
+	padding: 0;
+	font-size: 14px;
+	color: #FFF;
+}
+#header h1#logo-text {
+	position: absolute;
+	margin: 0; padding: 0;
+	font: bolder 3.3em 'Trebuchet MS', Arial, Sans-serif;
+	letter-spacing: -2px;
+	color: #FFF;
+	text-transform: none;
+	
+	/* change the values of top and left to adjust the position of the logo*/
+	top: 28px; left: 50px;	
+}
+#header h2#slogan {
+	position: absolute;
+	margin: 0; padding: 0;
+	font: normal .8em 'Trebuchet MS', Arial, Sans-serif;
+	text-transform: none;
+	color: #FFF;
+	
+	/* change the values of top and left to adjust the position of the slogan*/
+	top: 74px; left: 58px;		
+}
+
+/* Menu */
+#menu {
+	clear: both;	
+	margin: 0; padding: 0 40px 0 0;
+	background: url(menu.jpg) repeat-y center top;	
+	font: bold 12px/26px Verdana, Arial, Tahoma, Sans-serif;
+	height: 26px;
+}
+#menu ul {
+	float: right;
+	list-style: none;
+	margin:0; padding: 0;
+}
+#menu ul li {
+	display: inline;
+}
+#menu ul li a {
+	display: block;
+	float: left;
+	padding: 0 8px;
+	color: #FFF;	
+	text-decoration: none;
+}
+#menu ul li a:hover {
+	background-color: #ECECEC;
+	color: #333;	
+}
+#menu ul li#current a {	
+	background-color: #FFF;
+	color: #333;
+}
+
+/* Main Column */
+#main {
+	float: right;
+	width: 72%;
+	padding: 0; margin: 0;
+}
+#main h1 {
+	margin-top: 10px;
+	font: Bold 125% Verdana, 'Trebuchet MS', Sans-serif;
+	color: #88ac0b;
+	padding: 5px 0 5px 25px; 	
+	border-bottom: 1px solid #EFF0F1;
+	background: #FFF url(square-green.png) no-repeat 3px 50%;	
+}
+
+.post-footer {
+	background-color: #FAFAFA;
+	padding: 5px; margin: 20px 10px 0 10px;
+	border: 1px solid #f2f2f2;
+	font-size: 95%;	
+}
+.post-footer .date {
+	background: url(clock.gif) no-repeat left center;
+	padding-left: 20px; margin: 0 10px 0 5px;
+}
+.post-footer .comments {
+	background: url(comment.gif) no-repeat left center;
+	padding-left: 20px; margin: 0 10px 0 5px;
+}
+.post-footer .readmore {
+	background: url(page.gif) no-repeat left center;
+	padding-left: 20px; margin: 0 10px 0 5px;
+}
+
+/* Sidebar */	
+#sidebar {
+	float: left;
+	width: 26.5%;
+	padding: 0; margin: 0;	
+}	
+#sidebar h1 {
+	margin-top: 10px;
+	padding: 5px 0 5px 10px; 
+	font: bold 1.1em Verdana, 'Trebuchet MS', Sans-serif;
+	color: #555;
+	background: #EEF0F1 url(headerbg.gif) repeat-x left bottom;	
+	border: 1px solid #EFF0F1;
+}
+#sidebar .left-box {
+	border: 1px solid #EFF0F1; 
+	margin: 0 0 5px 0;	
+}
+#sidebar ul.sidemenu {
+	list-style: none;
+	text-align: left;
+	margin: 3px 0 8px 0; padding: 0;
+	text-decoration: none;		
+}
+#sidebar ul.sidemenu li {
+	border-bottom: 1px solid #EFF0F1;
+	background: url(go.gif) no-repeat 5px 5px;	
+	padding: 2px 0 2px 25px;
+	margin: 0 2px;	
+}
+#sidebar ul.sidemenu a {
+	font-weight: bolder;
+	text-decoration: none;	
+	background-image: none;	
+}
+
+/* Footer */	
+#footer {
+	color: #666666;
+	background: #CCC url(footer.jpg) no-repeat center top;
+	clear: both;
+	width: 820px;
+	height: 55px;
+	text-align: center;	
+	font-size: 92%;
+}
+#footer a { text-decoration: none; }
+
+/* alignment classes */
+.float-left  { float: left; }
+.float-right { float: right; }
+.align-left  { text-align: left; }
+.align-right { text-align: right; }
+
+/* display and additional classes */
+.clear { clear: both; }
+.gray { color: #CCC; }
+
