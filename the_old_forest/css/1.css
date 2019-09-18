@@ -1,0 +1,277 @@
+body {
+	/*font: 76.5%/1.6em "Lucida Grande", "Lucida Sans Unicode", verdana, geneva, sans-serif;*/
+	font:76% Georgia;
+	color:#646F5E;
+	background:url(../images/body_bg.gif) #342321;
+	margin:0;
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+
+.clear {
+	clear:both;
+}
+
+.hidden {
+	display:none;
+}
+
+#nav .hidden {
+	display:none;
+}
+
+em em {
+	font-style:normal;
+}
+
+blockquote {
+	background:#273322;
+	border:1px solid #202B1C;
+	font-size:120%;
+}
+
+#container {
+	width:780px;
+	background:url(../images/container.jpg) top repeat-y;
+	margin:0 auto;
+}
+
+#wrapper {
+	width:740px;
+	margin:0 auto;
+}
+
+#header {
+	height:233px;
+	background:url(../images/header.jpg) no-repeat;
+}
+
+#header h1 {
+	text-align:center;
+	padding:15px 0 0 0;
+	color:#fff;
+	font-size:240%;
+	font-weight:normal;
+}
+
+#header h1 a {
+	color:#fff;
+	text-decoration:none;
+}
+
+#header h2 {
+	color:#7C9B46;
+	text-align:center;
+	font:80% Verdana;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	padding:5px 0 0 0;
+}
+
+#sidebar {
+	width:260px;
+	float:left;
+	padding:20px;
+	background:url(../images/sidebartop.jpg) no-repeat;
+	
+}
+
+#sidebar h2 {
+	border-bottom:2px solid #AEA68D;
+	color:#382725;
+	font:165% Georgia;
+	font-weight:normal;
+	padding:10px 5px;
+	line-height:29px;
+}
+
+#sidebar #sidenav {
+	margin:10px 0;
+}
+
+#sidebar #sidenav li {
+	list-style:none;
+	padding:5px 2px;
+	border-bottom:1px solid #96885C;
+}
+
+#sidebar #sidenav li a {
+	padding:5px 2px;
+	display:block;
+	font:130% Georgia;
+	text-decoration:none;
+	color:#3D3725;
+	background:url(../images/sidenava.gif) right no-repeat;
+}
+
+#sidebar #sidenav a:hover {
+	color:#000;
+}
+
+#sidebar p {
+	font-size:90%;
+	line-height:24px;
+	color:#805955;
+	margin:10px 0;
+	padding:5px;
+}
+
+#sidebar input {
+	background:#A39783;
+	color:#3D3725;
+	padding:4px;
+	width:250px;
+	border:none;
+	font:140% Trebuchet MS;
+}
+
+#content {
+	margin:0 0 0 300px;
+	background:url(../images/content.jpg) top left no-repeat;
+}
+
+#nav {
+	padding:17px 0 0 0;
+	margin:0;
+}
+
+#nav li {
+	list-style:none;
+	display:inline;
+	margin:0;
+}
+
+#nav li a {
+	padding:17px 10px;
+	font:100% "Lucida Grande", "Lucida Sans Unicode", verdana, geneva, sans-serif;
+	text-decoration:none;
+	font-weight:bold;
+	color:#D6DBC1;
+	background:url(../images/a_hover.gif) top no-repeat;
+}
+
+#nav a:hover {
+	background:url(../images/a_hover.gif) bottom repeat-x #24331C;
+}
+
+a em {
+	font-style:normal;
+	text-decoration:underline;
+}
+
+#content_main {
+	margin:18px 0 0 0;
+	padding:5px 15px 15px 15px;
+	background:url(../images/content_sub.jpg) top left no-repeat;
+}
+
+a {
+	color:#fff;
+	text-decoration:none;
+}
+
+#content_main a:hover {
+	text-decoration:underline;
+}
+
+#content_main h2,h3,p,blockquote {	
+	margin:15px;
+	line-height:25px;
+	font-size:120%;
+}
+
+#content_main h3 {	
+	color:#939D8C;
+	font-size:120%;
+}
+
+#content_main ul,ol {
+	margin:15px 30px;
+	line-height:25px;
+}
+
+#content_main h2 {
+	font:180% Arial;
+}
+
+img {
+	border:4px solid #273322;
+}
+
+p.details {
+	border-top:1px solid #202114;
+	border-bottom:1px solid #202114;
+	color:#959F91;
+	font:80% Verdana;
+	text-transform:uppercase;
+	padding:7px 0;
+}
+
+p.details a {
+	color:#959F91;
+	border-bottom:1px solid #596356;
+}
+
+p.details a.comlink {
+	float:right;
+}
+
+ol.comments li {
+	clear:right;
+	font-size:90%;
+}
+
+ol.comments .user {
+	float:right;
+	width:80px;
+	background:url(../images/user.jpg) no-repeat #BEB8A2;
+	padding:15px;
+	font:90% Verdana;
+	height:60px;
+}
+
+ol.comments .etc {
+	float:right;
+	width:80px;
+	margin:10px 0 0;
+	clear:right;
+	background:#273322;
+	padding:15px;
+	font:80% Verdana;
+	margin-bottom:10px;
+}
+ol.comments .etc p {
+	margin:0;
+	padding:0;
+	line-height:20px;
+}
+
+ol.comments .user a {
+	color:#382725;
+}
+
+ol.comments .user img {
+	border:3px solid #293624;
+}
+
+ol.comments .user p {
+	margin:0;
+	padding:0;
+}
+
+ol.comments p {
+	margin:15px 125px 15px 0;
+}
+
+#footer {
+	margin:30px 0 0 0;
+	padding:15px;
+	font-size:90%;
+	border-top:1px solid #333;
+}
+
+
+
