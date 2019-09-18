@@ -1,0 +1,458 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Naturex Website Template | About :: W3layouts</title>
+		<link href="web/css/style.css" rel="stylesheet" type="text/css"  media="all" />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="web/css/superfish.css" media="screen">
+		<script src="web/js/jquery.js"></script>
+		<script src="web/js/superfish.js"></script>
+		<script type="text/javascript" src="web/js/move-top.js"></script>
+		<script type="text/javascript" src="web/js/easing.js"></script>
+		<script>
+		(function($){ //create closure so we can safely use $ as alias for jQuery
+			$(document).ready(function(){
+				// initialise plugin
+				var example = $('#example').superfish({
+					//add options here if required
+				});
+				// buttons to demonstrate Superfish's public methods
+				$('.destroy').on('click', function(){
+					example.superfish('destroy');
+				});
+				$('.init').on('click', function(){
+					example.superfish();
+				});
+				$('.open').on('click', function(){
+					example.children('li:first').superfish('show');
+				});
+				$('.close').on('click', function(){
+					example.children('li:first').superfish('hide');
+				});
+			});
+		})(jQuery);
+		</script>
+	</head>
+	<body>
+		<!---start-wrap---->
+		<div class="wrap">
+			<!---start-header---->
+			<div class="header">
+				<div class="logo">
+					<a href="index.html"><img src="web/images/logo.png" title="naturex" /></a>
+				</div>
+				<div class="top-social-icons">
+					<ul>
+						<li><a class="icon1" href="#"> </a></li>
+						<li><a class="icon2" href="#"> </a></li>
+						<li><a class="icon3" href="#"> </a></li>
+						<li><a class="icon4" href="#"> </a></li>
+					</ul>
+				</div>
+				<div class="clear"> </div>
+			</div>
+			<div class="clear"> </div>
+			<!---End-header---->
+			<!---start-top-nav---->
+			<div class="top-nav">
+						<ul class="sf-menu sf-menu2" id="example">
+							<li  class="current home">
+							<a href="index.html"></a>
+						</li>
+						<li class="active">
+							<a href="about.html">About</a>
+						</li>
+						<li>
+							<a class="direct" href="services.html">Services</a>
+							<ul>
+								<li>
+									<a href="#">electronic</a>
+								</li>
+								<li class="current">
+									<a href="#">typesetting</a>
+									<ul>
+										<li class="current"><a href="#">printin</a></li>
+										<li><a href="#">typesetting</a></li>
+										<li><a href="#">scrambled</a></li>
+										<li><a href="#">specimen book</a></li>
+										<li><a href="#">electronic typesetting</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="#">specimen book</a>
+									<ul>
+										<li><a href="#">scrambled</a></li>
+										<li><a href="#">specimen book</a></li>
+										<li><a href="#">electronic typesetting</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="#">scrambled</a>
+									<ul>
+										<li><a href="#">scrambled</a></li>
+										<li><a href="#">specimen book</a></li>
+										<li><a href="#">electronic typesetting</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="gallery.html">Gallery</a>
+						</li>
+						<li>
+							<a href="contact.html">Contact</a>
+						</li>	
+						<div class="clear"> </div>
+					</ul>
+					</div>
+					<div class="clear"> </div>
+				</div>
+				<!---End-header---->
+			</div>
+			<!---start-content----->
+			<div class="content">
+				<!---start-services----->
+				<div class="gallery1">
+				<div class="wrap">
+					<h1>Our<span>Gallery</span></h1>
+					<div class="clear"> </div>
+					<div class="container">
+
+					<ul id="filters" class="clearfix">
+						<li><span class="filter active" data-filter="app card icon logo web">Categorie1</span></li>
+						<li><span class="filter" data-filter="app">Categorie2</span></li>
+						<li><span class="filter" data-filter="card">Categorie3</span></li>
+						<li><span class="filter" data-filter="icon">Categorie4</span></li>
+						<li><span class="filter" data-filter="logo">Categorie5</span></li>
+						<li><span class="filter" data-filter="web">Categorie6</span></li>
+					</ul>
+					<div class="clear"></div>
+		<div id="portfoliolist">
+			
+			<div class="portfolio logo1" data-cat="logo">
+				<div class="portfolio-wrapper">				
+					<a href="web/images/s1.jpg" class="flipLightBox">
+						<img src="web/images/s1.jpg"  alt="Image 2" />
+					</a>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Bird Document</a>
+							<span class="text-category">Logo</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>				
+
+			<div class="portfolio app" data-cat="app">
+				<div class="portfolio-wrapper">			
+					<a href="web/images/s4.jpg" class="flipLightBox">
+						<img src="web/images/s2.jpg"  alt="Image 2" />
+					</a>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Visual Infography</a>
+							<span class="text-category">APP</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>		
+			
+			<div class="portfolio web" data-cat="web">
+				<div class="portfolio-wrapper">						
+					<a href="web/images/s3.jpg" class="flipLightBox">
+						<img src="web/images/s3.jpg"  alt="Image 2" />
+					</a>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Sonor's Design</a>
+							<span class="text-category">Web design</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>				
+			
+			<div class="portfolio card" data-cat="card">
+				<div class="portfolio-wrapper">			
+					<a href="web/images/s1.jpg" class="flipLightBox">
+						<img src="web/images/s1.jpg"  alt="Image 2" />
+					</a>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Typography Company</a>
+							<span class="text-category">Business card</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>	
+						
+			<div class="portfolio app" data-cat="app">
+				<div class="portfolio-wrapper">
+					<a href="web/images/s1.jpg" class="flipLightBox">
+						<img src="web/images/s1.jpg"  alt="Image 2" />
+					</a>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Weatherette</a>
+							<span class="text-category">APP</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>			
+			
+			<div class="portfolio card" data-cat="card">
+				<div class="portfolio-wrapper">			
+					<a href="web/images/s2.jpg" class="flipLightBox">
+						<img src="web/images/s2.jpg"  alt="Image 2" />
+					</a>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">BMF</a>
+							<span class="text-category">Business card</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>	
+			
+			<div class="portfolio card" data-cat="card">
+				<div class="portfolio-wrapper">			
+					<a href="web/images/s3.jpg" class="flipLightBox">
+						<img src="web/images/s3.jpg"  alt="Image 2" />
+					</a>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Techlion</a>
+							<span class="text-category">Business card</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>	
+			
+			<div class="portfolio logo1" data-cat="logo">
+				<div class="portfolio-wrapper">			
+					<a href="web/images/s1.jpg" class="flipLightBox">
+						<img src="web/images/s1.jpg"  alt="Image 2" />
+					</a>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">KittyPic</a>
+							<span class="text-category">Logo</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>																																							
+			
+			<div class="portfolio app" data-cat="app">
+				<div class="portfolio-wrapper">			
+					<a href="web/images/s2.jpg" class="flipLightBox">
+						<img src="web/images/s2.jpg"  alt="Image 2" />
+					</a>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Graph Plotting</a>
+							<span class="text-category">APP</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>														
+			
+			<div class="portfolio card" data-cat="card">
+				<div class="portfolio-wrapper">			
+					<img src="web/images/s1.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">QR Quick Response</a>
+							<span class="text-category">Business card</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>				
+
+			<div class="portfolio logo1" data-cat="logo">
+				<div class="portfolio-wrapper">			
+					<img src="web/images/s3.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Mobi Sock</a>
+							<span class="text-category">Logo</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>																	
+
+			<div class="portfolio logo1" data-cat="logo">
+				<div class="portfolio-wrapper">			
+					<img src="web/images/s1.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Village Community Church</a>
+							<span class="text-category">Logo</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>													
+			
+			<div class="portfolio icon" data-cat="icon">
+				<div class="portfolio-wrapper">			
+					<img src="web/images/s2.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Domino's Pizza</a>
+							<span class="text-category">Icon</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>							
+
+			<div class="portfolio web" data-cat="web">
+				<div class="portfolio-wrapper">						
+					<img src="web/images/s1.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Backend Admin</a>
+							<span class="text-category">Web design</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>																								
+
+			<div class="portfolio icon" data-cat="icon">
+				<div class="portfolio-wrapper">			
+					<img src="web/images/s2.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Instagram</a>
+							<span class="text-category">Icon</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>				
+			
+			<div class="portfolio web" data-cat="web">
+				<div class="portfolio-wrapper">						
+					<a href="web/images/s3.jpg" class="flipLightBox">
+						<img src="web/images/s1.jpg"  alt="Image 2" />
+					</a>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Student Guide</a>
+							<span class="text-category">Web design</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>																	
+		</div>
+		<script type="text/javascript" src="web/js/jquery.easing.min.js"></script>	
+	<script type="text/javascript" src="web/js/jquery.mixitup.min.js"></script>
+	<script type="text/javascript">
+	$(function () {
+		
+		var filterList = {
+		
+			init: function () {
+			
+				// MixItUp plugin
+				// http://mixitup.io
+				$('#portfoliolist').mixitup({
+					targetSelector: '.portfolio',
+					filterSelector: '.filter',
+					effects: ['fade'],
+					easing: 'snap',
+					// call the hover effect
+					onMixEnd: filterList.hoverEffect()
+				});				
+			
+			},
+			
+			hoverEffect: function () {
+			
+				// Simple parallax effect
+				$('#portfoliolist .portfolio').hover(
+					function () {
+						$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+						$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+					},
+					function () {
+						$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+						$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+					}		
+				);				
+			
+			}
+
+		};
+		
+		// Run the show!
+		filterList.init();
+		
+		
+	});	
+	</script>
+	</div><!-- container -->
+	<script type="text/javascript" src="web/js/fliplightbox.min.js"></script>
+						<script type="text/javascript">$('body').flipLightBox()</script>
+						<div class="clear"> </div>
+				</div>
+			</div>
+			<!---End-about---->
+			<!---End-content----->
+		</div>
+		<div class="clear"></div>
+		</div>
+	</div>
+	<div class="clear"></div>
+		<!---start-footer----->
+		<div class="footer">
+			<div class="wrap">
+				<div class="footer-left">
+					<a href="index.html">NATUREX</a>
+				</div>
+				<div class="footer-right">
+					<p>Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+					<script type="text/javascript">
+							$(document).ready(function() {
+								/*
+								var defaults = {
+						  			containerID: 'toTop', // fading element id
+									containerHoverID: 'toTopHover', // fading element hover id
+									scrollSpeed: 1200,
+									easingType: 'linear' 
+						 		};
+								*/
+								
+								$().UItoTop({ easingType: 'easeOutQuart' });
+								
+							});
+						</script>
+   					 <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+				</div>
+				<div class="clear"> </div>
+			</div>
+		</div>
+		<!---End-footer----->
+		<!---End-wrap---->
+		
+	</body>
+</html>
+

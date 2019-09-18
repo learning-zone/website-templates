@@ -1,0 +1,535 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Limelight website for high end mobiles,like samsung nokia mobile website templates for free | icons :: w3layouts</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<link rel="shortcut icon" type="image/x-icon" href="smartphone/images/fave-icon.png" />
+	    <link href="smartphone/css/style.css" rel="stylesheet" type="text/css" media="all" />
+	   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	    <link type="text/css" rel="stylesheet" href="smartphone/css/jquery.mmenu.all.css" />
+	   <script type="text/javascript">
+			$(window).load(function(){
+				$('div.description').each(function(){
+					$(this).css('display', 'block');
+				});
+				
+				$('div.content-top-grid').hover(function(){
+					$(this).children('.description').stop().fadeTo(500, 1);
+				},function(){
+					$(this).children('.description').stop().fadeTo(500, 0);
+				});
+				
+			});
+	</script>
+	<script type="text/javascript" src="smartphone/js/jquery.mmenu.js"></script>
+		<script type="text/javascript">
+			//	The menu on the left
+			$(function() {
+				$('nav#menu-left').mmenu();
+			});
+		</script>
+	<!---start-blog---->
+	<script type="text/javascript" src="smartphone/js/jquery.easing.min.js"></script>	
+	<script type="text/javascript" src="smartphone/js/jquery.mixitup.min.js"></script>
+	<script type="text/javascript">
+	$(function () {
+		
+		var filterList = {
+		
+			init: function () {
+			
+				// MixItUp plugin
+				// http://mixitup.io
+				$('#portfoliolist').mixitup({
+					targetSelector: '.portfolio',
+					filterSelector: '.filter',
+					effects: ['fade'],
+					easing: 'snap',
+					// call the hover effect
+					onMixEnd: filterList.hoverEffect()
+				});				
+			
+			},
+			
+			hoverEffect: function () {
+			
+				// Simple parallax effect
+				$('#portfoliolist .portfolio').hover(
+					function () {
+						$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+						$(this).find('img').stop().animate({top: -2}, 500, 'easeOutQuad');				
+					},
+					function () {
+						$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+						$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+					}		
+				);				
+			
+			}
+
+		};
+		
+		// Run the show!
+		filterList.init();
+	});	
+	</script>
+	<!---//start-blog---->
+	</head>
+	<body>
+		<!---start-wrap---->
+		<div class="wrap">
+			<!---start-header---->
+			<div id="page">
+					<div id="header">
+						<a class="navicon" href="#menu-left"> </a>
+						<div class="logo">
+						<a href="index.html"><img src="smartphone/images/logo.png" alt="" /></a>
+						</div>
+					</div>
+					<nav id="menu-left">
+						<ul>
+							<li><a href="index.html"><img src="smartphone/images/home-icon.png" alt="" />Home</a></li>
+							<li><a href="blog.html"><img src="smartphone/images/blog.png" alt="" />Blog</a></li>
+							<li><a href="#"><img src="smartphone/images/font.png" alt="" />Fonts</a></li>
+							<li><a href="#"><img src="smartphone/images/temp.png" alt="" />Templates</a></li>
+							<li><a href="icons.html"><img src="smartphone/images/icon.png" alt="" />Icons</a></li>
+							<li><a href="contact.html"><img src="smartphone/images/tel.png" alt="" />Contact</a></li>
+							<div class="clear"> </div>
+						</ul>
+					</nav>
+				</div>
+		<!---//End-header---->
+		<!---start-content---->
+		<!---start-blog---->
+		<div class="blog">
+			<div class="wrap">
+				<div class="blog-header">
+					<h3>Icons</h3>
+				</div>
+			</div>
+			<ul id="filters" class="clearfix">
+				<div class="wrap"> 
+						<li><span class="filter active" data-filter="app card icon logo web">All</span></li>
+						<li><span class="filter" data-filter="app">E-commerce</span></li>
+						<li><span class="filter" data-filter="card">Misc</span></li>
+						<li><span class="filter" data-filter="icon">Social Media</span></li>
+						<li><span class="filter" data-filter="logo">Weather</span></li>
+						<li><span class="filter" data-filter="web">Web</span></li>
+						<div class="clear"> </div>
+				</div>
+			</ul>
+			<div class="wrap"> 
+				<div class="content">
+			<div class="blog-grids" id="portfoliolist">
+			<div class="content-top-grids-box portfolio logo1" data-cat="logo">
+						<div class="content-top-grid">
+							<img class="grid-img" src="smartphone/images/grid-pic1.jpg" alt="">
+							<div class="description" style="display: block; opacity: 1;">
+								<div class="description_content">
+									<div class="description_content-left">
+										<a href="#">June 28,2013</a>
+									</div>
+									<div class="description_content-right">
+										<ul>
+											<li><a href="iconsingle.html"><span> </span>328</a></li>
+											<li><a href="iconsingle.html"><span> </span>12</a></li>
+											<li><a href="iconsingle.html"><span> </span>128</a></li>
+											<div class="clear"> </div>
+										</ul>
+									</div>
+									<div class="clear"> </div>
+								 </div>
+							</div>
+						</div>
+					<div class="content-top-grid-title">
+							<div class="content-top-grid-title-left">
+								<h4><a href="iconsingle.html">Responsive Showcase</a></h4>
+								<ul>
+									<li><a href="iconsingle.html">Templates ,</a></li>
+									<li><a href="iconsingle.html">PSD</a></li>
+								</ul>
+							</div>
+							<div class="content-top-grid-title-right">
+								<a href="iconsingle.html"> </a>
+							</div>
+							<div class="clear"> </div>
+						</div>
+				</div>
+				<div class="content-top-grids-box portfolio web" data-cat="web">
+						<div class="content-top-grid">
+							<img class="grid-img" src="smartphone/images/grid-pic2.jpg" alt="">
+							<div class="description" style="display: block; opacity: 1;">
+								<div class="description_content">
+									<div class="description_content-left">
+										<a href="#">June 28,2013</a>
+									</div>
+									<div class="description_content-right">
+										<ul>
+											<li><a href="iconsingle.html"><span> </span>328</a></li>
+											<li><a href="iconsingle.html"><span> </span>12</a></li>
+											<li><a href="iconsingle.html"><span> </span>128</a></li>
+											<div class="clear"> </div>
+										</ul>
+									</div>
+									<div class="clear"> </div>
+								 </div>
+							</div>
+						</div>
+					<div class="content-top-grid-title">
+							<div class="content-top-grid-title-left">
+								<h4><a href="iconsingle.html">Responsive Showcase</a></h4>
+								<ul>
+									<li><a href="iconsingle.html">Templates ,</a></li>
+									<li><a href="iconsingle.html">PSD</a></li>
+								</ul>
+							</div>
+							<div class="content-top-grid-title-right">
+								<a href="iconsingle.html"> </a>
+							</div>
+							<div class="clear"> </div>
+						</div>
+				</div>
+				<div class="content-top-grids-box portfolio app" data-cat="app">
+						<div class="content-top-grid">
+							<img class="grid-img" src="smartphone/images/grid-pic3.jpg" alt="">
+							<div class="description" style="display: block; opacity: 1;">
+								<div class="description_content">
+									<div class="description_content-left">
+										<a href="#">June 28,2013</a>
+									</div>
+									<div class="description_content-right">
+										<ul>
+											<li><a href="iconsingle.html"><span> </span>328</a></li>
+											<li><a href="iconsingle.html"><span> </span>12</a></li>
+											<li><a href="iconsingle.html"><span> </span>128</a></li>
+											<div class="clear"> </div>
+										</ul>
+									</div>
+									<div class="clear"> </div>
+								 </div>
+							</div>
+						</div>
+					<div class="content-top-grid-title">
+							<div class="content-top-grid-title-left">
+								<h4><a href="iconsingle.html">Responsive Showcase</a></h4>
+								<ul>
+									<li><a href="iconsingle.html">Templates ,</a></li>
+									<li><a href="iconsingle.html">PSD</a></li>
+								</ul>
+							</div>
+							<div class="content-top-grid-title-right">
+								<a href="iconsingle.html"> </a>
+							</div>
+							<div class="clear"> </div>
+						</div>
+				</div>
+				<div class="content-top-grids-box portfolio logo1" data-cat="logo">
+						<div class="content-top-grid">
+							<img class="grid-img" src="smartphone/images/grid-pic1.jpg" alt="">
+							<div class="description" style="display: block; opacity: 1;">
+								<div class="description_content">
+									<div class="description_content-left">
+										<a href="iconsingle.html">June 28,2013</a>
+									</div>
+									<div class="description_content-right">
+										<ul>
+											<li><a href="iconsingle.html"><span> </span>328</a></li>
+											<li><a href="iconsingle.html"><span> </span>12</a></li>
+											<li><a href="iconsingle.html"><span> </span>128</a></li>
+											<div class="clear"> </div>
+										</ul>
+									</div>
+									<div class="clear"> </div>
+								 </div>
+							</div>
+						</div>
+					<div class="content-top-grid-title">
+							<div class="content-top-grid-title-left">
+								<h4><a href="iconsingle.html">Responsive Showcase</a></h4>
+								<ul>
+									<li><a href="iconsingle.html">Templates ,</a></li>
+									<li><a href="iconsingle.html">PSD</a></li>
+								</ul>
+							</div>
+							<div class="content-top-grid-title-right">
+								<a href="iconsingle.html"> </a>
+							</div>
+							<div class="clear"> </div>
+						</div>
+				</div>
+				<div class="content-top-grids-box portfolio web" data-cat="web">
+						<div class="content-top-grid">
+							<img class="grid-img" src="smartphone/images/grid-pic3.jpg" alt="">
+							<div class="description" style="display: block; opacity: 1;">
+								<div class="description_content">
+									<div class="description_content-left">
+										<a href="iconsingle.html">June 28,2013</a>
+									</div>
+									<div class="description_content-right">
+										<ul>
+											<li><a href="iconsingle.html"><span> </span>328</a></li>
+											<li><a href="iconsingle.html"><span> </span>12</a></li>
+											<li><a href="iconsingle.html"><span> </span>128</a></li>
+											<div class="clear"> </div>
+										</ul>
+									</div>
+									<div class="clear"> </div>
+								 </div>
+							</div>
+						</div>
+					<div class="content-top-grid-title">
+							<div class="content-top-grid-title-left">
+								<h4><a href="iconsingle.html">Responsive Showcase</a></h4>
+								<ul>
+									<li><a href="iconsingle.html">Templates ,</a></li>
+									<li><a href="iconsingle.html">PSD</a></li>
+								</ul>
+							</div>
+							<div class="content-top-grid-title-right">
+								<a href="iconsingle.html"> </a>
+							</div>
+							<div class="clear"> </div>
+						</div>
+				</div>
+				<div class="content-top-grids-box portfolio app" data-cat="app">
+						<div class="content-top-grid">
+							<img class="grid-img" src="smartphone/images/grid-pic2.jpg" alt="">
+							<div class="description" style="display: block; opacity: 1;">
+								<div class="description_content">
+									<div class="description_content-left">
+										<a href="iconsingle.html">June 28,2013</a>
+									</div>
+									<div class="description_content-right">
+										<ul>
+											<li><a href="iconsingle.html"><span> </span>328</a></li>
+											<li><a href="iconsingle.html"><span> </span>12</a></li>
+											<li><a href="iconsingle.html"><span> </span>128</a></li>
+											<div class="clear"> </div>
+										</ul>
+									</div>
+									<div class="clear"> </div>
+								 </div>
+							</div>
+						</div>
+					<div class="content-top-grid-title">
+							<div class="content-top-grid-title-left">
+								<h4><a href="iconsingle.html">Responsive Showcase</a></h4>
+								<ul>
+									<li><a href="iconsingle.html">Templates ,</a></li>
+									<li><a href="iconsingle.html">PSD</a></li>
+								</ul>
+							</div>
+							<div class="content-top-grid-title-right">
+								<a href="iconsingle.html"> </a>
+							</div>
+							<div class="clear"> </div>
+						</div>
+				</div>
+				<div class="content-top-grids-box portfolio logo1" data-cat="logo">
+						<div class="content-top-grid">
+							<img class="grid-img" src="smartphone/images/grid-pic3.jpg" alt="">
+							<div class="description" style="display: block; opacity: 1;">
+								<div class="description_content">
+									<div class="description_content-left">
+										<a href="iconsingle.html">June 28,2013</a>
+									</div>
+									<div class="description_content-right">
+										<ul>
+											<li><a href="iconsingle.html"><span> </span>328</a></li>
+											<li><a href="iconsingle.html"><span> </span>12</a></li>
+											<li><a href="iconsingle.html"><span> </span>128</a></li>
+											<div class="clear"> </div>
+										</ul>
+									</div>
+									<div class="clear"> </div>
+								 </div>
+							</div>
+						</div>
+					<div class="content-top-grid-title">
+							<div class="content-top-grid-title-left">
+								<h4><a href="iconsingle.html">Responsive Showcase</a></h4>
+								<ul>
+									<li><a href="iconsingle.html">Templates ,</a></li>
+									<li><a href="iconsingle.html">PSD</a></li>
+								</ul>
+							</div>
+							<div class="content-top-grid-title-right">
+								<a href="iconsingle.html"> </a>
+							</div>
+							<div class="clear"> </div>
+						</div>
+				</div>
+				<div class="content-top-grids-box portfolio web" data-cat="web">
+						<div class="content-top-grid">
+							<img class="grid-img" src="smartphone/images/grid-pic2.jpg" alt="">
+							<div class="description" style="display: block; opacity: 1;">
+								<div class="description_content">
+									<div class="description_content-left">
+										<a href="iconsingle.html">June 28,2013</a>
+									</div>
+									<div class="description_content-right">
+										<ul>
+											<li><a href="iconsingle.html"><span> </span>328</a></li>
+											<li><a href="iconsingle.html"><span> </span>12</a></li>
+											<li><a href="iconsingle.html"><span> </span>128</a></li>
+											<div class="clear"> </div>
+										</ul>
+									</div>
+									<div class="clear"> </div>
+								 </div>
+							</div>
+						</div>
+					<div class="content-top-grid-title">
+							<div class="content-top-grid-title-left">
+								<h4><a href="iconsingle.html">Responsive Showcase</a></h4>
+								<ul>
+									<li><a href="iconsingle.html">Templates ,</a></li>
+									<li><a href="iconsingle.html">PSD</a></li>
+								</ul>
+							</div>
+							<div class="content-top-grid-title-right">
+								<a href="iconsingle.html"> </a>
+							</div>
+							<div class="clear"> </div>
+						</div>
+				</div>
+				<div class="content-top-grids-box portfolio app" data-cat="app">
+						<div class="content-top-grid">
+							<img class="grid-img" src="smartphone/images/grid-pic1.jpg" alt="">
+							<div class="description" style="display: block; opacity: 1;">
+								<div class="description_content">
+									<div class="description_content-left">
+										<a href="#">June 28,2013</a>
+									</div>
+									<div class="description_content-right">
+										<ul>
+											<li><a href="iconsingle.html"><span> </span>328</a></li>
+											<li><a href="iconsingle.html"><span> </span>12</a></li>
+											<li><a href="iconsingle.html"><span> </span>128</a></li>
+											<div class="clear"> </div>
+										</ul>
+									</div>
+									<div class="clear"> </div>
+								 </div>
+							</div>
+						</div>
+					<div class="content-top-grid-title">
+							<div class="content-top-grid-title-left">
+								<h4><a href="#">Responsive Showcase</a></h4>
+								<ul>
+									<li><a href="iconsingle.html">Templates ,</a></li>
+									<li><a href="iconsingle.html">PSD</a></li>
+								</ul>
+							</div>
+							<div class="content-top-grid-title-right">
+								<a href="iconsingle.html"> </a>
+							</div>
+							<div class="clear"> </div>
+						</div>
+				</div>
+				<div class="clear"> </div>
+			</div>
+			<div class="clear"> </div>
+			<div class="icons-pagenate">
+				<ul>
+					<li><a class="frist-page" href="#"> </a></li>
+					<li><a href="#">1 </a></li>
+					<li><a href="#">2 </a></li>
+					<li><a href="#">3 </a></li>
+					<li><a href="#">4 </a></li>
+					<li><a class="last-page" href="#"> </a></li>
+					<div class="clear"> </div>
+				</ul>
+			</div>
+			<div class="clear"> </div>
+			</div>
+		</div>
+		</div>
+		<!---//End-blog---->
+		<div class="bottom-grids">
+			<div class="wrap"> 
+			<div class="bottom-grid-left">
+				<h3>Visit Our Shop</h3>
+				<div class="bottom-grid-left-grid">
+					<div class="bottom-grid-left-grid-left">
+						<a href="#"><img src="smartphone/images/bottom-pic.png" alt="" /></a>
+					</div>
+					<div class="bottom-grid-left-grid-right">
+						<p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam et dolore magna aliqua.</p>
+						<a class="letbtn" href="#">Lets shop</a>
+					</div>
+					<div class="clear"> </div>
+				</div>
+			</div>
+			<div class="bottom-grid-right">
+				<h3>Latest tweets</h3>
+				<div class="bottom-grid-right-grid">
+					<div class="bottom-grid-right-grid-left">
+						
+					</div>
+					<div class="bottom-grid-right-grid-right">
+						<p><span>Eiusmod:</span>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						<span><a href="#">#incididunt</a></span>
+						<label><a href="#">8 mins ago</a></label>
+					</div>
+					<div class="clear"> </div>
+				</div>
+				<div class="clear"> </div>
+				<div class="bottom-grid-right-grid">
+					<div class="bottom-grid-right-grid-left">
+						
+					</div>
+					<div class="bottom-grid-right-grid-right">
+						<p><span>Eiusmod:</span>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						<span><a href="#">#incididunt</a></span>
+						<label><a href="#">2 days ago</a></label>
+					</div>
+					<div class="clear"> </div>
+				</div>
+			</div>
+			<div class="clear"> </div>
+			</div>
+		</div>
+		<!---//End-content---->
+		<!---start-footer---->
+		<div class="footer"> 
+			<div class="wrap"> 
+				<div class="footer-left">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="blog.html">Archive</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<div class="clear"> </div>
+					</ul>
+				</div>
+				<div class="footer-center">
+					<ul>
+						<li><a href="#"><span> </span></a></li>
+						<li><a href="#"><span> </span></a></li>
+						<li><a href="#"><span> </span></a></li>
+						<li><a href="#"><span> </span></a></li>
+						<div class="clear"> </div>
+					</ul>
+				</div>
+				<div class="footer-right">
+					<p>Copyright &#169; 2013 Designer First. All Rights Reserved. Template By  <a href="http://w3layouts.com/">W3Layouts</a></p>
+				</div>
+				<div class="clear"> </div>
+				</div>
+		</div>
+		<!---//End-footer---->
+		<!---//End-wrap---->
+		 </div>
+	</body>
+</html>
+

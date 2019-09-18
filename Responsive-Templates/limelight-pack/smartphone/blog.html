@@ -1,0 +1,284 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Limelight website for high end mobiles,like samsung nokia mobile website templates for free | blog :: w3layouts</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<link rel="shortcut icon" type="image/x-icon" href="smartphone/images/fave-icon.png" />
+	    <link href="smartphone/css/style.css" rel="stylesheet" type="text/css" media="all" />
+	   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	    <link type="text/css" rel="stylesheet" href="smartphone/css/jquery.mmenu.all.css" />
+	   <script type="text/javascript">
+			$(window).load(function(){
+				$('div.description').each(function(){
+					$(this).css('display', 'block');
+				});
+				
+				$('div.content-top-grid').hover(function(){
+					$(this).children('.description').stop().fadeTo(500, 1);
+				},function(){
+					$(this).children('.description').stop().fadeTo(500, 0);
+				});
+				
+			});
+	</script>
+	<script type="text/javascript" src="smartphone/js/jquery.mmenu.js"></script>
+		<script type="text/javascript">
+			//	The menu on the left
+			$(function() {
+				$('nav#menu-left').mmenu();
+			});
+		</script>
+	<!---start-blog---->
+	<script type="text/javascript" src="smartphone/js/jquery.easing.min.js"></script>	
+	<script type="text/javascript" src="smartphone/js/jquery.mixitup.min.js"></script>
+	<script type="text/javascript">
+	$(function () {
+		
+		var filterList = {
+		
+			init: function () {
+			
+				// MixItUp plugin
+				// http://mixitup.io
+				$('#portfoliolist').mixitup({
+					targetSelector: '.portfolio1',
+					filterSelector: '.filter',
+					effects: ['fade'],
+					easing: 'snap',
+					// call the hover effect
+					onMixEnd: filterList.hoverEffect()
+				});				
+			
+			},
+			
+			hoverEffect: function () {
+			
+				// Simple parallax effect
+				$('#portfoliolist .portfolio1').hover(
+					function () {
+						$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+						$(this).find('img').stop().animate({top: -2}, 500, 'easeOutQuad');				
+					},
+					function () {
+						$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+						$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+					}		
+				);				
+			
+			}
+
+		};
+		
+		// Run the show!
+		filterList.init();
+	});	
+	</script>
+	<!---//start-blog---->
+	</head>
+	<body>
+		!---start-wrap---->
+		<div class="wrap">
+			<!---start-header---->
+			<div id="page">
+					<div id="header">
+						<a class="navicon" href="#menu-left"> </a>
+						<div class="logo">
+						<a href="index.html"><img src="smartphone/images/logo.png" alt="" /></a>
+						</div>
+					</div>
+					<nav id="menu-left">
+						<ul>
+							<li><a href="index.html"><img src="smartphone/images/home-icon.png" alt="" />Home</a></li>
+							<li><a href="blog.html"><img src="smartphone/images/blog.png" alt="" />Blog</a></li>
+							<li><a href="#"><img src="smartphone/images/font.png" alt="" />Fonts</a></li>
+							<li><a href="#"><img src="smartphone/images/temp.png" alt="" />Templates</a></li>
+							<li><a href="icons.html"><img src="smartphone/images/icon.png" alt="" />Icons</a></li>
+							<li><a href="#"><img src="smartphone/images/tel.png" alt="" />Contact</a></li>
+							<div class="clear"> </div>
+						</ul>
+					</nav>
+				</div>
+		<!---//End-header---->
+		<!---start-content---->
+		<!---start-blog---->
+		<div class="blog">
+			
+			<div class="wrap">
+				<div class="blog-header">
+					<h3>Blog</h3>
+				</div>
+			</div>
+			<ul id="filters" class="clearfix">
+				<div class="wrap"> 
+						<li><span class="filter active" data-filter="app card icon logo web">All</span></li>
+						<li><span class="filter" data-filter="app">App</span></li>
+						<li><span class="filter" data-filter="card">Design</span></li>
+						<li><span class="filter" data-filter="icon">Mobile</span></li>
+						<li><span class="filter" data-filter="web">Technology</span></li>
+						<div class="clear"> </div>
+				</div>
+			</ul>
+			<div class="wrap"> 
+				<div class="content">
+			<div class="blog-grids" id="portfoliolist">
+				<div class="blog-articla-grid  portfolio1 logo1" data-cat="logo">
+					<div class="blog-articla-grid-pic">
+						<a href="bsingle.html"><img src="smartphone/images/artpic2.png" alt=" "></a>
+					</div>
+					<div class="blog-articla-grid-info">
+						<h3><a href="bsingle.html">Lorem ipsum dolor sit amet adipisicing elit?</a></h3>
+						<ul>
+							<li><p>post on <a href="bsingle.html">July 28,2013</a></p></li>
+							<li><a href="bsingle.html"> James Reed</a></li>
+							<li><a href="bsingle.html"> Technology</a></li>
+							<p class="artical-para">
+								consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+							</p>
+							<a class="artbtn" href="bsingle.html">Read More</a>
+						</ul>
+					</div>
+					<div class="clear"> </div>
+				</div>
+				<div class="blog-articla-grid  portfolio1 logo1" data-cat="app">
+					<div class="blog-articla-grid-pic">
+						<a href="bsingle.html"><img src="smartphone/images/artpic1.png" alt=" "></a>
+					</div>
+					<div class="blog-articla-grid-info">
+						<h3><a href="bsingle.html">Sed do eiusmod tempor incididunt ut labore et</a></h3>
+						<ul>
+							<li><p>post on <a href="bsingle.html">July 28,2013</a></p></li>
+							<li><a href="bsingle.html"> James Reed</a></li>
+							<li><a href="bsingle.html"> Technology</a></li>
+							<p class="artical-para">
+								consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+							</p>
+							<a class="artbtn" href="bsingle.html">Read More</a>
+						</ul>
+					</div>
+					<div class="clear"> </div>
+				</div>
+				<div class="blog-articla-grid  portfolio1 logo1" data-cat="app">
+					<div class="blog-articla-grid-pic">
+						<a href="bsingle.html"><img src="smartphone/images/artpic3.png" alt=" "></a>
+					</div>
+					<div class="blog-articla-grid-info">
+						<h3><a href="bsingle.html">Lorem ipsum dolor sit amet adipisicing elit?</a></h3>
+						<ul>
+							<li><p>post on <a href="bsingle.html">July 28,2013</a></p></li>
+							<li><a href="bsingle.html"> James Reed</a></li>
+							<li><a href="bsingle.html"> Technology</a></li>
+							<p class="artical-para">
+								consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+							</p>
+							<a class="artbtn" href="bsingle.html">Read More</a>
+						</ul>
+					</div>
+					<div class="clear"> </div>
+				</div>
+				
+				<div class="clear"> </div>
+			</div>
+			<div class="clear"> </div>
+			<div class="icons-pagenate">
+				<ul>
+					<li><a class="frist-page" href="#"> </a></li>
+					<li><a href="#">1 </a></li>
+					<li><a href="#">2 </a></li>
+					<li><a href="#">3 </a></li>
+					<li><a href="#">4 </a></li>
+					<li><a class="last-page" href="#"> </a></li>
+					<div class="clear"> </div>
+				</ul>
+			</div>
+			<div class="clear"> </div>
+			</div>
+		</div>
+		</div>
+		<!---//End-blog---->
+		<div class="bottom-grids">
+			<div class="wrap"> 
+			<div class="bottom-grid-left">
+				<h3>Visit Our Shop</h3>
+				<div class="bottom-grid-left-grid">
+					<div class="bottom-grid-left-grid-left">
+						<a href="#"><img src="smartphone/images/bottom-pic.png" alt="" /></a>
+					</div>
+					<div class="bottom-grid-left-grid-right">
+						<p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam et dolore magna aliqua.</p>
+						<a class="letbtn" href="#">Lets shop</a>
+					</div>
+					<div class="clear"> </div>
+				</div>
+			</div>
+			<div class="bottom-grid-right">
+				<h3>Latest tweets</h3>
+				<div class="bottom-grid-right-grid">
+					<div class="bottom-grid-right-grid-left">
+						
+					</div>
+					<div class="bottom-grid-right-grid-right">
+						<p><span>Eiusmod:</span>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						<span><a href="#">#incididunt</a></span>
+						<label><a href="#">8 mins ago</a></label>
+					</div>
+					<div class="clear"> </div>
+				</div>
+				<div class="clear"> </div>
+				<div class="bottom-grid-right-grid">
+					<div class="bottom-grid-right-grid-left">
+						
+					</div>
+					<div class="bottom-grid-right-grid-right">
+						<p><span>Eiusmod:</span>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						<span><a href="#">#incididunt</a></span>
+						<label><a href="#">2 days ago</a></label>
+					</div>
+					<div class="clear"> </div>
+				</div>
+			</div>
+			<div class="clear"> </div>
+			</div>
+		</div>
+		<!---//End-content---->
+		<!---start-footer---->
+		<div class="footer"> 
+			<div class="wrap"> 
+				<div class="footer-left">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="blog.html">Archive</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<div class="clear"> </div>
+					</ul>
+				</div>
+				<div class="footer-center">
+					<ul>
+						<li><a href="#"><span> </span></a></li>
+						<li><a href="#"><span> </span></a></li>
+						<li><a href="#"><span> </span></a></li>
+						<li><a href="#"><span> </span></a></li>
+						<div class="clear"> </div>
+					</ul>
+				</div>
+				<div class="footer-right">
+					<p>Copyright &#169; 2013 Designer First. All Rights Reserved. Template By  <a href="http://w3layouts.com/">W3Layouts</a></p>
+				</div>
+				<div class="clear"> </div>
+				</div>
+		</div>
+		<!---//End-footer---->
+		<!---//End-wrap---->
+		 </div>
+	</body>
+</html>
+

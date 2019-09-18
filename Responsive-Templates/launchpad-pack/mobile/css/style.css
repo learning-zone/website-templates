@@ -1,0 +1,365 @@
+/*
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+*/
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0;padding:0;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+.underline{	padding-bottom:5px;	border-bottom: 1px solid #eee; margin:0 0 20px 0;}/* Add 5px bottom padding and a underline */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*end reset*/
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#fff;
+	font-weight:100%;
+}
+.wrap{
+	width:100%;
+	margin:0 auto;
+}
+.header-top{
+	padding:15px 10px 0 10px;
+	background: #FFF;
+}
+.logo {
+	text-align: center;
+}
+/*--menu--*/
+.cssmenu{
+	text-align: center;
+}
+.cssmenu > ul > li {
+	display: inline-block;
+}
+.cssmenu > ul > li.active a, .cssmenu > ul > li a:hover {
+	color:#000;
+}
+.cssmenu > ul > li > a {
+	color: #999;
+	display: block;
+	margin: 10px 2px;
+	font-size: 0.8125em;
+}
+.header-bottom{
+	padding:20px 10px 20px 10px;
+	text-align: center;
+}
+.header-bottom h1{
+	font-size:1.3em;
+	color: #333;
+}
+.header-bottom h2{
+	font-size:0.89em;
+	color: #555;
+	line-height: 1.5em;
+	padding:20px 0;
+}
+.header-bottom h3{
+	font-size:1em;
+	color: #555;
+}
+.but {
+	text-align: center;
+	padding:20px 0 25px 0;
+}
+.but a {
+	display: inline-block;
+	background: #3998F5;
+	padding: 2px 10px;
+	font-size: 0.8125em;
+	color: #FFF;
+	text-transform: uppercase;
+	-webkit-appearance: none;
+}
+.but a:hover{
+	background: #1777d9;
+}
+.but a img {
+	vertical-align: middle;
+	margin-bottom:0px;
+}
+p.desc{
+	color:#555;
+	font-size:0.89em;
+}
+p.desc span{
+	color:#328fef;
+}
+/*--content--*/
+.features{
+	padding:30px 10px 30px 10px;
+	text-align: center;
+	background:#f7f7f7;
+	border-bottom: 1px solid #CAC9C9;
+}
+.features h3{
+	font-size:1.3em;
+	color: #333;
+	padding-bottom:30px;
+}
+.support{
+	background:#fff;
+	padding:20px 10px 20px 10px;
+}
+.support h3{
+	font-size:1.2em;
+	color: #333;
+	padding-bottom:10px;
+	text-align:center;
+}
+.grid_img{
+	text-align:center;
+}
+/*  GRID OF FOUR   ============================================================================= */
+.col_1_of_4{
+	display: block;
+}
+.span_1_of_4 {
+	margin-bottom: 20px;
+}
+.dummy{
+	background: #F0F0F0;
+	padding:50px 0;
+}
+.dummy p{
+	text-align:center;
+	font-size:1.2em;
+}
+.support-desc{
+	padding:10px 0 0;
+}
+.support-desc h4 a{
+	color:#333;
+	font-size:0.89em;
+}
+.support-desc h4 a:hover{
+	color: #3998F5;
+}
+.support-desc  p {
+	font-size:0.8125em;
+	padding:0.5em 0;
+	color: #333;
+	line-height: 1.5em;
+}
+.support h5{
+	font-size:1em;
+	color: #333;
+	text-align:center;
+}
+.social-icons{
+	text-align: center;
+	border-bottom: 2px solid #E6E6E6;
+	padding: 20px 0 20px;
+}
+.social-icons a.twitter {
+	background-position: 0px top;
+}
+.social-icons li a {
+	height:17px;
+	width:17px;
+	display: block;
+	text-indent: -9999px;
+	background: url(../images/img-sprite.png);
+}
+.social-icons a.twitter:hover {
+	background-position: 0px bottom;
+}
+.social-icons ul li:first-child, ol li:first-child {
+	margin-top: 0px;
+	margin-left: 0;
+}
+.social-icons li {
+	width:17px;
+	height:17px;
+	background: none;
+	padding: 0px;
+	margin-left:5px;
+	display: inline-block;
+}
+.social-icons a.facebook {
+	background-position: -23px top;
+}
+.social-icons a.facebook:hover {
+	background-position: -23px bottom;
+}
+.social-icons a.googleplus {
+	background-position: -110px top;
+}
+.social-icons a.googleplus:hover {
+	background-position: -110px bottom;
+}
+.social-icons a.pinterest {
+	background-position:-289px top;
+}
+.social-icons a.pinterest:hover {
+	background-position:-289px bottom;
+}
+.social-icons a.linkedin {
+	background-position: -313px top;
+}
+.social-icons a.linkedin:hover {
+	background-position: -313px bottom;
+}
+/*--pricing--*/
+.pricing{
+	padding:30px 10px 0% 10px;
+}
+.pricing h3 {
+	font-size:1.3em;
+	color: #333;
+	padding-bottom:30px;
+	text-align:center;
+}
+#plans,#plans ul,#plans ul li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#pricePlans {
+	text-align: center;
+}
+#pricePlans #plans .plan {
+	background: #fff;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	border: 1px solid #E9E9E9;
+	margin: 0 0 20px 0;
+}
+.planContainer .title h2 {
+	font-size:1.5em;
+	color: #3e4f6a;
+	margin: 0;
+	padding: .6em 0;
+}
+.planContainer .title1 h3 {
+	font-size:1.1em;
+	color: #3e4f6a;
+	margin: 0;
+	padding: .6em 0;
+}
+.planContainer .title h2.bestPlanTitle {
+	background:#333;
+	color: #fff;
+}
+.text{
+	padding: 0px 0 10px;
+}
+.planContainer .price p {
+	background:#202020;
+	color: #fff;
+	font-size:.89em;
+	height: 2.6em;
+	line-height: 2.6em;
+	margin: 0 0 1em;
+}
+.planContainer .price p.bestPlanPrice {
+	background: #000;
+}
+.planContainer .price p span {
+	color:#E2EDFD;
+}
+.planContainer .options {
+	margin-top: 10em;
+}
+.planContainer .options li {
+	color:#0365FF;
+	line-height:3em;
+	border-bottom: 1px solid #E9E9E9;
+	font-size:0.8125em;
+}
+.planContainer .options li span {
+	color: #333;
+}
+.planContainer .button a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #333;
+	letter-spacing: 3px;
+	line-height: 2.7em;
+	border: 2px solid #3998F5;
+	display: inline-block;
+	width: 60%;
+	height: 2.5em;
+	margin: 1.5em 0 1.8em;
+	font-size:0.8125em;
+	-webkit-appearance: none;
+}
+.planContainer .button a.bestPlanButton {
+	color: #fff;
+	background: #3998F5;
+}
+.planContainer .button a.bestPlanButton {
+	color: #FFF;
+	background: #3998F5;
+	border: 2px solid #3998F5;
+}
+.planContainer .button a.bestPlanButton:hover {
+	background: #1B8DFC;
+	border: 2px solid #1B8DFC;
+}
+#pricePlans #plans > li:last-child {
+	margin-right: 0;
+}
+.planContainer .button a:hover {
+	background: #3998F5;
+	color: #fff;
+}
+.planContainer .button a.bestPlanButton:hover {
+	background:#1B8DFC;
+}
+/*--footer--*/
+.footer-menu{
+	text-align: center;
+}
+.copy{
+	text-align: center;
+	padding-top: 5px;
+	line-height:1.5em;
+}
+.footer-menu li {
+	display: inline-block;
+}
+.footer-menu li a {
+	color: #777;
+	display: block;
+	margin:5px 5px;
+	letter-spacing: 1px;
+	font-size:0.8125em;
+}
+.footer-menu li.active a, .footer-menu li a:hover {
+	color: #000;
+}
+.copy p{
+	color:#777;
+	font-size:0.8125em;
+}
+p.copy a{
+	color:#3998F5;
+}
+p.copy a:hover{
+	color:#555;
+}
+.footer{
+	padding-bottom:10px;
+}
