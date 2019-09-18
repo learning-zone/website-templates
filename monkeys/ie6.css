@@ -1,0 +1,90 @@
+/* CSS for Internet Explorer 6 */
+
+
+a{
+	border-bottom: none;
+	padding: 1px;
+	background:url(img/dot.gif) repeat-x bottom;
+}
+
+a:hover{
+	border-bottom: none;
+	padding: 1px;
+	background:url(img/dot.gif) repeat-x bottom;
+}
+
+#menubar{
+	margin-bottom:20px;
+}
+
+#menubar ul li{
+	padding:0 20px 0 20px;
+}
+
+.blog{
+	position:relative;
+	margin-top:20px;
+	margin-bottom:-20px;
+}
+
+#footer{
+	bottom:-100px;	
+}
+
+.nav a{
+	background-color:transparent;
+	background:none;
+	border-bottom:none;
+	margin:0;
+	padding:10px;
+}
+
+.nav a:hover{
+	background-color:transparent;
+	background:none;
+	border-bottom:none;
+	margin:0;
+	padding:10px;
+}
+
+.nav{
+	width:200px;
+	background:url(img/dot.gif) repeat-x bottom #222;
+}
+
+.nav li{
+	width:200px;
+	white-space:nowrap;
+	margin:0 0 1px 0;
+	border-top:none;
+	border-bottom:none;
+	background-color:#222;
+	list-style-type:none;
+	background:url(img/dot.gif) repeat-x top #222;
+}
+
+.nav li a{
+	height:15px;
+}
+
+.sideitem h3{
+	margin:0;
+	padding-top:10px;
+	padding-left:10px;
+	background:url(img/dot.gif) repeat-x top #222;
+}
+
+.sideitem{
+	border-top:none;
+	border-bottom:none;
+	padding-bottom:10px;
+	background:url(img/dot.gif) repeat-x bottom #222;
+	position:relative;
+	left:40px;
+}
+
+.bottomlinks{
+	font-size:12px;
+	margin-top:0;
+	margin-bottom:8px;
+}

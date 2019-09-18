@@ -1,0 +1,12 @@
+/* CSS for Internet Explorer 7 */
+
+.nav li{
+	padding-left:10px;
+	width:190px;
+	margin-bottom:-4px;
+}
+
+.bottomlinks{
+	margin-top:-8px;
+	margin-bottom:8px;
+}
