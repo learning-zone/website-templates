@@ -1,0 +1,461 @@
+/*************************************************************/
+/*   Design:  MultiFlex-2 (Screen)                           */
+/*   Author:  G. Wolfgang (gw@actamail.com)                  */
+/*   Date:    June 8, 2006                                   */
+/*-----------------------------------------------------------*/
+/*   Recommended CSS-Editor: TopStyle Lite 3.10 (Freeware)   */
+/*   http://www.newsgator.com/download/products/ts3lite.exe  */
+/*-----------------------------------------------------------*/
+/*   You can use this stylesheet any way you want!           */
+/*   Check out my favorite website: www.sda.org              */
+/*************************************************************/
+
+/*************************/
+/* SECTION 1 - MAIN BODY */
+/*************************/
+
+body {font-size: 62.5%; margin: 0px auto; padding: 0px; background: url(../img/background_body_grey.gif) top center repeat-y; font-family: arial, sans-serif;}
+.page-container-1 {width: 770px; margin: 0px auto; padding: 0px; background: url(../img/background_layout_1.gif) top left repeat-y; border: solid 1px rgb(100,100,100);}
+.page-container-2 {width: 770px; margin: 0px auto; padding: 0px; background: url(../img/background_layout_2.gif) top left repeat-y; border: solid 1px rgb(100,100,100);}
+.page-container-3 {width: 770px; margin: 0px auto; padding: 0px; background: url(../img/background_layout_3.gif) top left repeat-y; border: solid 1px rgb(100,100,100);}
+
+/*************************************/
+/* SECTION 2 - HEADER AND NAVIGATION */
+/*************************************/
+
+/*-----------------------------------*/
+/* 2.1 - Sitename, slogan and banner */
+/*-----------------------------------*/
+.site-name {width: 300px; height: 45px; top: 12px; position: absolute; z-index: 4; overflow: hidden; margin: 0px; padding-left: 75px; color: rgb(69,140,204);}
+.site-name p.title  {margin: 0px; padding: 0px; font-family: "trebuchet ms", arial, sans serif; font-weight: bold; font-size: 24px;}
+.site-name p.subtitle  {clear: both; width: 300px; margin: -6px 0px 0px 0px; padding: 0px; background-color: transparent; font-family: "trebuchet ms", arial, sans serif; font-size: 12px;}
+.site-name a {margin: 0px; padding: 0px; text-decoration: none; color: rgb(88,144,168);}
+.site-name a:hover {text-decoration: none;}
+.site-slogan-container  {width: 755px; height: 130px; top: 112px; position: absolute; z-index: 1; overflow: hidden; margin: 0px; padding-right: 15px; background-color: transparent;}
+.site-slogan {float: right; width: 700px; margin: 0px; padding: 0px; background-color: transparent; font-size: 10px;}
+.site-slogan p.title {float: right; width: 700px; margin: 0px; padding: 0px; color: rgb(234,239,247); font-family: arial, sans serif;  text-align: right; font-weight: bold; font-size: 220%;}
+.site-slogan p.subtitle {clear: both; float: right; width: 700px; margin: -5px 0px 0px 0px; padding: 0px; color: rgb(234,239,247); font-family: arial, sans serif; text-align: right; font-weight: bold; font-size: 200%;}
+.site-slogan p.text {clear: both; float: right; width: 700px; margin: 10px 0px 0px 0px; padding: 0px; color: rgb(234,239,247); font-family: arial, sans serif; text-align: right; font-weight: bold; line-height: 1.0em; font-size: 140%;}
+.site-slogan p.readmore {clear: both; float: right; width: 700px; margin: 10px 0px 0px 0px; padding: 0px; color: rgb(234,239,247); font-family: arial, sans serif; text-align: right; font-weight: bold; line-height: 1.0em; font-size: 120%;}
+.site-slogan a {color: rgb(234,239,247); text-decoration: underline;}
+.site-slogan a:hover {text-decoration: none; color: rgb(50,50,50);}
+.img-header {clear: both; float: left; width: 770px; height: 250px; margin: 0px; padding: 0px;}
+
+/*--------------------------*/
+/* 2.2 - Navigation - Flags */
+/*--------------------------*/
+.navflag-container {width: 770px; top: 14px; position: absolute; z-index: 2; background-color: transparent;}
+.navflag {margin: 0px; padding: 0px; font-size: 1.0em;}	
+.navflag ul {float: right; margin: 0px; padding: 0px 20px 0px 0px;}	
+.navflag li {display: inline; list-style: none; margin: 0px; padding: 0px;}
+.navflag li a {margin: 0px; padding: 0px 0px 0px 1px;}
+.navflag a:hover {color: rgb(0,0,0); text-decoration: none;}
+.img-navflag {display: inline; height: 14px; margin: 0px; padding: 0px; border: none;}
+
+/*----------------------------*/
+/* 2.3 - Navigation - Level 1 */
+/*----------------------------*/
+.nav1-container {width: 770px; top: 35px; position: absolute; z-index: 3; background: transparent;}
+.nav1 {margin: 0px; padding: 0px; font-family: verdana, arial, sans serif; font-size: 1.0em;}
+.nav1 ul {float: right; margin: 0px; padding: 0px 20px 0px 0px; border-left: solid 1px rgb(115,162,182); background-color: rgb(255,255,255); font-weight: bold;}	
+.nav1 li {display: inline; list-style: none; margin: 0px; padding: 0px;}
+.nav1 li a {display: block; float: left; margin: 0px; padding: 2px 5px 2px 5px; border-right: solid 1px rgb(115,162,182); color: rgb(115,162,182); text-decoration: none; font-size: 10px;}
+.nav1 a:hover, .nav2 a.selected {color: rgb(50,50,50); text-decoration: none;}
+
+/*----------------------------*/
+/* 2.4 - Navigation - Level 2 */
+/*----------------------------*/
+.nav2 {clear: both; margin: 0px; padding: 0px; font-family: verdana, arial, sans serif; font-size: 1.0em;}
+.nav2 ul {float: left; width: 770px; margin: 0px; padding: 0px; border-top: solid 1px rgb(54,83,151); border-bottom: solid 1px rgb(54,83,151); background-color: rgb(127,162,202); font-weight: bold;}	
+.nav2 li {display: inline; list-style: none; margin: 0px; padding: 0px;}
+.nav2 li a {display: block; float: left; margin: 0px 0px 0px 0px; padding: 5px 10px 5px 10px; border-right: solid 1px rgb(54,83,151); color: rgb(255,255,255); text-transform: uppercase; text-decoration: none; font-size: 100%;}
+.nav2 a:hover, .nav2 a.selected {color: rgb(50,50,50); text-decoration: none;}
+.buffer {clear: both; width: 770px; height: 30px; margin: 0px; padding: 0px; background-color: rgb(255,255,255);}
+
+/*----------------------------*/
+/* 2.5 - Navigation - Level 3 */
+/*----------------------------*/
+.nav3 {overflow: hidden; clear: both; float: left; width: 160px; min-height: 500px; margin: 0px; padding: 0px; color: rgb(75,75,75); font-size: 1.0em;}
+.nav3 ul {width: 160px; margin: 0px 0px 20px 0px; padding: 0px; border-bottom: solid 1px rgb(216,206,159); background-color: rgb(219,230,241);}	
+.nav3 li {list-style: none; margin: 0px; padding: 0px;}
+.nav3 li.title {margin: 0px 0px 0px 0px; padding: 3px 5px 2px 15px; background-color: rgb(156,186,214); color: rgb(255,255,255); text-transform: uppercase; font-weight: bold; font-size: 120%;}
+.nav3 li.group a {display: block; min-height: 1.7em; height: auto !important; height: 1.7em; line-height: 1.7em; margin: 0px; padding: 0px 7px 0px 15px; border-top: solid 1px rgb(200,200,200); border-left: solid 7px rgb(219,230,241); color: rgb(75,75,75); font-weight: bold; font-size: 120%;}
+.nav3 li a {display: block; min-height: 1.7em; height: auto !important; height: 1.7em; line-height: 1.7em; margin: 0px; padding: 0px 7px 0px 20px; border-left: solid 7px rgb(219,230,241); color: rgb(75,75,75); text-decoration: none; font-size: 120%;}
+.nav3 li a:hover, .nav3 li a.selected {border-left: solid 7px rgb(156,186,214);  color: rgb(100,100,100); text-decoration: none;}
+
+/******************************************************************************/
+/* SECTION 3 - SPECIFIC CLASSES FOR LAYOUT #1 (With navigation, with sidebar )*/
+/******************************************************************************/
+
+.content1 {float: left; width: 428px; margin: 0px; padding: 0px 0px 10px 20px; color: rgb(75,75,75);}
+.content1-container {clear: both; float: left; width: 408px; margin: 0px 0px 15px 0px; padding: 0px;}
+.content1-container-1col {overflow: hidden; width: 408px; margin: 0px; padding: 0px;}
+.content1-container-1col-txtright-200px {float: right; width: 196px; margin: 0px; padding: 0px;}
+.content1-container-1col-txtright-160px {float: right; width: 236px; margin: 0px; padding: 0px;}
+.content1-container-1col-txtright-120px {float: right; width: 276px; margin: 0px; padding: 0px;}
+.content1-container-1col-txtright-100px {float: right; width: 296px; margin: 0px; padding: 0px;}
+.content1-container-1col-txtright-80px {float: right; width: 316px; margin: 0px; padding: 0px;}
+.content1-container-1col-txtright-60px {float: right; width: 336px; margin: 0px; padding: 0px;}
+.content1-container-1col-txtright-40px {float: right; width: 356px; margin: 0px; padding: 0px;}
+.content1-container-2col-left {overflow: hidden; float: left; width: 191px; margin: 0px; padding: 0px;}
+.content1-container-2col-right {overflow: hidden; float: right; width: 191px;  margin: 0px; padding: 0px;}
+.content1-container-2col-txtright-100px {float: right; width: 79px; margin: 0px; padding: 0px;}
+.content1-container-2col-txtright-80px {float: right; width: 99px; margin: 0px; padding: 0px;}
+.content1-container-2col-txtright-60px {float: right; width: 119px; margin: 0px; padding: 0px;}
+.content1-container-2col-txtright-40px {float: right; width: 139px; margin: 0px; padding: 0px;}
+.content1-container-2col-txtright-20px {float: right; width: 159px; margin: 0px; padding: 0px;}
+.content1-container-3col-left {overflow: hidden; float: left; width: 119px; margin: 0px 25px 0px 0px; padding: 0px;}
+.content1-container-3col-middle {overflow: hidden; float: left; width: 119px;margin: 0px; padding: 0px;}
+.content1-container-3col-right {overflow: hidden; float: right; width: 119px; margin: 0px; padding: 0px;}
+.content1-container-3col-txtright-60px {float: right; width: 47px; margin: 0px; padding: 0px;}
+.content1-container-3col-txtright-40px {float: right; width: 67px; margin: 0px; padding: 0px;}
+.content1-container-3col-txtright-20px {float: right; width: 87px; margin: 0px; padding: 0px;}
+.content1-container-3col-txtright-10px {float: right; width: 97px; margin: 0px; padding: 0px;}
+.content1-pagetitle {overflow: hidden; width: 408px; margin: 0px 0px 10px 0px; padding: 0px 0px 2px 0px; border-bottom: solid 3px rgb(88,144,168);); color: rgb(88,144,168); font-weight: bold; font-size: 180%;}
+
+/******************************************************/
+/* SECTION 4 - SPECIFIC CLASSES FOR LAYOUTS #2 and #3 */
+/******************************************************/
+
+.content2 {float: left; width: 590px; min-height: 500px; margin: 0px; padding: 0px 0px 0px 20px; color: rgb(75,75,75); font-size: 1.0em;}
+.content3 {float: left; width: 590px; min-height: 500px; margin: 0px; padding: 0px 0px 0px 20px; color: rgb(75,75,75); font-size: 1.0em;}
+.content2-container, .content3-container {clear: both; float: left; width: 569px; margin: 0px 0px 15px 0px; padding: 0px;}
+.content2-container-1col, .content3-container-1col {overflow: hidden; width: 569px; margin: 0px; padding: 0px;}
+.content2-container-1col-txtright-200px, .content3-container-1col-txtright-200px {float: right; width: 357px; margin: 0px; padding: 0px;}
+.content2-container-1col-txtright-160px, .content3-container-1col-txtright-160px {float: right; width: 397px; margin: 0px; padding: 0px;}
+.content2-container-1col-txtright-120px, .content3-container-1col-txtright-120px {float: right; width: 437px; margin: 0px; padding: 0px;}
+.content2-container-1col-txtright-100px, .content3-container-1col-txtright-100px {float: right; width: 457px; margin: 0px; padding: 0px;}
+.content2-container-1col-txtright-80px, .content3-container-1col-txtright-80px {float: right; width: 477px; margin: 0px; padding: 0px;}
+.content2-container-1col-txtright-60px, .content3-container-1col-txtright-60px {float: right; width: 497px; margin: 0px; padding: 0px;}
+.content2-container-1col-txtright-40px, .content3-container-1col-txtright-40px {float: right; width: 517px; margin: 0px; padding: 0px;}
+.content2-container-2col-left, .content3-container-2col-left {overflow: hidden; float: left; width: 272px; margin: 0px; padding: 0px;}
+.content2-container-2col-right, .content3-container-2col-right {overflow: hidden; float: right; width: 272px; margin: 0px; padding: 0px;}
+.content2-container-2col-txtright-100px, .content3-container-2col-txtright-100px {float: right; width: 160px; margin: 0px; padding: 0px;}
+.content2-container-2col-txtright-80px, .content3-container-2col-txtright-80px {float: right; width: 180px; margin: 0px; padding: 0px;}
+.content2-container-2col-txtright-60px, .content3-container-2col-txtright-60px {float: right; width: 200px; margin: 0px; padding: 0px;}
+.content2-container-2col-txtright-40px, .content3-container-2col-txtright-40px {float: right; width: 220px; margin: 0px; padding: 0px;}
+.content2-container-2col-txtright-20px, .content3-container-2col-txtright-20px {float: right; width: 240px; margin: 0px; padding: 0px;}
+.content2-container-3col-left, .content3-container-3col-left {overflow: hidden; float: left; width: 173px; margin: 0px 25px 0px 0px; padding: 0px;}
+.content2-container-3col-middle, .content3-container-3col-middle {overflow: hidden; float: left; width: 173px; margin: 0px; padding: 0px;}
+.content2-container-3col-right, .content3-container-3col-right {overflow: hidden; float: right; width: 173px; margin: 0px; padding: 0px;}
+.content2-container-3col-txtright-60px, .content3-container-3col-txtright-60px {overflow: hidden; float: right; width: 101px; margin: 0px; padding: 0px;}
+.content2-container-3col-txtright-40px, .content3-container-3col-txtright-40px {overflow: hidden; float: right; width: 121px; margin: 0px; padding: 0px;}
+.content2-container-3col-txtright-20px, .content3-container-3col-txtright-20px {overflow: hidden; float: right; width: 141px; margin: 0px; padding: 0px;}
+.content2-container-3col-txtright-10px, .content3-container-3col-txtright-10px {overflow: hidden; float: right; width: 151px; margin: 0px; padding: 0px;}
+.content2-pagetitle, .content3-pagetitle {overflow: hidden; width: 569px; margin: 0px 0px 10px 0px; padding: 0px 0px 2px 0px; border-bottom: solid 3px rgb(88,144,168); color: rgb(88,144,168); font-weight: bold; font-size: 180%;}
+
+/*********************************/
+/* SECTION 6 - COMMON PARAMETERS */
+/*********************************/
+
+/*--------------------*/
+/* 6.1 - Content Area */
+/*--------------------*/
+
+/* Titles and textboxes*/
+.content-title-noshade-size1 {margin: 0px; padding: 0px; color: rgb(88,144,168); font-weight: bold; font-size: 130%;}
+.content-title-noshade-size2 {margin: 0px; padding: 0px; color: rgb(88,144,168); font-weight: bold; font-size: 150%;}
+.content-title-noshade-size3 {margin: 0px; padding: 0px; color: rgb(88,144,168); font-weight: bold; font-size: 160%;}
+.content-title-noshade-size4 {margin: 0px; padding: 0px; color: rgb(88,144,168); font-weight: bold; font-size: 180%;}
+.content-title-noshade-size5 {margin: 0px; padding: 0px; color: rgb(88,144,168); font-weight: bold; font-size: 200%;}
+.content-title-shade-size1 {margin: 0px; padding: 0px 10px 0px 10px; background-color: rgb(215,215,215); color: rgb(100,100,100); color: rgb(88,144,168); font-weight: bold; font-size: 130%;}
+.content-title-shade-size2 {margin: 0px; padding: 0px 10px 0px 10px; background-color: rgb(215,215,215); color: rgb(88,144,168); font-weight: bold; font-size: 150%;}
+.content-title-shade-size3 {margin: 0px; padding: 0px 10px 0px 10px; background-color: rgb(215,215,215); color: rgb(88,144,168); font-weight: bold; font-size: 160%;}
+.content-title-shade-size4 {margin: 0px; padding: 0px 10px 0px 10px; background-color: rgb(215,215,215); color: rgb(88,144,168);  font-weight: bold; font-size: 180%;}
+.content-title-shade-size5 {margin: 0px; padding: 0px 10px 0px 10px; background-color: rgb(215,215,215); color: rgb(88,144,168);  font-weight: bold; font-size: 200%;}
+.content-subtitle-noshade-size1 {margin: 0px; padding: 0px; color: rgb(88,144,168); font-weight: bold; font-size: 110%;}
+.content-subtitle-noshade-size2 {margin: 0px; padding: 0px; color: rgb(88,144,168); font-weight: bold; font-size: 120%;}
+.content-subtitle-noshade-size3 {margin: 0px; padding: 0px; color: rgb(88,144,168); font-weight: bold; font-size: 130%;}
+.content-subtitle-noshade-size4 {margin: 0px; padding: 0px; color: rgb(88,144,168); font-weight: bold; font-size: 140%;}
+.content-subtitle-noshade-size5 {margin: 0px; padding: 0px; color: rgb(88,144,168); font-weight: bold; font-size: 150%;}
+.content-subtitle-shade-size1 {margin: 0px; padding: 0px 10px 3px 10px; background-color: rgb(215,215,215); color: rgb(88,144,168); font-weight: bold; font-size: 110%;}
+.content-subtitle-shade-size2 {margin: 0px; padding: 0px 10px 3px 10px; background-color: rgb(215,215,215); color: rgb(88,144,168); font-weight: bold; font-size: 120%;}
+.content-subtitle-shade-size3 {margin: 0px; padding: 0px 10px 3px 10px; background-color: rgb(215,215,215); color: rgb(88,144,168); font-weight: bold; font-size: 130%;}
+.content-subtitle-shade-size4 {margin: 0px; padding: 0px 10px 3px 10px; background-color: rgb(215,215,215); color: rgb(88,144,168); font-weight: bold; font-size: 140%;}
+.content-subtitle-shade-size5 {margin: 0px; padding: 0px 10px 3px 10px; background-color: rgb(215,215,215); color: rgb(88,144,168); font-weight: bold; font-size: 150%;}
+.content-txtbox-noshade {margin: 0px; padding: 7px 0px 0px 0px; background-color: rgb(255,255,255);}
+.content-txtbox-shade {margin: 0px; padding: 7px 10px 5px 10px; background-color: rgb(235,235,235);}
+
+/* Headings */
+h1 {margin: 1.0em 0px 0.5em 0px; font-weight: bold; font-size: 160%;}
+h2 {margin: 1.0em 0px 0.5em 0px; font-weight: bold; font-size: 150%;}
+h3 {margin: 1.0em 0px 0.5em 0px; font-weight: bold; font-size: 140%;}
+h4 {margin: 1.0em 0px 0.5em 0px; font-weight: bold; font-size: 130%;}
+h5 {margin: 0px 0px 0.2em 0px; font-weight: bold; font-size: 130%;}
+h6 {margin: 0px 0px 0.2em 0px;font-weight: bold; font-style: italic; font-size: 130%;}
+
+/* Paragraphs */
+p {margin: 0px 0px 0.5em 0px; padding: 0px; line-height: 1.3em; font-family: arial, sans serif; font-size: 120%; }
+p.readmore {margin: 1.0em 0px 0.5em 0px; padding: 0px; line-height: 1.2em; font-size: 110%; }
+p.quote {margin: 0em 30px 0.6em 30px;	line-height: 120%; font-size: 120%;}
+p.embed {float: left; width: 120px; margin: 7px 7px 5px 0px; padding: 5px 5px 5px 5px; background-color: rgb(238,237,249); font-style: italic; font-weight: bold;  line-height: 1.2em; font-size: 140%;}
+p.embed-caption {float: left; margin: 5px 0px 0px 0px; padding: 0px; font-style: italic; font-weight: normal; line-height: 1.2em; font-size: 70%;}
+
+/* Quote */
+p.quote {clear: left; margin: 0em 30px 0.6em 30px;	line-height: 120%; font-size: 110%;}
+
+/* Embedded emphasis */
+.embed {float: left; width: 120px; margin: 2px 7px 2px 0px; padding: 5px 5px 5px 5px; background-color: rgb(238,237,249); font-style: italic; font-weight: bold;  line-height: 1.2em; font-size: 140%;}
+.embed-caption {float: left; margin: 5px 0px 0px 0px; padding: 0px; font-style: italic; font-weight: normal; line-height: 1.2em; font-size: 70%;}
+
+/* Lists */
+ul.noindent {margin: 0px 0px 7px 15px; padding: 0px; list-style-type: disc; list-style-position: outside; font-size: 120%;}
+ul.indent {margin: 0px 0px 7px 15px; padding: 0px 0px 0px 15px; list-style-type: disc; font-family: arial; font-size: 120%;}
+ol {margin: 0px 0px 0px 9px; padding: 0px 0px 0px 25px; list-style-type: decimal; list-style-position: outside; font-size: 120%;}
+ul.linklist-noindent {margin: -0.3em 0px 0.5em 0px; padding: 0px; list-style-type: none; line-height: 1.2em; font-size: 120%; }
+ul.linklist-indent {margin: -0.3em 0px 0.5em 0px; padding: 0px 0px 0px 10px; list-style-type: none; line-height: 1.2em; font-size: 120%; }
+
+/* Tables */
+.table {clear: left; margin: 0.5em 0px 0.2em 30px; border: solid 1px rgb(150,150,150); empty-cells: show; border-collapse: collapse; background-color: rgb(233,232,244);}
+.table tr {margin: 0px; padding: 0px;}
+.table td {padding: 2px 7px 2px 7px; border: solid 1px rgb(150,150,150); text-align: left; font-size: 120%;}
+.table th {margin: 0px; padding: 2px 7px 2px 7px; border: solid 1px rgb(150,150,150); empty-cells: show; text-align: left; font-size: 120%; 	}
+.table-caption {margin: 0.5em 0px 1.0em 30px; padding: 0px; clear: both; text-align: left; font-size: 120%;}
+
+/* Images */
+.img-left-noborder-notopmargin {float: left; margin: 0px 10px 0px 0px;}
+.img-left-noborder-topmargin {float: left; margin: 3px 10px 0px 0px;}
+.img-left-border-notopmargin {float: left; margin: 0px 10px 0px 0px; border: solid 1px rgb(150,150,150);}
+.img-left-border-topmargin {float: left; margin: 3px 10px 0px 0px; border: solid 1px rgb(150,150,150);}
+.img-right-noborder-notopmargin {float: right; margin: 0px 0px 0px 10px;}
+.img-right-noborder-topmargin {float: right; margin: 3px 0px 0px 10px;}
+.img-right-border-notopmargin {float: right; margin: 0px 0px 0px 10px; border: solid 1px rgb(150,150,150);}
+.img-right-border-topmargin {float: right; margin: 3px 0px 0px 10px; border: solid 1px rgb(150,150,150);}
+
+/*--------------------*/
+/* 6.2 - Sidebar Area */
+/*--------------------*/
+.sidebar {overflow: hidden; float: right; width: 160px; min-height: 500px; margin: 0px; padding: 0px 0px 10px 0px; text-align: left; color: rgb(75,75,75);}
+.sidebar-maintitle {margin: 0px 0px 10px 0px; padding: 3px 10px 2px 10px; background-color: rgb(156,186,214); color: rgb(255,255,255); text-transform: uppercase; font-weight: bold; font-size: 120%;}
+.sidebar-title-noshade {margin: 0px; padding: 2px 10px 3px 10px; border-top: solid 1px rgb(215,215,215); color: rgb(75,75,75); font-weight: bold; font-size: 120%;}
+.sidebar-title-shade {margin: 0px; padding: 2px 10px 3px 10px; background-color: rgb(215,215,215); color: rgb(75,75,75); font-weight: bold; font-size: 120%;}
+.sidebar-txtbox-noshade {margin: 0px 0px 10px 0px; padding: 2px 10px 3px 10px;}
+.sidebar-txtbox-shade {margin: 0px 0px 10px 0px; padding: 2px 10px 3px 10px; background-color: rgb(235,235,235);}
+.sidebar-txtbox-noshade p {margin: 0px 0px 5px 0px; padding: 0px; line-height: 1.25em; font-size: 110%;}
+.sidebar-txtbox-shade p {margin: 0px 0px 5px 0px; padding: 0px; line-height: 1.25em; font-size: 110%;}
+
+/*--------------------*/
+/* 6.3 - Footer Area  */
+/*--------------------*/
+.footer {overflow: hidden; clear: both; width: 770px; height: 3.0em; margin: 0px; padding: 0.5em 0px 0.5em 0px; border-top: solid 1px rgb(125,125,125); background-color: rgb(128,161,202); color: rgb(255,255,255); font-size: 1.0em;}
+.footer p {margin: 0px; padding: 0px; text-align: center; line-height: 1.3em; font-size: 110%;}
+
+/*-------------------*/
+/* 6.4 - Hyperlinks  */
+/*-------------------*/
+.content1 a, .content2 a, .content3 a, .sidebar-txtbox-noshade a, .sidebar-txtbox-shade a {color: rgb(75,75,75); text-decoration: underline;}
+.content1 a:hover, .content2 a:hover, .content3 a:hover, .sidebar-txtbox-noshade a:hover, .sidebar-txtbox-shade a:hover {color: rgb(0,0,0); text-decoration: none;}
+.content1 a:visited, .content2 a:visited, .content3 a:visited, .sidebar-txtbox-noshade a:visited, .sidebar-txtbox-shade a:visited  {color: rgb(150,150,150);}
+.footer a {color: rgb(255,255,255); text-decoration: underline;}
+.footer a:hover {color: rgb(0,0,0); text-decoration: none;}
+
+/*******************************/
+/* SECTION 7 - GENERIC CLASSES */
+/*******************************/
+
+/*----------------------------*/
+/* 7.1 - Title decoration box */
+/*----------------------------*/
+.box-on {float: left; min-width: 0.3em; margin-right: 0.2em; padding: 0px 0.2em 0px 0.3em;}
+.box-off {display: none;}
+/* html box-on {width: 1%;} /* IE6-Hack for min-width. Also compliant with IE7-Beta2 */ */
+
+/*-----------------------------*/
+/* 7.2 - Horizontal alignments */
+/*-----------------------------*/
+.align-left {text-align: left;}
+.align-right {text-align: right;}
+.align-center {text-align: center;}
+
+/*------------------*/
+/* 7.3  Text colors */
+/*------------------*/
+.txt-white {color: rgb(255,255,255);}
+.txt-black {color: rgb(0,0,0);}
+
+.txt-grey01 {color: rgb(242,242,242);}
+.txt-grey02 {color: rgb(230,230,230);}
+.txt-grey03 {color: rgb(217,217,217);}
+.txt-grey04 {color: rgb(204,204,204);}
+.txt-grey05 {color: rgb(191,191,191);}
+.txt-grey06 {color: rgb(178,178,178);}
+.txt-grey07 {color: rgb(153,153,153);}
+.txt-grey08 {color: rgb(127,127,127);}
+.txt-grey09 {color: rgb(89,89,89);}
+.txt-grey10 {color: rgb(51,51,51);}
+
+.txt-yellow01 {color: rgb(254,252,232);}
+.txt-yellow02 {color: rgb(253,249,201);}
+.txt-yellow03 {color: rgb(253,246,185);}
+.txt-yellow04 {color: rgb(252,243,162);}
+.txt-yellow05 {color: rgb(251,239,139);}
+.txt-yellow06 {color: rgb(250,236,116);}
+.txt-yellow07 {color: rgb(249,233,93);}
+.txt-yellow08 {color: rgb(249,230,69);}
+.txt-yellow09 {color: rgb(248,227,46);}
+.txt-yellow10 {color: rgb(247,224,23);}
+
+.txt-blue01 {color: rgb(238,237,249);}
+.txt-blue02 {color: rgb(222,220,242);}
+.txt-blue03 {color: rgb(205,202,236);}
+.txt-blue04 {color: rgb(189,185,229);}
+.txt-blue05 {color: rgb(172,167,223);}
+.txt-blue06 {color: rgb(155,149,217);}
+.txt-blue07 {color: rgb(139,132,210);}
+.txt-blue08 {color: rgb(122,114,204);}
+.txt-blue09 {color: rgb(106,97,197);}
+.txt-blue10 {color: rgb(89,79,191);}
+
+.txt-green01 {color: rgb(237,246,229);}
+.txt-green02 {color: rgb(220,238,204);}
+.txt-green03 {color: rgb(202,229,178);}
+.txt-green04 {color: rgb(185,220,153);}
+.txt-green05 {color: rgb(167,211,127);}
+.txt-green06 {color: rgb(149,203,102);}
+.txt-green07 {color: rgb(132,194,76);}
+.txt-green08 {color: rgb(114,185,51);}
+.txt-green09 {color: rgb(97,177,25);}
+.txt-green10 {color: rgb(79,168,0);}
+
+.txt-red01 {color: rgb(252,235,233);}
+.txt-red02 {color: rgb(248,216,211);}
+.txt-red03 {color: rgb(245,196,188);}
+.txt-red04 {color: rgb(242,177,166);}
+.txt-red05 {color: rgb(238,157,144);}
+.txt-red06 {color: rgb(235,137,122);}
+.txt-red07 {color: rgb(232,118,100);}
+.txt-red08 {color: rgb(229,98,77);}
+.txt-red09 {color: rgb(225,79,55);}
+.txt-red10 {color: rgb(222,59,33);}
+
+/*-------------------------*/
+/* 7.4 - Background colors */
+/*-------------------------*/
+.bg-white {background-color: rgb(255,255,255);}
+.bg-black {background-color: rgb(0,0,0);}
+
+.bg-grey01 {background-color: rgb(242,242,242);}
+.bg-grey02 {background-color: rgb(230,230,230);}
+.bg-grey03 {background-color: rgb(217,217,217);}
+.bg-grey04 {background-color: rgb(204,204,204);}
+.bg-grey05 {background-color: rgb(191,191,191);}
+.bg-grey06 {background-color: rgb(178,178,178);}
+.bg-grey07 {background-color: rgb(153,153,153);}
+.bg-grey08 {background-color: rgb(127,127,127);}
+.bg-grey09 {background-color: rgb(89,89,89);}
+.bg-grey10 {background-color: rgb(51,51,51);}
+
+.bg-yellow01 {background-color: rgb(254,252,232);}
+.bg-yellow02 {background-color: rgb(253,249,201);}
+.bg-yellow03 {background-color: rgb(253,246,185);}
+.bg-yellow04 {background-color: rgb(252,243,162);}
+.bg-yellow05 {background-color: rgb(251,239,139);}
+.bg-yellow06 {background-color: rgb(250,236,116);}
+.bg-yellow07 {background-color: rgb(249,233,93);}
+.bg-yellow08 {background-color: rgb(249,230,69);}
+.bg-yellow09 {background-color: rgb(248,227,46);}
+.bg-yellow10 {background-color: rgb(247,224,23);}
+
+.bg-blue01 {background-color: rgb(238,237,249);}
+.bg-blue02 {background-color: rgb(222,220,242);}
+.bg-blue03 {background-color: rgb(205,202,236);}
+.bg-blue04 {background-color: rgb(189,185,229);}
+.bg-blue05 {background-color: rgb(172,167,223);}
+.bg-blue06 {background-color: rgb(155,149,217);}
+.bg-blue07 {background-color: rgb(139,132,210);}
+.bg-blue08 {background-color: rgb(122,114,204);}
+.bg-blue09 {background-color: rgb(106,97,197);}
+.bg-blue10 {background-color: rgb(89,79,191);}
+
+.bg-green01 {background-color: rgb(237,246,229);}
+.bg-green02 {background-color: rgb(220,238,204);}
+.bg-green03 {background-color: rgb(202,229,178);}
+.bg-green04 {background-color: rgb(185,220,153);}
+.bg-green05 {background-color: rgb(167,211,127);}
+.bg-green06 {background-color: rgb(149,203,102);}
+.bg-green07 {background-color: rgb(132,194,76);}
+.bg-green08 {background-color: rgb(114,185,51);}
+.bg-green09 {background-color: rgb(97,177,25);}
+.bg-green10 {background-color: rgb(79,168,0);}
+
+.bg-red01 {background-color: rgb(252,235,233);}
+.bg-red02 {background-color: rgb(248,216,211);}
+.bg-red03 {background-color: rgb(245,196,188);}
+.bg-red04 {background-color: rgb(242,177,166);}
+.bg-red05 {background-color: rgb(238,157,144);}
+.bg-red06 {background-color: rgb(235,137,122);}
+.bg-red07 {background-color: rgb(232,118,100);}
+.bg-red08 {background-color: rgb(229,98,77);}
+.bg-red09 {background-color: rgb(225,79,55);}
+.bg-red10 {background-color: rgb(222,59,33);}
+
+/*---------------------------*/
+/* 7.5  Bottom border colors */
+/*---------------------------*/
+.line-box {border-bottom: solid 1px rgb(200,200,200); padding-bottom: 15px; margin: 0px 0px 15px 0px;}
+
+.line-white {border-bottom: solid 1px rgb(255,255,255); padding-bottom: 2px; margin: 0px 0px 1px 0px;}
+.line-black {border-bottom: solid 1px rgb(0,0,0); padding-bottom: 2px; margin: 0px 0px 1px 0px;}
+
+.line-grey01 {border-bottom: solid 1px rgb(242,242,242); padding-bottom: 2px; margin-bottom: 1px;}
+.line-grey02 {border-bottom: solid 1px rgb(230,230,230); padding-bottom: 2px; margin-bottom: 1px;}
+.line-grey03 {border-bottom: solid 1px rgb(217,217,217); padding-bottom: 2px; margin-bottom: 1px;}
+.line-grey04 {border-bottom: solid 1px rgb(204,204,204); padding-bottom: 2px; margin-bottom: 1px;}
+.line-grey05 {border-bottom: solid 1px rgb(191,191,191); padding-bottom: 2px; margin-bottom: 1px;}
+.line-grey06 {border-bottom: solid 1px rgb(178,178,178); padding-bottom: 2px; margin-bottom: 1px;}
+.line-grey07 {border-bottom: solid 1px rgb(153,153,153); padding-bottom: 2px; margin-bottom: 1px;}
+.line-grey08 {border-bottom: solid 1px rgb(127,127,127); padding-bottom: 2px; margin-bottom: 1px;}
+.line-grey09 {border-bottom: solid 1px rgb(89,89,89); padding-bottom: 2px; margin-bottom: 1px;}
+.line-grey10 {border-bottom: solid 1px rgb(51,51,51); padding-bottom: 2px; margin-bottom: 1px;}
+
+.line-yellow01 {border-bottom: solid 1px rgb(254,252,232); padding-bottom: 2px; margin-bottom: 1px;}
+.line-yellow02 {border-bottom: solid 1px rgb(253,249,201); padding-bottom: 2px; margin-bottom: 1px;}
+.line-yellow03 {border-bottom: solid 1px rgb(253,246,185); padding-bottom: 2px; margin-bottom: 1px;}
+.line-yellow04 {border-bottom: solid 1px rgb(252,243,162); padding-bottom: 2px; margin-bottom: 1px;}
+.line-yellow05 {border-bottom: solid 1px rgb(251,239,139); padding-bottom: 2px; margin-bottom: 1px;}
+.line-yellow06 {border-bottom: solid 1px rgb(250,236,116); padding-bottom: 2px; margin-bottom: 1px;}
+.line-yellow07 {border-bottom: solid 1px rgb(249,233,93); padding-bottom: 2px; margin-bottom: 1px;}
+.line-yellow08 {border-bottom: solid 1px rgb(249,230,69); padding-bottom: 2px; margin-bottom: 1px;}
+.line-yellow09 {border-bottom: solid 1px rgb(248,227,46); padding-bottom: 2px; margin-bottom: 1px;}
+.line-yellow10 {border-bottom: solid 1px rgb(247,224,23); padding-bottom: 2px; margin-bottom: 1px;}
+
+.line-blue01 {border-bottom: solid 1px rgb(238,237,249); padding-bottom: 2px; margin-bottom: 1px;}
+.line-blue02 {border-bottom: solid 1px rgb(222,220,242); padding-bottom: 2px; margin-bottom: 1px;}
+.line-blue03 {border-bottom: solid 1px rgb(205,202,236); padding-bottom: 2px; margin-bottom: 1px;}
+.line-blue04 {border-bottom: solid 1px rgb(189,185,229); padding-bottom: 2px; margin-bottom: 1px;}
+.line-blue05 {border-bottom: solid 1px rgb(172,167,223); padding-bottom: 2px; margin-bottom: 1px;}
+.line-blue06 {border-bottom: solid 1px rgb(155,149,217); padding-bottom: 2px; margin-bottom: 1px;}
+.line-blue07 {border-bottom: solid 1px rgb(139,132,210); padding-bottom: 2px; margin-bottom: 1px;}
+.line-blue08 {border-bottom: solid 1px rgb(122,114,204); padding-bottom: 2px; margin-bottom: 1px;}
+.line-blue09 {border-bottom: solid 1px rgb(106,97,197); padding-bottom: 2px; margin-bottom: 1px;}
+.line-blue10 {border-bottom: solid 1px rgb(89,79,191); padding-bottom: 2px; margin-bottom: 1px;}
+
+.line-green01 {border-bottom: solid 1px rgb(237,246,229); padding-bottom: 2px; margin-bottom: 1px;}
+.line-green02 {border-bottom: solid 1px rgb(220,238,204); padding-bottom: 2px; margin-bottom: 1px;}
+.line-green03 {border-bottom: solid 1px rgb(202,229,178); padding-bottom: 2px; margin-bottom: 1px;}
+.line-green04 {border-bottom: solid 1px rgb(185,220,153); padding-bottom: 2px; margin-bottom: 1px;}
+.line-green05 {border-bottom: solid 1px rgb(167,211,127); padding-bottom: 2px; margin-bottom: 1px;}
+.line-green06 {border-bottom: solid 1px rgb(149,203,102); padding-bottom: 2px; margin-bottom: 1px;}
+.line-green07 {border-bottom: solid 1px rgb(132,194,76); padding-bottom: 2px; margin-bottom: 1px;}
+.line-green08 {border-bottom: solid 1px rgb(114,185,51); padding-bottom: 2px; margin-bottom: 1px;}
+.line-green09 {border-bottom: solid 1px rgb(97,177,25); padding-bottom: 2px; margin-bottom: 1px;}
+.line-green10 {border-bottom: solid 1px rgb(79,168,0); padding-bottom: 2px; margin-bottom: 1px;}
+
+.line-red01 {border-bottom: solid 1px rgb(252,235,233); padding-bottom: 2px; margin-bottom: 1px;}
+.line-red02 {border-bottom: solid 1px rgb(248,216,211); padding-bottom: 2px; margin-bottom: 1px;}
+.line-red03 {border-bottom: solid 1px rgb(245,196,188); padding-bottom: 2px; margin-bottom: 1px;}
+.line-red04 {border-bottom: solid 1px rgb(242,177,166); padding-bottom: 2px; margin-bottom: 1px;}
+.line-red05 {border-bottom: solid 1px rgb(238,157,144); padding-bottom: 2px; margin-bottom: 1px;}
+.line-red06 {border-bottom: solid 1px rgb(235,137,122); padding-bottom: 2px; margin-bottom: 1px;}
+.line-red07 {border-bottom: solid 1px rgb(232,118,100); padding-bottom: 2px; margin-bottom: 1px;}
+.line-red08 {border-bottom: solid 1px rgb(229,98,77); padding-bottom: 2px; margin-bottom: 1px;}
+.line-red09 {border-bottom: solid 1px rgb(225,79,55); padding-bottom: 2px; margin-bottom: 1px;}
+.line-red10 {border-bottom: solid 1px rgb(222,59,33); padding-bottom: 2px; margin-bottom: 1px;}
+
+/*****************************/
+/* SECTION 8 - MISCELLANEOUS */
+/*****************************/
+.showcode {font-family: monospace; font-weight: bold; font-size: 13px; color: rgb(255,0,0);}
+.clear {clear: both;}
+.hide {display: none;}
+br {clear: none;}
