@@ -1,0 +1,238 @@
+<!--
+ ____________________________________________________________
+|                                                            |
+|    DESIGN + Pat Heard { http://fullahead.org }             |
+|      DATE + 2006.03.19                                     |
+| COPYRIGHT + Free use if this notice is left in place       |
+|____________________________________________________________|
+
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-AU">
+
+<head>
+
+
+  <title>lazy days ( help )</title>
+
+  <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+  <meta name="author" content="fullahead.org" />
+  <meta name="keywords" content="Open Web Design, OWD, Free Web Template, Lazy Days, Fullahead" />
+  <meta name="description" content="A free web template designed by Fullahead.org and hosted on OpenWebDesign.org" />
+  <meta name="robots" content="index, follow, noarchive" />
+  <meta name="googlebot" content="noarchive" />
+
+  <link rel="stylesheet" type="text/css" href="css/html.css" media="screen, projection, tv " />
+  <link rel="stylesheet" type="text/css" href="css/layout.css" media="screen, projection, tv" />
+  <link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
+
+</head>
+
+
+<body>
+
+<!-- CONTENT: Holds all site content except for the footer.  This is what causes the footer to stick to the bottom -->
+<div id="content">
+
+
+
+  <!-- HEADER: Holds title, subtitle and header images -->
+  <div id="header">
+
+    <div id="title">
+      <h1>Lazy Days</h1>
+      <h2>in the city</h2>
+    </div>
+
+    <img src="images/bg/balloons.gif" alt="balloons" class="balloons" />
+    <img src="images/bg/header_left.jpg" alt="left slice" class="left" />
+    <img src="images/bg/header_right.jpg" alt="right slice" class="right" />
+
+  </div>
+
+
+
+  <!-- MAIN MENU: Top horizontal menu of the site.  Use class="here" to turn the current page tab on -->
+  <div id="mainMenu">
+    <ul class="floatRight">
+      <li><a href="index.html" title="Introduction">Intro</a></li>
+      <li><a href="help.html" title="Learn how to use the template" class="here">Help</a></li>
+      <li><a href="tags.html" title="View the styled tags">Tags</a></li>
+      <li><a href="print.html" title="View the print layout">Print</a></li>
+      <li><a href="http://fullahead.org/contact.html" title="Get in touch" class="last">Mail</a></li>
+    </ul>
+  </div>
+
+  <!-- PAGE CONTENT BEGINS: This is where you would define the columns (number, width and alignment) -->
+  <div id="page">
+
+    <div class="width25 floatLeft leftColumn">
+
+      <h1>Help</h1>
+
+      <ul class="sideMenu">
+        <li class="here">
+          Fluid Columns
+          <ul>
+            <li><a href="#customize" title="Jump to section">How to Customize</a></li>
+            <li><a href="#gradients" title="Jump to section">Gradients</a></li>
+            <li><a href="#padding" title="Jump to section">Padding and Margins</a></li>
+            <li><a href="#images" title="Jump to section">Images</a></li>
+            <li><a href="#floating" title="Jump to section">Floating</a></li>
+            <li><a href="#width" title="Jump to section">Fluid vs. Fixed</a></li>
+          </ul>
+        </li>
+        <li><a href="http://fullahead.org" title="Goto Fullahead">Fullahead</a></li>
+        <li><a href="http://threetree.net" title="Goto Threetree">ThreeTree</a></li>
+      </ul>
+
+      <p>
+        If you still have questions after reading this, feel free to <a href="http://fullahead.org/contact.html" title="Fullahead contact form">contact me</a>.  I can't promise I'll answer you right away, but I will get back to you.
+      </p>
+
+    </div>
+
+    <div class="width75 floatRight">
+
+      <div class="gradient">
+
+        <a name="customize"></a>
+
+        <h1>Fluid Columns</h1>
+        <h2>How To Customize the Columns</h2>
+
+        <p>
+          There are 5 different widths defined in the style sheet that allow you to customize how many columns the template has:
+        </p>
+
+        <ol>
+          <li><span><b>width25</b> 25 percent width</span></li>
+          <li><span><b>width33</b> 33 percent width</span></li>
+          <li><span><b>width50</b> 50 percent width</span></li>
+          <li><span><b>width75</b> 75 percent width</span></li>
+          <li><span><b>width100</b> 100 percent width</span></li>
+        </ol>
+
+        <p>
+          To use them, create a &lt;div&gt; tag and apply the class.  To position the columns, use the <i>floatLeft</i> and <i>floatRight</i> classes.  This is possible because you can stack CSS classes on an element.  Follow <a href="tags.html#widthDemo" title="View width demo">this link</a> to see examples.
+        </p>
+
+        <blockquote class="stop">
+          <p>
+            If you want columns to be side by side, make sure the widths added up don't go over 100 percent.  If they do, the <b>rightmost column</b> will be pushed down.
+          </p>
+        </blockquote>
+
+        <p>
+          Below is an example of the skeleton code used to generate this layout.  Notice the <i>leftColum</i> class used on the leftmost column.  This is to make the column line up properly with the header.  If you are using a <i>gradient</i> on this column, you won't need to use this class.
+        </p>
+
+        <code>&lt;div class="width25 floatLeft leftColumn"&gt;<br/>  Left Column content<br/>&lt;/div&gt;<br/><br/>&lt;div class="width75 floatRight"&gt;<br/>  Right Column content<br/>&lt;/div&gt;</code>
+
+
+        <a name="gradients"></a>
+
+        <h2>Gradients</h2>
+
+        <p>
+          The <i>gradient</i> class can be used in any column.  It will create the grey fade you can see in this column.  Using it is very straightfoward:
+        </p>
+
+        <code>&lt;div class="gradient"&gt;<br/>  Column content<br/>&lt;/div&gt;</code>
+
+      </div>
+
+
+
+
+      <div class="gradient">
+
+        <a name="padding"></a>
+
+        <h1>Alignment</h1>
+        <h2>Padding and Margins</h2>
+
+        <p>
+          All padding and margins are applied to the html elements rather than their containers.  This was done for two reasons:
+        </p>
+
+        <ol>
+          <li><span>Dodge the difference in how browsers apply padding and margins.  Since padding and margins are applied to children, and not the containers, all browsers consistenly draw the containers at the same width.</span></li>
+          <li><span>Give elements the same alignment with and without the <i>gradient</i> containers.</span></li>
+        </ol>
+
+
+        <a name="images"></a>
+
+        <h2>Images</h2>
+        <p>
+          <a href="http://www.mozilla.com/firefox/" title="Get Firefox"><img src="images/firefox.jpg" alt="pic" class="floatRight"/></a>
+          Images are fully supported using the <i>floatLeft</i> and <i>floatRight</i> classes.  Just apply one of them to the image you want to position.  Images that have link tags around them will also have a nifty rollover effect, as long as you're using a standards complients browser.  If you're not, well then no rollover effect for you.
+        </p>
+
+        <a name="floating"></a>
+
+        <h2>Floating</h2>
+        <p>
+          The <i>floatLeft</i> and <i>floatRight</i> classes aren't just for images and columns.  You can also use them on any element.  Try it on the main menu to have it align to the left or right.
+        </p>
+
+      </div>
+
+
+
+      <div class="gradient">
+
+        <a name="width"></a>
+
+        <h1>Template Width</h1>
+        <h2>Fluid vs. Fixed</h2>
+
+        <p>
+          Out of the box, this template fills 94% of the screen width up to a maximum of 1000 pixels.  This was done for readability at high resolutions.  If you'd like to change this template's width, or make it entirely fixed width, you only need to change the following CSS:
+        </p>
+
+        <code>#content,<br/>#width {<br/>  <span class="green">/* max-width hack for IE since it doesn't understand the valid css property */</span><br/>  width: expression(document.body.clientWidth > 1000 ? "1000px" : "94%");<br/>  max-width: 1000px;<br/>  margin: 0 auto;<br/>}<br/><br/>#content[id],<br/>#width[id] {<br/>  width: 94%;<br/>  height: auto;<br/>}</code>
+
+        <p>
+          The values you'll want to change are the <b>1000</b> and <b>94%</b>.  The width: expression bit is specific to IE, while the rest is for all compliant browsers.  Here's an example of fixed width:
+        </p>
+
+        <code>#content,<br/>#width {<br/>  width: 770px;  <br/>  margin: 0 auto;<br/>}<br/><br/>#content[id],<br/>#width[id] {<br/>  height: auto;<br/>}</code>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- FOOTER: Site footer for links, copyright, etc. -->
+<div id="footer">
+
+  <div id="width">
+    <span class="floatLeft">
+      design <a href="http://fullahead.org" title="Goto Fullahead">Fullahead</a> <span class="grey">|</span>
+      valid <a href="http://validator.w3.org/check?uri=referer" title="Validate XHTML">XHTML</a> <span class="grey">|</span>
+      should be valid <a href="http://jigsaw.w3.org/css-validator" title="Validate CSS">CSS</a>
+    </span>
+
+    <span class="floatRight">
+      <a href="index.html" title="Introduction">intro</a> <span class="grey">|</span>
+      <a href="help.html" title="Learn how to use the template">help</a> <span class="grey">|</span>
+      <a href="tags.html" title="View the styled tags">tags</a> <span class="grey">|</span>
+      <a href="print.html" title="View the print layout">print</a> <span class="grey">|</span>
+      <a href="http://fullahead.org/contact.html" title="Get in touch">mail</a>
+    </span>
+  </div>
+
+</div>
+
+</body>
+
+</html>
