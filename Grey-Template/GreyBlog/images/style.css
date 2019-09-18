@@ -1,0 +1,226 @@
+/* 
+
+Grey Blog Free Template
+By Herreman David 
+http://www.free-css-templates.com
+
+*/
+
+body { 
+	margin:5px 0; 
+	padding:0; 
+	font: 74% Arial, Sans-Serif; 
+	color:#FFF;  
+	background-color:#eee;
+	line-height: 1.4em; 
+	background : #7D8085;
+}
+
+.toph { background: #3D3E42 url(top.jpg) no-repeat center; height: 39px; margin:0; padding:0; }
+
+.content { 
+    color: #a0a0a0; 
+	margin: 0 auto; 
+	padding: 0; 
+	width: 800px; 
+	background: #3D3E42 url(bg.jpg) repeat-y center;
+}
+
+.title {
+	background: #FFF url(logo.jpg) left no-repeat;
+	height: 28px;
+	color: #F29900;
+	font-size:140%; 
+	font-weight:bold; 
+	padding: 10px 0 0 40px;
+	
+}
+
+.right {  
+	background: #FFF;
+	clear: both; 
+	font-size: 95%; 
+	float:right; 
+	width: 170px; 
+	margin: 0 15px 0 0 !important;
+	margin: 0 8px 0 0;
+	padding: 0px 1em 0 0px; 
+}
+
+.right a { color: #7D8085;}
+.nav { clear: both; text-align: left; color: 	#7D8085; padding: 5px 0 0 0; }
+.nav li { font-weight: bold; margin: 0 0 8px 0; padding: 0 0 0 5px; border-bottom: 1px solid #F29900; }
+.nav li a { color: #7D8085; }
+.nav li a:hover { color: #F29900; text-decoration: none; }
+
+.boxad { 	background: #45464B; color: #BBB; border: 1px solid #555; padding: 5px; }
+
+p { 	margin: 0 0 5px 0; 	padding: 0; color: #888; background: inherit; }
+hr { border: 0; height: 1px; color: #eee; background-color: #eee; }
+a { 	color: #888; background: inherit;  text-decoration:none; }
+a:hover { 	background: inherit;	text-decoration: underline; }
+h1 { padding:0; margin:0; color: #FFF; background: inherit;font: bold 1.8em Arial, Sans-Serif; letter-spacing: -1px; }
+h1 a {color: #FFF; background: inherit;}
+h2 { background-color: inherit; 	color:#F29900; font-size:140%; font-weight:bold; margin: 10px 0 10px 0; padding:0; }
+h2 a { color: #F29955; }
+h2 a:hover { 	color: #F29955; text-decoration: none;}
+
+ul { margin: 5px 0 20px 15px; padding : 0; list-style : none; }
+li { list-style-type: square;	color: #F29900;	margin: 0 0 0px 0;	padding: 0 0 0 0px; }
+li a { color: #7D8085; }
+li a:hover { color: #F29900;  }
+
+.center { 
+	float:left; 
+	width: 530px; 
+	font-size: 95%; 
+	margin: 0px 0 5px 35px !important;
+	margin: 0px 0 5px 20px; 
+	padding: 0; 
+	background: #3D3E42; 
+	color: #FFF;
+}
+
+.center a { color: #F29900;}
+.center a:hover { color: #FFF; }
+
+
+.footer { 
+	clear:both;
+	width: auto;
+	height: 37px;
+	color:#888;  
+	font-size:90%;
+	background: #3D3E42 url(bot.jpg) no-repeat center;
+	text-align:center; 
+}
+
+
+.footer_text {
+	text-align: right;
+ 	margin: 0; padding: 0;
+	color: #aaa;
+}
+
+.footer_text a { color: #777; }
+
+
+fieldset {
+	border: 1px solid #eee;
+}
+
+textarea.text { 
+	height: 150px; 
+	width: 90%; 
+	border: 1px solid #ccc; 
+	background: #fff; 
+	color: #000;
+}
+
+textarea.text:hover { 
+	border: 1px solid #eee; 
+	background: #FFFFF4; 
+	color: #000;
+}
+
+input.field { 
+	border: 1px solid #ccc; 
+	background-color: #3C3C3C; 
+	width: 100px; 
+	color: #000;
+}
+
+input.field:hover { 
+	border: 1px solid #eee; 
+	background: #ccc; 
+	color: #000;
+}
+
+input.text { 
+	margin: 0; 
+	width: 110px;
+	border: 1px solid #F29900; 
+	background: #FFF;
+	color: #808080; 
+}
+
+input.text:hover { 
+	border: 1px solid #F26600; 
+}
+
+input.searchbutton { 
+	margin: 0; 
+	font-size: 100%; 
+	font-family: Arial, Sans-serif; 
+	border: none; 
+	background: #FFFFFF; 
+	color: #808080; 
+	padding: 1px; 
+	font-weight: bold; 
+}
+
+.date { 
+	color: #ccc; 
+	background: #3D3E42;
+	text-align: right; 
+	margin: 4px 0 5px 0; 
+	padding: 0.4em 0 0 0; 
+	border-top: 1px solid #555;
+}
+
+.date a { color: #ccc; }
+
+
+.time { 
+	color: #192D50; 
+	float: left;
+	text-align: left; 
+	padding: 5px 0 0 15px; 
+}
+
+input.button { 
+	background: #FFFFF4; 
+	color: #808080;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.comments { 
+	padding: 10px 10px 8px 10px; 
+	margin: 0 0 7px 0; 
+	background: #3f3f3f; 
+	color: #000;
+}
+
+.commentsbox { 
+	padding: 8px 0 10px 10px; 
+	margin: 0 0 10px 0; 
+	background: #f4f4f4; 
+	color: #000;
+}
+
+.error {
+	color: #990000;
+	background-color: #FFF0F0;
+	padding: 7px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border: 1px dashed #990000;
+}
+.error h2 {
+	color: #990000;
+	background: inherit;
+}
+
+.success {
+	color: #000000;
+	background: #F5FBE1;
+	padding: 7px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 1px dashed #7BA813;
+}
+.success h2 {
+	color: #7BA813;
+	background: inherit;
+}
