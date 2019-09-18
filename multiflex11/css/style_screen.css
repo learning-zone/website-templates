@@ -1,0 +1,439 @@
+/*****************************************************/
+/*   Design:  MultiFlex-1.1 (Screen)                 */
+/*   Author:  G. Wolfgang                            */
+/*   Web:     www.1-2-3-4.info                       */
+/*   Date:    May 15, 2006                           */
+/*****************************************************/
+
+/*-----------------------------------------------------------------------*/
+/* FONT-SIZE DEFINITIONS                                                 */
+/*-----------------------------------------------------------------------*/
+/* Relative font-sizes in "em" are used where necessary. To make the     */
+/* "em"-units normed, the incoming font sizes are set to 1.0 em. The     */
+/* font-size variations throughout the webpage are then expressed in     */
+/* percentage values respective to the incoming font-size. To make       */
+/* calculations easier, the font definition in the css-class "body" is   */
+/* 62.5%, which gives 1.0em = 10px This makes life a real breeze!        */
+/*-----------------------------------------------------------------------*/
+
+/* Comments for individual lines are found to the right of the respective row */
+
+/*************************/
+/* SECTION 1 - MAIN BODY */
+/*************************/
+body {font-size: 62.5%; margin: 0em auto; padding: 0px; font-family: arial, tahoma, verdana, sans-serif; background: url(../img/background.gif) top center repeat-y;}
+.page-container {width: 770px; margin: 0px auto; padding: 0px; border-left: solid 1px rgb(125,125,125); border-right: solid 1px rgb(125,125,125); border-bottom: solid 1px rgb(125,125,125); background-color: rgb(255,255,255);}
+
+/**********************/
+/* SECTION 2 - HEADER */
+/**********************/
+/*--------------------------------------*/
+/* Section 2.1 - Global navigation menu */
+/*--------------------------------------*/
+.nav-global-container {position: absolute; z-index: 3; width: 770px; top: 5px; background-color: transparent;}
+.nav-global {float: right; width: 750px; margin: 0px 5px 0px 0px; padding: 0px; background-color: transparent;}	
+.nav-global ul {float: right; display: inline; list-style: none; margin: 0px; padding: 0px;}	
+.nav-global li {display: inline; white-space: nowrap; text-transform: none;}
+.nav-global li a {display: inline; margin: 0px; padding: 0px 0px 0px 4px; border-left: solid 1px rgb(100,100,100); color: rgb(150,150,150); font-weight: bold; text-decoration: none; font-size: 110%;}
+.nav-global a:hover {background-color: rgb(255,255,255); color: rgb(0,0,0); text-decoration: underline;}
+.img-flag {display: inline; vertical-align: text-bottom; height: 1.0em; margin: 0px; padding: 0px; border: solid 1px rgb(0,0,0);}
+
+/*-----------------------------------*/
+/* Section 2.2 - Sitename and Banner */
+/*-----------------------------------*/
+.site-name  {clear: both; float: left; position: absolute; z-index: 2; width: 700px; top: 20px; margin: 0px; padding-left: 17px; background-color: transparent; color: rgb(255,255,255); font-weight: bold; font-size: 24px;}
+.site-slogan  {float: left; position: absolute; z-index: 1; width: 700px; top: 1.9em; left: 15px; margin: 0px; padding: 0px 0px 0px 3px; background-color: transparent; color: rgb(204,216,228); font-weight: bold; font-size: 14px;}
+.img-header {clear: both; float: left; width: 770px; height: 100px; margin: 0px; padding: 0px;}
+
+/*------------------------------------*/
+/* Section 2.3 - Main navigation menu */
+/*------------------------------------*/
+.nav-main {clear: both; float: left; width: 770px;  min-height: 2.0em; height: auto !important; height: 2.0em; line-height: 2.0em; margin: 0px; padding: 0px; border-top: solid 1px rgb(84,111,144); border-bottom: solid 1px rgb(84,111,144); background-color: rgb(159,182,213);} /* Use background-color: rgb(176,207,106);	for green */
+.nav-main ul {list-style: none; margin: 0px; padding: 0px; font-weight: bold;}	
+.nav-main li {float: left; white-space: nowrap; background-color: inherit;}
+.nav-main li a {margin: 0px; padding: 0px 10px 0px 10px; border-right: solid 1px rgb(255,255,255); color: rgb(255,255,255); text-decoration: none; font-size: 110%;}
+.nav-main a:hover, .nav-main a.selected {background-color: inherit; color: rgb(75,75,75); text-decoration: none;}
+.buffer {float: left; width: 770px; height: 30px; margin: 0px; padding: 0px; background-color: rgb(255,255,255);}
+
+/*************************************/
+/* SECTION 3 - SIDEBANNER FRONT PAGE */
+/*************************************/
+.sidebanner-frontpage {clear: both; float: left; width: 160px; margin: 0px; padding: 0px;}
+.img-sidebanner {width: 160px; margin: 0px; padding: 0px; border: none;}
+
+/******************************/
+/* SECTION 4 - SUB-NAVIGATION */
+/******************************/
+.nav-sub {clear: both; float: left; width: 160px; min-height: 500px; height: auto !important; height: 500px; margin: 0px; padding: 0px; background-color: rgb(255,255,255);}
+.nav-sub ul {float: left; list-style: none; width: 160px; margin: 0px; padding: 0px; border-bottom: solid 1px rgb(200,200,200);}	
+.nav-sub li {margin: 0px; padding: 0px;}
+.nav-sub li.title {vertical-align: top; margin: 0px; padding: 0px 5px 4px 20px; color: rgb(100,100,100); text-transform: uppercase; font-weight: bold; font-size: 140%;}
+.nav-sub li.group a {display: block; min-height: 1.5em; height: auto !important; height: 1.5em; line-height: 1.5em; margin: 1px 0px 1px 0px; padding: 0px 7px 0px 10px; border-top: solid 1px rgb(200,200,200);  border-left: solid 10px rgb(201,198,234); color: rgb(100,100,100); font-weight: bold; font-size: 120%;}
+.nav-sub li a {display: block; min-height: 1.5em; height: auto !important; height: 1.5em; line-height: 1.5em; margin: 1px 0px 1px 0px; padding: 0px 7px 0px 10px; border-left: solid 10px rgb(201,198,234); color: rgb(100,100,100); text-decoration: none; font-size: 120%;}
+.nav-sub li a:hover, .nav-sub li a.selected {border-left: solid 10px rgb(121,153,196); color: rgb(0,0,0); text-decoration: none;}
+
+/*******************************************************************/
+/* SECTION 5 -  CONTAINER FOR CONTENT AND SIDEBAR                  */
+/*              Reason: To extend navigation border to footer      */
+/*******************************************************************/
+/* TRICK: Nest the right two columns (content and sidebar) and     */
+/* give them a minimum height and white background and a left      */
+/* border-line. However, nesting floats inside each other with     */
+/* with identical widths may activate the spurious IE character    */
+/* duplication bug, where the last characters of the last float    */
+/* statement are duplicated outside the float. The correction for  */
+/* this bug is to reduce the sidebar float so that the  sum of     */
+/* the content and sidebar floats are 6px less than the container  */
+/* holding them. See Section 7.1, where this is done.              */
+/* ----------------------------------------------------------------*/
+/* RESTRICTION: For situations where the left navigation menu is   */
+/* expanding over the minimum 500px height, it must remain smaller */
+/* than the container holding the rigth two columns. Otherwise     */
+/* the borderline will only extend as far down as the container.   */
+/*******************************************************************/
+.container-content-sidebar-front {float: left; width: 609px; min-height: 500px; height: auto !important; height: 500px; margin: 0px; padding: 0px 0px 20px 1px; background-color: rgb(255,255,255);}
+.container-content-sidebar, .container-content2-sidebar {float: left; width: 609px; min-height: 500px; height: auto !important; height: 500px; margin: 0px; padding: 0px 0px 20px 0px; border-left: solid 1px rgb(200,200,200); background-color: rgb(255,255,255);}
+
+/********************************/
+/* SECTION 6A - CONTENT PAGE #1 */
+/********************************/
+.content {float: left; width: 428px; margin: 0px; padding: 0px 0px 0px 20px; background-color: transparent; color: rgb(75,75,75);} /* Width should be 444px, but IE-duplication bug forces us to reduce with 6px to 428px */
+.contentbox-container {clear: both; float: left; width: 425px; margin: 0px 0px 15px 0px; padding: 0px;} /* Width should be 428px, but IE-duplication bug forces us to reduce with 3px to 425px */
+.contentbox-full {width: 425px; margin: 0px; padding: 0px;}
+.contentbox-half-left {float: left; width: 205px; margin: 0px; padding: 0px;}
+.contentbox-half-right {float: right; width: 205px; margin: 0px; padding: 0px;}
+.contentbox-third-left {float: left; width: 134px; margin: 0px 13px 0px 0px; padding: 0px;}
+.contentbox-third-middle {float: left; width: 134px; margin: 0px; padding: 0px;}
+.contentbox-third-right {float: right; width: 134px; margin: 0px; padding: 0px;}
+
+/********************************/
+/* SECTION 6B - CONTENT PAGE #2 */
+/********************************/
+.content2 {float: left; width: 563px; min-height: 500px; height: auto !important; height: 500px; margin: 0px; padding: 0px 20px 0px 20px; background-color: transparent; color: rgb(100,100,100);} /* Width should be 569px, but IE-duplication bug forces us to reduce with 6px to 563px */
+.contentbox2-container {clear: both; float: left; width: 560px; margin: 0px 0px 15px 0px; padding: 0px;} /* Width should be 563px, but IE-duplication bug forces us to reduce with 3px to 560px */
+.contentbox2-full {width: 559px; margin: 0px; padding: 0px;}
+.contentbox2-half-left {float: left; width: 273px; margin: 0px; padding: 0px;}
+.contentbox2-half-right {float: right; width: 273px; margin: 0px; padding: 0px;}
+.contentbox2-third-left {float: left; width: 176px; margin: 0px 17px 0px 0px; padding: 0px;}
+.contentbox2-third-middle {float: left; width: 176px; margin: 0px; padding: 0px;}
+.contentbox2-third-right {float: right; width: 176px; margin: 0px; padding: 0px;}
+
+/************************************/
+/* SECTION 6C - CONTENT PAGE COMMON */
+/************************************/
+/*--------------------------------------------------*/
+/* Section 6C.4 - Page title, title and content box */
+/*--------------------------------------------------*/
+.content-pagetitle {width: 100%; margin: 0px 0px 10px 0px; padding: 0px 0px 5px 0px; background-color: transparent; border-bottom: solid 0px rgb(200,200,200); color: rgb(100,100,100); text-transform: uppercase; font-weight: bold; font-size: 140%;}
+.contentbox-title-noshading-small {margin: 0px 0px -5px 0px; padding: 0px; background-color: transparent;  color: rgb(75,75,75); font-weight: bold; font-size: 130%;}
+.contentbox-title-noshading-medium {margin: 0px 0px -5px 0px; padding: 0px; background-color: transparent; color: rgb(75,75,75); font-weight: bold; font-size: 150%;}
+.contentbox-title-noshading-large {margin: 0px 0px -5px 0px; padding: 0px; background-color: transparent; color: rgb(75,75,75); font-weight: bold; font-size: 170%;}
+.contentbox-title-noshading-huge {margin: 0px 0px -5px 0px; padding: 0px; background-color: transparent; color: rgb(75,75,75); font-weight: bold; font-size: 180%;}
+.contentbox-title-shading-small {margin: 0px; padding: 1px 0px 2px 3px; background-color: rgb(222,220,242); color: rgb(75,75,75); font-weight: bold; font-size: 130%;}
+.contentbox-title-shading-medium {margin: 0px; padding: 1px 0px 2px 3px; background-color: rgb(222,220,242); color: rgb(75,75,75); font-weight: bold; font-size: 150%;}
+.contentbox-title-shading-large {margin: 0px; padding: 1px 0px 2px 3px; background-color: rgb(222,220,242); color: rgb(75,75,75); font-weight: bold; font-size: 170%;}
+.contentbox-title-shading-huge {margin: 0px; padding: 1px 0px 2px 3px; background-color: rgb(222,220,242);color: rgb(75,75,75); font-weight: bold; font-size: 180%;}
+.contentbox-noshading {margin: 0px; padding: 0.7em 0px 0px 0px; background-color: transparent;}
+.contentbox-shading {margin: 0px; padding: 7px 10px 5px 10px; background-color: rgb(233,232,244);}
+
+/*---------------------*/
+/* Section 6C.4 - Text */
+/*---------------------*/
+/* Heading */
+h1 {clear: left; margin: 1.0em 0px 0.5em 0px; font-weight: bold; font-size: 160%;}
+h2 {clear: left; margin: 1.0em 0px 0.5em 0px; font-weight: bold; font-size: 150%;}
+h3 {clear: left; margin: 1.0em 0px 0.5em 0px;	font-weight: bold; font-size: 140%;}
+h4 {clear: left; margin: 1.0em 0px 0.5em 0px; font-weight: bold; font-size: 130%;}
+h5 {clear: left; margin: 0px; font-weight: bold; font-size: 130%;}
+h6 {clear: left; margin: 0px;	font-weight: bold; font-style: italic; font-size: 130%;}
+
+/* Paragraph */
+p {margin: 0px 0px 0.5em 0px; padding: 0px; line-height: 1.2em; font-size: 130%; }
+p.readmore {margin: -0.2em 0px 0.5em 0px; padding: 0px; line-height: 1.2em; font-size: 110%; }
+p.quote {margin: 0em 30px 0.6em 30px;	line-height: 120%; font-size: 120%;}
+
+/* Embedded */
+.embed {float: left; width: 120px; margin: 7px 7px 5px 0px; padding: 5px 5px 5px 5px; background-color: rgb(238,237,249); font-style: italic; font-weight: bold;  line-height: 1.2em; font-size: 140%;}
+.embed-caption {float: left; margin: 5px 0px 0px 0px; padding: 0px; font-style: italic; font-weight: normal; line-height: 1.2em; font-size: 70%;}
+
+/* Lists */
+.content ul.noindent, .content2 ul.noindent {margin: 0px 0px 7px 15px; padding: 0px; list-style-type: disc; list-style-position: outside; font-size: 120%;}
+.content ul.indent, .content2 ul.indent {margin: 0px 0px 7px 15px; padding: 0px 0px 0px 15px; list-style-type: disc; font-size: 120%;}
+.content ol, .content2 ol {margin: 0px 0px 0px 9px; padding: 0px 0px 0px 25px; list-style-type: decimal; list-style-position: outside; font-size: 120%;}
+
+/* Link List */
+.content ul.linklist-noindent, .content2 ul.linklist-noindent {margin: -0.3em 0px 0.5em 0px; padding: 0px; list-style-type: none; line-height: 1.2em; font-size: 120%; }
+.content ul.linklist-indent, .content2 ul.linklist-indent {margin: -0.3em 0px 0.5em 0px; padding: 0px 0px 0px 10px; list-style-type: none; line-height: 1.2em; font-size: 120%; }
+
+/*-----------------------*/
+/* Section 6C.5 - Tables */
+/*-----------------------*/
+.table {clear: left; margin: 0.5em 0px 0.2em 30px; border: solid 1px rgb(150,150,150); empty-cells: show; border-collapse: collapse; background-color: rgb(233,232,244);}
+.table tr {margin: 0px; padding: 0px;}
+.table td {padding: 2px 7px 2px 7px; border: solid 1px rgb(150,150,150); text-align: left; font-size: 120%;}
+.table th {margin: 0px; padding: 2px 7px 2px 7px; border: solid 1px rgb(150,150,150); empty-cells: show; text-align: left; font-size: 120%; 	}
+p.table-caption {margin: 0.5em 0px 1.0em 30px; padding: 0px; clear: both; text-align: left; font-size: 120%;}
+
+/*-----------------------*/
+/* Section 6C.6 - Images */
+/*-----------------------*/
+.img-left-noborder {float: left; margin: 2px 7px 3px 0px;}
+.img-right-noborder {float: right; margin: 2px 0px 3px 7px;}
+.img-left-border {float: left; margin: 4px 7px 3px 0px; border: solid 1px rgb(150,150,150);}
+.img-right-border {float: right; margin: 2px 0px 3px 7px; border: solid 1px rgb(150,150,150);}
+
+/***********************/
+/* SECTION 7 - SIDEBAR */
+/***********************/
+/*-----------------------------------------------*/
+/* Section 7.1 - Size                            */
+/*-----------------------------------------------*/
+/* Because of IE float-rendering bug, the width  */
+/* must be reduced by 6px, otherwise it will     */
+/* duplicate characters after the last float     */
+/* Reason: IE may not alwys allow nested floats  */
+/* have identical widths, but inside float must  */
+/* be smaller than outside float. This IE-bug is */
+/* somewhat unpredictable. See Section 5 header  */
+/* for more details on this topic.               */
+/*-----------------------------------------------*/
+
+.sidebar {float: right; width: 155px; margin: 0px ; padding: 3.1em 0px 0px 0px; background-color: rgb(255,255,255); text-align: left;  color: rgb(75,75,75);} /* Actual width should be: 175px, but because of IE-bug we reduce with 6px so that container has some free space) */
+.sidebarbox-noborder {width: 140px; margin: 0px 0px 1.0em 9px; padding: 0px;}
+.sidebarbox-border {width: 130px; margin: 0px 0px 1.0em 9px; padding: 4px 4px 4px 4px; border: solid 1px rgb(200,200,200);}
+.sidebarbox-title-noshading {display: block; margin: 0px 0px 2px 0px; padding: 0px; background-color: transparent; font-weight: bold; font-size: 110%;}
+.sidebarbox-title-shading {display: block; margin: 0px 0px 2px 0px; padding: 2px 5px 3px 5px; background-color: rgb(225,225,225); font-weight: bold; font-size: 110%;}
+.sidebarbox-noborder p {margin: 0px 5px 0.4em 5px; padding: 0px; background-color: transparent; line-height: 1.2em; font-size: 110%;}
+.sidebarbox-border p {margin: 0px 0px 0.4em 0px; padding: 0px; background-color: transparent; line-height: 1.2em; font-size: 110%;}
+
+/**********************/
+/* SECTION 8 - FOOTER */
+/**********************/
+.footer {clear: both; width: 770px; height: 3.0em; margin: 0px; padding: 0.5em 0px 0.5em 0px; border-top: solid 1px rgb(125,125,125); background-color: rgb(159,182,213); color: rgb(255,255,255);}
+.footer p {margin: 0px; padding: 0px; text-align: center; line-height: 1.3em; font-size: 110%;}
+
+/***************************************************/
+/* SECTION 9 - HYPERLINKS FOR NON-NAVIGATION TEXTS */
+/***************************************************/
+.content a, .content2 a, .sidebar a {color: rgb(75,75,75); text-decoration: underline;}
+.content a:hover, .content2 a:hover, .sidebar a:hover {color: rgb(75,75,75); text-decoration: none;}
+.content a:visited, .content2 a:visited, sidebar a:visited {color: rgb(150,150,150);}
+.footer a {color: rgb(255,255,255); text-decoration: underline;}
+.footer a:hover {color: rgb(0,0,0); text-decoration: none;}
+
+/********************************/
+/* SECTION 10 - GENERIC CLASSES */
+/********************************/
+/*------------------------------------------*/
+/* Section 10.1 - Global default font sizes */
+/*------------------------------------------*/
+.nav-global-font {font-size: 1.0em;}
+.nav-main-font {font-size: 1.0em;}
+.nav-sub-font {font-size: 1.0em;}
+.content-font {font-size: 1.0em;}
+.sidebar-font {font-size: 1.0em;}
+.footer-font {font-size: 1.0em;}
+
+/*-------------------------------------*/
+/* Section 10.2 - Title decoration box */
+/*-------------------------------------*/
+.box-on {float: left; min-width: 0.5em; margin-right: 0.2em; padding-left: 0.3em;}
+.box-off {display: none;}
+
+/*--------------------------------------*/
+/* Section 10.3 - Horizontal alignments */
+/*--------------------------------------*/
+.align-left {text-align: left;}
+.align-right {text-align: right;}
+.align-center {text-align: center;}
+
+/*---------------------------*/
+/* Section 10.4  Text colors */
+/*---------------------------*/
+.txt-white {color: rgb(255,255,255);}
+.txt-black {color: rgb(0,0,0);}
+
+.txt-grey01 {color: rgb(242,242,242);}
+.txt-grey02 {color: rgb(230,230,230);}
+.txt-grey03 {color: rgb(217,217,217);}
+.txt-grey04 {color: rgb(204,204,204);}
+.txt-grey05 {color: rgb(191,191,191);}
+.txt-grey06 {color: rgb(178,178,178);}
+.txt-grey07 {color: rgb(153,153,153);}
+.txt-grey08 {color: rgb(127,127,127);}
+.txt-grey09 {color: rgb(89,89,89);}
+.txt-grey10 {color: rgb(51,51,51);}
+
+.txt-yellow01 {color: rgb(254,252,232);}
+.txt-yellow02 {color: rgb(253,249,201);}
+.txt-yellow03 {color: rgb(253,246,185);}
+.txt-yellow04 {color: rgb(252,243,162);}
+.txt-yellow05 {color: rgb(251,239,139);}
+.txt-yellow06 {color: rgb(250,236,116);}
+.txt-yellow07 {color: rgb(249,233,93);}
+.txt-yellow08 {color: rgb(249,230,69);}
+.txt-yellow09 {color: rgb(248,227,46);}
+.txt-yellow10 {color: rgb(247,224,23);}
+
+.txt-blue01 {color: rgb(238,237,249);}
+.txt-blue02 {color: rgb(222,220,242);}
+.txt-blue03 {color: rgb(205,202,236);}
+.txt-blue04 {color: rgb(189,185,229);}
+.txt-blue05 {color: rgb(172,167,223);}
+.txt-blue06 {color: rgb(155,149,217);}
+.txt-blue07 {color: rgb(139,132,210);}
+.txt-blue08 {color: rgb(122,114,204);}
+.txt-blue09 {color: rgb(106,97,197);}
+.txt-blue10 {color: rgb(89,79,191);}
+
+.txt-green01 {color: rgb(237,246,229);}
+.txt-green02 {color: rgb(220,238,204);}
+.txt-green03 {color: rgb(202,229,178);}
+.txt-green04 {color: rgb(185,220,153);}
+.txt-green05 {color: rgb(167,211,127);}
+.txt-green06 {color: rgb(149,203,102);}
+.txt-green07 {color: rgb(132,194,76);}
+.txt-green08 {color: rgb(114,185,51);}
+.txt-green09 {color: rgb(97,177,25);}
+.txt-green10 {color: rgb(79,168,0);}
+
+.txt-red01 {color: rgb(252,235,233);}
+.txt-red02 {color: rgb(248,216,211);}
+.txt-red03 {color: rgb(245,196,188);}
+.txt-red04 {color: rgb(242,177,166);}
+.txt-red05 {color: rgb(238,157,144);}
+.txt-red06 {color: rgb(235,137,122);}
+.txt-red07 {color: rgb(232,118,100);}
+.txt-red08 {color: rgb(229,98,77);}
+.txt-red09 {color: rgb(225,79,55);}
+.txt-red10 {color: rgb(222,59,33);}
+
+/*----------------------------------*/
+/* Section 10.5 - Background colors */
+/*----------------------------------*/
+.bg-white {background-color: rgb(255,255,255);}
+.bg-black {background-color: rgb(0,0,0);}
+
+.bg-grey01 {background-color: rgb(242,242,242);}
+.bg-grey02 {background-color: rgb(230,230,230);}
+.bg-grey03 {background-color: rgb(217,217,217);}
+.bg-grey04 {background-color: rgb(204,204,204);}
+.bg-grey05 {background-color: rgb(191,191,191);}
+.bg-grey06 {background-color: rgb(178,178,178);}
+.bg-grey07 {background-color: rgb(153,153,153);}
+.bg-grey08 {background-color: rgb(127,127,127);}
+.bg-grey09 {background-color: rgb(89,89,89);}
+.bg-grey10 {background-color: rgb(51,51,51);}
+
+.bg-yellow01 {background-color: rgb(254,252,232);}
+.bg-yellow02 {background-color: rgb(253,249,201);}
+.bg-yellow03 {background-color: rgb(253,246,185);}
+.bg-yellow04 {background-color: rgb(252,243,162);}
+.bg-yellow05 {background-color: rgb(251,239,139);}
+.bg-yellow06 {background-color: rgb(250,236,116);}
+.bg-yellow07 {background-color: rgb(249,233,93);}
+.bg-yellow08 {background-color: rgb(249,230,69);}
+.bg-yellow09 {background-color: rgb(248,227,46);}
+.bg-yellow10 {background-color: rgb(247,224,23);}
+
+.bg-blue01 {background-color: rgb(238,237,249);}
+.bg-blue02 {background-color: rgb(222,220,242);}
+.bg-blue03 {background-color: rgb(205,202,236);}
+.bg-blue04 {background-color: rgb(189,185,229);}
+.bg-blue05 {background-color: rgb(172,167,223);}
+.bg-blue06 {background-color: rgb(155,149,217);}
+.bg-blue07 {background-color: rgb(139,132,210);}
+.bg-blue08 {background-color: rgb(122,114,204);}
+.bg-blue09 {background-color: rgb(106,97,197);}
+.bg-blue10 {background-color: rgb(89,79,191);}
+
+.bg-green01 {background-color: rgb(237,246,229);}
+.bg-green02 {background-color: rgb(220,238,204);}
+.bg-green03 {background-color: rgb(202,229,178);}
+.bg-green04 {background-color: rgb(185,220,153);}
+.bg-green05 {background-color: rgb(167,211,127);}
+.bg-green06 {background-color: rgb(149,203,102);}
+.bg-green07 {background-color: rgb(132,194,76);}
+.bg-green08 {background-color: rgb(114,185,51);}
+.bg-green09 {background-color: rgb(97,177,25);}
+.bg-green10 {background-color: rgb(79,168,0);}
+
+.bg-red01 {background-color: rgb(252,235,233);}
+.bg-red02 {background-color: rgb(248,216,211);}
+.bg-red03 {background-color: rgb(245,196,188);}
+.bg-red04 {background-color: rgb(242,177,166);}
+.bg-red05 {background-color: rgb(238,157,144);}
+.bg-red06 {background-color: rgb(235,137,122);}
+.bg-red07 {background-color: rgb(232,118,100);}
+.bg-red08 {background-color: rgb(229,98,77);}
+.bg-red09 {background-color: rgb(225,79,55);}
+.bg-red10 {background-color: rgb(222,59,33);}
+
+/*------------------------------------*/
+/* Section 10.6  Bottom border colors */
+/*------------------------------------*/
+.line-white {border-bottom: solid 1px rgb(255,255,255); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-black {border-bottom: solid 1px rgb(0,0,0); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+
+.line-grey01 {border-bottom: solid 1px rgb(242,242,242); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-grey02 {border-bottom: solid 1px rgb(230,230,230); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-grey03 {border-bottom: solid 1px rgb(217,217,217); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-grey04 {border-bottom: solid 1px rgb(204,204,204); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-grey05 {border-bottom: solid 1px rgb(191,191,191); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-grey06 {border-bottom: solid 1px rgb(178,178,178); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-grey07 {border-bottom: solid 1px rgb(153,153,153); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-grey08 {border-bottom: solid 1px rgb(127,127,127); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-grey09 {border-bottom: solid 1px rgb(89,89,89); padding: 0px 0px 2px 0px; margin: 0px px 1px 0px;}
+.line-grey10 {border-bottom: solid 1px rgb(51,51,51); padding: 0px 0px 2px 0px; margin: 0px px 1px 0px;}
+
+.line-yellow01 {border-bottom: solid 1px rgb(254,252,232); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-yellow02 {border-bottom: solid 1px rgb(253,249,201); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-yellow03 {border-bottom: solid 1px rgb(253,246,185); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-yellow04 {border-bottom: solid 1px rgb(252,243,162); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-yellow05 {border-bottom: solid 1px rgb(251,239,139); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-yellow06 {border-bottom: solid 1px rgb(250,236,116); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-yellow07 {border-bottom: solid 1px rgb(249,233,93); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-yellow08 {border-bottom: solid 1px rgb(249,230,69); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-yellow09 {border-bottom: solid 1px rgb(248,227,46); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-yellow10 {border-bottom: solid 1px rgb(247,224,23); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+
+.line-blue01 {border-bottom: solid 1px rgb(238,237,249); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-blue02 {border-bottom: solid 1px rgb(222,220,242); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-blue03 {border-bottom: solid 1px rgb(205,202,236); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-blue04 {border-bottom: solid 1px rgb(189,185,229); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-blue05 {border-bottom: solid 1px rgb(172,167,223); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-blue06 {border-bottom: solid 1px rgb(155,149,217); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-blue07 {border-bottom: solid 1px rgb(139,132,210); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-blue08 {border-bottom: solid 1px rgb(122,114,204); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-blue09 {border-bottom: solid 1px rgb(106,97,197); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-blue10 {border-bottom: solid 1px rgb(89,79,191); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+
+.line-green01 {border-bottom: solid 1px rgb(237,246,229); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-green02 {border-bottom: solid 1px rgb(220,238,204); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-green03 {border-bottom: solid 1px rgb(202,229,178); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-green04 {border-bottom: solid 1px rgb(185,220,153); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-green05 {border-bottom: solid 1px rgb(167,211,127); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-green06 {border-bottom: solid 1px rgb(149,203,102); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-green07 {border-bottom: solid 1px rgb(132,194,76); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-green08 {border-bottom: solid 1px rgb(114,185,51); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-green09 {border-bottom: solid 1px rgb(97,177,25); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-green10 {border-bottom: solid 1px rgb(79,168,0); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+
+.line-red01 {border-bottom: solid 1px rgb(252,235,233); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-red02 {border-bottom: solid 1px rgb(248,216,211); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-red03 {border-bottom: solid 1px rgb(245,196,188); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-red04 {border-bottom: solid 1px rgb(242,177,166); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-red05 {border-bottom: solid 1px rgb(238,157,144); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-red06 {border-bottom: solid 1px rgb(235,137,122); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-red07 {border-bottom: solid 1px rgb(232,118,100); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-red08 {border-bottom: solid 1px rgb(229,98,77); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-red09 {border-bottom: solid 1px rgb(225,79,55); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+.line-red10 {border-bottom: solid 1px rgb(222,59,33); padding: 0px 0px 2px 0px; margin: 0px 0px 1px 0px;}
+
+/******************************/
+/* SECTION 11 - MISCELLANEOUS */
+/******************************/
+.showcode { font-family: monospace; font-weight: bold; font-size: 13px; color: rgb(255,0,0);}
+.clear {clear: both;}
+.hide {display: none;}
+br {clear: none;}
