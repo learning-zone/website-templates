@@ -1,0 +1,87 @@
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block}
+mark, rp, rt, ruby, summary, time {display:inline}
+body {background:url(../images/tail-top.jpg) repeat-x center top #000;font-family:Arial, Helvetica, sans-serif;font-size:100%;line-height:1em;color:#a6a6a6}
+html {min-width:1000px}
+html, body {height:100%}
+.container {margin:0 auto;overflow:hidden;width:1000px;font-size:.875em;padding:60px 0 140px 0}
+header .container {height:467px;position:relative;padding:0}
+aside {width:311px;position:relative;z-index:10;float:left;margin-right:-10px}
+section#content {position:relative;z-index:10;width:650px;float:left}
+footer {background:url(../images/tail-bottom.jpg) repeat-x center top;margin-top:-229px}
+footer .container {height:229px;text-align:center;color:#fff;padding:0;line-height:1.429em}
+.fleft {float:left}
+.fright {float:right}
+.clear {clear:both}
+.col-1, .col-2, .col-3 {float:left}
+.alignright {text-align:right}
+.aligncenter {text-align:center}
+.wrapper {width:100%;overflow:hidden}
+.wrap {height:auto !important;height:100%;min-height:100%}
+.ic, .ic a {border:0;float:right;background:#fff;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-220% 0 0 0;overflow:hidden;padding:0}
+input, select, textarea {font-family:Arial, Helvetica, sans-serif;font-size:1em;vertical-align:middle;font-weight:normal}
+fieldset {border:0}
+.list li {padding:0 0 14px 12px;background:url(../images/marker.gif) no-repeat left 5px;height:1%} 
+.news li {line-height:1.429em;margin-top:-4px;padding:0 0 23px 0;width:100%;overflow:hidden;vertical-align:top}
+.news li a {text-decoration:none;line-height:2em}
+.news li a:hover {text-decoration:underline}
+.news li span {display:block;float:left;padding-right:20px;font-size:.786em;color:#000;background:url(../images/marker1.gif) no-repeat left top;text-align:center;width:19px;height:18px;position:relative;top:6px;line-height:1.2em}
+.news li strong {display:block;font-weight:normal;overflow:hidden}
+.img-indent {margin:0 0 20px 0}
+.img-box {width:100%;overflow:hidden;padding-bottom:15px;line-height:1.429em}
+.img-box img {float:left;margin:0 20px 0 0}
+.extra-wrap {overflow:hidden}
+p {margin-bottom:16px;line-height:1.429em}
+.p1 {margin-bottom:25px}
+address {line-height:1.429em;color:#fff;font-style:normal}
+address span {float:left;color:#a6a6a6;width:84px}
+a {color:#ffc531;outline:none}
+a:hover {text-decoration:none}
+h1 {font-size:2.857em;line-height:1.2em;font-weight:normal;position:absolute;left:60px;top:18px}
+h1 a {text-decoration:none}
+h2 {font-size:30px;line-height:1.2em;color:#fff;margin-bottom:20px}
+h5 {font-size:1em;line-height:1.429em;color:#ffc531;font-weight:normal}
+.txt1 {color:#ffc531}
+.txt2 p {line-height:1.714em}
+/* header */
+header nav {position:absolute;right:60px;top:0;z-index:20}
+header nav ul li {float:left;font-size:16px;line-height:1.2em;padding-left:13px}
+header nav ul li a {text-decoration:none;display:block;color:#aeaeae;background-image:url(../images/spacer.gif);background-repeat:no-repeat;background-position:left top}
+header nav ul li a:hover, header nav ul li a.active {color:#000;background-image:url(../images/nav-act-left.png)}
+header nav ul li a span {display:block;padding:0 3px;background-repeat:no-repeat;background-image:url(../images/spacer.gif);background-position:right top}
+header nav ul li a:hover span, header nav ul li a.active span {background-image:url(../images/nav-act-right.png)}
+header nav ul li a span span {padding:40px 20px 26px 20px;background-repeat:repeat-x;background-image:url(../images/spacer.gif)}
+header nav ul li a:hover span span, header nav ul li a.active span span {background-image:url(../images/nav-act-tail.gif)}
+/* content */
+#content .inside {padding:0 0 0 60px}
+#content.extra {width:auto}
+#content .list li {padding-bottom:8px}
+/* Sidebar */
+aside .inside {padding:0 0 0 60px}
+aside figure {margin-left:-60px;padding-top:15px}
+/* footer */
+footer .inside {padding:148px 0 0 0}
+footer a {color:#fff}
+/* forms */
+#contacts-form {clear:right;width:100%;overflow:hidden}
+#contacts-form fieldset {border:none;float:left}
+#contacts-form .field {clear:both;height:29px}
+#contacts-form label {float:left;width:107px;color:#a6a6a6;padding-top:2px}
+#contacts-form input {width:237px;padding:1px 0 1px 3px;border:1px solid #a6a6a6;color:#a6a6a6;background:none;float:left}
+#contacts-form textarea {width:237px;height:114px;padding:1px 0 1px 3px;border:1px solid #a6a6a6;color:#a6a6a6;margin-bottom:15px;overflow:auto;background:none;float:left}
+/* tabs */
+ul.tabs {position:absolute;right:60px;top:89px}
+ul.tabs li {float:left;line-height:1.2em;padding-left:10px}
+ul.tabs li a {color:#fff;display:block;float:left;text-decoration:none;background:url(../images/button-left.png) no-repeat left top;cursor:pointer}
+ul.tabs li a:hover, ul.tabs li.active a {color:#ffc632}
+ul.tabs li a span {display:block;float:left;padding:0 9px;background:url(../images/button-right.png) no-repeat right top}
+ul.tabs li a span span {padding:9px 18px 8px 18px;background:url(../images/button-tail.png) repeat-x left top}
+.tab_container {position:relative;top:126px;width:100%}
+/* faded gallery */
+.faded {width:888px;height:341px;margin:0 auto;position:relative}
+.faded ul.big-image {list-style:none;padding:0;margin:0;width:653px;height:341px;float:right;background:url(../images/img-wrapper-big.png) no-repeat left top}
+.faded ul.big-image li {padding:9px 0 0 9px;width:635px;height:323px}
+ul.pagination {list-style:none;padding:0;margin:0;background:none;width:auto;height:auto;position:absolute;left:0;top:0}
+ul.pagination li {width:183px;height:99px;margin-bottom:22px;background:url(../images/img-wrapper-small.png) no-repeat left top}
+ul.pagination li a {padding:9px 0 0 9px;display:block}
+ul.pagination li.current a {}a {outline:0;border:0}

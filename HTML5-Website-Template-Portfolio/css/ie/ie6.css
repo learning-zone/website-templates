@@ -1,0 +1,4 @@
+/* IE6 specific styles */
+.extra-wrap, .news li strong {zoom:1}
+body {background-position:0 77px}
+header nav ul li a:hover, header nav ul li a.active, header nav ul li a:hover span, header nav ul li a.active span {background:url(../../images/nav-act-tail.gif) repeat-x left top}
