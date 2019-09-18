@@ -1,0 +1,303 @@
+/* CSS Document - Author: Shaibal Mandal */
+
+/* Main Styles that apply to body */
+body {
+	font-size: 11px;
+	font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+	margin: 0px;
+	padding-left: 50%;
+	background: #f4f4f4 url(images/bg.gif) center repeat-y;
+	position: absolute;
+}
+
+/* This is the page container built and centered using -ve margins */
+#container {
+	width: 700px;
+	margin-left: -350px;
+}
+
+/* The topmost faded bar */
+#topbar {
+    width:auto;
+    background: #EEE;
+    height: 20px;
+    padding: 10px 5px 5px 2px;
+    font: 9px verdana;
+    font-weight: bold;
+    color: #CCCCCC;
+    text-align: right;
+}
+
+/* This holds the two heading blocks, the title and the login form */
+#headerwrapper {
+    width: auto;
+}
+
+/* class that styles the holder div of the forms */
+.userform {
+    width: auto;
+    color: #DD7CB4;
+    padding: 5px 0px 5px 3px;
+    background: #fbfbfb;
+    border:1px solid #efefef;
+    border-top: none;
+    text-align: justify;
+    margin-bottom: 1px;
+}
+
+/* This will style the login and search */
+.userform input {
+    border: 1px solid #DDD;
+    font-family: verdana;
+    font-size: 10px;
+    color: #BBB;
+    font-weight: bold;
+}
+
+h1 {
+    font: 48px verdana;
+	color: #EEE;
+	margin: 5px;
+}
+
+h6 {
+    font: 10px verdana;
+    font-weight: bold;
+	color: #DDD;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 8px;
+}
+
+/* This holds the tabs */
+#tabholder
+{
+    width: auto;
+}
+
+/* Container for the article box, and the pic box */
+.articleboxouter {
+    width: auto;
+    padding: 0px 6px 0px 5px;
+    clear: both;
+} 
+
+/* Content holder for the articles */
+.articleboxinner {
+    width: auto;
+    line-height: 20px;
+    color: #DD7CB4;
+    padding: 15px 6px 0px 6px;
+    background: #fbfbfb;
+    border:1px solid #efefef;
+    text-align: justify;
+    height: 220px;
+}
+
+/* The title style for the main article */
+.articleheader
+{
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #CCC;
+}
+
+/* This will style the read more thing at the bottom */
+.readmore {
+    text-align: right;
+    display: block;
+    width: auto;
+}
+
+/* This controls the main pic in the main article box */
+.mainpiccontrol
+{
+    border: 1px #DBB7DB solid;
+    float: left;
+    margin-right: 10px;
+}
+
+/* Container for the pic thumbnails */
+.picboxouter {
+    width: auto;
+    padding: 0px 6px 0px 5px;
+    clear: both;
+}
+
+/* Content holder for the pic box */
+.picbox {
+    width: auto;
+    line-height: 22px;
+    color: #DD7CB4;
+    padding: 5px 6px 6px 6px;
+    border:1px solid #efefef;
+    border-top: none;
+    text-align: center;
+}
+
+/* This controls the thumbnails in the picbox div */
+.pickboxcontrol
+{
+    border: 1px #DDD solid;
+    vertical-align: middle;
+
+}
+
+/* Sometimes, I don't want borders around my hyperlink images */
+.noborder {
+    border: none;
+}
+
+/* For taming those leeeeeeetle arrows */
+img {
+    vertical-align: text-bottom;
+}
+
+/* Style-up those ugly default hyperlinks */
+a {
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	color: #663366;
+}
+
+/* And their ugly hover states too */
+a:hover {
+	text-decoration: underline;
+}
+
+/* Why should the humble footer be left out? */
+#footer {
+	background-color: #CCC;
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	height: 20px;
+	padding-top: 5px;
+	clear: both;
+}
+
+/* This will contain the three columns */
+#newsContainer2
+{
+    width:auto;
+    background-color: #E0E0E0;
+}
+
+/* First column of the three columns */
+.c1
+{
+	width: 227px;
+	background-color: #F7F4F7;
+    border: 1px solid #DDD;
+    border-top: none;
+    line-height: 22px;
+    color: #DD7CB4;
+	float: left;
+}
+
+/* Second column of the three columns */
+.c2
+{
+    width: 230px;
+    float: left;
+    border-bottom: 1px solid #DDD;
+    line-height: 22px;
+    color: #DD7CB4;
+}
+
+/* Third column of the three columns */
+.c3
+{
+	width: 228px;
+	background-color: #F7F4F7;
+    border: 1px solid #DDD;
+    border-top: none;
+    line-height: 22px;
+    color: #DD7CB4;
+	float: right;
+}
+
+/* This controls the titles for each column */
+.noteheader
+{
+    width:auto;
+    border-bottom: 1px solid #DDD;
+    border-top: none;
+    color: #DD7CB4;
+    height: 24px;
+    font-family: verdana;
+    font-size: 11px;
+    font-weight: bold;
+	background:url(images/headerBG.jpg) repeat-x;
+}
+
+/* And this gives the column text some breathing space */
+.spacy
+{
+    padding: 5px;
+}
+
+/* CSS Tabs */
+#tabs8 {
+    float:left;
+    width:100%;
+    background:#F1F1F1;
+    font-size:93%;
+    line-height:normal;
+    border-bottom:1px solid #CCC;
+}
+
+#tabs8 ul {
+    margin:0;
+    padding:10px 10px 0 5px;
+    list-style:none;
+}
+
+#tabs8 li {
+    display:inline;
+    margin:0;
+    padding:0;
+}
+
+#tabs8 a {
+    float:left;
+    background:url("images/tableft8.gif") no-repeat left top;
+    margin:0;
+    padding:0 0 0 4px;
+    text-decoration:none;
+}
+
+#tabs8 a span {
+    float:left;
+    display:block;
+    background:url("images/tabright8.gif") no-repeat right top;
+    padding:5px 15px 4px 6px;
+    color:#eee;
+    font-weight: bold;
+}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabs8 a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabs8 a:hover span {
+    color:#591333;
+}
+
+#tabs8 a:hover {
+    background-position:0% -42px;
+}
+
+#tabs8 a:hover span {
+    background-position:100% -42px;
+    color: #888;
+}
+
+#tabs8 #current a {
+    background-position:0% -42px;
+}
+#tabs8 #current a span {
+    background-position:100% -42px;
+    color: #888;
+}
+/* End of CSS Tabs */
