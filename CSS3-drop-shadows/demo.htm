@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Demo: CSS drop-shadows without images &#8211; Nicolas Gallagher</title>
+    <meta name="description" content="Using CSS pseudo-elements, box-shadows, and transforms to create drop-shadow effects without images from semantic HTML">
+    <link rel="canonical" href="/css-drop-shadows-without-images/demo/">     
+    <style>
+        body {
+            padding:20px 0 0;
+            font:14px/1.5 Arial, sans-serif;
+            text-align:center;
+            color:#333;
+            background:#ccc;
+        }
+        
+        a {
+            font-weight:bold;
+            color:#346AA8;
+        }
+        
+        a:hover,
+        a:focus,
+        a:active {
+            text-decoration:none;
+        }
+        
+        .drop-shadow {
+            position:relative;
+            width:45%;    
+            padding:1em; 
+            margin:2em auto 5em; 
+            background:#fff;
+            -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 60px rgba(0, 0, 0, 0.1) inset;
+               -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        }
+
+        .drop-shadow:before,
+        .drop-shadow:after {
+            content:"";
+            position:absolute; 
+            z-index:-2;
+            bottom:15px;
+            left:10px;
+            width:50%;
+            height:20%;
+        }
+
+        .drop-shadow:after{                 
+            right:10px; 
+            left:auto;
+        }
+        
+        .round {
+            -moz-border-radius:4px; 
+                 border-radius:4px;
+        }
+        
+        .round:before,
+        .round:after { 
+            max-width:300px;
+            -webkit-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);   
+               -moz-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+                    box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+            -webkit-transform:rotate(-3deg);    
+               -moz-transform:rotate(-3deg);   
+                 -o-transform:rotate(-3deg);
+                    transform:rotate(-3deg);
+        }
+        
+        .round:after {
+            -webkit-transform:rotate(3deg);   
+               -moz-transform:rotate(3deg);  
+                 -o-transform:rotate(3deg);
+                    transform:rotate(3deg);
+        }
+        
+        .curls {
+            border:1px solid #efefef; 
+            -moz-border-radius:0 0 120px 120px / 0 0 6px 6px;    
+                 border-radius:0 0 120px 120px / 0 0 6px 6px;
+        }
+      
+        .curls:before,
+        .curls:after { 
+            bottom:12px;
+            max-width:200px;
+            height:55%;
+            -webkit-box-shadow:0 8px 16px rgba(0, 0, 0, 0.4); 
+               -moz-box-shadow:0 8px 16px rgba(0, 0, 0, 0.4);
+                    box-shadow:0 8px 16px rgba(0, 0, 0, 0.4);
+            -webkit-transform:skew(-8deg) rotate(-4deg);
+               -moz-transform:skew(-8deg) rotate(-4deg);
+                 -o-transform:skew(-8deg) rotate(-4deg);
+                    transform:skew(-8deg) rotate(-4deg);
+        } 
+      
+        .curls:after { 
+            -webkit-transform:skew(8deg) rotate(4deg); 
+               -moz-transform:skew(8deg) rotate(4deg);     
+                 -o-transform:skew(8deg) rotate(4deg); 
+                    transform:skew(8deg) rotate(4deg);
+        }
+        
+        .perspective:before {
+            left:28px;
+            bottom:8px;
+            max-width:200px;
+            height:35%;
+            -webkit-box-shadow:-60px 5px 8px rgba(0, 0, 0, 0.4);
+               -moz-box-shadow:-60px 5px 8px rgba(0, 0, 0, 0.4);
+                    box-shadow:-60px 5px 8px rgba(0, 0, 0, 0.4);
+            -webkit-transform:skew(50deg);
+               -moz-transform:skew(50deg);
+                 -o-transform:skew(50deg);
+                    transform:skew(50deg);
+        }
+        
+        .perspective:after {
+            display:none;
+        }
+        
+        .raised:before {
+            width:auto;
+            right:10px;
+            left:10px;
+            bottom:0;
+            -webkit-box-shadow:0 8px 10px rgba(0, 0, 0, 0.5);
+               -moz-box-shadow:0 8px 10px rgba(0, 0, 0, 0.5);
+                    box-shadow:0 8px 10px rgba(0, 0, 0, 0.5);
+        }
+        
+        .rotated {
+            -webkit-transform:rotate(-3deg);    
+            -moz-transform:rotate(-3deg);   
+            -o-transform:rotate(-3deg);
+            transform:rotate(-3deg);
+        }
+        
+        .rotated *:first-child:before {
+            content:"";
+            position:absolute;
+            z-index:-1;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            background:#fff;
+            -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 60px rgba(0, 0, 0, 0.1) inset;
+               -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        }
+        
+    </style>
+    
+    <script>
+        var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-7489188-1']); _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.async = true; ga.src = 'http://www.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+</head>
+<body>
+    <a href="/css-drop-shadows-without-images/">CSS drop-shadows without images</a>
+
+    <div class="drop-shadow round">
+        <h1>CSS drop-shadows without images</h1>
+        <p>No extra markup, fluid, all modern browsers</p>
+    </div>
+    
+    <div class="drop-shadow curls">
+        <h1>Some curls</h1>
+        <p>No extra markup, all modern browsers</p>
+    </div>
+    
+    <div class="drop-shadow perspective">
+        <h1>Some perspective</h1>
+        <p>No extra markup, all modern browsers</p>
+    </div>
+    
+    <div class="drop-shadow raised">
+        <h1>Raised box</h1>
+        <p>No extra markup, all modern browsers</p>
+    </div>
+    
+    <div class="drop-shadow round rotated">
+        <h1>Rotated box</h1>
+        <p>No extra markup, all modern browsers. Needs a child element to work.</p>
+    </div>
+</body>
+</html>
