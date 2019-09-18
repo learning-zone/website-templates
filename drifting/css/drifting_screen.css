@@ -1,0 +1,234 @@
+/* -- ELEMENT STYLES -- */
+
+body {  
+  font-family: arial, helvetica, arial, sans-serif;
+  font-size: 80%;
+  color: #234163;
+  background-color: #EEF3FA;
+  margin: 30px;
+}
+
+a {
+  color: #5A799D;
+}
+
+a:hover {
+  text-decoration:none;
+  background-color: #EEEEEE;
+}
+
+acronym {
+  cursor: help;
+  border-bottom: 1px dashed #AAAAAA;
+}
+
+img {
+  border: 0px;
+}
+
+ul {
+  list-style-image: url(../images/bullet.gif);  
+}
+
+
+/* -- MAIN CONTAINER -- */
+
+#layoutBox {
+  float: left;
+  border: 1px solid #5A799D;
+  background-color: #FFFFFF;
+  padding: 10px;  
+}
+
+
+/* -- HEADER CONTAINER -- */
+
+#headerBox {
+  height: 4em;
+  border: 1px solid #5A799D;
+  background: #7897BB url(../images/hdr_bg.jpg) repeat-x bottom;
+}
+
+#headerLeftBox {
+  float: left;
+  width: 40%;
+  height:4em;
+  background: url(../images/hdr_left.jpg) no-repeat bottom left;
+  text-align: right;
+}
+
+#headerRightBox {
+  float: right;
+  width: 40%;
+  height: 4em;
+  background: url(../images/hdr_right.jpg) no-repeat bottom right;
+}
+ 
+ 
+/* -- HEADER STYLES -- */
+
+.title {
+  font-family: times new roman, helvetica, arial, sans-serif;
+  font-size: 280%;
+  font-weight: bold;
+  font-style: italic;
+  color: #FFFFFF;
+  line-height: 0.9em;
+}
+
+.subTitle {
+  font-size: 90%;
+  color: #5A799D;
+}
+
+
+/* -- MENU CONTAINER -- */
+
+#menuBox {
+  float: left;
+  width: 15em;
+  margin: 10px 0 0 0;
+  border-right: 1px solid #5A799D;  
+  text-align: left;
+}
+
+#menuBox p {
+  margin: 5px 0 20px 2px;
+}
+
+#menuBox br {
+  margin-top: 30px;
+}
+
+
+/* -- CONTENT CONTAINER -- */
+
+#mainContent {
+  margin: 10px 0 0 16em;
+  border-left: 1px solid #5A799D;
+}
+
+#mainContent br {
+  margin-top: 10px;
+}
+
+#mainContent p {
+  padding: 0px 5px 2px 10px;
+}
+
+.spacer {
+  height: 1px;
+  clear: both;
+}
+
+/* Used by items meant for text only rendering */
+
+.noDisplay {
+  display: none;
+}
+
+
+/* -- HEADER/FOOTER STYLES (menuBox & mainContent) -- */
+
+#mainContent h1, #menuBox h1, .menuFooter, .footer {
+  font-family: times new roman, helvetica, arial, sans-serif;
+  font-size: 125%;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  color: #5A799D;
+  background: #EEF3FA url(../images/hdr_icon.gif) no-repeat bottom right;
+  border-top: 1px solid #5A799D;
+  border-bottom: 1px solid #5A799D;  
+  display: block; 
+  padding: 2px 2px 2px 10px;
+  margin: 0 0 10px 0;
+}
+
+#mainContent h1, .footer {
+  border-right: 1px solid #5A799D;
+} 
+
+.menuFooter, .footer {
+  margin-bottom: 0px;
+}
+
+#menuBox h1, .menuFooter {
+  border-left: 1px solid #5A799D;
+}
+
+#mainContent h2, #menuBox h2 {
+  font-size: 80%;
+  font-weight: bold;
+  background-color: #EEEEEE;
+  display: block;
+  padding: 0px 0px 0px 5px;
+  margin-bottom: 0px;
+}
+
+#mainContent h2 {
+  margin-left: 10px;
+}
+
+#mainContent h1, #mainContent h2, .footer {
+  clear: right;  /* Set to both if you don't care about Internet Explorer */
+}
+
+.footer {
+  font-family: arial, helvetica, arial, sans-serif;
+  font-size: 80%;
+  font-weight: normal;
+  border-right: 1px solid #5A799D;
+  border-left: 0px;
+}
+
+.footer a:hover {
+  background-color: #D6E1F1;
+}
+
+.footer br {
+  margin: -20px;
+}
+
+
+/* -- MENU/NEWS ITEM STYLES -- */
+
+.newsGroup {
+  padding: 0px 5px 0px 5px;
+  margin-bottom: 30px;
+}
+
+.menuGroup {
+  padding: 5px 0 5px 0;
+  margin-bottom: 30px;
+}
+
+.menuGroup a {
+  color: #35567C;
+  text-indent: 3em;
+  text-decoration: none;
+  margin-bottom: 2px;
+  display: block;  
+}
+
+.menuGroup a:hover {
+  color: #FFFFFF;
+  background-color: #5A799D;
+}
+
+/* -- IMAGE STYLES -- */
+
+.imgRight, .imgLeft {
+  padding: 10px 5px 5px 10px;
+  border: 1px solid #FFFFFF;
+}
+
+.imgRight {
+  float: right;
+}
+
+/* Below style will not work correctly unless clear = "both" on the
+   #mainContent h1, #mainContent h2, .footer class */
+
+.imgLeft {
+  float: left;
+}
