@@ -1,0 +1,214 @@
+
+
+		
+body {background:#000;
+      margin:0;
+	  scrollbar-3dlight-color:#222;
+      scrollbar-arrow-color:#FFF;
+      scrollbar-base-color:#000;
+      scrollbar-darkshadow-color:#222;
+      scrollbar-face-color:#000;
+      scrollbar-highlight-color:#000;
+      scrollbar-shadow-color:#000}
+	  
+#outer        				 
+	{position: absolute;
+	 top: 50%;
+	 left: 0px;
+	 width: 100%;
+	 height: 1px;}
+
+#inner    
+	{margin-left: -250px;
+	 position: absolute;
+	 top: -150px;
+	 left: 50%;
+	 width: 700px;
+	 height: 300px}
+	 
+	 
+
+.bgtext 					
+		{font-size: 150px;
+		 position:absolute;
+		 top:50px;
+		 left:-110px;
+		 right:-80px}
+
+.bgtext, .footertext 
+		{color:#222;
+		 font-family:verdana, helvetica, sans serif;}
+		 
+.footertext {font-size:12px;
+			 position:absolute;
+			 top:320px;
+			 text-align:center;
+			 width:500px;}
+
+
+
+div#text1, div#text2, div#text3, div#text4, div#text5, div#text6, div#text7
+         {color:#222222;
+		  font-family:verdana, helvetica, sans serif;
+		  position:absolute;}
+
+div#text1 {font-size:29px;
+		top:6px;
+		left:0px;}
+		
+div#text2 {font-size:60px;
+		top:46px;
+		left:20px;}
+		
+div#text3 {font-size:35px;
+		top:60px;
+		left:300px;}
+		
+div#text4 {font-size:50px;
+		top:200px;
+		left:45px;}
+		
+div#text5 {font-size:39px;
+		top:200px;
+		left:260px;}
+		
+div#text6 {font-size:45px;
+		top:-5px;
+		left:200px;}
+		
+div#text7 {font-size:28px;
+		top:254px;
+		left:330px;}
+		
+
+
+
+
+ div#text1 a:hover span {top: -3px; 
+						left: 0px; 
+						width:}
+
+ div#text2 a:hover span {top: -10px; 
+						left: 0px; 
+						width:}
+						
+ div#text3 a:hover span {top: -4px; 
+						left: 0px; 
+						width:}
+
+ div#text4 a:hover span {top: -6px; 
+						left: 0px; 
+						width:}
+		
+ div#text5 a:hover span {top: -6px; 
+						left: 0px; 
+						width:}
+						
+ div#text6 a:hover span {top: -4px; 
+						left: 0px; 
+						width:}
+						
+ div#text7 a:hover span {top: -4px; 
+						left: 0px; 
+						width:}
+								   
+div#inner a:hover, div#inner2 a:hover
+				  {background: none;
+				   cursor:crosshair;}
+
+div#inner a span {display: none;}
+
+div#inner a:visited span {display:none;}
+
+div#inner a {text-decoration: none;
+			 color:white;}
+
+div#inner a:hover span {display: block;
+						position:relative;
+						background:none;
+						font-size:14px}
+						
+div#inner a:link, div#inner a:visited {text-decoration:none;}
+
+div#inner a:hover {text-decoration:none}
+
+
+
+div#content {position:absolute;
+			 top:-50px;
+			 left:-70px;
+			 width:635px;
+			 height: 400px;
+			 overflow: auto;
+			 font-family: verdana, helvetica, sans serif;
+			 font-size: 13px;
+			 color:white;
+			 text-align:justify;
+			 margin:3px;}
+
+div#inner div#content a:hover {text-decoration:underline;}
+			 
+
+
+div#close, div#top 
+          {width:17px;
+		   height:17px;
+		   background:none;
+		   text-align:center;
+		   font-family:verdana, helvetica, sans serif;
+		   font-weight:bold;
+		   font-size:12px;
+		   border: 1px solid #222}
+   
+div#top {position:relative;
+		   left:573px;
+		   top:319px}
+
+div#close {position:relative;
+		   left:573px;
+		   top:-47px;}
+		   
+div#inner div#close a:link, div#inner div#top a:link {color:#fff; cursor:default;}
+div#inner div#close a:visited, div#inner div#top a:visited {color:#fff; cursor:default;}
+div#inner div#close a:hover, div#inner div#top a:hover {color:#fff; cursor:default;}
+
+
+
+div#urltext {font-family:verdana, helvetica, sans serif;
+			 font-size:30px;
+			 position:absolute;
+			 top:-87px;
+			 left:-69px} 
+
+
+
+div#urltext, div#inner div#content a:link, div#inner div#content a:visited, div#inner a:hover, div#inner a:hover span
+   			 {color:#ff7c11}
+			 
+div#content div#titlebar {border: 1px solid #222222;
+				background: #000;
+				font-weight: normal;
+				color:  #ff7c11;}
+				
+div#content {margin-left:0;
+			padding-right:8px;}
+			 
+			 
+			 
+.titleblock {font-family:verdana, helvetica, sans serif;
+				font-size:12px;
+				color:#ff7c11;
+				font-weight:;
+				margin-right:6px;
+				margin-top:10px;
+				margin-bottom:10px;
+				margin-left:2px;
+				border:1px solid #222;
+				padding:4px}
+				
+.titleblock span {color:#ff7c11}
+
+#urltext a:link {color:#444}
+#urltext a:visited {color:#444}
+#urltext a:hover {color:#444}
+#urltext a:active {color:#444}
