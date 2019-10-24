@@ -41,6 +41,7 @@
 | 26   | sb-admin-2       | [live example](https://learning-zone.github.io/website-templates/sb-admin-2/)|
 | 26   | scenic-photo       | [live example](https://learning-zone.github.io/website-templates/scenic-photo/)|
 | 27   | sinorca       | [live example](https://learning-zone.github.io/website-templates/sinorca/)|
+| 27   | simple-sidebar       | [live example](https://learning-zone.github.io/website-templates/simple-sidebar/)|
 | 28   | street-life       | [live example](https://learning-zone.github.io/website-templates/street-life/)|
 | 29   | thin-green-line       | [live example](https://learning-zone.github.io/website-templates/thin-green-line/)|
 | 30   | zenlike       | [live example](https://learning-zone.github.io/website-templates/zenlike/)|
