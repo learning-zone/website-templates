@@ -36,6 +36,7 @@
 | 24   | portfolio-item       | [live example](https://learning-zone.github.io/website-templates/portfolio-item/)|
 | 24   | prosimii       | [live example](https://learning-zone.github.io/website-templates/prosimii/)|
 | 25   | relic-portal       | [live example](https://learning-zone.github.io/website-templates/relic-portal/)|
+| 26   | sample_site       | [live example](https://learning-zone.github.io/website-templates/sample_site/)|
 | 26   | scenic-photo       | [live example](https://learning-zone.github.io/website-templates/scenic-photo/)|
 | 27   | sinorca       | [live example](https://learning-zone.github.io/website-templates/sinorca/)|
 | 28   | street-life       | [live example](https://learning-zone.github.io/website-templates/street-life/)|
