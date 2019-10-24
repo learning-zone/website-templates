@@ -16,6 +16,7 @@
 | 07   | droll       | [live example](https://learning-zone.github.io/website-templates/droll/)|
 | 08   | extent       | [live example](https://learning-zone.github.io/website-templates/extent/)|
 | 09   | funky-cool-blue       | [live example](https://learning-zone.github.io/website-templates/funky-cool-blue/)|
+| 09   | full-slider       | [live example](https://learning-zone.github.io/website-templates/full-slider/)|
 | 10   | gila       | [live example](https://learning-zone.github.io/website-templates/gila/)|
 | 11   | grass-stains       | [live example](https://learning-zone.github.io/website-templates/grass-stains/)|
 | 12   | greenery       | [live example](https://learning-zone.github.io/website-templates/greenery/)|
