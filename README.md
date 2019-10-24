@@ -33,6 +33,7 @@
 | 21   | photo-art       | [live example](https://learning-zone.github.io/website-templates/photo-art/)|
 | 22   | photo-style-two       | [live example](https://learning-zone.github.io/website-templates/photo-style-two/)|
 | 23   | plain       | [live example](https://learning-zone.github.io/website-templates/plain/)|
+| 24   | portfolio-item       | [live example](https://learning-zone.github.io/website-templates/portfolio-item/)|
 | 24   | prosimii       | [live example](https://learning-zone.github.io/website-templates/prosimii/)|
 | 25   | relic-portal       | [live example](https://learning-zone.github.io/website-templates/relic-portal/)|
 | 26   | scenic-photo       | [live example](https://learning-zone.github.io/website-templates/scenic-photo/)|
