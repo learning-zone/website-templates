@@ -29,6 +29,7 @@
 | 18   | metropolis       | [live example](https://learning-zone.github.io/website-templates/metropolis/)|
 | 19   | missunderstood       | [live example](https://learning-zone.github.io/website-templates/missunderstood/)|
 | 20   | my-portfolio-two       | [live example](https://learning-zone.github.io/website-templates/my-portfolio-two/)|
+| 21   | one-page-wonder       | [live example](https://learning-zone.github.io/website-templates/one-page-wonder/)|
 | 21   | photo-art       | [live example](https://learning-zone.github.io/website-templates/photo-art/)|
 | 22   | photo-style-two       | [live example](https://learning-zone.github.io/website-templates/photo-style-two/)|
 | 23   | plain       | [live example](https://learning-zone.github.io/website-templates/plain/)|
