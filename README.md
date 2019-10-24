@@ -7,6 +7,7 @@
 
 |Sl.No | Template Name | Live Example                                                              |
 |------|---------------|---------------------------------------------------------------------------|
+| 01   | 3-col-portfolio       | [live example](https://learning-zone.github.io/website-templates/3-col-portfolio/)|
 | 01   | css3-bw       | [live example](https://learning-zone.github.io/website-templates/css3-bw/)|
 | 02   | css3-photo-two       | [live example](https://learning-zone.github.io/website-templates/css3-photo-two/)|
 | 03   | css3-seascape-two       | [live example](https://learning-zone.github.io/website-templates/css3-seascape-two/)|
