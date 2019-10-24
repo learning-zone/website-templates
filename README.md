@@ -49,5 +49,6 @@
 | 28   | startbootstrap-grayscale-1.0.3       | [live example](https://learning-zone.github.io/website-templates/startbootstrap-grayscale-1.0.3/)|
 | 28   | startbootstrap-sb-admin-1.0.2       | [live example](https://learning-zone.github.io/website-templates/startbootstrap-sb-admin-1.0.2/)|
 | 28   | startbootstrap-sb-admin-2-1.0.5       | [live example](https://learning-zone.github.io/website-templates/startbootstrap-sb-admin-2-1.0.5/)|
+| 28   | startbootstrap-stylish-portfolio-1.0.2       | [live example](https://learning-zone.github.io/website-templates/startbootstrap-stylish-portfolio-1.0.2/)|
 | 29   | thin-green-line       | [live example](https://learning-zone.github.io/website-templates/thin-green-line/)|
 | 30   | zenlike       | [live example](https://learning-zone.github.io/website-templates/zenlike/)|
