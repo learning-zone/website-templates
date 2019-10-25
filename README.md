@@ -17,7 +17,7 @@
 |  07  | Aroma-Beauty-and-Spa-Responsive-Bootstrap-Template			      |[live example](https://learning-zone.github.io/website-templates/Aroma-Beauty-and-Spa-Responsive-Bootstrap-Template/)|			      
 |  08  | Avenger-Multi-purpose-Responsive-HTML5-Bootstrap-Template	      |[live example](https://learning-zone.github.io/website-templates/Avenger-Multi-purpose-Responsive-HTML5-Bootstrap-Template/)|	      
 |  09  | B-School-Free-Education-HTML5-Website-Template				      |[live example](https://learning-zone.github.io/website-templates/B-School-Free-Education-HTML5-Website-Template/)|				      
-|  10  | Basic-Free-HTML5-Template-for-Multi-Purpose					      |[live example](https://learning-zone.github.io/website-templates/Basic-Free-HTML5-Template-for-Multi-Purpose					      
+|  10  | Basic-Free-HTML5-Template-for-Multi-Purpose|[live example](https://learning-zone.github.io/website-templates/Basic-Free-HTML5-Template-for-Multi-Purpose/)|					      
 |  11   | Beauty-Salon-Bootstrap-HTML5-Template						      |[live example](https://learning-zone.github.io/website-templates/Beauty-Salon-Bootstrap-HTML5-Template/)|						      
 |  12   | Bestro-Restaurant-Bootstrap-HTML5-Template					      |[live example](https://learning-zone.github.io/website-templates/Bestro-Restaurant-Bootstrap-HTML5-Template/)|					      
 |  13   | BusinessLine-corporate-portfolio-bootstrap-responsive-web-template|[live example](https://learning-zone.github.io/website-templates/BusinessLine-corporate-portfolio-bootstrap-responsive-web-Template/)|		
