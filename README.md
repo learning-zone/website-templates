@@ -31,9 +31,9 @@
 |  21   | Elegant-Free-Multi-Purpose-Bootstrap-Responsive-Template	      |[live example](https://learning-zone.github.io/website-templates/Elegant-Free-Multi-Purpose-Bootstrap-Responsive-Template/)|	      
 |  22   | Enlive-Corporate-Free-HTML5-Bootstrap-Web-Template			      |[live example](https://learning-zone.github.io/website-templates/Enlive-Corporate-Free-HTML5-Bootstrap-Web-Template/)|			      
 |  23   | Everest-Corporate-Business-Bootstrap-Template				      |[live example](https://learning-zone.github.io/website-templates/Everest-Corporate-Business-Bootstrap-Template/)|				      
-|  24   | Fit-Healthy-fitness-and-gym-html5-bootstrap-theme			      |[live example](https://learning-zone.github.io/website-templates/Fit-Healthy-fitness-and-gym-html5-bootstrap-theme			      
+|  24   | Fit-Healthy-fitness-and-gym-html5-bootstrap-theme			      |[live example](https://learning-zone.github.io/website-templates/Fit-Healthy-fitness-and-gym-html5-bootstrap-theme/)|			      
 |  25   | Fitness-Zone-HTML5-Bootstrap-Responsive-web-template		      |[live example](https://learning-zone.github.io/website-templates/Fitness-Zone-HTML5-Bootstrap-Responsive-web-Template/)|		      
-|  26   | Foodz-mobile-app-bootstrap-landing-page						      |[live example](https://learning-zone.github.io/website-templates/Foodz-mobile-app-bootstrap-landing-page						      
+|  26   | Foodz-mobile-app-bootstrap-landing-page						      |[live example](https://learning-zone.github.io/website-templates/Foodz-mobile-app-bootstrap-landing-page/)|						      
 |  27   | Frames-Corporate-Bootstrap-Free-HTML5-Template				      |[live example](https://learning-zone.github.io/website-templates/Frames-Corporate-Bootstrap-Free-HTML5-Template/)|				      
 |  28   | Free-Bootstrap-Admin-Template-Dream							      |[live example](https://learning-zone.github.io/website-templates/Free-Bootstrap-Admin-Template-Dream/)|							      
 |  29   | Free-Bootstrap-Template-Real-Estate-My-Home					      |[live example](https://learning-zone.github.io/website-templates/Free-Bootstrap-Template-Real-Estate-My-Home/)|					      
@@ -135,7 +135,7 @@
 |  126   | kavin-corporate-bootstrap-responsive-web-template			      |[live example](https://learning-zone.github.io/website-templates/kavin-corporate-bootstrap-responsive-web-Template/)|			      
 |  127   | lazydays													      |[live example](https://learning-zone.github.io/website-templates/lazydays/)|													      
 |  128   | learn-educational-free-responsive-web-template				      |[live example](https://learning-zone.github.io/website-templates/learn-educational-free-responsive-web-Template/)|				      
-|  129   | line-Free App-Landing-Page-Responsive-Web Template			      |[live example](https://learning-zone.github.io/website-templates/line-Free App-Landing-Page-Responsive-Web Template/)|			      
+|  129   | line-Free-App-Landing-Page-Responsive-Web Template			      |[live example](https://learning-zone.github.io/website-templates/line-Free-App-Landing-Page-Responsive-Web Template/)|			      
 |  130   | medplus-medical												      |[live example](https://learning-zone.github.io/website-templates/medplus-medical/)|												      
 |  131   | metropolis													      |[live example](https://learning-zone.github.io/website-templates/metropolis/)|													      
 |  132   | missunderstood												      |[live example](https://learning-zone.github.io/website-templates/missunderstood/)|												      
