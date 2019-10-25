@@ -1,0 +1,1108 @@
+/**
+* webthemez
+* custom styles
+**/
+
+html, body {
+	width: 100%;
+	overflow-x: hidden;
+}
+body {
+	height:100%;	
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	padding:0;
+	margin:0;
+	font-size:16px;
+	line-height: 28px;
+	color: #777; 
+	background: #fff;
+	overflow-x:hidden;
+	position: relative;
+} 
+h1,h2,h3,h4,h5,h6{
+font-family: 'Alegreya Sans', sans-serif;
+}
+h1 { font-size: 3em; line-height:1.2em; margin:0 0 .8em; }
+h2 { font-size: 1.8em; line-height:1.4em; margin:0 0 .8em;  }
+h3 { font-size: 1.4em; line-height:1.4em; }
+h4 { font-size: 1.25em; line-height:1.4em;}
+h5 { font-size: 1.1em; line-height:1.4em; }
+h6 { font-size: 1em; line-height:1.2em; }
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	text-decoration: none; 
+}	 
+p { 
+	padding:0 0 1em;
+	margin:0;
+}
+a {
+	color: #3EB0F7;
+	outline: 0;
+	font-weight: bold;
+	-webkit-transition: all .8s ease;
+	transition: all .8s ease;
+} 
+a:hover {
+	text-decoration: none;
+	color: #3EB0F7;
+	-webkit-transition: all .8s ease;
+	transition: all .8s ease;
+}
+.highlight {
+	color: #08181F;
+}
+ 
+.banner { 
+	  position: relative;
+  top: -80px;
+  padding-top: 80px;
+}
+.is-sticky .navbar-default {
+  background: rgba(0, 0, 0, 0.87);
+  padding: 15px 0;
+  border-top: 1px solid #3DAFF6;
+}
+#menu-sticky-wrapper{
+  z-index: 2;
+  position: relative;
+}
+.overlay {
+    background-color: rgba(0, 184, 255, 0.62);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#menu {
+	z-index: 999;
+}
+.navbar-default {
+	background: rgb(38, 175, 240);
+	padding: 15px 0;
+	border-top: 1px solid #3DAFF6;
+}
+.navbar-default .navbar-brand {
+    padding: 7px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #FFF;
+	font-weight: 500;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #FAD12C;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+	background: transparent;
+    
+	color: #FAD12C;
+}
+.btn-default {
+	font-size: 17px;
+	margin: 30px 0 10px;
+	margin-right: 10px;
+	line-height: 20px;
+	padding: 15px 35px;
+	height: 50px;
+	border: 2px solid #FAD12B;
+	background: transparent;
+	transition: all 0.4s;
+	color: #202020;
+	border-radius: 100px;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+	border: 2px solid #EE2D2D;
+	background: #EE2D2D;
+	color: white;
+}
+.btn-primary {
+	font-size: 17px;
+	margin: 30px 0 10px;
+	margin-right: 10px;
+	line-height: 20px;
+	padding: 15px 35px;
+	height: 50px;
+	border: 2px solid #fbd22c;
+	background: #fbd22c;
+	transition: all 0.4s;
+	color: rgb(18, 18, 22);
+	border-radius: 100px;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+	border: 2px solid #fbd22c;
+	background: transparent;
+	color: #fbd22c;
+}
+.btn-secondary {
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 20px;
+	padding: 20px 50px;
+	height: 65px;
+	border: none;
+	background: #F33030;
+	transition: all 0.4s;
+	color: white;
+	border-radius: 4px;
+}
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open > .dropdown-toggle.btn-secondary {
+	background: #1f96e0;
+	color: white
+}
+.site-name img{
+	width: 150px; 
+	height: 37px
+}
+.logo {
+	margin: 80px 0 100px 0;
+}
+.logo img{
+	width: 150px; 
+	height: 37px
+}
+.landing h1{
+	font-size: 56px;
+	font-weight: 300;
+	color: #fff;
+	margin: 92px 0 20px 0;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+.landing p {
+	color: #fff;
+}
+.landing-text {
+	margin-bottom: 20px;
+}
+.landing-text p { 
+	padding-bottom: 20px;
+}
+.more {
+	margin-bottom: 100px;
+}
+.more p {
+	font-size: 17px;
+}
+.head-btn {
+	margin-bottom: 40px;
+}
+.option {
+	text-transform: uppercase;
+	padding: 5px;
+	min-width: 80px;
+	margin-right: 5px;
+	transition: all 0.4s;
+	font-size: 14px;
+	color: #fff;
+}
+.option .fa {
+	font-size: 16px;
+	margin-right: 10px;
+}
+.option:hover {
+	color: #F33030;
+}
+.header-phone {
+	margin: 65px 0;
+	position: relative;
+	bottom: -65px;
+}
+#intro {
+	padding: 0px 0 100px;
+}
+#intro h2 {
+	font-size: 40px;
+	font-weight: 300;
+	margin: 15px 0 15px 0;
+}
+.intro-pic {
+	margin-top: 20px;
+}
+.btn-section {
+	padding-top: 20px;
+}
+#feature {
+	padding: 80px 0;
+	background: #E6E6E6;
+	color: #202020;
+}
+#feature h2 {
+	margin: 15px 0 15px 0;
+	font-size: 40px;
+	font-weight: 300;
+}
+#feature .feature-title p {
+	font-size: 18px;
+}
+#features{
+	padding: 80px 0;
+}
+#features .fa{
+	
+  border: 1px solid #FAD12C;
+  width: 64px;
+  height: 64px;
+  color: #F9CF2B;
+  text-align: center;
+  padding: 21px;
+  font-size: 22px;
+  border-radius: 50%;
+}
+
+.row-feat {
+	padding-top: 50px;
+}
+.feat-list {
+	margin-top: 40px;
+}
+.feat-list i {
+	font-size: 48px;
+	float: left;
+	width: 20%;
+	color: #26AFF0;
+	height: 100%;
+	position: relative;
+	opacity: 0.6;
+	-webkit-transition: all .8s ease;
+	transition: all .8s ease;
+	top: 10px;
+}
+.feat-list:hover i {
+	color: #FAD12C;
+	-webkit-transition: all .8s ease;
+	transition: all .8s ease;
+}
+#feature .inner {
+	float: left;
+	display: inline-block;
+	width: 80%;
+}
+#feature-2 {
+	padding: 100px 0 100px;
+}
+#feature-2 h2 {
+	font-size: 40px;
+	font-weight: 300;
+	margin: 15px 0 15px 0;
+}
+.feature-2-pic {
+	margin-top: 20px;
+}
+.subscribe {
+	color: #fff;
+}
+.letter {
+	margin-top: 100px;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	font-size: 50px;
+	color: #FBD22C;
+	border-radius: 5px;
+	border: solid 1px #fbd22c;
+	border-radius: 50%;
+	font-size: 34px !important;
+	padding-top: 30px;
+}
+.subscribe p {
+	margin: 30px auto 30px;
+}
+.subscribe-form {
+	max-width: 400px;
+	margin: 50px auto 150px;
+	text-align: center;
+	overflow: hidden;
+}
+.subscribe-form form {
+	position: relative;
+}
+.subscribe-form input {
+	max-width: 85%;
+	position: relative;
+	padding: 5px 25px;
+}
+.subscribe-form .form-control {
+	border-radius: 4px 0 0 4px;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.6);
+	color: #333;
+	font-size: 1.2em;
+	height: 55px;
+}
+.subscribe-form button {
+	border-radius: 0 4px 4px 0;
+	background-color: #F33030;
+	color: #ffffff;
+	font-size: 1em;
+	line-height: 52px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding: 0 30px;
+	margin: 0;
+	-webkit-transition: all .8s ease;
+	transition: all .8s ease;
+}
+.subscribe-form .btn {
+	height: 55px;
+}
+.subscribe-form .btn:hover {
+	background-color: #1f96e0;
+	color: #fff;
+	-webkit-transition: all .8s ease;
+	transition: all .8s ease;
+}
+.subscribe-form .form-control::-webkit-input-placeholder {
+	color: #333;
+}
+.subscribe-form .form-control:-moz-placeholder { 
+	color: #333;  
+}
+.subscribe-form .form-control::-moz-placeholder { 
+	color: #333;  
+}
+.subscribe-form .form-control:-ms-input-placeholder {  
+	color: #333;  
+}
+#screenshot {
+	padding-top: 100px;
+}
+.title-line {
+    width: 100px;
+    height: 3px;
+    margin: 0 auto;
+    background: #F33030;
+}
+.screenshots {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.screenshots .screen {
+    background: #FFFFFF;
+    padding: 10px;
+    margin: 13px;
+    display: block;
+}
+.screenshots .screen img {
+    width: 100%;
+	border-radius: 4px;
+	border: solid 3px #dadada;
+	-webkit-transition: all .8s ease;
+	transition: all .8s ease;
+}
+.screenshots .screen img:hover {
+	border: solid 3px #F33030;
+	-webkit-transition: all .8s ease;
+	transition: all .8s ease;
+}
+.modal-backdrop.in {
+    background-color: #000;
+}
+.ekko-lightbox .modal-content {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	border: none;
+	background-color: transparent;
+}
+.ekko-lightbox .modal-header {
+	border: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+.ekko-lightbox .modal-header .close {
+	-webkit-opacity: 0.7;
+	-moz-opacity: 0.7;
+	opacity: 0.7;
+	color: #fff;
+	text-shadow: 0;
+	font-weight: 100;
+	margin-top: 5px;
+}
+.ekko-lightbox .modal-header .close:hover {
+	-webkit-opacity: 1;
+	-moz-opacity: 1;
+	opacity: 1;
+}
+.ekko-lightbox .modal-header h4.modal-title {
+	font-weight: 100;
+	color: #fff;
+	padding: 0;
+}
+.ekko-lightbox .modal-body {
+	padding: 0;
+}
+.ekko-lightbox .modal-footer {
+	-webkit-opacity: 0.9;
+	-moz-opacity: 0.9;
+	opacity: 0.9;
+	border: 0;
+	color: #fff;
+	font-weight: 100;
+	padding: 0;
+}
+.ekko-lightbox-nav-overlay a {
+	-webkit-opacity: 0.9;
+	-moz-opacity: 0.9;
+	opacity: 0.9;
+	text-shadow: none;
+}
+#client {
+	background: #f6f6f6;
+	padding: 70px 0 70px;
+}
+#client img {
+	max-height: 50px;
+	margin: 0 20px;
+	opacity: 1;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+}
+#client img:hover {
+	opacity: 0.7;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+}
+#clients {
+	padding: 100px 0 100px;
+	background-color: #F6F6F6;
+}
+.clients-item {
+	display: block;
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin-top: 30px;
+}
+.clients-item .box {
+	margin-right: 15px;
+	margin-left: 15px;
+}
+.clients-item .box .message {
+	padding: 20px;
+	font-style: italic;
+	line-height: 30px;
+	font-weight: 300;
+	font-size: 18px;
+}
+.clients-item .client-pic img {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	max-width: 100%;
+	border: 1px solid #E9E9E9;
+}
+.clients-item .client-info .client-name {
+	margin-top: 10px;
+	font-size: 16px;
+}
+.clients-item .client-info .company {
+	font-style: italic;
+	color: #F33030;
+}
+.owl-theme .owl-controls .owl-page span{
+	background: #FAD22C;
+}
+.action {
+	color: #fff;
+}
+.action h2 {
+	font-size: 40px;
+	font-weight: 300;
+}
+.download-store {
+	padding: 50px 0 130px;
+}
+.download-store li {
+	display: inline-block;
+	list-style: none;
+	margin-left: 10px;
+}
+.appstorebutton {
+	height: 65px;
+	width: 195px;
+	position: relative;
+	border-radius: 4px;
+} 
+.iphone {
+	background: #F33030;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+}
+.iphone:hover {
+	background-color: #1f96e0;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+}
+.android {
+	background: #555;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+}
+.android:hover {
+	background-color: #444;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+}
+.appstorebutton a {
+	color: white;
+	text-decoration: none;
+}
+.appstorebutton p {
+	font-size: 20px;
+	font-weight: 300;
+	text-align: left;
+	color: white;
+	padding: 10px 0 0 65px;
+	line-height: 1;
+}
+.appstorebutton p small {
+	font-size: 16px;
+}
+.appstorebutton i {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 10px 0 0 17px;
+	font-size: 40px;
+}
+#footer {
+	background: #202020;
+	padding: 50px 0 50px;
+	color: #BDBDBD;
+}
+.social ul {
+	padding: 0;
+	list-style: none;
+}
+.social li {
+	display: inline-block;
+	padding-right: .3em;
+}
+.social li a {
+	display: block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	color: #202020;
+	border-radius: 5px;
+	background: rgba(255, 255, 255, 0.32);
+	border: solid 1px #202020;
+	-webkit-transition: all .8s ease;
+	transition: all .8s ease;
+	border-radius: 50%;
+}
+.social li a:hover {
+	color: #fff;
+	background: #020E13;
+}
+.scrollToTop{
+	width: 40px; 
+	height: 40px;
+	padding: 5px;
+	font-size: 30px;
+	text-align: center; 
+	color: rgb(250, 210, 44);
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	display: none;
+}
+.scrollToTop:hover{
+	color: #FBD22C;
+}
+.control-group .controls {
+	overflow-x: hidden;
+}
+.downloadSection{
+padding:100px 0;
+}
+.subscribe {
+	color: #fff;
+}
+.subscribe p {
+	margin: 30px auto 30px;
+}
+.subscribe-form {
+	max-width: 400px;
+	margin: 50px auto 150px;
+	text-align: center;
+	overflow: hidden;
+}
+.subscribe-form form {
+	position: relative;
+}
+.subscribe-form input {
+	max-width: 85%;
+	position: relative;
+	padding: 5px 25px;
+}
+.subscribe-form .form-control {
+	border-radius: 4px 0 0 4px;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.6);
+	color: #333;
+	font-size: 1.2em;
+	height: 55px;
+}
+.subscribe-form button {
+	border-radius: 0 4px 4px 0;
+	background-color: #FBD22C;
+	color: #040F13;
+	font-size: 1em;
+	line-height: 52px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding: 0 30px;
+	margin: 0;
+	-webkit-transition: all .8s ease;
+	transition: all .8s ease;
+}
+.subscribe-form .btn {
+	height: 55px;
+}
+.subscribe-form .btn:hover {
+	background-color: #1f96e0;
+	color: #fff;
+	-webkit-transition: all .8s ease;
+	transition: all .8s ease;
+}
+.subscribe-form .form-control::-webkit-input-placeholder {
+	color: #333;
+}
+.subscribe-form .form-control:-moz-placeholder { 
+	color: #333;  
+}
+.subscribe-form .form-control::-moz-placeholder { 
+	color: #333;  
+}
+.subscribe-form .form-control:-ms-input-placeholder {  
+	color: #333;  
+}
+#package {
+	padding-top: 100px;
+}
+.title-line {
+    width: 100px;
+    height: 3px;
+    margin: 0 auto;
+    background: #FAD12C;
+}
+.price-box {
+	background-color: #F3F3F3;
+	border-radius: 15px;
+}
+.package-option {
+	padding: 50px 0 100px;
+}
+.package-option ul {
+	padding: 0;
+}
+.price-heading h3 {
+	margin-top: 0;
+	background-color: #3EBFF7;
+	color: #fff;
+	padding: 15px;
+	margin: 0;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+.price-heading i {
+	color: #d1d1d1;
+	font-size: 75px;
+	margin-top: 20px;
+}
+.price-group {
+	padding: 30px 0 10px;
+}
+.price-group .dollar {
+	font-size: 20px;
+	position: relative;
+	bottom: 48px;
+}
+.price-group .price {
+	color: #202020;
+	font-size: 60px;
+	font-weight: 500;
+}
+.price-group .time {
+	font-size: 18px;
+}
+.price-feature li {
+	margin-left: 30px;
+	margin-right: 30px;
+	list-style: none;
+	border-bottom: solid 1px #d1d1d1;
+	line-height: 40px;
+	padding: 10px 0;
+}
+.btn-price {
+	margin: 5px 0 15px;
+	font-size: 17px;
+	padding: 7px 35px;
+	height: 40px;
+	background: #FCD72C;
+	transition: all 0.4s;
+	color: rgb(32, 32, 32);
+	border-radius: 4px;	
+}
+.btn-price:hover {
+	background: #202020;
+	color: white;
+}
+#contact {
+	width: 100%;
+	min-height: 100%;
+}
+#contact  h2{
+	color: rgb(8, 24, 31);
+	margin-left: 36px;
+}
+.ul-address a {
+	font-weight: normal;
+}
+.ul-address a:hover {
+	color: rgb(250, 209, 38);
+}
+.ul-address li {
+	padding-right: 20px; 
+	margin-bottom: 8px; 
+	list-style: none;
+	color: rgb(8, 24, 31);
+}
+.ul-address i {
+	margin-left: 15px;
+	position: absolute; 
+	left: 0;
+	color: #3eb0f7; 
+	font-size: 25px;
+	line-height: 30px;
+}
+.contact-row {
+	margin: 100px 0 100px;
+}
+#contact-form {
+	margin: 0 auto;
+}
+#contact-form input {
+	position: relative;
+	padding: 5px 25px;
+	width: 100%;
+}
+#contact-form textarea {
+	position: relative;
+	padding: 10px 25px;
+	width: 100%;
+	height: 120px !important;
+}
+#contact-form .form-control {
+	border-radius: 0;
+	border: solid 1px #dadada;
+	background-color: #fff;
+	color: #333;
+	font-size: 1.2em;
+	height: 55px;
+}
+#contact-form .btn {
+	height: 55px;
+	width: 100%;
+	background-color: #3eb0f7;
+	color: #ffffff;
+	font-size: 17px !important;
+	line-height: 18px;
+	padding: 0 33px;
+	border: none;
+	border-radius: 0;
+	margin: 0;
+	-webkit-transition: all .8s ease;
+	transition: all .8s ease;
+}
+#contact-form .btn:hover {
+	background-color: #1f96e0;
+	-webkit-transition: all .8s ease;
+	transition: all .8s ease;
+}
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : portrait) {
+	.more {
+		margin-bottom: 50px;
+	}
+	#intro {
+		padding: 30px 0 50px;
+	}
+	#intro h2, #feature-2 h2 {
+		font-weight: 150;
+		text-align: center;
+	}
+	#intro p, #feature-2 p {
+		text-align: center;
+	}
+	.btn-section {
+		text-align: center;
+	}
+	#feature {
+		padding-top: 75px;
+	}
+	.row-feat {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	#feature-2 {
+		padding: 80px 0 100px;
+	}
+	.feature-2-pic {
+		margin-top: 40px;
+	}
+	#client img {
+		margin: 10px 0 10px;
+		max-height: 40px;
+	}	
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : landscape) {
+	.logo {
+		margin: 100px 0 30px 0;
+	}
+	.landing h1{
+		margin: 60px 0 60px 0;
+	}	
+	.landing-text {
+		margin: 60px 0 40px 0;
+	}
+	.more {
+		margin-bottom: 180px;
+	}
+	.header-phone {
+	margin-top: 125px;
+	}
+	.intro-pic {
+		margin-top: 100px;
+	}
+	.feature-img {
+		margin-top: 30px;
+	}	
+	.feat-list {
+		margin-top: 10px;
+	}
+	.feat-list p {
+		font-size: 15px;
+	}
+	.feature-2-pic {
+		margin-top: 50px;
+	}
+	#client img {
+		max-height: 45px;
+	}	
+}
+
+/* smart-phone ----------- */
+@media (max-width: 767px) {
+	.logo {
+		margin: 40px 0 30px 0;
+	}
+	.more {
+		margin-bottom: 40px;
+	}
+	#intro {
+		padding: 70px 0 70px;
+	}
+	#intro h2, #feature-2 h2 {
+		font-weight: 150;
+		text-align: center;
+	}
+	#intro p, #feature-2 p {
+		text-align: center;
+	}
+	.btn-section {
+		text-align: center;
+	}
+	.feat-list i {
+		padding-left: 40px;
+	}
+	.feature-2-pic {
+		margin-top: 50px;
+	}
+	#client img {
+		margin: 10px 0 10px;
+	}	
+}	
+/* iPhone 6Plus (landscape) ----------- */
+@media (max-width: 736px) {
+
+}
+
+/* iPhone 6 (landscape) ----------- */
+@media (max-width: 667px) {
+	.logo {
+		margin: 30px 0 30px 0;
+	}
+	.landing h1{
+		font-size: 50px;
+		margin: 10px 0 25px 0;
+	}
+	.landing-text {
+		margin-top: 20px;
+	}
+	.letter {
+		margin-top: 75px
+	}
+	.subscribe p {
+		margin: 25px auto 15px;
+	}
+	.subscribe-form {
+		margin: 20px auto 100px;
+	}
+	.action h2 {
+		margin-top: 70px;
+	}
+	.download-store {
+		padding: 20px 0 100px;
+	}
+}
+
+/* iPhone 5 (landscape) ----------- */
+@media (max-width: 568px){
+	.logo {
+		margin: 15px 0 15px 0;
+	}
+	.landing h1{
+		font-size: 40px;
+		margin: 20px 0 10px 0;
+	}
+	.landing-text p {
+		font-size: 16px !important; 
+	}
+	#intro {
+		padding-top: 50px;
+	}
+	#feature {
+		padding-top: 50px;
+	}
+	.feat-list i {
+		padding-left: 20px;
+	}
+	#feature-2 {
+		padding: 50px 0 70px;
+	}
+	#screenshot {
+		padding-top: 70px;
+	}	
+	.screenshots {
+		padding-top: 30px;
+		padding-bottom: 70px;
+	}
+	#clients {
+		padding: 70px 0 70px;
+	}
+	.clients-item .box .message {
+		line-height: 25px;
+		font-size: 18px;
+	}
+	.action h2 {
+		margin: 50px 0 20px;
+	}
+	.download-text p {
+		line-height: 1.5;	
+	}	
+	.download-store {
+		padding: 10px 0 70px;
+	}
+}
+
+/* iPhone 4 (landscape) ----------- */
+@media (max-width: 480px) {
+	.feat-list i {
+		padding-left: 5px;
+	}
+	.action h2 {
+		font-size: 30px;
+	}
+}
+
+/* smart phone width: 360px ----------- */
+@media (max-width: 360px) {
+	#intro h2, #feature h2, #feature-2 h2 {
+		font-size: 30px;
+	}
+	.feat-list i {
+		padding-left: 0;
+	}
+	#feature .inner {
+		padding-left: 15px;
+	}
+	.appstorebutton {
+		margin-bottom: 15px;
+	} 
+	.download-store li {
+		margin-left: 0;
+	}
+}
+
+/* iPhone 4/5 (portrait) ----------- */
+@media (max-width: 320px) {
+	.logo {
+		margin: 30px 0 20px 0;
+	}
+	.landing h1{
+		margin: 20px 0 35px 0;
+	}
+	.more {
+		text-align: center;
+	}
+	.more p {
+		font-size: 14px;
+	}
+	.option {
+		padding: 3px;
+		min-width: 75px;
+		margin-right: 2px;
+	}
+	.btn-default {
+		font-size: 16px;
+		margin: 30px 0 10px;
+		padding: 15px 30px;
+		height: 35px;
+		border-radius: 80px;
+	}
+	.btn-primary {
+		font-size: 16px;
+		margin: 30px 0 10px;
+		margin-right: 15px;
+		padding: 15px 30px;
+		height: 35px;
+		border-radius: 80px;
+	}
+	.subscribe-form {
+		margin: 50px auto 110px;
+	}
+	.subscribe-form input {
+		padding: 5px 15px;
+	}
+	.subscribe-form button {
+		padding: 0 15px;
+	}
+	.action h2 {
+		margin: 70px 0 20px;
+	}
+
+}
