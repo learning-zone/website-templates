@@ -135,7 +135,7 @@
 |  126   | kavin-corporate-bootstrap-responsive-web-template			      |[live example](https://learning-zone.github.io/website-templates/kavin-corporate-bootstrap-responsive-web-Template/)|			      
 |  127   | lazydays													      |[live example](https://learning-zone.github.io/website-templates/lazydays/)|													      
 |  128   | learn-educational-free-responsive-web-template				      |[live example](https://learning-zone.github.io/website-templates/learn-educational-free-responsive-web-Template/)|				      
-|  129   | line-Free-App-Landing-Page-Responsive-Web Template			      |[live example](https://learning-zone.github.io/website-templates/line-Free-App-Landing-Page-Responsive-Web Template/)|			      
+|  129   | line-Free-App-Landing-Page-Responsive-Web-Template			      |[live example](https://learning-zone.github.io/website-templates/line-Free-App-Landing-Page-Responsive-Web-Template/)|			      
 |  130   | medplus-medical												      |[live example](https://learning-zone.github.io/website-templates/medplus-medical/)|												      
 |  131   | metropolis													      |[live example](https://learning-zone.github.io/website-templates/metropolis/)|													      
 |  132   | missunderstood												      |[live example](https://learning-zone.github.io/website-templates/missunderstood/)|												      
