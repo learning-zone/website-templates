@@ -1,0 +1,351 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,400);
+body {
+	color:#FFF; 
+	font-family:'Open Sans', sans-serif;
+	min-width:960px;
+	top:0;
+	left:0;
+	position:absolute;
+	height:100%;
+	width:100%;
+	margin:0; 
+	color:#000;
+	background-size:cover;
+	background:url('../images/swirl_pattern.png') top left repeat;
+}
+.ie body {
+	filter: dropshadow(color=#000000, offx=0, offy=1);	
+}
+h1 {
+	font-size:50px;
+	letter-spacing:-2px;	
+	line-height:40px; 
+	text-align:center;  
+}
+.ie h1 {
+	filter: dropshadow(color=#000000, offx=0, offy=3);
+	padding-bottom:12px;	
+}
+h2 { 
+}
+.ie h2 {
+	filter: dropshadow(color=#000000, offx=0, offy=3);
+}
+h3 {
+font-size: 30px;
+margin: 0.2em 0;
+text-align: center;
+color: #888;
+padding: 0 0 29px;
+}
+.ie h3 {
+	filter: dropshadow(color=#000000, offx=0, offy=3);
+}
+h4 {
+	margin-bottom:5px;	
+}
+p, pre {
+	margin:0 0 10px 0; 
+}
+code {
+	text-transform:uppercase !important;
+	color:#EEE;	
+	border-bottom:1px dotted #666;
+}
+small {
+	background:url(../images/alpha.png);
+	background:rgba(0, 0, 0, 0.8) url();	
+	border:1px solid #111;
+	font-size:15px;
+	padding:0 5px;
+}
+strong{
+text-align: center;
+display: block; 
+font-size: 28px;
+font-weight: normal;
+color:#646464;
+}
+a {
+	color:gray;
+	text-decoration:none;	
+}
+a:hover {
+	color:#BBB;	
+} 
+.topSection{ 
+}
+.spacing{
+padding:60px 0;
+}
+#Header { 
+position: relative;
+width: 100%; 
+z-index: 1;
+padding-top: 50px
+}
+.logo{
+width: auto; 
+margin: 0 auto;
+padding: 16px;  
+border-radius: 180px;
+padding-bottom:50px;
+}
+.logo h1{
+color:#0f66b1;
+font-weight:600;
+
+}
+.logo img {
+width: 80px;
+height: 108px;
+text-align: center;
+display: block;
+margin: 0 auto; 
+}
+.wrapper {
+margin: 0 auto;
+position: relative;
+width: 100%;
+z-index: 1;
+}
+#socialIcons {
+display:block;
+}
+#socialIcons ul {
+margin:40px 0 0 0px; 
+padding:0px;
+text-align: center;
+}
+#socialIcons ul li {
+margin-right: 19px;
+height: 56px;
+line-height: 50px;
+list-style-type: none;
+display: inline-block;
+background: #fff;
+border-radius: 71px;
+padding: 10px;
+border: 1px solid #888;
+}
+#socialIcons ul li a{
+width:34px;
+height:34px; 
+display: inline-block;
+}
+.twitterIcon, .facebookIcon, .linkedInIcon, .pintrestIcon{
+background: url('../images/social-icons.png') -74px 0px;
+}
+ .twitterIcon:hover, .facebookIcon:hover, .linkedInIcon:hover, .pintrestIcon:hover{
+background-position-y: -33px;
+}
+.facebookIcon{
+background-position: 10px 0px;
+}
+.linkedInIcon{
+background-position: -245px 0px;
+}
+.pintrestIcon{
+background-position: -331px 0px;
+}
+.tempBy{
+display:block;
+text-align:center;
+padding:15px;
+background:#fff;
+color: #8A8A8A;
+}
+#Content h2 {
+margin: 0px;
+padding: 0px;
+text-align: center;
+font-size: 42px;
+font-weight: 300;
+color:#676767;
+margin-bottom:40px;
+}
+#WindowSlide {
+margin: 0 auto;
+position: relative;
+width: 634px;
+height: 170px;
+display: block;
+overflow: hidden;
+}
+#Mail {
+position: absolute;
+width: 634px;
+top: 0px;
+left: 0px;
+}
+#Content h3 {
+text-align: center;
+font-size: 24px;
+font-weight: normal;
+display: block;
+clear: both;
+}
+
+#subscribe p{
+text-align:center;
+}
+#subscribe input {
+background: rgba(255, 255, 255, 0.52);
+color: #7a7a7a; 
+vertical-align: middle;
+width: 393px;
+border: 1px solid #888;
+padding: 10px;
+font-size: 14px;
+}
+#subscribe input[type="button"]{
+background: rgba(255, 255, 255, 1);
+width: auto;
+padding: 10px 25px;
+cursor: pointer;
+margin: 0 0 0 -6px;
+font-weight: bold;
+font-size: 14px;
+color: #888;
+}
+#subscribe input[type="button"]:hover{
+background:#1e7ccd;
+color:#fff;
+border:1px solid #1e7ccd;
+}
+
+.callback,
+.simple {
+  font-size: 20px;
+  background: #27ae60;
+  padding: 0.5em 0.7em;
+  color: #ecf0f1;
+  margin-bottom: 50px;
+  -webkit-transition: background 0.5s ease-out;
+  transition: background 0.5s ease-out;
+}
+.callback{
+  cursor: pointer;
+}
+.ended {
+  background: #c0392b;
+}
+.countdown {
+text-align: center;
+margin-top: 30px;
+background: #5381E4;
+padding: 60px 0;
+} 
+.styled div {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 70px;
+  font-weight: normal; 
+  text-align: center;
+  margin:0 15px; 
+  padding:0 30px;   
+  color:#fff;  
+  text-shadow:none;
+  vertical-align: middle;  
+}
+
+#overlay{
+background: rgba(0, 0, 0, 0.56) url(../images/overlays/01.png) top left repeat;
+position: fixed;
+top: 0px;
+width: 100%;
+bottom: 0px;
+opacity:0.8;
+}
+/* IE7 inline-block hack */
+*+html .styled div{
+  display: inline;
+  zoom: 1;
+}
+.styled div:first-child {
+  margin-left: 0;
+}
+.styled div span {
+  display: block;
+  padding-top: 3px;
+  font-size: 19px;
+  font-weight: normal; 
+  text-align: center;
+}
+footer{
+width:100%;
+height:30px;
+background:rgba(0, 0, 0, 0.64);
+position:absolute;
+bottom:0px;
+}
+footer span{
+float:right;
+margin:10px;
+}
+.subscribe {
+background:#fff;
+}
+.features{
+background: rgba(55, 55, 55, 0.15);
+}
+.features h2 {
+padding: 0 0 30px 0;
+}
+.features h4 { 
+margin: 0px 0 10px 0;
+}
+.featuresPro{
+margin-bottom:30px;
+float:left;
+}
+.featuresPro{
+font-size:15px;
+}
+@media(max-width:768px){
+	body {
+	min-width: initial !important;
+	}
+	.wrapper{width:100%;}
+	.styled div {
+	  margin-bottom:10px; 
+	}
+}
+@media(max-width:420px){
+	h1{
+	float:initial;
+	text-align: center;
+	margin-left:0px;
+	margin-bottom:0px;
+	}
+	.styled div {
+	  margin-bottom:10px;
+	  font-size: 40px;
+	  font-weight: normal; 
+	  text-align: center;
+	  width:50px;  
+	  height:70px;  
+	}
+	#Content h2 {
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	text-align: center;
+	font-size: 29px;
+	font-weight: 300;
+	}
+	.styled {
+	margin-bottom: 30px;
+	}
+	#subscribe input[type="button"]{
+	margin-top:10px;
+	}
+	#subscribe input{
+	width:80%;
+	}
+	.featuresPro img {
+width: 100%;
+}
+	footer{
+	position:relative !important;
+	}
+}
