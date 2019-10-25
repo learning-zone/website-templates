@@ -1,0 +1,143 @@
+/* iPads (portrait and landscape) ----------- */
+@media (max-width: 768px) {
+	body{ overflow-x: hidden;}
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-fixed-top .navbar-collapse, 
+    .navbar-fixed-bottom .navbar-collapse {
+	  max-height: 420px;
+	  text-align: center;
+	}
+	.gray-bg .vline {
+	    left: 11%;
+	}
+	.navbar-right {
+	    float: none !important;
+	    margin-right: -15px;
+	}
+    .navbar-nav {
+        float: center !important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    .navbar-collapse.collapse.in {display: block!important;}
+    .collapsing {overflow: hidden!important; }
+    .navbar-nav {margin: 0 -15px;}
+    .navbar-nav .open .dropdown-menu > li > a, .navbar-nav .open .dropdown-menu .dropdown-header {
+        padding: 10px 15px 10px 25px;
+    }
+    .price.panel-default {
+	    margin: 40px;
+	}
+	.price.featured.panel-default {
+	    margin: 40px;
+	}
+	.content-heading{ margin-top: 80px;}
+	.ipad-wrapper .app-wrap {left: 22%;}
+	#home.app .content-heading.text-left{text-align: center;}
+	#itemsWorkTwo .box .hover-text i.fa {
+	    top: 0%;
+	}
+}
+@media (max-width: 768px) {
+	#home.slider .content-heading {
+    	margin-top: 30px;
+	}
+	#home.slider h1 {
+	    color: #FC3;
+	    font-size: 28px;
+	}
+	.slider .content-heading p.lead { margin-bottom: 20px; }
+	.slider .carousel-indicators { bottom: 30px; }
+}
+@media (max-width: 603px) { 
+	.slider a.goto-btn { display: none;}
+	.ipad-wrapper .app-wrap {left: 16%;}
+	#footer .pull-left,
+    #footer .pull-right {
+	    float: none !important;
+	    text-align: center;
+	}
+}
+
+@media (max-width: 460px) {
+	.gray-bg .vline {
+	    left: 15%;
+	}
+	.meta-detail { display: none; }
+    h1 { font-size: 34px;}
+    #home.slider h1 { font-size: 26px;}
+    p.lead { display: none;}
+    .slider .carousel-indicators { bottom: 0px; }
+    .ipad-wrapper .app-wrap {left: 3%;}
+}
+@media (max-width: 360px) { 
+	#services,
+	#pricing,
+	.section-header,
+	.about-right-content,
+	#features, 
+	#feature,
+	#works,
+	#blog,
+	#contact {
+	  padding: 20px 0;
+	}
+	p{ font-size: 12px}
+	h2{ font-size: 20px;}
+	h4{ line-height: 20px;}
+	ul.list-inline.cat > li{  margin-bottom: 20px;}
+	.gray-bg .vline { left: 20%;}
+	.post-meta {min-height: 50px;}
+	.price.panel-default {
+	    margin: 20px;
+	}
+	.price.featured.panel-default {
+	    margin: 20px;
+	}
+	h1 {font-size: 26px}
+	#home.slider{ display: none;}
+	#intro.slider{ margin-top: 70px !important}
+	.ipad-wrapper .app-wrap {display: none;}
+	a.goto-btn {
+	    margin-right: auto;
+	    margin: 0 10px;
+	}
+	a.goto-btn {
+	    display: inline-block;
+	}
+	.blog .post-meta {min-height: 55px;}
+}
+@media (max-width: 320px) { 
+	.post-wrap .post .media-body p {display: none;}
+	.gray-bg .vline { left: 25%;}
+	.nav.nav-pills > li > a { font-size: 11px;}
+	ul.features li span.fa {
+	    font-size: 30px;
+	    margin-top: 2px;
+	}
+	.post-tab .nav-tabs > li > a {
+	    padding: 5px 10px;
+	}
+}
