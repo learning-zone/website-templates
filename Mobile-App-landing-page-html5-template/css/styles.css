@@ -1,0 +1,356 @@
+/*---------------------------------
+Author: webthemez.com
+All rights reserved, plz donate and remove the back-link form the website.
+-----------------------------------*/
+
+body {
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 17px;
+line-height: 1.42857;
+color: #696f6f;
+background-color: white;
+}
+
+h4{
+color: #1B1B1B;
+font: bold 18px/24px "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+text-transform: uppercase;
+margin-bottom: 12px;
+}
+h2{
+color: #373737;
+margin-bottom:30px;
+}
+h3{
+font-size: 20px;
+color: #696969;
+}
+a.button {
+text-decoration: none;
+float: left;
+line-height: 54px;
+color: white;
+}
+.btn-prime{
+color: white;
+background: #0379CD;
+}
+.btn-prime:hover {
+color:#fff;
+background:#007BD3;
+border-color: #007BD3;
+}
+.button {
+color: white;
+background: #0379CD;
+height: 58px;
+border: 2px solid #0379CD;
+font: 500 22px "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+padding: 0 21px;
+-moz-transition: color 0.1s linear, background-color 0.1s linear, border-color 0.1s linear;
+-ms-transition: color 0.1s linear, background-color 0.1s linear, border-color 0.1s linear;
+-o-transition: color 0.1s linear, background-color 0.1s linear, border-color 0.1s linear;
+-webkit-transition: color 0.1s linear, background-color 0.1s linear, border-color 0.1s linear;
+transition: color 0.1s linear, background-color 0.1s linear, border-color 0.1s linear;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+a.button.button-stripe {
+background-color: transparent;
+border-color: white;
+}
+a.button.button-stripe:hover {
+color: #222222;
+background-color: white;
+border-color: white;
+} 
+a.button.button-stripe {
+background-color:transparent;
+border-color: white;
+}
+a.button:hover {
+color: white;
+}
+.button:hover {
+background:#1384D5;
+border-color: #1384D5;
+}
+.buttons-wrapper .button-stripe {
+margin-left: 14px;
+}
+header .buttons-wrapper {
+padding-top: 20px;
+}
+.side-nav {
+position: fixed;
+top: 45%;
+right: 20px;
+z-index: 1030;
+}
+.side-nav ul.nav-side-nav {
+text-align: center;
+list-style: none;
+margin: 0;
+padding-left: 0;
+}
+.side-nav ul.nav-side-nav > li {
+display: block;
+line-height: 1.42857;
+margin: 0;
+padding: 8px 0;
+}
+.side-nav ul.nav-side-nav > li > a {
+display: block;
+width: 10px;
+height: 10px; 
+background: #FFFFFF;
+border-radius: 78%;
+padding: 7px;
+border: 1px solid #5EB920;
+}
+.mainBanner {
+padding-top: 100px;
+padding-bottom: 100px;
+}
+.mainBanner {
+padding: 30px 0;
+margin-bottom: 0;
+color: white;
+background:#003664;
+background-size: cover;
+text-align: center;
+background:url(../images/bg.jpg) top left repeat;
+background-size:cover;
+} 	
+.mainBanner .img-logo {
+display:block;
+width: auto;
+height: auto;
+margin-top: 50px;
+margin-bottom: 170px;
+}
+.mainBanner h1, .mainBanner .h1 {
+font-size: 35px;
+text-align: left;
+color: #E9FAFF;
+text-transform: uppercase;
+}
+.mainBanner p {
+margin-bottom: 15px;
+font-size: 20px;
+font-weight: 200;
+text-align:left;
+color: #DDE3EA;
+}
+.mainBanner  img.img-iPhone {
+position: relative;
+bottom: -30px;
+}
+.mainBanner .btn-app-store {
+margin-top: 40px;
+}
+.mainBanner p {
+margin-bottom: 15px;
+font-size: 20px;
+font-weight: 200;
+}
+.mainBanner .btn-app-store .btn.btn-lg, .mainBanner .btn-app-store .btn-group-lg > .btn {
+padding: 0;
+}
+.mainBanner .img-iPhone {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 505px;
+height: auto;
+}
+.highlights {
+  background: white;
+  text-align: center;
+  padding: 100px 0;
+}
+.highlights .row.row-padding {
+  padding-top: 40px;
+}
+
+.highlightsCol {
+  padding-bottom: 20px;
+} 
+.highlightsImg.img-margin {
+margin-top: 14px;
+margin-bottom: 31px;
+}
+.highlightsImg {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 80px;
+height: auto;
+margin-top: 20px;
+margin-bottom: 30px; 
+}
+.ourFeatures {
+  background: #5EB920;
+  text-align: left;
+  padding: 100px 0 0;
+}
+.ourFeatures  h2, .ourFeatures h3, .ourFeatures p{
+color:#fff;
+}
+.ourFeatures p{
+color:#E2FFCF;
+}
+.ourFeatures .row.row-padding {
+  padding-top: 40px;
+}
+.ourFeatures .img-iPhone {
+position: relative;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+height: auto;
+}
+.ourFeatures .btn-prime-border {
+background: transparent;
+border-width: 2px;
+border-style: solid;
+border-color: #dc554f;
+color: #dc554f;
+padding-top: 8px !important;
+padding-bottom: 8px !important;
+}
+.featuresBtm{
+margin-top:150px;
+margin-bottom:0px;
+}
+.subscribe {
+background: #1F1F1F;
+text-align: center;
+padding: 100px 0;
+background-size: cover;
+color: white;
+display:block;
+}
+.subscribe h2{
+color:#fff;
+}
+.subscribe input{
+padding: 20px 10px;
+width: 350px;
+}
+.subscribe button{
+color: white;
+background: #0379CD;
+margin: 0px;
+padding: 10px 20px;
+margin-left: -10px;
+}
+.subscribe-description { 
+padding: 40px 0;
+}
+.footer-section {
+background: white;
+text-align: left;
+padding: 60px 0;
+}
+.addthis_default_style {
+text-align: left;
+list-style: none;
+margin: 0;
+padding-left: 0;
+}
+.addthis_default_style li:first-child {
+margin-left: -2px;
+}
+.addthis_default_style li {
+display: inline-block;
+line-height: 1.42857;
+margin: 0;
+padding: 0;
+}
+.addthis_default_style a {
+display: block;
+}
+.social-icons {
+float:right;
+}
+.social-icons a{ 
+color: #64b51b;
+text-decoration: none;
+padding: 0px 0 0 15px;
+border: 1px solid #64b51b;
+border-radius: 50%;
+width: 45px;
+float: left;
+margin: 5px;
+height: 45px;
+line-height: 45px; 
+}
+.simple-content ul li {
+font-size: 18px;
+line-height: 32px;
+font-weight: 300;
+margin-bottom: 18px;
+list-style:none;
+}
+.simple-content ul li span {
+display: block;
+overflow: hidden;
+}
+
+@media (max-width: 1200px){
+.mainBanner .img-logo{
+margin-top:0px;
+margin-bottom: 81px;
+}
+.mainBanner .img-iPhone {
+width: 376px;
+}
+}
+@media (max-width: 768px){
+.mainBanner{
+height: 633px;
+}
+
+ .mainBanner .img-logo {
+display: block;
+width: auto;
+height: auto;
+margin: 0;
+}
+.mainBanner .img-iPhone { 
+width: 340px;
+}
+.highlights{
+padding-top:0;
+}
+}
+@media (max-width: 480px){
+.mainBanner{
+height: 633px;
+}
+.mainBanner .img-logo{
+margin: 0px;
+padding: 0px;
+}
+.mainBanner h1, .mainBanner .h1 {
+font-size: 26px;
+text-align: left;
+color: #E9FAFF;
+text-transform: uppercase; 
+display: inline-block;
+} 
+.highlights { 
+margin-top: -100px !important;
+}
+.mainBanner img.img-iPhone {
+position: relative;
+bottom: -30px;
+display: none;
+}
+}
