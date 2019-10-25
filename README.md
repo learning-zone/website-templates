@@ -172,7 +172,7 @@
 |  163   | unique-free-responsive-html5-template						      |[live example](https://learning-zone.github.io/website-templates/unique-free-responsive-html5-Template/)|						      
 |  164   | vCare-free-html5-template-hospital-website					      |[live example](https://learning-zone.github.io/website-templates/vCare-free-html5-template-hospital-website/)|					      
 |  165   | vOne-Free-Business-HTML5-Responsive-Website					      |[live example](https://learning-zone.github.io/website-templates/vOne-Free-Business-HTML5-Responsive-Website/)|					      
-|  166   | vTeam-a-Corporate-Multipurpose-Free-Bootstrap 			          |[live example](https://learning-zone.github.io/website-templates/vTeam-a-Corporate-Multipurpose-Free-Bootstrap/)| 			          
+|  166   | vTeam-a-Corporate-Multipurpose-Free-Bootstrap 			          |  | 			          
 |  167   | viver-free-html5-bootstrap-coming-soon-template				      |[live example](https://learning-zone.github.io/website-templates/viver-free-html5-bootstrap-coming-soon-Template/)|				      
 |  168   | webtrends-free-bootstrap-responsive-web-template		 	      |[live example](https://learning-zone.github.io/website-templates/webtrends-free-bootstrap-responsive-web-Template/)|		 	      
 |  169   | zenlike														      |[live example](https://learning-zone.github.io/website-templates/zenlike/)|														      
