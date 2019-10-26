@@ -20,13 +20,13 @@
 |  10  | Basic-Free-HTML5-Template-for-Multi-Purpose|[live example](https://learning-zone.github.io/website-templates/Basic-Free-HTML5-Template-for-Multi-Purpose/)|					      
 |  11   | Beauty-Salon-Bootstrap-HTML5-Template						      |[live example](https://learning-zone.github.io/website-templates/Beauty-Salon-Bootstrap-HTML5-Template/)|						      
 |  12   | Bestro-Restaurant-Bootstrap-HTML5-Template					      |[live example](https://learning-zone.github.io/website-templates/Bestro-Restaurant-Bootstrap-HTML5-Template/)|					      
-|  13   | BusinessLine-corporate-portfolio-bootstrap-responsive-web-template|[live example](https://learning-zone.github.io/website-templates/BusinessLine-corporate-portfolio-bootstrap-responsive-web-Template/)|		
+|  13   | BusinessLine-corporate-portfolio-bootstrap-responsive-web-template|[live example](https://learning-zone.github.io/website-templates/BusinessLine-corporate-portfolio-bootstrap-responsive-web-template/)|		
 |  14   | Cloud-Hosting-Free-Bootstrap-Responsive-Website-Template	      |[live example](https://learning-zone.github.io/website-templates/Cloud-Hosting-Free-Bootstrap-Responsive-Website-Template/)|	      
 |  15   | Coffee-Shop-Free-HTML5-Template								      |[live example](https://learning-zone.github.io/website-templates/Coffee-Shop-Free-HTML5-Template/)|								      
 |  16   | Creative-Bee-Corporate-Free-HTML5-Web-Template				      |[live example](https://learning-zone.github.io/website-templates/Creative-Bee-Corporate-Free-HTML5-Web-Template/)|				      
 |  17   | Creative-free-responsive-html5-business-template			      |[live example](https://learning-zone.github.io/website-templates/Creative-free-responsive-html5-business-Template/)|			      
 |  18   | Delight-Multi-Purpose-Free-HTML5-Website-Template			      |[live example](https://learning-zone.github.io/website-templates/Delight-Multi-Purpose-Free-HTML5-Website-Template/)|			      
-|  19   | Delite-Music-HTML5-Bootstrap-Responsive-web-template		      |[live example](https://learning-zone.github.io/website-templates/Delite-Music-HTML5-Bootstrap-Responsive-web-Template/)|		      
+|  19   | Delite-Music-HTML5-Bootstrap-Responsive-web-template		      |[live example](https://learning-zone.github.io/website-templates/Delite-Music-HTML5-Bootstrap-Responsive-web-template/)|		      
 |  20   | Eat-Restaurant-Bootstrap-HTML5-Template						      |[live example](https://learning-zone.github.io/website-templates/Eat-Restaurant-Bootstrap-HTML5-Template/)|						      
 |  21   | Elegant-Free-Multi-Purpose-Bootstrap-Responsive-Template	      |[live example](https://learning-zone.github.io/website-templates/Elegant-Free-Multi-Purpose-Bootstrap-Responsive-Template/)|	      
 |  22   | Enlive-Corporate-Free-HTML5-Bootstrap-Web-Template			      |[live example](https://learning-zone.github.io/website-templates/Enlive-Corporate-Free-HTML5-Bootstrap-Web-Template/)|			      
@@ -102,8 +102,8 @@
 |  92   | car-care-auto-mobile-html5-bootstrap-web-template			      |[live example](https://learning-zone.github.io/website-templates/car-care-auto-mobile-html5-bootstrap-web-Template/)|			      
 |  93   | car-repair-html5-bootstrap-template							      |[live example](https://learning-zone.github.io/website-templates/car-repair-html5-bootstrap-Template/)|							      
 |  94   | car-zone-automobile-bootstrap-responsive-web-template		      |[live example](https://learning-zone.github.io/website-templates/car-zone-automobile-bootstrap-responsive-web-Template/)|		      
-|  95   | city-square-bootstrap-responsive-web-template				      |[live example](https://learning-zone.github.io/website-templates/city-square-bootstrap-responsive-web-Template/)|				      
-|  96   | clouds-html5-multipurpose-landing-page-template				      |[live example](https://learning-zone.github.io/website-templates/clouds-html5-multipurpose-landing-page-Template/)|				      
+|  95   | city-square-bootstrap-responsive-web-template				      |[live example](https://learning-zone.github.io/website-templates/city-square-bootstrap-responsive-web-template/)|				      
+|  96   | clouds-html5-multipurpose-landing-page-template				      |[live example](https://learning-zone.github.io/website-templates/clouds-html5-multipurpose-landing-page-template/)|				      
 |  97   | coming-soon-responsive-theme-jack							      |[live example](https://learning-zone.github.io/website-templates/coming-soon-responsive-theme-jack/)|							      
 |  98   | css3-bw														      |[live example](https://learning-zone.github.io/website-templates/css3-bw/)|														      
 |  99   | css3-drop-shadows											      |[live example](https://learning-zone.github.io/website-templates/css3-drop-shadows/)|											      
@@ -114,14 +114,14 @@
 |  105   | dreamy														      |[live example](https://learning-zone.github.io/website-templates/dreamy/)|														      
 |  106   | drifting													      |[live example](https://learning-zone.github.io/website-templates/drifting/)|													      
 |  107   | droll														      |[live example](https://learning-zone.github.io/website-templates/droll/)|														      
-|  108   | endure-html5-responsive-coming-soon-template				      |[live example](https://learning-zone.github.io/website-templates/endure-html5-responsive-coming-soon-Template/)|				      
+|  108   | endure-html5-responsive-coming-soon-template				      |[live example](https://learning-zone.github.io/website-templates/endure-html5-responsive-coming-soon-template/)|				      
 |  109   | extent														      |[live example](https://learning-zone.github.io/website-templates/extent/)|														      
-|  110   | fiber-hosting-bootstrap-website-template					      |[live example](https://learning-zone.github.io/website-templates/fiber-hosting-bootstrap-website-Template/)|					      
+|  110   | fiber-hosting-bootstrap-website-template					      |[live example](https://learning-zone.github.io/website-templates/fiber-hosting-bootstrap-website-template/)|					      
 |  111   | full-slider													      |[live example](https://learning-zone.github.io/website-templates/full-slider/)|													      
 |  112   | funky-cool-blue												      |[live example](https://learning-zone.github.io/website-templates/funky-cool-blue/)|												      
 |  113   | gila														      |[live example](https://learning-zone.github.io/website-templates/gila/)|														      
-|  114   | glips-responsive-free-coming-soon-bootstrap-template		      |[live example](https://learning-zone.github.io/website-templates/glips-responsive-free-coming-soon-bootstrap-Template/)|		      
-|  115   | grandure-bootstrap-free-coming-soon-template				      |[live example](https://learning-zone.github.io/website-templates/grandure-bootstrap-free-coming-soon-Template/)|				      
+|  114   | glips-responsive-free-coming-soon-bootstrap-template		      |[live example](https://learning-zone.github.io/website-templates/glips-responsive-free-coming-soon-bootstrap-template/)|		      
+|  115   | grandure-bootstrap-free-coming-soon-template				      |[live example](https://learning-zone.github.io/website-templates/grandure-bootstrap-free-coming-soon-template/)|				      
 |  116   | grass-stains												      |[live example](https://learning-zone.github.io/website-templates/grass-stains/)|												      
 |  117   | green-corp-flat-free-responsive-mobile-website				      |[live example](https://learning-zone.github.io/website-templates/green-corp-flat-free-responsive-mobile-website/)|				      
 |  118   | greenery													      |[live example](https://learning-zone.github.io/website-templates/greenery/)|													      
@@ -132,15 +132,15 @@
 |  123   | iData-Hosting-Free-Bootstrap-Responsive-Website-Template	      |[live example](https://learning-zone.github.io/website-templates/iData-Hosting-Free-Bootstrap-Responsive-Website-Template/)|	      
 |  124   | interio														      |[live example](https://learning-zone.github.io/website-templates/interio/)|														      
 |  125   | internet-portal												      |[live example](https://learning-zone.github.io/website-templates/internet-portal/)|												      
-|  126   | kavin-corporate-bootstrap-responsive-web-template			      |[live example](https://learning-zone.github.io/website-templates/kavin-corporate-bootstrap-responsive-web-Template/)|			      
+|  126   | kavin-corporate-bootstrap-responsive-web-template			      |[live example](https://learning-zone.github.io/website-templates/kavin-corporate-bootstrap-responsive-web-template/)|			      
 |  127   | lazydays													      |[live example](https://learning-zone.github.io/website-templates/lazydays/)|													      
-|  128   | learn-educational-free-responsive-web-template				      |[live example](https://learning-zone.github.io/website-templates/learn-educational-free-responsive-web-Template/)|				      
+|  128   | learn-educational-free-responsive-web-template				      |[live example](https://learning-zone.github.io/website-templates/learn-educational-free-responsive-web-template/)|				      
 |  129   | line-Free-App-Landing-Page-Responsive-Web-Template			      |[live example](https://learning-zone.github.io/website-templates/line-Free-App-Landing-Page-Responsive-Web-Template/)|			      
 |  130   | medplus-medical												      |[live example](https://learning-zone.github.io/website-templates/medplus-medical/)|												      
 |  131   | metropolis													      |[live example](https://learning-zone.github.io/website-templates/metropolis/)|													      
 |  132   | missunderstood												      |[live example](https://learning-zone.github.io/website-templates/missunderstood/)|												      
 |  133   | my-portfolio-two											      |[live example](https://learning-zone.github.io/website-templates/my-portfolio-two/)|											      
-|  134   | ninja-business-consulting-html-responsive-web-template		      |[live example](https://learning-zone.github.io/website-templates/ninja-business-consulting-html-responsive-web-Template/)|		      
+|  134   | ninja-business-consulting-html-responsive-web-template		      |[live example](https://learning-zone.github.io/website-templates/ninja-business-consulting-html-responsive-web-template/)|		      
 |  135   | one-page-wonder												      |[live example](https://learning-zone.github.io/website-templates/one-page-wonder/)|												      
 |  136   | photo-art													      |[live example](https://learning-zone.github.io/website-templates/photo-art/)|													      
 |  137   | photo-style-two												      |[live example](https://learning-zone.github.io/website-templates/photo-style-two/)|												      
@@ -155,8 +155,8 @@
 |  146   | school-Educational-HTML5-Template							      |[live example](https://learning-zone.github.io/website-templates/school-Educational-HTML5-Template/)|							      
 |  147   | simple-sidebar												      |[live example](https://learning-zone.github.io/website-templates/simple-sidebar/)|												      
 |  148   | sinorca														      |[live example](https://learning-zone.github.io/website-templates/sinorca/)|														      
-|  149   | skytouch-onepage-bootstrap-responsive-web-template			      |[live example](https://learning-zone.github.io/website-templates/skytouch-onepage-bootstrap-responsive-web-Template/)|			      
-|  150   | smart-interior-designs-HTML5-bootstrap-web-template			      |[live example](https://learning-zone.github.io/website-templates/smart-interior-designs-HTML5-bootstrap-web-Template/)|			      
+|  149   | skytouch-onepage-bootstrap-responsive-web-template			      |[live example](https://learning-zone.github.io/website-templates/skytouch-onepage-bootstrap-responsive-web-template/)|			      
+|  150   | smart-interior-designs-HTML5-bootstrap-web-template			      |[live example](https://learning-zone.github.io/website-templates/smart-interior-designs-HTML5-bootstrap-web-template/)|			      
 |  151   | smartapp-free-html5-landing-page							      |[live example](https://learning-zone.github.io/website-templates/smartapp-free-html5-landing-page/)|							      
 |  152   | startbootstrap-agency-1.0.2									      |[live example](https://learning-zone.github.io/website-templates/startbootstrap-agency-1.0.2/)|									      
 |  153   | startbootstrap-clean-blog-1.0.2								      |[live example](https://learning-zone.github.io/website-templates/startbootstrap-clean-blog-1.0.2/)|								      
@@ -166,7 +166,7 @@
 |  157   | startbootstrap-sb-admin-2-1.0.5								      |[live example](https://learning-zone.github.io/website-templates/startbootstrap-sb-admin-2-1.0.5/)|								      
 |  158   | startbootstrap-stylish-portfolio-1.0.2						      |[live example](https://learning-zone.github.io/website-templates/startbootstrap-stylish-portfolio-1.0.2/)|						      
 |  159   | street-life													      |[live example](https://learning-zone.github.io/website-templates/street-life/)|													      
-|  160   | stylish-bootstrap-coming-soon-template						      |[live example](https://learning-zone.github.io/website-templates/stylish-bootstrap-coming-soon-Template/)|						      
+|  160   | stylish-bootstrap-coming-soon-template						      |[live example](https://learning-zone.github.io/website-templates/stylish-bootstrap-coming-soon-template/)|						      
 |  161   | stylish-portfolio											      |[live example](https://learning-zone.github.io/website-templates/stylish-portfolio/)|											      
 |  162   | thin-green-line												      |[live example](https://learning-zone.github.io/website-templates/thin-green-line/)|												      
 |  163   | unique-free-responsive-html5-template						      |[live example](https://learning-zone.github.io/website-templates/unique-free-responsive-html5-template/)|						      
