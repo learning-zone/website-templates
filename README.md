@@ -96,7 +96,7 @@
 |  86   | ace-responsive-coming-soon-template							      |[live example](https://learning-zone.github.io/website-templates/ace-responsive-coming-soon-template/)|							      
 |  87   | alive-Responsive-Coming-Soon-Template						      |[live example](https://learning-zone.github.io/website-templates/alive-Responsive-Coming-Soon-Template/)|						      
 |  88   | atlanta-free-business-bootstrap-template					      |[live example](https://learning-zone.github.io/website-templates/atlanta-free-business-bootstrap-template/)|					      
-|  89   | blazer-responsive-html5-coming-soon-template				      |[live example](https://learning-zone.github.io/website-templates/blazer-responsive-html5-coming-soon-Template/)|				      
+|  89   | blazer-responsive-html5-coming-soon-template				      |[live example](https://learning-zone.github.io/website-templates/blazer-responsive-html5-coming-soon-template/)|				      
 |  90   | brand-html5-app-landing-page-responsive-web-template		      |[live example](https://learning-zone.github.io/website-templates/brand-html5-app-landing-page-responsive-web-template/)|		      
 |  91   | businessr-corporate-bootstrap-responsive-web-template		      |[live example](https://learning-zone.github.io/website-templates/businessr-corporate-bootstrap-responsive-web-template/)|		      
 |  92   | car-care-auto-mobile-html5-bootstrap-web-template			      |[live example](https://learning-zone.github.io/website-templates/car-care-auto-mobile-html5-bootstrap-web-template/)|			      
