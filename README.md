@@ -169,7 +169,7 @@
 |  160   | stylish-bootstrap-coming-soon-template						      |[live example](https://learning-zone.github.io/website-templates/stylish-bootstrap-coming-soon-Template/)|						      
 |  161   | stylish-portfolio											      |[live example](https://learning-zone.github.io/website-templates/stylish-portfolio/)|											      
 |  162   | thin-green-line												      |[live example](https://learning-zone.github.io/website-templates/thin-green-line/)|												      
-|  163   | unique-free-responsive-html5-template						      |[live example](https://learning-zone.github.io/website-templates/unique-free-responsive-html5-Template/)|						      
+|  163   | unique-free-responsive-html5-template						      |[live example](https://learning-zone.github.io/website-templates/unique-free-responsive-html5-template/)|						      
 |  164   | vCare-free-html5-template-hospital-website					      |[live example](https://learning-zone.github.io/website-templates/vCare-free-html5-template-hospital-website/)|					      
 |  165   | vOne-Free-Business-HTML5-Responsive-Website					      |[live example](https://learning-zone.github.io/website-templates/vOne-Free-Business-HTML5-Responsive-Website/)|					      
 |  166   | vTeam-a-Corporate-Multipurpose-Free-Bootstrap-Responsive-template 			          |[live example](https://learning-zone.github.io/website-templates/vTeam-a-Corporate-Multipurpose-Free-Bootstrap-Responsive-template/)| 			          
