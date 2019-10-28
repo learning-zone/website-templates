@@ -49,7 +49,7 @@
 |  39  | Iam-html5-responsive-portfolio-resume-template				      |[live example](https://learning-zone.github.io/website-templates/Iam-html5-responsive-portfolio-resume-template/)|				      
 |  40   | Icon-Real-Estate-Developers-Free-Responsive-HTML-Template	      |[live example](https://learning-zone.github.io/website-templates/Icon-Real-Estate-Developers-Free-Responsive-HTML-Template/)|	      
 |  41   | Ideal-Interior-Design-Free-Bootstrap-Website-Template		      |[live example](https://learning-zone.github.io/website-templates/Ideal-Interior-Design-Free-Bootstrap-Website-Template/)|		      
-|  42   | Indus-free-coming-soon-bootstrap-responsive-template		      |[live example](https://learning-zone.github.io/website-templates/Indus-free-coming-soon-bootstrap-responsive-Template/)|		      
+|  42   | Indus-free-coming-soon-bootstrap-responsive-template		      |[live example](https://learning-zone.github.io/website-templates/Indus-free-coming-soon-bootstrap-responsive-template/)|		      
 |  43   | Insight-Free-Bootstrap-HTML5-Admin-Template					      |[live example](https://learning-zone.github.io/website-templates/Insight-Free-Bootstrap-HTML5-Admin-Template/)|					      
 |  44   | John-Bootstrap-One-Page-HTML5-Free-Resume-Template			      |[live example](https://learning-zone.github.io/website-templates/John-Bootstrap-One-Page-HTML5-Free-Resume-Template/)|			      
 |  45   | Johndoe-Portfolio-Resume-Bootstrap-Template					      |[live example](https://learning-zone.github.io/website-templates/Johndoe-Portfolio-Resume-Bootstrap-Template/)|					      
