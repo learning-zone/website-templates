@@ -1,6 +1,6 @@
 ## HTML5 Website Templates
  
-*click <img src="https://github.com/learning-zone/javascript-interview-questions/blob/master/assets/star.png" width="18" height="18" align="absmiddle" title="star" /> if you like the project. pull request are highly appreciated.*
+*Click <img src="https://github.com/learning-zone/javascript-interview-questions/blob/master/assets/star.png" width="18" height="18" align="absmiddle" title="star" /> if you like the project. pull request are highly appreciated.*
 
 ### Table of contents
 
