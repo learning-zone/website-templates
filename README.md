@@ -24,7 +24,7 @@
 |  14   | Cloud-Hosting-Free-Bootstrap-Responsive-Website-Template	      |[live example](https://learning-zone.github.io/website-templates/Cloud-Hosting-Free-Bootstrap-Responsive-Website-Template/)|	      
 |  15   | Coffee-Shop-Free-HTML5-Template								      |[live example](https://learning-zone.github.io/website-templates/Coffee-Shop-Free-HTML5-Template/)|								      
 |  16   | Creative-Bee-Corporate-Free-HTML5-Web-Template				      |[live example](https://learning-zone.github.io/website-templates/Creative-Bee-Corporate-Free-HTML5-Web-Template/)|				      
-|  17   | Creative-free-responsive-html5-business-template			      |[live example](https://learning-zone.github.io/website-templates/Creative-free-responsive-html5-business-Template/)|			      
+|  17   | Creative-free-responsive-html5-business-template			      |[live example](https://learning-zone.github.io/website-templates/Creative-free-responsive-html5-business-template/)|			      
 |  18   | Delight-Multi-Purpose-Free-HTML5-Website-Template			      |[live example](https://learning-zone.github.io/website-templates/Delight-Multi-Purpose-Free-HTML5-Website-Template/)|			      
 |  19   | Delite-Music-HTML5-Bootstrap-Responsive-web-template		      |[live example](https://learning-zone.github.io/website-templates/Delite-Music-HTML5-Bootstrap-Responsive-web-template/)|		      
 |  20   | Eat-Restaurant-Bootstrap-HTML5-Template						      |[live example](https://learning-zone.github.io/website-templates/Eat-Restaurant-Bootstrap-HTML5-Template/)|						      
