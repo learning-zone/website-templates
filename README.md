@@ -32,7 +32,7 @@
 |  22   | Enlive-Corporate-Free-HTML5-Bootstrap-Web-Template			      |[live example](https://learning-zone.github.io/website-templates/Enlive-Corporate-Free-HTML5-Bootstrap-Web-Template/)|			      
 |  23   | Everest-Corporate-Business-Bootstrap-Template				      |[live example](https://learning-zone.github.io/website-templates/Everest-Corporate-Business-Bootstrap-Template/)|				      
 |  24   | Fit-Healthy-fitness-and-gym-html5-bootstrap-theme			      |[live example](https://learning-zone.github.io/website-templates/Fit-Healthy-fitness-and-gym-html5-bootstrap-theme/)|			      
-|  25   | Fitness-Zone-HTML5-Bootstrap-Responsive-web-template		      |[live example](https://learning-zone.github.io/website-templates/Fitness-Zone-HTML5-Bootstrap-Responsive-web-Template/)|		      
+|  25   | Fitness-Zone-HTML5-Bootstrap-Responsive-web-template		      |[live example](https://learning-zone.github.io/website-templates/Fitness-Zone-HTML5-Bootstrap-Responsive-web-template/)|		      
 |  26   | Foodz-mobile-app-bootstrap-landing-page						      |[live example](https://learning-zone.github.io/website-templates/Foodz-mobile-app-bootstrap-landing-page/)|						      
 |  27   | Frames-Corporate-Bootstrap-Free-HTML5-Template				      |[live example](https://learning-zone.github.io/website-templates/Frames-Corporate-Bootstrap-Free-HTML5-Template/)|				      
 |  28   | Free-Bootstrap-Admin-Template-Dream							      |[live example](https://learning-zone.github.io/website-templates/Free-Bootstrap-Admin-Template-Dream/)|							      
