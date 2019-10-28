@@ -67,7 +67,7 @@
 |  57   | Orange-Coming-Soon-HTML-Responsive-Template					      |[live example](https://learning-zone.github.io/website-templates/Orange-Coming-Soon-HTML-Responsive-Template/)|					      
 |  58   | Park-City-Bootstrap-HTML-Real-Estate-Responsive-Template	      |[live example](https://learning-zone.github.io/website-templates/Park-City-Bootstrap-HTML-Real-Estate-Responsive-Template/)|	      
 |  59   | Real-Estate-Builders-Free-Responsive-Website-Templates-ADesign	  |[live example](https://learning-zone.github.io/website-templates/Real-Estate-Builders-Free-Responsive-Website-Templates-ADesign/)|	  
-|  60   | Relax-Interior-free-bootstrap-responsive-website-template	      |[live example](https://learning-zone.github.io/website-templates/Relax-Interior-free-bootstrap-responsive-website-Template/)|	      
+|  60   | Relax-Interior-free-bootstrap-responsive-website-template	      |[live example](https://learning-zone.github.io/website-templates/Relax-Interior-free-bootstrap-responsive-website-template/)|	      
 |  61   | Retro-Free-Consulting-Responsive-HTML5-Website-Template		      |[live example](https://learning-zone.github.io/website-templates/Retro-Free-Consulting-Responsive-HTML5-Website-Template/)|		      
 |  62   | Rider-Free-Multi-Purpose-Bootstrap-Template					      |[live example](https://learning-zone.github.io/website-templates/Rider-Free-Multi-Purpose-Bootstrap-Template/)|					      
 |  63   | Rocket-Business-bootstrap-free-responsive-web-theme			      |[live example](https://learning-zone.github.io/website-templates/Rocket-Business-bootstrap-free-responsive-web-theme/)|			      
