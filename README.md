@@ -71,7 +71,7 @@
 |  61   | Retro-Free-Consulting-Responsive-HTML5-Website-Template		      |[live example](https://learning-zone.github.io/website-templates/Retro-Free-Consulting-Responsive-HTML5-Website-Template/)|		      
 |  62   | Rider-Free-Multi-Purpose-Bootstrap-Template					      |[live example](https://learning-zone.github.io/website-templates/Rider-Free-Multi-Purpose-Bootstrap-Template/)|					      
 |  63   | Rocket-Business-bootstrap-free-responsive-web-theme			      |[live example](https://learning-zone.github.io/website-templates/Rocket-Business-bootstrap-free-responsive-web-theme/)|			      
-|  64   | Simply-bootstrap-coming-soon-template						      |[live example](https://learning-zone.github.io/website-templates/Simply-bootstrap-coming-soon-Template/)|						      
+|  64   | Simply-bootstrap-coming-soon-template						      |[live example](https://learning-zone.github.io/website-templates/Simply-bootstrap-coming-soon-template/)|						      
 |  65   | Speed-Hosting-Bootstrap-Free-HTML5-Template					      |[live example](https://learning-zone.github.io/website-templates/Speed-Hosting-Bootstrap-Free-HTML5-Template/)|					      
 |  66   | StyleInn-Bootstrap-Interior-Design-Website-Template			      |[live example](https://learning-zone.github.io/website-templates/StyleInn-Bootstrap-Interior-Design-Website-Template/)|			      
 |  67   | Swifty-Business-HTML5-Website-Template						      |[live example](https://learning-zone.github.io/website-templates/Swifty-Business-HTML5-Website-Template/)|						      
