@@ -81,7 +81,7 @@
 |  71   | TechKing-Free-HTML5-Template-for-Corporate-Business			      |[live example](https://learning-zone.github.io/website-templates/TechKing-Free-HTML5-Template-for-Corporate-Business/)|			      
 |  72   | Techro														      |[live example](https://learning-zone.github.io/website-templates/Techro/)|														      
 |  73   | The-Best-Wedding-Free-Bootstrap-Template					      |[live example](https://learning-zone.github.io/website-templates/The-Best-Wedding-Free-Bootstrap-Template/)|					      
-|  74   | Themer-bootstrap-responsive-web-template					      |[live example](https://learning-zone.github.io/website-templates/Themer-bootstrap-responsive-web-Template/)|					      
+|  74   | Themer-bootstrap-responsive-web-template					      |[live example](https://learning-zone.github.io/website-templates/Themer-bootstrap-responsive-web-template/)|					      
 |  75   | Times-Corporate-Portfolio-Bootstrap-Responsive-web-template	      |[live example](https://learning-zone.github.io/website-templates/Times-Corporate-Portfolio-Bootstrap-Responsive-web-Template/)|	      
 |  76   | Touch-Hospital-Medical-Bootstrap-HTML5-Template				      |[live example](https://learning-zone.github.io/website-templates/Touch-Hospital-Medical-Bootstrap-HTML5-Template/)|				      
 |  77   | Traveller-Bootstrap-Responsive-Web-Template					      |[live example](https://learning-zone.github.io/website-templates/Traveller-Bootstrap-Responsive-Web-Template/)|					      
