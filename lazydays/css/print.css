@@ -1,0 +1,63 @@
+/**************************************************************
+   AUTHOR:  Pat Heard (fullahead.org)
+   DATE:    2006.03.19
+   PURPOSE: Styles the page for print.  Techniques adopted from
+            http://www.alistapart.com/articles/goingtoprint/
+ **************************************************************/
+
+body {
+  font: 400 12pt verdana, arial, sans-serif;
+  color: #000;
+  background: #FFF;
+}
+
+h1 {
+  margin-top: 30px;
+  font-size: 18pt;
+  border-bottom: 1px solid #999;
+}
+
+h2 {
+  font-size: 16pt;
+}
+
+h3 {
+  font-size: 14pt;
+}
+
+h4, h5, h6 {
+  font-size: 12pt;
+}
+
+acronym {
+  border: 0;
+}
+
+a {
+  color: #00F;
+}
+
+/* Prints the URL after a link in CSS2 supporting browsers */
+a:link:after, 
+a:visited:after {
+   content: " (" attr(href) ") ";
+   font-size: 90%;
+}
+
+
+/* Don't display these elements since they're not useful on paper */
+#header,
+#mainMenu,
+.sideMenu,
+#footer {
+  display: none;
+}
+
+#content {
+  width: auto;
+  margin: 0 8%;
+  padding: 0;
+}
+
+
+

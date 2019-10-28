@@ -1,0 +1,252 @@
+/**************************************************************
+   AUTHOR:  Pat Heard (fullahead.org)
+   DATE:    2006.03.19
+   PURPOSE: Styles the html elements
+ **************************************************************/
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+  font: 400 0.8em verdana, arial, sans-serif;
+  line-height: 170%;
+
+  background: #666 url(../images/bg/header.jpg) repeat-x top left;
+  color: #EEE;
+}
+
+h1 {   
+  clear: both;
+  font: 700 2.5em "trebuchet ms", serif;
+  color: #FFF;
+}
+
+h2 {
+  font: 400 1.5em "trebuchet ms", serif;
+  color: #9FF3FF;
+}
+
+h2 a {
+  color: #29E3FF;
+}
+
+h2 a:hover {
+  color: #FFF;
+}
+
+h3 {
+  font: 400 1.3em "trebuchet ms", serif;
+  color: #F8D766;
+}
+
+h4 {
+  font: 700 1.2em "trebuchet ms", serif;
+  color: #F39F01;
+}
+
+h5 {
+  font: 700 1.1em "trebuchet ms", serif;
+  color: #F17400;
+}
+
+h6 {
+  font: 700 1em "trebuchet ms", serif;
+  color: #FF4B33;
+}
+
+
+h1, h2, h3, h4, h5, h6, p, dl {
+  margin: 0;
+  padding: 10px 15px;
+}
+
+/* Done so the leftmost column aligns properly with the header.
+   If the leftmost column has class gradient applied to it, 
+   this class isn't required. */
+.leftColumn h1,
+.leftColumn h2, 
+.leftColumn h3,
+.leftColumn h4,
+.leftColumn h5,
+.leftColumn h6,
+.leftColumn p,
+.leftColumn dl {
+  padding-left: 0;
+}
+
+a {
+  color: #8BE6FA;
+}
+
+/* Uncomment this if you would like a visited link style 
+a:visited {
+  text-decoration: line-through;
+} */
+
+a:hover {
+  color: #FFF;
+}
+
+b {
+  color: #FFF;
+}
+
+ol, ul {
+  margin: 10px 30px;
+  padding: 0 30px;
+}
+
+ol {
+  color: #FC0;
+}
+
+ol span {
+  color: #EEE;
+}
+
+ul {
+  list-style-image: url(../images/bg/bullet.gif);
+}
+
+del {
+  color: #AAA;
+}
+
+code {
+  margin: 10px 15px;
+  padding: 10px;
+  display: block;
+  overflow: auto;
+  
+  font: 400 1em courier, monospace;
+  line-height: 120%;
+  white-space: pre;
+  
+  background: #444;
+}
+
+.leftColumn code {
+  margin-left: 0;
+}
+
+acronym {
+  cursor: help;
+  border-bottom: 1px solid #777;
+}
+
+dt {
+  font-weight: bold;
+  color: #FFB323;
+}
+
+dd {
+  margin-left: 0;
+  padding-left: 45px; 
+}
+
+
+
+
+/**************************************************************
+   Form Elements
+ **************************************************************/
+
+label {
+  display: block;
+}
+
+input,
+textarea,
+select {
+  padding: 2px;
+  font: 400 1em verdana, sans-serif;
+  color: #444;
+  background: #EEE;
+  border: 1px solid #444;
+}
+
+input:focus,
+input:hover,
+textarea:focus,
+textarea:hover,
+select:focus,
+select:hover {
+  color: #000;
+  background: #E4F7FA;
+  border: 1px solid #00DFFF;
+}
+
+input.button {
+  padding: 2px 5px;
+
+  font: 400 1.1em "trebuchet ms", serif;
+
+  color: #555;
+  background: #9FF3FF;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #FFF #00DFFF #00DFFF #FFF;
+}
+
+
+
+
+
+/**************************************************************
+   Blockquote and included icons
+ **************************************************************/
+
+blockquote {
+  margin: 10px 15px;
+  padding-left: 27px;
+  
+  background-color: #444;  
+  background-image: url(../images/icons/quote.gif);
+  background-repeat: no-repeat;
+  background-position: 5px 50%;  
+}
+
+blockquote.exclamation {
+  background-image: url(../images/icons/exclamation.gif);
+}
+
+blockquote.stop {
+  background-image: url(../images/icons/stop.gif);
+}
+
+blockquote.go {
+  background-image: url(../images/icons/go.gif);
+}
+
+
+
+
+
+/**************************************************************
+   Images
+ **************************************************************/
+
+img.floatRight {
+  margin: 5px 0px 10px 15px;  
+}
+
+img.floatLeft {
+  margin: 5px 15px 10px 0px;
+}
+
+a img {  
+  border: 2px solid #8BE6FA;
+}
+
+a:hover img {  
+  /* Fixes IE bug - IE doesn't correctly apply the style on a:hover so need to mask it */
+  border: 2px solid #FFF !important;
+  border: 2px solid #8BE6FA;
+}

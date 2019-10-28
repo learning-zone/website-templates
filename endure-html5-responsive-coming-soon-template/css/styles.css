@@ -1,0 +1,324 @@
+/*
+Author: WebThemez
+Author URL: http://webthemez.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+*/
+@import url(http://fonts.googleapis.com/css?family=Economica:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lobster+Two:700);
+body {
+	color:#FFF; 
+	font-family: 'Economica', sans-serif;
+	min-width:960px;
+	top:0;
+	left:0;
+	position:absolute;
+	height:100%;
+	width:100%;
+	margin:0;
+	background-color: #46a5e0;
+}
+.ie body {
+	filter: dropshadow(color=#000000, offx=0, offy=1);	
+}
+h1 {
+	font-size:68px;
+	letter-spacing:-2px;  
+	text-align:center; 
+	padding-top:30px;
+	font-weight:700;
+	font-family: 'Lobster Two', cursive;
+	text-shadow: 2px 2px rgba(12, 11, 11, 0.56);
+}
+.ie h1 {
+	filter: dropshadow(color=#000000, offx=0, offy=3);
+	padding-bottom:12px;	
+} 
+.ie h2 {
+	filter: dropshadow(color=#000000, offx=0, offy=3);
+}
+h3 {
+	font-size:25px;
+	margin:0.2em 0; 
+}
+.ie h3 {
+	filter: dropshadow(color=#000000, offx=0, offy=3);
+}
+h4 {
+	margin-bottom:5px;	
+}
+p, pre {
+	margin:0 0 10px 0; 
+}
+code {
+	text-transform:uppercase !important;
+	color:#EEE;	
+	border-bottom:1px dotted #666;
+}
+small {
+	background:url(../images/alpha.png);
+	background:rgba(0, 0, 0, 0.8) url();	
+	border:1px solid #111;
+	font-size:15px;
+	padding:0 5px;
+}
+a {
+	color: rgba(255, 255, 255, 0.57);
+	text-decoration:none;	
+}
+a:hover {
+	color:#BBB;	
+} 
+#Header {
+margin-bottom: 62px;
+position: relative;
+width: 100%;
+height: 110px;
+line-height: 110px;
+z-index: 1;
+}
+.wrapper {
+margin: 0 auto;
+position: relative;
+width: 920px;
+z-index: 1;
+}
+#socialIcons {
+display:block;
+}
+#socialIcons ul {
+margin: 21px 0 0; 
+padding:0px;
+text-align: center;
+}
+#socialIcons ul li {
+margin-right: 5px;
+height: 34px;
+line-height: 34px;
+list-style-type: none;
+display: inline-block; 
+}
+#socialIcons ul li a{
+width:34px;
+height:34px; 
+display: inline-block;
+}
+.twitterIcon, .facebookIcon, .linkedInIcon, .pintrestIcon{
+background: url('../images/social-icons.png') -74px 0px;
+}
+.facebookIcon{
+background-position: 10px 0px;
+}
+.linkedInIcon{
+background-position: -245px 0px;
+}
+.pintrestIcon{
+background-position: -331px 0px;
+}
+.tempBy{
+display:block;
+text-align:center;
+margin-top:40px;
+}
+#Content h2 {
+display: block !important;
+/* margin: 30px 0 80px; */
+padding: 0px;
+text-align: center;
+font-size: 27px; 
+font-weight: 300;
+color: #fff;
+line-height: 42px;
+padding: 30px 0 40px;
+}
+#WindowSlide {
+margin: 0 auto;
+position: relative;
+width: 634px;
+height: 170px;
+display: block;
+overflow: hidden;
+}
+#Mail {
+position: absolute;
+width: 634px;
+top: 0px;
+left: 0px;
+}
+#Content h3 {
+text-align: center;
+font-size: 20px;
+font-weight: normal;
+display: block;
+clear: both;
+}
+
+#subscribe p{
+text-align:center;
+}
+#subscribe input {
+background: rgba(255, 255, 255, 0.52);
+color: #000; 
+vertical-align: middle;
+width: 293px;
+border: 1px solid rgba(255, 255, 255, 0.76);
+padding: 0 10px;
+height: 40px;
+}
+#subscribe input[type="button"]{
+background: rgba(255, 255, 255, 1);
+width: auto;
+padding: 0px 25px;
+cursor: pointer;
+margin-left: -5px;
+font-weight: bold; 
+height: 42px;
+display: inline-block;
+}
+
+
+.callback,
+.simple {
+  font-size: 20px;
+  background: #27ae60;
+  padding: 0.5em 0.7em;
+  color: #ecf0f1;
+  margin-bottom: 50px;
+  -webkit-transition: background 0.5s ease-out;
+  transition: background 0.5s ease-out;
+}
+.callback{
+  cursor: pointer;
+}
+.ended {
+  background: #c0392b;
+}
+.countdown {
+text-align:center;
+}
+
+.intro{
+font-size:22px;
+font-weight:normal;
+margin-bottom:30px;
+text-align:center;
+}
+h2.intro{
+display: block !important;
+}
+.styled{
+  margin: 100px 0 98px;
+  display: block;
+}
+.styled div {
+display: inline-block;
+font-size: 75px;
+font-weight: 900;
+text-align: center;
+margin: 0 8px;
+width: 100px; 
+height: 58px;
+background: rgba(255, 255, 255, 1);
+text-shadow: none;
+vertical-align: middle; 
+border: 1px solid rgba(255, 255, 255, 0.58);
+border-radius: 10px;
+padding: 20px 24px 55px; 
+position: relative;
+color: #8e8e8e;
+box-shadow: 0px 6px 2px;
+background: #ffffff; /* Old browsers */  background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* FF3.6+ */  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed)); /* Chrome,Safari4+ */  background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Chrome10+,Safari5.1+ */  background: -o-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Opera 11.10+ */  background: -ms-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* IE10+ */  background: linear-gradient(to bottom,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* W3C */  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */;
+}
+.styled div:last-child{
+}
+#overlay{ 
+background: rgba(0, 0, 0, 0.04) url(../images/overlays/06.png) top left repeat;
+background:rgba(0, 0, 0, 0.14);
+position: fixed;
+top: 0px;
+width: 100%;
+bottom: 0px;
+opacity:0.8;
+}
+/* IE7 inline-block hack */
+*+html .styled div{
+  display: inline;
+  zoom: 1;
+}
+.styled div:first-child {
+  margin-left: 0;
+}
+.styled div span {
+display: block;
+padding-top: 3px;
+font-size: 24px;
+font-weight: 400;
+text-align: center;
+text-transform: capitalize;
+font-weight: bold;
+position: absolute;
+bottom: -41px;
+right: 0px;
+left: 0px;
+color: #fff;
+}
+footer{
+width:100%;
+height:30px;
+background:rgba(0, 0, 0, 0.64);
+position:absolute;
+bottom:0px;
+}
+footer span{
+float:right;
+margin:10px;
+}
+.footer {
+  background-color: #235979;
+  padding: 60px 0 40px;
+  border-top: #fff 4px solid;
+  margin-top: 40px;
+}
+@media(max-width:768px){
+	body {
+	min-width: initial !important;
+	}
+	.wrapper{width:100%;}
+	.styled div {
+	  margin-bottom:10px; 
+	}
+}
+@media(max-width:420px){
+	h1{
+	float:initial;
+	text-align: center;
+	margin-left:0px;
+	margin-bottom:0px;
+	}
+	.styled div {
+	  font-size: 40px;
+	  font-weight: normal; 
+	  text-align: center;    
+	}
+	#Content h2 {
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 30px;
+	padding-bottom: 34px;
+}
+	.styled {
+	margin-bottom: 30px;
+	}
+	#subscribe input[type="button"]{
+	margin-top:10px;
+	}
+	#subscribe input{
+	width:80%;
+	}
+	footer{
+	position:relative !important;
+	}
+}

@@ -1,0 +1,223 @@
+<!--
+ ____________________________________________________________
+|                                                            |
+|    DESIGN + Pat Heard { http://fullahead.org }             |
+|      DATE + 2006.03.19                                     |
+| COPYRIGHT + Free use if this notice is left in place       |
+|____________________________________________________________|
+
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-AU">
+
+<head>
+
+
+  <title>lazy days ( print )</title>
+
+  <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+  <meta name="author" content="fullahead.org" />
+  <meta name="keywords" content="Open Web Design, OWD, Free Web Template, Lazy Days, Fullahead" />
+  <meta name="description" content="A free web template designed by Fullahead.org and hosted on OpenWebDesign.org" />
+  <meta name="robots" content="index, follow, noarchive" />
+  <meta name="googlebot" content="noarchive" />
+
+  <link rel="stylesheet" type="text/css" href="css/print.css" media="screen" />
+
+</head>
+
+
+<body>
+
+<!-- CONTENT: Holds all site content except for the footer.  This is what causes the footer to stick to the bottom -->
+<div id="content">
+
+
+
+  <!-- HEADER: Holds title, subtitle and header images -->
+  <div id="header">
+
+    <div id="title">
+      <h1>Lazy Days</h1>
+      <h2>in the city</h2>
+    </div>
+
+    <img src="images/bg/balloons.gif" alt="balloons" class="balloons" />
+    <img src="images/bg/header_left.jpg" alt="left slice" class="left" />
+    <img src="images/bg/header_right.jpg" alt="right slice" class="right" />
+
+  </div>
+
+
+
+  <!-- MAIN MENU: Top horizontal menu of the site.  Use class="here" to turn the current page tab on -->
+  <div id="mainMenu">
+    <ul class="floatRight">
+      <li><a href="index.html" title="Introduction">Intro</a></li>
+      <li><a href="help.html" title="Learn how to use the template">Help</a></li>
+      <li><a href="tags.html" title="View the styled tags">Tags</a></li>
+      <li><a href="print.html" title="View the print layout" class="here">Print</a></li>
+      <li><a href="http://fullahead.org/contact.html" title="Get in touch" class="last">Mail</a></li>
+    </ul>
+  </div>
+
+
+
+
+  <!-- PAGE CONTENT BEGINS: This is where you would define the columns (number, width and alignment) -->
+  <div id="page">
+
+
+    <!-- 25 percent width column, aligned to the left -->
+    <div class="width25 floatLeft leftColumn">
+
+      <h1>Print</h1>
+
+      <ul class="sideMenu">
+        <li class="here">
+          Dynamic Template
+          <ul>
+            <li><a href="#fluidity" title="Jump to section">Book of Fluidity</a></li>
+            <li><a href="#coding" title="Jump to section">Coding</a></li>
+          </ul>
+        </li>
+        <li><a href="http://fullahead.org" title="Goto Fullahead">Fullahead</a></li>
+        <li><a href="http://threetree.net" title="Goto Threetree">ThreeTree</a></li>
+      </ul>
+
+      <p>
+        This sidebar can be used to jump to sections within the page, or other sub pages of the active tab.
+      </p>
+
+      <p>
+        Using this approach, you shouldn't need breadcrumbs since you've provided your visitor with a <b>visual cue</b> to where they are in the site.
+      </p>
+
+      <p>
+        To <b>learn more</b> about how to use this template, follow the <a href="help.html" title="View help">help</a> link.  You can also see the styled <a href="tags.html" title="View tags">tags</a> and the <a href="print.html" title="View print layout">print</a> layout version.
+      </p>
+
+    </div>
+
+
+
+
+    <!-- 75 percent width column, aligned to the right -->
+    <div class="width75 floatRight">
+
+
+      <!-- Gives the gradient block -->
+      <div class="gradient">
+
+        <a name="fluidity"></a>
+
+        <h1>Print Layout Demo</h1>
+        <h2>This page shows how a page from this template looks printed</h2>
+
+        <p>
+          This template quickly and easily allows for one, two, three or even four column layouts.  This is done with simple <acronym title="Cascading Style Sheet">CSS</acronym> classes that can be used over and over again.  To learn more about it, follow <a href="help.html" title="View help">this link</a>.  The template itself is valid <acronym title="eXtensible Hypertext Markup Language">XTHML</acronym> 1.0 strict and <i>almost</i> valid CSS.  The almost is added in there because CSS expressions were used.  You can read more about that <a href="#expressions" title="Read about CSS expressions">here</a>.
+        </p>
+
+        <blockquote class="go">
+          <p>
+            This template doesn't use fixed columns.  With a few simple CSS classes you can quickly change the appearance.  <a href="help.html" title="View help">Click here</a> to learn how.
+          </p>
+        </blockquote>
+
+        <p>
+          Since this template is fluid width and the font sizes are defined relatively, you can change font size without breaking the layout.  The fluid width also means that people with higher resolutions aren't constrained.
+        </p>
+
+        <p>
+          Total size of the images used is just under 25 <acronym title="kilobytes">kb</acronym>, so that's good news to all the dial-up users.  The code behind the template is semantically written which means that it is widely supported.  As for the browsers, it displays consistently in the usual suspects:
+        </p>
+
+
+        <ul>
+          <li><b>Firefox</b> of course</li>
+          <li><b>Opera</b> sure, why not</li>
+          <li><b>Netscape</b> like firefox's less attractive cousin at the dance</li>
+          <li><b>Internet Explorer</b> ...</li>
+          <li><b>Safari</b> cause macs are computers too</li>
+        </ul>
+
+      </div>
+
+
+
+
+
+      <div class="gradient">
+
+        <a name="coding"></a>
+
+        <h1>Coding</h1>
+        <h2>Image Alignment and The Header</h2>
+
+        <p>
+          <a href="http://www.mozilla.com/firefox/" title="Get Firefox"><img src="images/firefox.jpg" alt="pic" class="floatLeft"/></a>
+          Images are fully supported using the <i>floatLeft</i> and <i>floatRight</i> classes.  Just apply one of them to the image you want to position.  Images that have link tags around them will also have a nifty rollover effect, as long as you're using a standards complients browser.  If you're not, well then no rollover effect for you.
+        </p>
+
+        <p>
+          The site header images are <a href="images/bg/header_left.jpg" title="View slice one">two</a> <a href="images/bg/header_right.jpg" title="View slice two">slices</a> and a repeated background.  Using the same approach, and a little bit of photoshop, you should be able to easily replace them.  However, since they were created by me, you're welcome to use them in any projects you might like.
+        </p>
+
+        <h2>The Footer</h2>
+        <p>
+          A variation on the <a href="http://www.themaninblue.com/experiment/footerStickAlt/" title="View footerStickAlt code">footerStickAlt</a> technique is used to force the site footer to the bottom of the page if there isn't enough content to push it down.  This means your template will always look tidy and you won't have to worry about a lonely footer, hanging out halfway up your page.
+        </p>
+
+        <a name="expressions"></a>
+
+        <h2>Readability using Maximum Width</h2>
+        <p>
+          To improve readability of this template (since it is fluid), the width is capped at 1000 pixels.  This seems like a pretty reasonable thing to do and that's why CSS has thoughtfully included the max-width property.  Unfortunately, IE decided it didn't need no stinkin' max-width, so a CSS expression was needed.
+        </p>
+
+        <blockquote class="exclamation">
+          <p>
+            A CSS expression is like a snippet of javascript code that runs in your style sheet.  It's invalid CSS, but only IE pays any attention to it.
+          </p>
+        </blockquote>
+
+        <p>
+          If you're concerned about having valid CSS, take out the expression.  It won't ruin the template in IE, it just means that the content will expand to 100% of the screen width.  All other browsers will behave.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- FOOTER: Site footer for links, copyright, etc. -->
+<div id="footer">
+
+  <div id="width">
+    <span class="floatLeft">
+      design <a href="http://fullahead.org" title="Goto Fullahead">Fullahead</a> <span class="grey">|</span>
+      valid <a href="http://validator.w3.org/check?uri=referer" title="Validate XHTML">XHTML</a> <span class="grey">|</span>
+      should be valid <a href="http://jigsaw.w3.org/css-validator" title="Validate CSS">CSS</a>
+    </span>
+
+    <span class="floatRight">
+      <a href="index.html" title="Introduction">intro</a> <span class="grey">|</span>
+      <a href="help.html" title="Learn how to use the template">help</a> <span class="grey">|</span>
+      <a href="tags.html" title="View the styled tags">tags</a> <span class="grey">|</span>
+      <a href="print.html" title="View the print layout">print</a> <span class="grey">|</span>
+      <a href="http://fullahead.org/contact.html" title="Get in touch">mail</a>
+    </span>
+  </div>
+
+</div>
+
+</body>
+
+</html>

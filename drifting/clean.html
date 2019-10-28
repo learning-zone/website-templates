@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-AU">
+<head>
+  <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+  <meta name="author" content="pat" />
+  <meta name="keywords" content="site, keywords, here" />
+  <meta name="description" content="site description here" />
+  <title>drifting v1.0</title>
+
+  <link rel="stylesheet" type="text/css" href="css/drifting_screen.css" media="screen, tv, projection" />
+  <link rel="stylesheet" type="text/css" href="css/drifting_print.css" media="print" />
+</head>
+
+<body>
+
+<!-- Layout container starts -->
+<div id="layoutBox">
+
+  <!-- HEADER: controls the header layout, images, title and subTitle. -->
+  <div id="headerBox">
+    <div id="headerLeftBox">
+      <span class="title">
+        drifting v1.0
+      </span>
+      <br />
+      <span class="subTitle">
+        because shovelling hurts
+      </span>
+    </div>
+    <div id="headerRightBox">
+      &nbsp;
+    </div>
+  </div>
+
+  <!-- MENU: include as many submenus as you want.  Menu groups should begin with a
+       <h1> and then all menu links need to be defined in a <div class="menuGroup">.
+       The <span class="noDisplay"> | </span> after each link only needs to be included
+       if this site will be loaded in a text only browser -->
+  <div id="menuBox">
+    <h1>
+      menu 1
+    </h1>
+    <div class="menuGroup">
+      <a href="clean.html" title="menu item"><img src="images/menu_icon.gif" alt="menu item 1" /> item 1</a><span class="noDisplay"> | </span>
+      <a href="clean.html" title="menu item"><img src="images/menu_icon.gif" alt="menu item 2" /> item 2</a><span class="noDisplay"> | </span>
+      <a href="clean.html" title="menu item"><img src="images/menu_icon.gif" alt="menu item 3" /> item 3</a><span class="noDisplay"> | </span>
+      <a href="clean.html" title="menu item"><img src="images/menu_icon.gif" alt="menu item 4" /> item 4</a><span class="noDisplay"> | </span>
+    </div>
+
+    <h1>
+      menu 2
+    </h1>
+    <div class="menuGroup">
+      <a href="clean.html" title="menu item"><img src="images/menu_icon.gif" alt="menu item 1" /> item 1</a><span class="noDisplay"> | </span>
+      <a href="clean.html" title="menu item"><img src="images/menu_icon.gif" alt="menu item 2" /> item 2</a><span class="noDisplay"> | </span>
+      <a href="clean.html" title="menu item"><img src="images/menu_icon.gif" alt="menu item 3" /> item 3</a><span class="noDisplay"> | </span>
+      <a href="clean.html" title="menu item"><img src="images/menu_icon.gif" alt="menu item 4" /> item 4</a><span class="noDisplay"> | </span>
+    </div>
+
+    <!-- NEWS: define news chunks in <p> and use <h2> for the date/title -->
+    <h1>
+      news
+    </h1>
+    <div class="newsGroup">
+      <h2>news heading</h2>
+      <p>
+        news item
+      </p>
+    </div>
+
+    <!-- MENU FOOTER: could include a site search field here -->
+    <div class="menuFooter">
+	  &nbsp;
+    </div>
+
+  </div>
+
+  <!-- MAIN CONTENT : to add new headings, include a <h1> and then as many <p> blocks
+       as you'd like.  <h2> will create subheadings. To finish a section, include a
+       <br/> to clearly define it. -->
+  <div id="mainContent">
+
+    <h1>section 1</h1>
+    <p>
+      Content here.
+    </p>
+
+    <h1>section 2</h1>
+    <h2>sub section 1</h2>
+
+    <p>
+      More content here.
+    </p>
+
+
+    <h2>seb section 2</h2>
+    <p>
+      Even more content here.
+    </p>
+    <br />
+
+    <!-- FOOTER: whatever you want in here - maybe a last updated or breadcrumb? -->
+    <div class="footer">
+      valid <a href="http://validator.w3.org/check/referer" title="validate markup">XHTML</a> / <a href="http://jigsaw.w3.org/css-validator/check/referer" title="validate CSS">CSS</a> <br />
+      last updated / copyright here | design by <a href="http://openwebdesign.org/userinfo.phtml?user=snop" title="OWD profile / contact">snop</a>
+    </div>
+  </div>
+
+  <!-- BUG FIX: This corrects another IE rendering bug....  You notice it only when the menu container length is
+       greater than the main content container.  Without this, when an a:hover is triggered in the main container,
+       IE reflows the page and cuts off the menu at the bottom of the main container. -->
+  <div class="spacer">
+  </div>
+
+</div>
+<!-- Layout container ends -->
+
+</body>
+</html>

@@ -1,0 +1,463 @@
+/**
+ * Design. (c) Jason Earl, 2005, Virtual Function
+ *
+ * "tableless" design known to work (and tested) on Mozilla, and IE 6.
+ * Should also work KHTML (Konqueror and Safari)
+ */
+
+
+/* -----------------------------------------------------------
+						Generic
+----------------------------------------------------------- */
+
+body {
+	background: #9BB2CA url('images/back.gif');
+	margin: 0;
+	padding: 0;
+	font-size: 11px;
+	font-family: Verdana, sans-serif;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+	color: #163477;
+}
+
+a:hover {
+	border-bottom: #bdf 1px solid;
+}
+
+.pageWrapper {
+	margin: 0 10%;
+	width: auto;
+	min-width: 620px;
+}
+
+/** Uncomment below for liquid width (expands and contracts with brwoser window width 
+*/
+.pageWrapper {
+	margin: 0 auto;
+	width: 730px;
+	min-width: 620px;
+}
+
+
+/* extension to page wrapper */
+#main {
+	border-right: #FFF 2px solid;
+	border-left: #FFF 2px solid;
+	/* IE Hack. Set this to right colour for now */
+	background: #E5EDF1;
+}
+
+div#bodyWrap {
+	background: url('images/back_top.jpg') repeat-x;
+}
+
+div#bodyWrap {
+	width: auto;
+	min-width: 770px;
+	height: 432px;
+}
+
+img.product, 
+.product img {
+	border: 1px solid #225F82;
+	margin: 12px 8px 4px 8px;
+}
+
+.content .product {
+	text-align: center;
+}
+
+.subBarInner p {
+	margin: 8px 8px 2px 8px;
+	padding: 0;
+}
+
+.product {
+	font-weight: bold;
+	color: #0B70CE ! important;
+}
+
+div.wide3 {
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+
+input[type=text],
+input[type=button],
+input[type=submit],
+select,
+textarea
+{
+	background: #F6F9FB;
+	border: 1px solid #225F82;
+}
+
+/* -----------------------------------------------------------
+					Headers ( h* style )
+----------------------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+	margin: 8px 16px;
+	font-size: 14px;
+	font-weight: normal;
+	letter-spacing: 0.08em;
+}
+
+h1 {
+	font-size: 18px;
+	color: #164677;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #4C95D6;
+}
+
+h1 span {
+	float: right;
+	color: #69839B;
+}
+
+/* -----------------------------------------------------------
+					View Controllers
+----------------------------------------------------------- */
+
+.clear {
+	clear: both;
+}
+
+.hide, #oldBrowserNotice, 
+.ieSixCharDupBug {
+	display: none;
+}
+
+/* -----------------------------------------------------------
+					Page Header(s) and Footer
+----------------------------------------------------------- */
+
+#header {
+	height: 146px;
+	margin-right: -2px; /* Box model adjustment */
+}
+
+#header #logo {
+	width: 223px;
+	float: left;
+	background: url('images/logo.gif') no-repeat #FFF;
+	margin: 0 -3px;
+	height: 146px;
+	position: absolute;
+	z-index: 100;
+}
+
+#header #logo h1 {
+	display: none;
+}
+
+#heading .head {
+	height: 78px;
+	background: url('images/header.jpg') no-repeat right top #FFF;
+	border-right: 2px solid #fff;
+	position: relative;
+	margin-right: -2px;
+}
+
+* html #heading .head {
+  margin-right: -4px; /* Extra 2px due to IE Box model */
+}
+
+#heading .top, 
+#heading .sub {
+	color: #FFF;
+	margin: 10px 10px 0 0;
+	float: right;
+	width: 370px;
+	text-align: right;
+	height: 22px;
+}
+
+#heading a:link,
+#heading a:visited {
+	color: #FFF;
+	margin-left: 32px;
+}
+
+#heading a:hover {
+	border-bottom: #7487A1 4px solid;
+}
+
+#heading .sub {
+	clear: right;
+}
+
+#footer {
+	position: relative;	/* IE fix */
+	padding: 4px 24px;
+	color: #249;
+	background: url('images/bg5.gif');
+}
+
+/* -----------------------------------------------------------
+						Layout Controls
+----------------------------------------------------------- */
+
+/* --------------------- Common to both -------------------- */
+
+#mainInner,
+div.subBarInner,
+div.subTitleInner {
+	z-index: 2;
+	width: 100%;
+	border-right: #FFF 2px solid;
+
+}
+
+div.content {
+	border-width: 0;	/* Fix print/v4 borders issue */
+}
+
+#mainOuter div.left,
+#mainOuter div.right,
+#mainOuter div.content,
+div.subBarInner div.content,
+div.subBarInner div.right,
+div.subTitleInner div.content,
+div.subTitleInner div.right {
+	/* For Sub elements of #mainOuter AND div.subBarInner */
+	float: left;
+	position: relative;
+	z-index: 10;
+	overflow: visible;	/* fix for IE italics bug */
+}
+
+/* --------------------- The Sub Bar Piece -------------------- */
+
+div.subBarOuter,
+div.subTitleOuter {
+	z-index: 1;
+	border-style: solid;
+	border-color: #E5EDF1;
+	border-width: 0;
+}
+
+div.subBarInner div.right,
+div.subTitleInner div.right {
+	float: right;
+	width: 20em;
+	margin: 0 -20em 0 1px;
+}
+
+div.subBarInner div.content,
+div.subTitleInner div.content {
+	margin: 0 -1px; /* Ensure floating */
+	width: 100%;
+}
+
+/* --------------------- The Main Bar Piece -------------------- */
+
+#mainOuter {
+	z-index: 1;
+	border-left: 16em #E6EEF0 solid;
+	border-right: 8px #0B70CE solid;
+}
+
+#mainInner {
+	border-left: 2px solid #FFF;
+	background: #F0F3F2;
+}
+
+#mainOuter .content {
+	margin: 0 -1px;	/* Ensure floating */
+	width: 100%;
+}
+
+#mainOuter .right {
+	/* Not used for now */
+	float: right; 			/* Possiblity for NN4 layout */
+	width: 15em;
+	margin: 0 -15em 0 1px;	/* Column position */
+}
+
+#mainOuter .left {
+	width: 16em;
+	margin: 0 1px 0 -16em;	/* Column position */
+}
+
+/* -----------------------------------------------------------
+					Decoration Fix-up Pieces
+----------------------------------------------------------- */
+
+div.gap {
+	border-top: 2px solid #FFF;
+	background: #CDE;
+	position: relative;
+}
+
+html>body .mozclear {
+	border-bottom: 1px solid white;	/* help mozilla recognize empty  clearing element */
+	margin-bottom: -1px;                  /* compensate for 1px space used by border */
+}
+
+/* -----------------------------------------------------------
+						Fix BugIE :-|
+----------------------------------------------------------- */
+
+* html #mainInner, * html div.subBarInner, * html div.subTitleInner {
+	position: relative;	/* fix a render bug in IE under certain conditions */
+}
+
+* html div.gap {
+	margin-right: -4px;
+}
+
+* html #mainOuter {
+	border-right: 4px #0B70CE solid;
+}
+
+.leftInside,
+.titleSide,
+#mainInner .left div.button1,
+#mainInner .left div.button2 {
+	margin-left: -2px;
+	margin-right: 2px;
+}
+
+
+/* -----------------------------------------------------------
+					Sub Bar (Thing under header)
+----------------------------------------------------------- */
+
+div.subBarInner {
+	background: #F7F7EC  url('images/bg2.gif');
+	padding-bottom: 8px;
+}
+
+div.subBarInner span {
+	display: block;
+
+}
+
+div.subBarOuter,
+div.subTitleOuter {
+	border-right-width: 20em;
+}
+
+div.subTitleOuter div.right,
+div.subBarOuter div.right {
+	text-align: center;
+}
+
+div.subTitleOuter {
+	border-color: #CFE0E9;
+}
+
+div.subTitleInner {
+	background: #E6EDE0 url('images/bg1.gif');
+	color: #164677;
+}
+
+/* -----------------------------------------------------------
+							Main Bar
+----------------------------------------------------------- */
+
+.titleSide,
+.titleMain {
+	padding: 8px 16px 4px 16px;
+	border-bottom: 1px solid #FFF;
+	letter-spacing: 0.1em;
+	height: 16px;
+}
+
+.titleSide {
+	background: #164677 repeat-y left url('images/title1.gif');
+	color: #FFF;
+	margin-bottom: 12px;
+	font-size: 12px;
+	padding-left: 24px;
+}
+
+.titleMain {
+	background: #DBE2E2;
+	font-size: 11px;
+}
+
+.titleMain a:link,
+.titleMain a:visited {
+	color: #5382B3;
+}
+
+.right p,
+.content p {
+	color: #274563;
+	line-height: 1.6em;
+	letter-spacing: 0.05em;
+	padding: 0 16px 8px 16px;
+}
+
+#mainInner .left ul {
+	list-style-type: none;
+	margin: 0 0 12px 12px;
+	padding: 0;
+}
+
+#mainInner .left ul li {
+	margin: 8px;
+}
+
+ul.dotted,
+li.select {
+	list-style-type: square;
+	color: #40A3FE;
+	margin-left: 52px;
+}
+
+.left .active a:link,
+.left .active a:visited {
+	font-weight: bold;
+	color: #0471E1;
+	list-style-type: square;
+}
+
+#mainInner .left ul.dotted {
+	list-style-type: square;
+}
+
+#mainInner .left input {
+	color: #000;
+}
+
+#mainInner .left div.button1,
+#mainInner .left div.button2 {
+	width: 100%;
+	color: #163977;
+	border: 0 none;
+	border-top: #FFF solid 2px;
+	padding: 6px 0;
+}
+
+#mainInner .left div.button1 a:link,
+#mainInner .left div.button1 a:visited,
+#mainInner .left div.button2 a:link,
+#mainInner .left div.button2 a:visited {
+	margin: 0 0 0 24px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#mainInner .left div.button1 {
+	background: #C9D6A6 url('images/bg3.gif');
+}
+
+#mainInner .left div.button2 {
+	border-bottom: #FFF solid 2px;
+	background: #C9D6A6 url('images/bg4.gif');
+}
+

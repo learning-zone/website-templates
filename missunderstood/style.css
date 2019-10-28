@@ -1,0 +1,169 @@
+/*  
+Name: missunderstood template
+Author: will rossiter
+Date: 2/05/2006
+*/
+
+/***Misc Tags***/
+
+* {
+ margin: 0px;
+ padding: 0px;
+}
+
+body {
+ background: #222 url(headergrunge.jpg) repeat-x;
+ font-family: Verdana, Arial, sans-serif;
+ font-size: 16px;
+ color: #fff;}
+ 
+a img{ border: 0px; }
+
+a { text-decoration: none;}
+
+input {
+ background: #333;
+ font-family: Verdana;
+ font-size: 0.7em;
+ padding: 3px;
+ color: #f4f4f4;
+ border: 2px solid #555;}
+	
+button {
+ background: #222;
+ font-family: Verdana;
+ font-size: 0.7em;
+ padding: 2px;
+ color: #f4f4f4;
+ border: 2px solid #444;
+ height: 2em;} 
+
+
+/**** Span class's *****/
+
+.hidden { text-indent: -9000px;}
+.br { clear: both;}
+.pink { color: #D01A71;}
+.small { font-size: x-small;}
+.large { font-size: xx-large;}
+.right { float: right;}
+.left { float: left;}
+.center { margin: 0 auto; text-align: center;}
+
+
+/**** Site Container ****/
+
+#container { width: 700px;}
+
+
+
+/***Header***/
+
+ 
+#logo { float: left;}
+
+#logo h1 { 
+ margin-top: 30px;
+ margin-left: 10px;
+ font-size: 1.6em;
+ letter-spacing: -0.1em;}
+ 
+#search {
+ margin-top: 30px;
+ float: right;}
+ 
+#search button { margin-left: 5px; padding: 0 2px 2px 2px;}
+
+/***left Side Bar***/
+
+#navlist { float: left; width: 170px; margin-top: 30px; margin-left: 5px;}
+
+ 
+#navlist ul {
+ list-style: none;
+}
+
+#navlist li a{
+ display: block;
+ height: 25px;
+  width: 100px; 
+ padding: 9px;
+ margin: 5px;
+ background: inherit;
+ border-right: 4px solid #444;
+ color: #999;
+ text-transform: lowercase;
+ font-size: 0.9em;}
+ 
+#navlist li a:hover {
+ color: #f4f4f4;
+ background: #333;
+ border-right: 4px solid #D01A71;}
+ 
+#navlist li .active {
+ color: #999;
+ background: #333;
+ border-right: 4px solid #444;}
+
+
+/***Content***/
+
+#content { float: right; width: 510px; margin-top: 30px; margin-left: 2px; }
+
+#content a { color:#D01A71; font-weight: bold;}
+
+#content a:hover { 
+ color: #fff; 
+ background: #D01A71; 
+ font-weight: bold;}
+ 
+#content p {line-height: 1.4em; font-size: 0.7em; margin-bottom: 20px; color: #f4f4f4;}
+
+ 
+#content h3 {
+text-indent: 20px;
+color: #999;
+letter-spacing: -0.1em;
+margin-bottom: 4px;
+}
+
+#content h3:hover { color: #fff;}
+
+	#content .code{
+	  color: #444;
+	  background: #F4f4f4 url(codenums.png) repeat-y;
+	  border: 1px solid #ccc;
+	  padding: 1px;
+	  padding-left: 25px;
+	  font-family: "courier new", helvetica, "times new roman", monospace;
+	  font-size: 0.8em;
+	  width: 470px;
+	  margin: 2px auto;
+	  white-space: nowrap;
+	  overflow: auto;}
+	  
+	#content  code {
+	  color: #fff;
+	  font-family: "courier new", helvetica, "times new roman", monospace;
+	  background-color: #333;
+	  font-size: 1.2em;}
+
+#content blockquote { color: #999; font-style: italic; text-align: center; width: 300px; margin: 10px auto;}
+ 
+/***Footer***/
+
+#footer {
+ text-align: center;
+ color: #666;
+ margin-top: 30px;
+ font-size: 0.7em;
+ }
+ 
+#footer p { color: #666;}
+ 
+#footer a { color: #666;}
+ 
+#footer a:hover { color: #f4f4f4;}
+	
+
+ 

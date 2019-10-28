@@ -1,0 +1,155 @@
+/**************************************************************************
+**************************************************************
+
+Welcome to the CSS for Relic, coded by Kevin Cannon.
+The CSS is pretty straight forward. There are a few
+small hacks however, with one line controlling firefox
+and the other IE. These are clearly labled. If you need
+any help with the template, email me at kmcannon@telus.net
+
+***************************************************************
+***********************************************************************/
+body  {
+	margin:0;
+	padding:0;
+	font-family:verdana, arial, times, georgia, sans-serif;
+}
+
+a {
+	color:#59BF3F;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#40A7D6;
+	text-decoration:underline;
+}
+
+img.left {
+	float:left;
+	padding:3px;
+	margin-right:6px;
+	border:1px solid #c4c4c4;
+}
+
+img.right {
+	float:right;
+	padding:3px;
+	margin-right:6px;
+	border:1px solid #c4c4c4;
+}
+
+img:hover {
+	border:1px solid #4BA9E9;
+	background:#EbF1F5;
+}
+
+#wrapper {
+	height:100%;
+	margin:auto;
+	width:90%;
+}
+/********************* Search form  ******************/
+.text {
+	height:14px;
+	width:110px;
+}
+
+.go {
+	height:21px;
+	background:#65A8C9;
+	color:#fff;
+	font-family:helvetica;
+	font-weight:bold;
+}
+/***************** TEXT IN THE HEADER **************************/
+#top h1 {
+	font-family:Century Gothic, georgia, helvetica, times, sans-serif;
+	font-weight:normal;
+	font-size:35px;
+	text-transform:uppercase;
+	margin-top:20px;
+	margin-left:2%;
+	}
+/*************************** HEADER PROPERTIES ************************/
+#top {
+	margin:0 auto;
+	padding:10px;
+	height:70px;
+	background:url(header.jpg) no-repeat top center; 
+	width:93%;
+	}
+/************************ LEFT SIDE COLUMN *****************/
+#left {
+	float:left;
+	padding:10px;
+	width:22%;
+	}
+	
+#left h1, #right h1 {
+	font-size:15px;
+	padding-top:5px;
+	font-family:helvetica, arial, georgia, times, sans-serif;
+	border-bottom:1px dotted #c4c4c4;
+}
+
+#left p {
+	font-size:10px;
+	padding-bottom:10px;
+	margin-top:-3px !important; /*****  FIREFOX  *****/
+	margin-top:-14px;             /***** INTERNET EXLORER *****/
+	color:#404040;
+}	
+/************************** MAIN CONTENT IN MIDDLE ******************/
+
+#middle {
+	float:left;
+	width:46%;
+	line-height:1.01em;
+	padding-left:3.5%;
+	padding-right:3.5%;
+}
+	
+#middle p, p {
+	font-size:11px;
+	color:#404040;
+}
+
+#middle h1 {
+	font-family:"Century Gothic", verdana, arial, times, sans-serif;
+	font-size:21px;
+	font-weight:normal;
+	border-bottom:1px solid #c4c4c4;
+	padding-bottom:3px;
+	margin-top:24px;
+}
+/***************************  RIGHT COLUMN  *********************/
+#right {
+	float:left;
+	padding-top:10px;
+	font-size:11px;
+	width:22%;
+	line-height:1.6em;
+}
+
+#right a {
+	line-height:2em;
+	
+}
+
+#right br {
+	line-height:0.7em;
+}
+/********************************************    FOOTER  *****************/
+#footer {
+	border-top:1px solid #c4c4c4;
+	padding-top:5px;
+	text-align:center;
+	width:90%;
+	margin:0 auto;
+	clear:both;
+}
+
+.footer {
+	margin-top:-2px;
+}	

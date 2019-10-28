@@ -1,0 +1,342 @@
+/*************************************************
+ * TITLE: Prosimii Alternative Screen Stylesheet * 
+ * URI  : prosimii/prosimii-screen-alt.css       *
+ * MODIF: 2004-Apr-28 21:56 +0800                *
+ *************************************************/
+
+
+/* ##### Common Styles ##### */
+
+body {
+  font-family: verdana, helvetica, arial, sans-serif;
+  font-size: 73%;  /* Enables font size scaling in MSIE */
+  margin: 0;
+  padding: 0;
+}
+
+html > body {
+  font-size: 9pt;
+}
+
+acronym, .titleTip {
+  border-bottom: 1px dotted rgb(61,92,122);
+  cursor: help;
+  margin: 0;
+  padding: 0 0 0.4px 0;
+}
+
+a {
+  color: rgb(61,92,122);
+  background-color: transparent;
+  text-decoration: underline;
+  margin: 0;
+  padding: 0 1px 2px 1px;
+}
+
+a:hover {
+ color: rgb(117,144,174);
+ text-decoration: none;
+}
+
+ol {
+  margin: 1em 0 1.5em 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: square;
+  margin: 1em 0 1.5em 0;
+  padding: 0;
+}
+
+dl {
+  margin: 1em 0 0.5em 0;
+  padding: 0;
+}
+
+ul li {
+  line-height: 1.5em;
+  margin: 1.25ex 0 0 1.5em;
+  padding: 0;
+}
+
+ol li {
+  line-height: 1.5em;
+  margin: 1.25ex 0 0 2em;
+  padding: 0;
+}
+
+dt {
+  font-weight: bold;
+  margin: 0;
+  padding: 0 0 1ex 0;
+}
+
+dd {
+  line-height: 1.75em;
+  margin: 0 0 1.5em 1.5em;
+  padding: 0;
+}
+
+.doNotDisplay {
+  display: none !important;
+}
+
+
+.smallCaps {
+  font-size: 117%;
+  font-variant: small-caps;
+}
+
+
+/* ##### Header ##### */
+
+.superHeader {
+  color: rgb(130,128,154);
+  background-color: rgb(33,50,66);
+  text-align: right;
+  margin: 0;
+  padding: 0.5ex 10px;
+}
+
+.superHeader span {
+  color: rgb(195,196,210);
+  background-color: transparent;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.superHeader a {
+  color: rgb(195,196,210);
+  background-color: transparent;
+  text-decoration: none;
+  margin: 0;
+  padding: 0 0.25ex 0 0;
+}
+
+.superHeader a:hover {
+  color: rgb(193,102,90);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.midHeader {
+  color: white;
+  background-color: rgb(61,92,122);
+  margin: 0;
+  padding: 0.26ex 10px;
+}
+
+.headerTitle {
+  font-size: 300%;
+  margin: 0;
+  padding: 0;
+}
+
+.headerSubTitle {
+  font-size: 151%;
+  font-weight: normal;
+  font-style: italic;
+  margin: 0 0 1ex 0;
+  padding: 0;
+}
+
+.headerLinks {
+  text-align: right;
+  margin: 0;
+  padding: 0 0 2ex 0;
+  position: absolute;
+  right: 1.5em;
+  top: 3.5em;
+}
+
+.headerLinks a {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  margin: 0;
+  padding: 0 0 0.5ex 0;
+  display: block;
+}
+
+.headerLinks a:hover {
+  color: rgb(195,196,210);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.subHeader {
+  color: white;
+  background-color: rgb(117,144,174);
+  margin: 0;
+  padding: 0.5ex 10px;
+}
+
+.subHeader a, .subHeader .highlight {
+  color: white;
+  background-color: transparent;
+  font-size: 110%;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0;
+  padding: 0 0.25ex 0 0;
+}
+
+.subHeader a:hover, .subHeader .highlight {
+  color: rgb(255,204,0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+/* ##### Side Menu ##### */
+
+#side-bar {
+  color: rgb(204,204,204);
+  background-color: transparent;
+  list-style-type: square;
+  list-style-position: inside;
+  width: 10em;
+  margin: 0;
+  padding: 1ex 0;
+  border: 1px solid rgb(204,204,204);
+  position: absolute;
+  left: 1.5ex;
+  top: 12em;
+}
+
+[id="side-bar"] {
+  position: fixed !important;  /* Makes the side menu scroll with the page. Doesn't work in MSIE */
+}
+
+#side-bar a {
+  text-decoration: none;
+}
+
+#side-bar:hover {
+  color: rgb(117,144,174);
+  background-color: transparent;
+  border-color: rgb(117,144,174);
+}
+
+#side-bar li {
+  margin: 0;
+  padding: 0.75ex 0 1ex 1.75ex;
+}
+
+#side-bar li:hover {
+  color: rgb(61,92,122);
+  background-color: transparent;
+}
+
+
+#side-bar li a:hover {
+  text-decoration: underline;
+}
+
+
+/* ##### Main Copy ##### */
+
+#main-copy {
+  text-align: justify;
+  margin: -0.5ex 1em 1em 12.5em;
+  padding: 0.5em 10px;
+  clear: left;
+}
+
+#main-copy h1 {
+  color: rgb(117,144,174);
+  background-color: transparent;
+  font-family: "trebuchet ms", verdana, helvetica, arial, sans-serif;
+  font-size: 186%;
+  margin: 0;
+  padding: 1.5ex 0 0 0;
+}
+
+#main-copy h2 {
+  color: rgb(61,92,122);
+  background-color: transparent;
+  font-family: "trebuchet ms", verdana, helvetica, arial, sans-serif;
+  font-weight: normal;
+  font-size: 151%;
+  margin: 0;
+  padding: 1ex 0 0 0;
+}
+
+#main-copy p {
+  line-height: 1.75em;
+  margin: 1em 0 1.5em 0;
+  padding: 0;
+}
+
+.newsHeading {
+  color: rgb(61,92,122);
+  background-color: transparent;
+  font-family: "trebuchet ms", verdana, helvetica, arial, sans-serif;
+  font-size: 145%;
+  text-decoration: none;
+  margin: 0;
+  padding: 1ex 0 0 0;
+  display: block;
+}
+
+.newsHeading:hover {
+  color: rgb(117,144,174);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.newsDate {
+  font-style: italic;
+  margin: 0 !important;
+  padding: 0;
+}
+
+.newsSummary {
+  margin: 1.5ex 0 2.5ex 0.75ex !important;
+  padding: 0;
+}
+
+.more {
+  text-align: right;
+  margin: 0;
+  padding: 0.5em 0;
+}
+
+.more a {
+  color: rgb(61,92,122);
+  background-color: transparent;
+  font-size: 92%;
+  text-decoration: underline;
+  margin: 0;
+  padding: 0.25ex 0.75ex;
+}
+
+.more a:hover {
+  color: rgb(117,144,174);
+  text-decoration: none;
+}
+
+
+/* ##### Footer ##### */
+
+#footer {
+  color: rgb(51,51,102);
+  background-color: rgb(239,239,239);
+  font-size: 87%;
+  text-align: center;
+  line-height: 1.25em;
+  margin: 2em 0 0 0;
+  padding: 1ex 10px;
+  clear: left;
+}
+
+#footer a {
+  color: rgb(0,68,204);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#footer a:hover {
+  text-decoration: none;
+}

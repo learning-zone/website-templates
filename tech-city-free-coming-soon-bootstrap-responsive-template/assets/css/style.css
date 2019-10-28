@@ -1,0 +1,318 @@
+
+html {overflow-x:hidden;}
+body {
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+} 
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%); 
+  background-size: cover;
+  transition: 1s opacity;
+}
+.big-background {
+    z-index: 0;
+    text-align: center;
+    height: 100%;
+    min-height: 100%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+}
+strong { font-weight: 700; color: #FFFFFF;}
+
+a, a:hover, a:focus {
+	color: #FEFEFE;
+	text-decoration: none;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s;
+}
+
+h2 {
+	margin-top: 10px;
+	font-size: 42px;
+    font-weight: 100;
+    line-height: 54px;
+}
+
+img { max-width: 100%; }
+
+::-moz-selection { background: #42bfc2; color: #fff; text-shadow: none; }
+::selection { background: #42bfc2; color: #fff; text-shadow: none; }
+
+
+/***** Coming Soon *****/
+
+.coming-soon {
+    margin: 0 auto;
+    position:relative;
+    overflow: hidden;
+    padding-bottom: 32px;
+}
+.coming-soon:before {
+    content: '';
+    background-color: rgb(9, 130, 249);
+    width: 113%;
+    z-index: 0;
+    height: 142%;
+    position: absolute;
+    left: -38%;
+    -ms-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    transform: rotate(58deg);
+}
+.inner-bg {
+    padding: 75px 0 40px 0;
+}
+
+.coming-soon .logo {
+	padding-bottom: 20px;
+}
+
+.coming-soon .logo h1 {
+	margin: 0;
+}
+
+.coming-soon .logo a {
+	display: inline-block;
+	width: 200px;
+	height: 110px;
+	background: url(../img/logo.png) center center no-repeat;
+	text-indent: -99999px;
+}
+  
+.coming-soon p {
+	margin: 60px 0 10px 0;
+	padding: 0 120px;
+	font-size: 20px;
+	line-height: 36px;
+}
+
+.timer {
+    margin-top: 60px;
+}
+
+.timer .days-wrapper,
+.timer .hours-wrapper,
+.timer .minutes-wrapper,
+.timer .seconds-wrapper {
+    display: inline-block;
+    width: 160px;
+    margin: 0 10px;
+    font-size: 18px;
+    padding: 25px 10px;
+    background-color: rgba(255, 255, 255, 0.17);
+    border-radius: 0;
+    border: 1px solid rgba(255, 255, 255, 0.37);
+    box-shadow: 1px 0px 4px #5F5F5F;
+}
+
+.timer .days,
+.timer .hours,
+.timer .minutes,
+.timer .seconds {
+    font-size: 80px;
+    font-weight: 100;
+    line-height: 90px;
+}
+
+.subscribe {
+	margin-top: 60px;
+}
+
+.subscribe form input {
+    width: 362px;
+    height: 52px;
+}
+
+.success-message, .error-message {
+	margin-top: 20px;
+	font-size: 18px;
+    line-height: 32px;
+}
+
+
+/***** Footer *****/
+
+footer {
+	margin-top: 60px;
+	padding: 20px 0 15px 0;
+}
+
+.footer-copyright p {
+	margin: 0;
+	font-size: 14px;
+    line-height: 32px;
+    color: #fff;
+    text-align: left;
+}
+
+.footer-copyright a { color: #fff; border-bottom: 1px dotted #fff; }
+.footer-copyright a:hover { color: #fff; border: 0; }
+
+.footer-social {
+	text-align: right;
+}
+
+/* social icons */
+ul.social-icon{
+
+}
+ul.social-icon li{
+display:inline;
+list-style:none;
+}
+ul.social-icon li a i{
+font-size:24px;
+margin-left:10px;
+}
+
+
+
+input[type="text"] {
+    margin: 0;
+    padding: 0 10px;
+    vertical-align: middle;
+    background: none;
+    border: 1px solid rgba(227, 230, 238, 0.8);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 50px;
+    color: #fff;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 0;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s;
+    margin-right: -4px;
+}
+
+input[type="text"]:focus {
+	outline: 0;
+    border: 1px solid #fff;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+input[type="text"]:-moz-placeholder { color: #fff; }
+input[type="text"]:-ms-input-placeholder { color: #fff; }
+input[type="text"]::-webkit-input-placeholder { color: #fff; }
+
+
+.subscribe button {
+	height: 52px;
+	margin: 0;
+	padding: 0 20px;
+	vertical-align: middle;
+	background: #616161;
+	border: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 19px;
+	font-weight: 300;
+	line-height: 52px;
+	color: #fff;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 0;
+	text-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-o-transition: all .3s;
+	-moz-transition: all .3s;
+	-webkit-transition: all .3s;
+	-ms-transition: all .3s;
+	transition: all .3s;
+}
+
+.subscribe button:hover {
+    background: #040404;
+    color: #fff;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s;
+}
+
+.subscribe button:active {
+	outline: 0;
+    background: #555;
+    color: #fff;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.subscribe button:focus {
+	outline: 0;
+	background: #555;
+	color: #fff;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+	outline: 0;
+	background: #555;
+	color: #fff;
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.coming-soon p { padding: 0; }
+	.timer .days-wrapper, .timer .hours-wrapper, .timer .minutes-wrapper, .timer .seconds-wrapper { width: 150px; }
+
+}
+
+@media (max-width: 767px) {
+	
+	.coming-soon p { padding: 0; }
+	.timer .days-wrapper, .timer .hours-wrapper, .timer .minutes-wrapper, .timer .seconds-wrapper { width: 150px; }
+	.timer .slash { display: none; }
+	
+	.footer-copyright p, .footer-social { text-align: center; }
+	.footer-copyright { padding-bottom: 15px; }
+
+}
+
+@media (max-width: 550px) {
+
+    .subscribe form input { width: 95%; }
+    .subscribe form button { width: 95%; margin-top: 10px; }
+
+}
+
+@media (max-width: 400px) {
+	
+	h1, h2 { font-size: 32px; }
+
+}
+
+
+

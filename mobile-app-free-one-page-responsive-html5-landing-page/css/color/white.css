@@ -1,0 +1,84 @@
+body {
+    background-color: #fff;
+    color: #222;
+}
+.dark-bg {
+	background-color: #F2F3FD;
+}
+h1 {
+	color: #111;
+}
+
+.underline:before,
+.underline:after {
+	background-color: #777;
+}
+.custom-btn {
+	color: #0099FF;
+	border: 1px solid #0099FF;
+}
+.top .content {
+	color: #fff;
+}
+.top .content h1 {
+	color: #fff;
+}
+.top .content .button .custom-btn {
+	color: #fff;
+	border-color: #fff;
+}
+
+.navbar-default {
+	background-color: #181B3D;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>.active>a,
+ .navbar-default .navbar-nav>.active>a:hover,
+ .navbar-default .navbar-nav>.active>a:focus {
+ 	background: none;
+ 	color: #0099FF;
+ }
+.featured-item .icon i {
+	color: #0099FF;
+}
+.featured-item h3 {
+	color: #2E2E2E;
+}
+.description .content .list-item li i {
+	color: #0099FF;
+}
+.testimonial .testimonial-slide .content {
+	color: #f1f1f1;
+}
+.team .member .details p {
+	color: #fff;
+}
+.price .price-table {
+	padding:0 30px;
+}
+
+.price .price-list ul li i.fa-check {
+	border: 1px solid #0099FF;
+	color: #0099FF;
+}
+.price .price-list ul li i.fa-times {
+	border:1px solid #e74c3c;
+	color: #e74c3c;
+}
+.download {
+	color: #fff;
+}
+.download .header h1 {
+	color: #fff;
+}
+.download .custom-btn {
+	color: #fff;
+	border: 2px solid #fff;
+}
+.input-group-addon {
+	color: #555;
+	border: 1px solid #ccc;
+}

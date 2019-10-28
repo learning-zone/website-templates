@@ -1,0 +1,396 @@
+@font-face { 
+  font-family: News Cycle; 
+    src: url('../fonts/NewsCycle-Regular.eot'); 
+    src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf'); 
+} 
+
+html { 
+  height: 100%;
+}
+
+* { 
+  margin: 0;
+  padding: 0;
+}
+
+/* tell the browser to render HTML 5 elements as block */
+article, aside, figure, footer, header, hgroup, nav, section { 
+  display:block;
+}
+
+body { 
+  font: normal .85em arial, sans-serif;
+  background: #F5F5F5 url(../images/pattern.png);
+  color: #444;
+  padding-bottom: 40px;
+}
+
+p { 
+  padding: 0 0 20px 0;
+  line-height: 1.5em;
+}
+
+img { 
+  border: 0;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+  font: normal 200% 'News Cycle', arial, sans-serif;
+  color: #222;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;
+}
+
+h1 { 
+  text-shadow: 1px 1px #FFF;
+}
+
+h2 { 
+  font: normal 200% 'News Cycle', arial, sans-serif;
+  color: #222;  
+  margin: 0;
+  padding: 0 0 8px 0;
+  text-shadow: 1px 1px #FFF;
+}
+
+h3 { 
+  font: normal 125% 'trebuchet ms', arial, sans-serif;
+}
+
+h4, h5, h6 { 
+  margin: 0;
+  padding: 0 0 5px 0;
+  font: normal 110% arial, sans-serif;
+  color: #999;
+  line-height: 1.5em;
+}
+
+h5, h6 { 
+  font: italic 95% arial, sans-serif;
+  color: #888;
+  padding-bottom: 15px;
+}
+
+h6 { 
+  color: #362C20;
+}
+
+a, a:hover { 
+  outline: none;
+  color: #000;
+  text-decoration: underline;
+}
+
+a:hover { 
+  text-decoration: none;
+  color: #666;
+}
+
+ul { 
+  margin: 2px 0 22px 17px;
+}
+
+ul li { 
+  list-style-type: circle;
+  margin: 0 0 0 0; 
+  padding: 0 0 4px 5px;
+}
+
+ol { 
+  margin: 8px 0 22px 20px;
+}
+
+ol li { 
+  margin: 0 0 11px 0;
+}
+
+.left { 
+  float: left;
+  width: auto;
+  margin-right: 10px;
+}
+
+.right { 
+  float: right; 
+  width: auto;
+  margin-left: 10px;
+}
+
+.center { 
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+}
+
+#main, header, #logo, nav, #site_content, footer { 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+#main { 
+  width: 950px;
+  margin: 20px auto 0 auto;
+}
+
+header { 
+  width: 950px;
+  height: 105px;
+}
+
+#logo { 
+  width: 200px;
+  float: left;
+  height: 100px;
+  background: transparent;
+  padding: 0 0 10px 0;
+}
+
+#logo h1 { 
+  font: normal 330% 'News Cycle', arial, sans-serif;
+  padding: 37px 0 0 0;
+  color: #222;
+  letter-spacing: -2px;
+}
+
+#logo h1 a { 
+  color: #999;
+  text-decoration: none;
+}
+
+#logo h1 a:hover { 
+  color: #222;
+  text-decoration: none;
+}
+
+nav { 
+  height: 26px;
+  width: 740px;
+  margin: 1px auto 0 auto;
+  float: right;
+  padding: 35px 10px 0 0;
+} 
+
+#site_content { 
+  width: 950px;
+  overflow: hidden;
+  margin: 4px auto 0 auto;
+  padding: 0;
+  border-top: 0;
+  border-bottom: 0;
+} 
+
+#sidebar_container { 
+  float: right;
+  width: 250px;
+  padding: 16px 0 0 0;
+  height: 450px;
+}
+
+.sidebar { 
+  float: right;
+  width: 200px;
+  margin: 0 0 17px 0;
+  padding: 0 15px 5px 13px;
+}
+  
+.sidebar h3 { 
+  padding: 0 15px 20px 0;
+  font: 200% 'News Cycle', arial, sans-serif;
+  text-shadow:  #FFF 1px 1px;
+  margin: 0 1px;
+  color: #222;
+}
+
+.sidebar_item, .content_item { 
+  padding: 15px 0;
+}
+
+#content { 
+  text-align: justify;
+  width: 670px;
+  padding: 0 0 5px 0;
+  margin: 0;
+  float: left;
+}
+
+#content ul, .sidebar ul { 
+  margin: 2px 0 5px 0px;
+}
+
+#content ul li, .sidebar ul li { 
+  list-style-type: none;
+  background: transparent url(../images/bullet.png) no-repeat left center;
+  margin: 0 0 0 0; 
+  padding: 2px 0 2px 28px;
+  line-height: 1.5em;
+}
+
+footer { 
+  width: 950px;
+  font: normal 130% 'News Cycle',  arial, sans-serif;
+  height: 90px;
+  padding: 20px 0 5px 0;
+  text-align: center; 
+  color: #222;
+  background: #D5D5D6;
+}
+
+footer p { 
+  padding: 0 0 10px 0;
+}
+
+footer a, footer a:hover { 
+  color: #222;
+  text-decoration: underline;
+}
+
+footer a:hover { 
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* form styling */
+.form_settings { 
+  margin: 0;
+}
+
+.form_settings p { 
+  padding: 0 0 10px 0;
+}
+
+.form_settings span { 
+  padding: 5px 0; 
+  float: left; 
+  width: 170px; 
+  text-align: left;
+}
+  
+.form_settings input, .form_settings textarea { 
+  padding: 4px; 
+  width: 252px; 
+  font: 100% arial, sans-serif;
+  border: 0;
+  border-bottom: 1px solid #666; 
+  background: transparent;
+}
+  
+.form_settings .submit { 
+  font: 140% 'News Cycle', arial, sans-serif; 
+  border: 0; 
+  width: 100px; 
+  margin: 0 0 0 162px; 
+  height: 30px;
+  padding: 0 0 6px 0;
+  cursor: pointer; 
+  border-radius: 6px 6px 6px 6px;
+  -webkit-border-radius: 6px 6px 6px 6px;
+  -moz-border-radius: 6px 6px 6px 6px;
+  background: #444;
+  text-shadow: 1px 1px #000;
+  color: #FFF;
+  line-height: 15px;
+}
+
+.form_settings textarea, .form_settings select { 
+  font: 100% 'trebuchet ms', arial, sans-serif; 
+  border: 1px solid #666; 
+  border-radius: 6px 6px 6px 6px;
+  -webkit-border-radius: 6px 6px 6px 6px;
+  -moz-border-radius: 6px 6px 6px 6px;
+  width: 250px;
+  overflow: auto;
+}
+
+.form_settings select { 
+  width: 260px;
+}
+
+.form_settings .checkbox { 
+  margin: 4px 0; 
+  padding: 0; 
+  width: 14px;
+  border: 0;
+  background: none;
+}
+
+table { 
+  margin: 10px 0 30px 0;
+}
+
+table tr th, table tr td { 
+  background: #BBB;
+  color: #FFF;
+  padding: 7px 4px;
+  text-align: left;
+}
+  
+table tr td { 
+  background: #DDD;
+  color: #47433F;
+  border-top: 1px solid #FFF;
+}
+
+/* Image Transitions */
+ul#images {
+  margin: 0 15px 10px 0;
+  padding: 0;
+  position: relative;
+}
+
+ul#images li {
+  display: block;
+  overflow: hidden;
+  padding: 0;
+  float: left;
+  width: 155px;
+  height: 300px;
+  list-style: none;
+}
+
+
+/* from here: http://www.gmarwaha.com/blog/2007/08/23/lavalamp-for-jquery-lovers */
+.lavaLampWithImage {
+  position: relative;
+  height: 25px;
+  padding: 15px 5px 15px 0;
+  margin: 10px 0 0 0;
+  overflow: hidden;
+  float: right;
+}
+
+.lavaLampWithImage li {
+  float: left;
+  list-style: none;
+}
+
+.lavaLampWithImage li.back {
+  background: #D5D5D6;
+  border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -webkit-border: 15px 15px 15px 15px;
+  height: 28px;
+  z-index: 8;
+  position: absolute;
+}
+
+.lavaLampWithImage li a {
+  font: normal 130% 'News Cycle', sans-serif;
+  text-shadow:1px 1px #FFF;
+  text-decoration: none;
+  color: #222;
+  outline: none;
+  text-align: center;
+  letter-spacing: 0;
+  z-index: 10;
+  display: block;
+  float: left;
+  height: 30px;
+  padding: 0px 7px 0 7px;
+  position: relative;
+  overflow: hidden;
+  margin: auto 10px;    
+}
+
+.lavaLampWithImage li a:hover, .lavaLampWithImage li a:active, .lavaLampWithImage li a:visited {
+  border: none;
+}

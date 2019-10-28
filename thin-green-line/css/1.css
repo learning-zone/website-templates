@@ -1,0 +1,245 @@
+/* CSS Document */
+
+body {
+	background-color:#fff;
+	background-image:url(../images/backgrounds/body.jpg);
+	background-position:top;
+	background-repeat:repeat-x;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:75%;
+	color:#777;
+	margin:0;
+}
+
+* {
+	padding:0;
+	margin:0
+}
+
+#container {
+	width:770px;
+	margin:0 auto 0 auto;
+}
+
+#header {
+	height:69px;
+}
+
+#header h1 {
+	font-family:Century Gothic, "Trebuchet MS", Tahoma, Verdana;
+	font-size:250%;
+	color:#333;
+	letter-spacing:-1px;
+	padding:15px 50px 0 10px;
+	float:left;
+	border-right:1px solid #eee;
+}
+#header h1 a {
+	color:#000;
+	text-decoration:none;
+}
+#header h3 {
+	padding:33px 0 5px 40px;
+	font-size:100%;
+	color:#ccc;
+	font-weight:normal;
+	margin: 0 0 0 270px; /* Adjust this value for the space between the site title and the slogan */
+	border-right:1px solid #eee;
+}
+#sidebar_bottom {
+	background-image:url(../images/backgrounds/sidebarbottom.jpg);
+	height:53px;
+}
+
+#nav {
+	margin:0 20px 0 0 !important;
+	margin:0 10px 0 0;
+	padding:0;
+	float:right;
+}
+
+#nav li {
+	margin:0;
+	padding:0;
+	list-style:none;
+	float:left;
+}
+
+#nav li a {
+	display:block;
+	padding:5px 10px 14px 10px;
+	margin:0 1px 0 1px;
+	color:#666;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#nav li a:hover, .active {
+	background-image:url(../images/backgrounds/menu_a_hover.gif);
+	background-position:bottom;
+	background-repeat:repeat-x;
+	color:#000;
+}
+.clear {
+	clear:both;
+}
+
+#sidebar {
+	width:210px;
+	background-color:#fff;
+	padding:30px 20px 20px 20px;
+	float:left;
+	margin:-20px 0 0 0;
+}
+
+#content {
+	margin:0 0 0 270px;
+	padding:30px 30px 20px 20px;
+}
+
+#content h1 {
+	font-family:"Trebuchet MS", Tahoma, Verdana;
+	font-size:24px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	margin:10px 0 20px 0;
+	color:#BFEF01;
+}
+#content h2 {
+	font-size:16px;
+	color:#333;
+	font-family:"Trebuchet MS", Tahoma, Verdana;
+	margin:10px;
+}
+
+#content p {
+	line-height:20px;
+	word-spacing:2px;
+	padding:0 0 0 20px;
+	text-indent:20px;
+	margin:20px 0 20px 0;
+}
+#content ul {
+	margin:15px 0 15px 20px;
+	padding:0;
+	border-top:1px solid #eee;
+}
+#content li {
+	margin:10px 0 10px 0;
+	padding:0 0 10px 15px;
+	list-style:none;
+	border-bottom:1px solid #eee;
+	background-image:url(../images/backgrounds/li.gif);
+	background-position:top left;
+	background-repeat:no-repeat;
+}
+#content #sideblock {
+	width:180px;
+	padding:10px;
+	background-color:#fff;
+	float:right;
+	font-size:90%;
+	margin:0 0 0 20px;
+
+}
+.sidebarfooter {
+	background-color:#eee;
+	text-align:left;
+	padding:7px 5px 7px 5px;
+	font-size:80%;
+}
+.sidebarfooter a {
+	background-color:#f6f6f6;
+	padding:3px;
+	text-decoration:none;
+}
+.sidebarfooter a:hover {
+	color:#000;
+	background-color:#fff;
+}
+#content #sideblock h1 {
+	text-transform:none;
+	font-size:120%;
+	color:#000;
+	margin:0;
+	letter-spacing:0;
+}
+#sideblock p {
+	text-indent:0;
+	line-height:17px;
+	padding:5px;
+	margin:5px 0 5px 0;
+	color:#bbb;
+}
+#sideblock ul {
+	margin:0 0 5px 5px;
+	border:none;
+}
+#sideblock li {
+	margin: 0;
+	background-image:none;
+	padding:0;
+	border:none;
+}
+#sideblock li a {
+	text-decoration:none;
+	display:block;
+	background-color:#fff;
+	padding:5px 5px 5px 10px;
+	color:#888;
+}
+#sideblock li a:hover {
+	background-color:#f9f9f9;
+	color:#666;
+	background-image:url(../images/backgrounds/sideblock_li_a_hover.gif);
+	background-position:left;
+	background-repeat:no-repeat;
+}
+blockquote {
+	background-image:url(../images/backgrounds/bq.jpg);
+	background-position:top;
+	background-repeat:repeat-x;
+	padding:5px 35px 5px 5px;
+	border:1px solid #eee;
+	font-family:"Trebuchet MS", Tahoma, Verdana;
+}
+
+#content a {
+	color:#444;
+	padding:2px;
+	text-decoration:none;
+}
+#content a:hover {
+		background-color:#EBFF99;
+		color:#000;
+}
+a:hover {
+	text-decoration:none;
+}
+#sidebar a {
+	color:#333;
+}
+
+#sidebar h1 {
+	font-family:Century Gothic, "Trebuchet MS", Tahoma, Verdana;
+	font-size:20px;
+	color:#777;
+	font-weight:normal;
+	letter-spacing:-1px;
+}
+
+#sidebar p {
+	font-size:90%;
+	line-height:19px;
+	margin:10px 0 10px 0;
+}
+
+#footer {
+	padding:20px;
+	border-top:2px solid #ccff00;
+	color:#ccc;
+	text-align:center;
+}
+#footer a {
+	color:#999;
+}

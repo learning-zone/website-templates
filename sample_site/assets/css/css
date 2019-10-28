@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Comfortaa Light'), local('Comfortaa-Light'), url(http://themes.googleusercontent.com/static/fonts/comfortaa/v4/r_tUZNl0G8xCoOmp_JkSCha1RVmPjeKy21_GQJaLlJI.woff) format('woff');
+}
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Comfortaa'), local('Comfortaa-Regular'), url(http://themes.googleusercontent.com/static/fonts/comfortaa/v4/wz1gqe57Mbg11v-OrLlVjj8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Comfortaa Bold'), local('Comfortaa-Bold'), url(http://themes.googleusercontent.com/static/fonts/comfortaa/v4/fND5XPYKrF2tQDwwfWZJIxa1RVmPjeKy21_GQJaLlJI.woff) format('woff');
+}
