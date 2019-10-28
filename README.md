@@ -43,10 +43,10 @@
 |  33   | Free-Portfolio-HTML5-Responsive-Website-Sam					      |[live example](https://learning-zone.github.io/website-templates/Free-Portfolio-HTML5-Responsive-Website-Sam/)|					      
 |  34   | GetDoctor-free-bootstrap-responsive-website-template		      |[live example](https://learning-zone.github.io/website-templates/GetDoctor-free-bootstrap-responsive-website-Template/)|		      
 |  35   | Golden-Hotel-Free-HTML5-Bootstrap-Web-Template				      |[live example](https://learning-zone.github.io/website-templates/Golden-Hotel-Free-HTML5-Bootstrap-Web-Template/)|				      
-|  36   | Grand-free-bootstrap-responsive-website-template			      |[live example](https://learning-zone.github.io/website-templates/Grand-free-bootstrap-responsive-website-Template/)|			      
+|  36   | Grand-free-bootstrap-responsive-website-template			      |[live example](https://learning-zone.github.io/website-templates/Grand-free-bootstrap-responsive-website-template/)|			      
 |  37   | HTML5-Responsive-Coming-Soon-Page							      |[live example](https://learning-zone.github.io/website-templates/HTML5-Responsive-Coming-Soon-Page/)|							      
 |  38   | Hybrid-Bootstrap-Admin-Template								      |[live example](https://learning-zone.github.io/website-templates/Hybrid-Bootstrap-Admin-Template/)|								      
-|  39  | Iam-html5-responsive-portfolio-resume-template				      |[live example](https://learning-zone.github.io/website-templates/Iam-html5-responsive-portfolio-resume-Template/)|				      
+|  39  | Iam-html5-responsive-portfolio-resume-template				      |[live example](https://learning-zone.github.io/website-templates/Iam-html5-responsive-portfolio-resume-template/)|				      
 |  40   | Icon-Real-Estate-Developers-Free-Responsive-HTML-Template	      |[live example](https://learning-zone.github.io/website-templates/Icon-Real-Estate-Developers-Free-Responsive-HTML-Template/)|	      
 |  41   | Ideal-Interior-Design-Free-Bootstrap-Website-Template		      |[live example](https://learning-zone.github.io/website-templates/Ideal-Interior-Design-Free-Bootstrap-Website-Template/)|		      
 |  42   | Indus-free-coming-soon-bootstrap-responsive-template		      |[live example](https://learning-zone.github.io/website-templates/Indus-free-coming-soon-bootstrap-responsive-Template/)|		      
