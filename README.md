@@ -59,7 +59,7 @@
 |  49   | Me-Resume-Personal-Portfolio-Responsive-Template			      |[live example](https://learning-zone.github.io/website-templates/Me-Resume-Personal-Portfolio-Responsive-Template/)|			      
 |  50   | Mentor-Free-HTML5-Bootstrap-Coming-Soon-Template			      |[live example](https://learning-zone.github.io/website-templates/Mentor-Free-HTML5-Bootstrap-Coming-Soon-Template/)|			      
 |  51   | Midway-Free-HTML5-Website-Template-for-Multi-Purpose		      |[live example](https://learning-zone.github.io/website-templates/Midway-Free-HTML5-Website-Template-for-Multi-Purpose/)|		      
-|  52   | Mobile-App-landing-page-html5-template						      |[live example](https://learning-zone.github.io/website-templates/Mobile-App-landing-page-html5-Template/)|						      
+|  52   | Mobile-App-landing-page-html5-template						      |[live example](https://learning-zone.github.io/website-templates/Mobile-App-landing-page-html5-template/)|						      
 |  53   | Mobile-app-free-one-page-responsive-HTML5-landing-page		      |[live example](https://learning-zone.github.io/website-templates/Mobile-app-free-one-page-responsive-HTML5-landing-page/)|		      
 |  54   | Moon-Free-Bootstrap-Coming-Soon-Template					      |[live example](https://learning-zone.github.io/website-templates/Moon-Free-Bootstrap-Coming-Soon-Template/)|					      
 |  55   | Moto-Business-HTML5-Responsive-Web-Template					      |[live example](https://learning-zone.github.io/website-templates/Moto-Business-HTML5-Responsive-Web-Template/)|					      
