@@ -175,4 +175,5 @@
 |  166   | vteam-a-corporate-multipurpose-free-bootstrap-responsive-template 			          |[live example](https://learning-zone.github.io/website-templates/vteam-a-corporate-multipurpose-free-bootstrap-responsive-template/)| 			          
 |  167   | viver-free-html5-bootstrap-coming-soon-template				      |[live example](https://learning-zone.github.io/website-templates/viver-free-html5-bootstrap-coming-soon-template/)|				      
 |  168   | webtrends-free-bootstrap-responsive-web-template		 	      |[live example](https://learning-zone.github.io/website-templates/webtrends-free-bootstrap-responsive-web-template/)|		 	      
-|  169   | zenlike														      |[live example](https://learning-zone.github.io/website-templates/zenlike/)|														      
+|  169   | zenlike														      |[live example](https://learning-zone.github.io/website-templates/zenlike/)|
+|  170   | reveal														      |[live example](https://learning-zone.github.io/website-templates/reveal/)|														      
