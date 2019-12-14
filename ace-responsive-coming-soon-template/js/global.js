@@ -13,7 +13,7 @@ $( function() {
 		]
 	} )( 'overlay' );
 	
-        var endDate = "December  27, 2014 15:03:25";
+        var endDate = "December  01, 2024 15:03:25";
 
         $('.countdown.simple').countdown({ date: endDate });
 
