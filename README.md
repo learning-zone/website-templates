@@ -1,3 +1,4 @@
+Hey Guys! want to get an awesome template for your website or some responsive components to make it better so we have uploaded the 170 best template to do your work easy just click on any 170 link and you go to the template
 ## HTML5 Website Templates
  
 *Click <img src="assets/star.png" width="18" height="18" align="absmiddle" title="star" /> if you like the project. pull request are highly appreciated.*
