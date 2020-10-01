@@ -1,7 +1,7 @@
 ## HTML5 Website Templates
  
 *Click <img src="assets/star.png" width="18" height="18" align="absmiddle" title="star" /> if you like the project. pull request are highly appreciated.*
-# you can also this website for more templates (https://onepagelove.com/templates) .
+# you can also check this website for more templates (https://onepagelove.com/templates) .
 
 ### Table of contents
 
