@@ -1,6 +1,6 @@
 ## HTML5 Website Templates
  
-*Click <img src="assets/star.png" width="18" height="18" align="absmiddle" title="star" /> if you like the project. pull request are highly appreciated.*
+*Click <img src="assets/star.png" width="18" height="18" align="absmiddle" title="star" /> if you like the project. pull request are highly appreciated. amazing work*
 
 ### Table of contents
 
