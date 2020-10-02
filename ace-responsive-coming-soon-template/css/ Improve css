@@ -1,4 +1,4 @@
-html {
+I'm html {
 }
 body {
 	background:#000;
@@ -22,8 +22,8 @@ h1 {
 	line-height:60px;
 	margin:25px 0;
 	text-shadow:0 3px 3px #000;
-	float: left;
-	margin-left:15px;
+        Dispaly:flex;
+	margin-left:62.5rem;
 }
 .ie h1 {
 	filter: dropshadow(color=#000000, offx=0, offy=3);
@@ -74,7 +74,7 @@ position: relative;
 width: 100%;
 height: 119px;
 line-height: 118px;
-z-index: 1;
+z-index: -1;
 }
 .wrapper {
 margin: 0 auto;
