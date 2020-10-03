@@ -8,11 +8,11 @@ Key features
 Twitter Bootstrap 3.3.1
 Clean & Developer-friendly HTML5 and CSS3 code
 100% Responsive Layout Design 
-Multi-purpose theme
+Multipurpose theme
 Google Fonts Support
-Font Awesome 
+Awesome Font
 Smooth Scrolling 
-Fully Customizable
+Completely Customizable
 Contact Form
 
 
