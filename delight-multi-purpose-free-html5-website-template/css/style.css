@@ -116,7 +116,7 @@ header .nav li.active ul.dropdown-menu li.active a{
 }
 header .nav li.active a,
 header .nav li.active a:hover{ 
-background: #99BF38 !important;
+background: #87ceeb !important;
 border-radius: 5px;
 }
 header .navbar-default .navbar-nav > .open > a,
@@ -296,7 +296,7 @@ border-left: 8px solid #fff;
 	position:relative;
 	margin:0;
 	padding:0;
-	border-bottom: 8px solid #99BF38;
+	border-bottom: 8px solid #87ceeb;
 }
 
 /*  Sliders
@@ -745,7 +745,7 @@ height: 100%;
 opacity: 0.80;
 filter: alpha(opacity=80);
 
-	background: #99BF38;
+	background: #87ceeb;
 }
 
 .item-thumbs .hover-wrap .overlay-img-thumb {
@@ -785,12 +785,12 @@ ul.portfolio-categ li a{
 }
 ul.portfolio-categ li.active{
 
-border: 1px solid #99BF38;
+border: 1px solid #87ceeb;
 
 
-color: #99BF38;
+color: #87ceeb;
 
-background: #99BF38;
+background: #87ceeb;
 
 }
 ul.portfolio-categ li.active a:hover, ul.portfolio-categ li a:hover,ul.portfolio-categ li a:focus,ul.portfolio-categ li a:active {
@@ -867,7 +867,7 @@ margin-bottom: 15px;
 }
 .info-blocks i.icon-info-blocks {
 float: left;
-color: #99BF38;
+color: #87ceeb;
 font-size: 30px;
 min-width: 50px;
 margin-top: 10px;
@@ -925,7 +925,7 @@ blockquote cite a:visited 				{ color:#555; }
 
 /* --- button --- */
 .btn{text-align: center;
-background: #99BF38;
+background: #87ceeb;
 color: #fff;
 padding: 10px 25px;border: 0;}
 .btn-theme {
@@ -1022,7 +1022,7 @@ margin-top: -42px;
 #service{ padding: 40px 0 40px;}
 #service .service-tab{}
 #service .service-tab ul{float: left;list-style: outside none none;padding: 0;margin-right: 55px;}
-#service .service-tab ul li{ border-right: 2px solid #99BF38;}
+#service .service-tab ul li{ border-right: 2px solid #87ceeb;}
 #service .service-tab ul li a{color: #9FA9A9;  font-size: 20px; font-family: 'Raleway', sans-serif; font-weight: 400;display: block; padding: 10px 60px 20px 20px;}
 #service .service-tab ul li a i{font-size: 37px;  position: relative;top: 4px;width: 68px;} 
 li .active{
@@ -1045,7 +1045,7 @@ text-decoration: none;
 }
 
 .contactInfo{
-background: #99BF38;
+background: #87ceeb;
 }
 .contact-area{
 float:right;
@@ -1248,7 +1248,7 @@ background: #FFFFFF;
 .pricing-box-item .pricing-terms  h6 {
 	font-style:italic;
 	margin-top:10px;
-	color: #99BF38;
+	color: #87ceeb;
 	font-size:17px;
 	font-family:'Noto Serif', serif;
 }
@@ -1388,7 +1388,7 @@ footer{
 }
 
 footer a {
-	color: #99BF38;
+	color: #87ceeb;
 }
 
 footer a:hover {
@@ -1616,7 +1616,7 @@ border-radius: 50%;
   margin-left: 1px;
 }
 ul.social-network a {
-  color: #99BF38;
+  color: #87ceeb;
 }
 /*  Media queries 
 ============================= */
