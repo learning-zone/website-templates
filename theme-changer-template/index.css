@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background: #ff5349;
+}
+
+.blur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(90deg, #ff5349 14%, #add8e6 47%, #ffc87c 100%);
+    filter: blur(1) opacity(0.1);
+}
+
+.main {
+    border-radius: 2vw;
+    width: 40vw;
+    height: 45vh;
+    filter: drop-shadow(0px 0px 10px #00000054);
+    background: #ffdab948;
+}
+
+.main h1 {
+    color: #ffffff;
+    font-size: 2vw;
+}
+
+.main div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main div div h1 {
+    font-size: 1.5vw;
+}
+
+.main div div button {
+    background: linear-gradient(90deg, #ffc87c6b 14%, #ff52496b 100%);
+    color: #ffffff;
+    font-size: 1.2vw;
+    border-radius: 2vw;
+    border: none;
+    padding: 0.75vw 1.75vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        width: 80vw;
+        height: 70vw;
+    }
+    
+    .main h1 {
+        font-size: 7vw;
+    }
+
+    .main div div h1 {
+        font-size: 4.3vw;
+    }
+
+    .main div div button {
+        font-size: 4vw;
+        border-radius: 7vw;
+        border: none;
+        padding: 2vw 3.75vw;
+        background: linear-gradient(180deg, #ffc87c6b 14%, #ff52496b 100%);
+    }
+
+    .blur {
+        background: linear-gradient(0deg, #ff5349 14%, #add8e6 47%, #ffc87c 100%);
+    }
+}
