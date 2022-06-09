@@ -101,7 +101,7 @@ a:hover {
 	bottom: 20px;
 	right: 20px;
 	z-index: 5;
-	background: #FF7A00;
+	background: #040f86;
 }
 .topHome .fa-2x {
 	font-size: 20px;
@@ -383,7 +383,7 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 /*Intro Content*/
 #introText {
 	padding: 50px 0;
-	background: #FF7A00;
+	background: #060300;
 }
 #introText h1 {
 	font-size: 40px;
