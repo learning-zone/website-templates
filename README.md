@@ -1,6 +1,6 @@
 ## HTML5 Website Templates (For Begginers and Professionals)
  
-*Click <img src="assets/star.png" width="18" height="18" align="absmiddle" title="star" /> if you like the project. pull request are highly appreciated.*
+> *Click &#9733; if you like the project. Your contributions are heartily ♡ welcome.*
 
 ### Table of contents
 
