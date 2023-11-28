@@ -10,7 +10,7 @@ Author URI: http://www.ginger-ninja.net/
 
 body {
 	background:url(images/bg-body.png) repeat-x top center #E8F7F9;
-	font-family:"Trebuchet MS" Arial, Helvetica, sans-serif;
+	font-family: sans-serif, Arial, Helvetica;
 	font-size:62.5%; /* Sets default font size to 10px */
 	color:#222222;
 	}
